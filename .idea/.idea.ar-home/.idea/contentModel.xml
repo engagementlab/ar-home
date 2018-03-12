@@ -806,41 +806,6 @@
               </e>
             </e>
           </e>
-          <e p="Input" t="Include">
-            <e p="Scripts" t="Include">
-              <e p="ButtonObjectScaler.cs" t="Include" />
-              <e p="ButtonTimedWaiter.cs" t="Include" />
-              <e p="DehydrationDeactivation.cs" t="Include" />
-              <e p="DictationRecordButton.cs" t="Include" />
-              <e p="DisplaySpeechKeywords.cs" t="Include" />
-              <e p="FocusedObjectTest.cs" t="Include" />
-              <e p="GazeResponder.cs" t="Include" />
-              <e p="HapticsTest.cs" t="Include" />
-              <e p="InputHandleCallbackFX.cs" t="Include" />
-              <e p="InputTest.cs" t="Include" />
-              <e p="MicrophoneHelperSample.cs" t="Include" />
-              <e p="NavigationRotateResponder.cs" t="Include" />
-              <e p="OnFocusEvent.cs" t="Include" />
-              <e p="PopupMenu.cs" t="Include" />
-              <e p="RotateMinMax.cs" t="Include" />
-              <e p="SelectedObjectMessageReceiver.cs" t="Include" />
-              <e p="SelectedObjectMessageSender.cs" t="Include" />
-              <e p="SimpleGridGenerator.cs" t="Include" />
-              <e p="SphereGlobalKeywords.cs" t="Include" />
-              <e p="SphereKeywords.cs" t="Include" />
-              <e p="TapResponder.cs" t="Include" />
-              <e p="TestButton.cs" t="Include" />
-              <e p="TestOverrideFocusedObject.cs" t="Include" />
-              <e p="TogglePopupMenu.cs" t="Include" />
-              <e p="VoiceChat" t="Include">
-                <e p="MicrophoneReceiver.cs" t="Include" />
-                <e p="MicrophoneTransmitter.cs" t="Include" />
-                <e p="MicStream.cs" t="Include" />
-                <e p="MicStreamDemo.cs" t="Include" />
-              </e>
-              <e p="XboxControllerHandlerTest.cs" t="Include" />
-            </e>
-          </e>
           <e p="Medical" t="Include">
             <e p="Editor" t="Include">
               <e p="VolumeInformationEditor.cs" t="Include" />
@@ -1041,6 +1006,149 @@
             </e>
           </e>
         </e>
+        <e p="HoloToolkit-Sharing-240" t="Include">
+          <e p="Editor" t="Include">
+            <e p="Extensions" t="Include">
+              <e p="EditorGUIExtensions.cs" t="Include" />
+              <e p="EditorGUILayoutExtensions.cs" t="Include" />
+              <e p="LayerMaskExtensions.cs" t="Include" />
+            </e>
+            <e p="Sharing" t="Include">
+              <e p="SharingMenu.cs" t="Include" />
+            </e>
+          </e>
+          <e p="Input" t="Include">
+            <e p="CursorManager.cs" t="Include" />
+            <e p="GazeManager.cs" t="Include" />
+            <e p="GestureManager.cs" t="Include" />
+          </e>
+          <e p="Models" t="Include">
+            <e p="Cursor" t="Include">
+              <e p="UI-Default.shader" t="Include" />
+            </e>
+          </e>
+          <e p="Shaders" t="Include">
+            <e p="BlinnPhongConfigurable.cginc" t="Include" />
+            <e p="BlinnPhongConfigurable.shader" t="Include" />
+            <e p="BlinnPhongConfigurableTransparent.shader" t="Include" />
+            <e p="HoloToolkitCommon.cginc" t="Include" />
+            <e p="LambertianConfigurable.cginc" t="Include" />
+            <e p="LambertianConfigurable.shader" t="Include" />
+            <e p="LambertianConfigurableTransparent.shader" t="Include" />
+            <e p="Occlusion.shader" t="Include" />
+            <e p="Scripts" t="Include">
+              <e p="NearPlaneFade.cs" t="Include" />
+            </e>
+            <e p="StandardFast.shader" t="Include" />
+            <e p="UnlitConfigurable.cginc" t="Include" />
+            <e p="UnlitConfigurable.shader" t="Include" />
+            <e p="UnlitConfigurableTransparent.shader" t="Include" />
+            <e p="VertexLitConfigurable.cginc" t="Include" />
+            <e p="VertexLitConfigurable.shader" t="Include" />
+            <e p="VertexLitConfigurableTransparent.shader" t="Include" />
+            <e p="Wireframe.shader" t="Include" />
+          </e>
+          <e p="Sharing" t="Include">
+            <e p="Scripts" t="Include">
+              <e p="SDK" t="Include">
+                <e p="AnchorDownloadRequest.cs" t="Include" />
+                <e p="AudioManager.cs" t="Include" />
+                <e p="BoolElement.cs" t="Include" />
+                <e p="ClientConfig.cs" t="Include" />
+                <e p="ClientRole.cs" t="Include" />
+                <e p="DirectPairConnector.cs" t="Include" />
+                <e p="DirectPairReceiver.cs" t="Include" />
+                <e p="DiscoveredSystem.cs" t="Include" />
+                <e p="DiscoveryClient.cs" t="Include" />
+                <e p="DiscoveryClientAdapter.cs" t="Include" />
+                <e p="DiscoveryClientListener.cs" t="Include" />
+                <e p="DoubleElement.cs" t="Include" />
+                <e p="Element.cs" t="Include" />
+                <e p="ElementType.cs" t="Include" />
+                <e p="FloatElement.cs" t="Include" />
+                <e p="ImageTagLocation.cs" t="Include" />
+                <e p="ImageTagLocationListener.cs" t="Include" />
+                <e p="ImageTagLocationType.cs" t="Include" />
+                <e p="ImageTagManager.cs" t="Include" />
+                <e p="IntArrayElement.cs" t="Include" />
+                <e p="IntArrayListener.cs" t="Include" />
+                <e p="IntElement.cs" t="Include" />
+                <e p="Listener.cs" t="Include" />
+                <e p="Log.cs" t="Include" />
+                <e p="LogManager.cs" t="Include" />
+                <e p="LogSeverity.cs" t="Include" />
+                <e p="LogWriter.cs" t="Include" />
+                <e p="LongElement.cs" t="Include" />
+                <e p="MachineSessionState.cs" t="Include" />
+                <e p="MessageChannel.cs" t="Include" />
+                <e p="MessageID.cs" t="Include" />
+                <e p="MessagePriority.cs" t="Include" />
+                <e p="MessageReliability.cs" t="Include" />
+                <e p="NetworkConnection.cs" t="Include" />
+                <e p="NetworkConnectionAdapter.cs" t="Include" />
+                <e p="NetworkConnectionListener.cs" t="Include" />
+                <e p="NetworkInMessage.cs" t="Include" />
+                <e p="NetworkOutMessage.cs" t="Include" />
+                <e p="ObjectElement.cs" t="Include" />
+                <e p="ObjectElementAdapter.cs" t="Include" />
+                <e p="ObjectElementListener.cs" t="Include" />
+                <e p="PairingAdapter.cs" t="Include" />
+                <e p="PairingListener.cs" t="Include" />
+                <e p="PairingManager.cs" t="Include" />
+                <e p="PairingResult.cs" t="Include" />
+                <e p="PairMaker.cs" t="Include" />
+                <e p="Profile.cs" t="Include" />
+                <e p="ProfileManager.cs" t="Include" />
+                <e p="Receipt.cs" t="Include" />
+                <e p="Room.cs" t="Include" />
+                <e p="RoomManager.cs" t="Include" />
+                <e p="RoomManagerAdapter.cs" t="Include" />
+                <e p="RoomManagerListener.cs" t="Include" />
+                <e p="Session.cs" t="Include" />
+                <e p="SessionListener.cs" t="Include" />
+                <e p="SessionManager.cs" t="Include" />
+                <e p="SessionManagerAdapter.cs" t="Include" />
+                <e p="SessionManagerListener.cs" t="Include" />
+                <e p="SessionType.cs" t="Include" />
+                <e p="Settings.cs" t="Include" />
+                <e p="SharingClient.cs" t="Include" />
+                <e p="SharingClientPINVOKE.cs" t="Include" />
+                <e p="SharingManager.cs" t="Include" />
+                <e p="StringElement.cs" t="Include" />
+                <e p="SyncListener.cs" t="Include" />
+                <e p="SystemRole.cs" t="Include" />
+                <e p="TagImage.cs" t="Include" />
+                <e p="User.cs" t="Include" />
+                <e p="UserPresenceManager.cs" t="Include" />
+                <e p="UserPresenceManagerAdapter.cs" t="Include" />
+                <e p="UserPresenceManagerListener.cs" t="Include" />
+                <e p="VisualPairConnector.cs" t="Include" />
+                <e p="VisualPairReceiver.cs" t="Include" />
+                <e p="XString.cs" t="Include" />
+              </e>
+              <e p="SharingSessionTracker.cs" t="Include" />
+              <e p="SharingStage.cs" t="Include" />
+              <e p="Utilities" t="Include">
+                <e p="AutoJoinSession.cs" t="Include" />
+                <e p="ConsoleLogWriter.cs" t="Include" />
+                <e p="DirectPairing.cs" t="Include" />
+                <e p="ExternalProcess.cs" t="Include" />
+                <e p="MathUtils.cs" t="Include" />
+                <e p="Utils.cs" t="Include" />
+              </e>
+            </e>
+          </e>
+          <e p="SpatialMapping" t="Include">
+            <e p="ObjectSurfaceObserver.cs" t="Include" />
+            <e p="SpatialMappingManager.cs" t="Include" />
+            <e p="SpatialMappingObserver.cs" t="Include" />
+            <e p="SpatialMappingSource.cs" t="Include" />
+          </e>
+          <e p="Utilities" t="Include">
+            <e p="Billboard.cs" t="Include" />
+            <e p="Singleton.cs" t="Include" />
+          </e>
+        </e>
         <e p="HoloToolkit-UnitTests" t="Include">
           <e p="Editor" t="Include">
             <e p="Input" t="Include">
@@ -1071,6 +1179,7 @@
             <e p="ReflectionTestBehaviour.cs" t="Include" />
           </e>
         </e>
+        <e p="ImportExportAnchorManager.cs" t="Include" />
         <e p="Mecanim Warrior Anim Free" t="Include">
           <e p="Script" t="Include">
             <e p="PlayGUI.cs" t="Include" />
@@ -1078,7 +1187,6 @@
         </e>
         <e p="MicListener.cs" t="Include" />
         <e p="PhysicsTest.cs" t="Include" />
-        <e p="Placeable.cs" t="Include" />
         <e p="Plugins" t="Include">
           <e p="Editor" t="Include">
             <e p="JetBrains" t="Include">
@@ -1099,8 +1207,15 @@
           </e>
         </e>
         <e p="Scripts" t="Include">
-          <e p="HologramPlacement.cs" t="Include" />
+          <e p="CrossPlatform" t="Include">
+            <e p="Reflection" t="Include">
+              <e p="ReflectionExtensions.cs" t="Include" />
+              <e p="TypeUtils.cs" t="Include" />
+            </e>
+          </e>
+          <e p="CustomMessages.cs" t="Include" />
           <e p="MedallionEventTracker.cs" t="Include" />
+          <e p="Placeable.cs" t="Include" />
           <e p="Positioning.cs" t="Include" />
           <e p="SceneManagement.cs" t="Include" />
           <e p="VideoLogic.cs" t="Include" />

@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
+using HoloToolkit.Sharing.Tests;
 using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.Windows.Speech;
@@ -10,6 +11,7 @@ public class SceneManagement : MonoBehaviour
 {
 
 	public Image loadingImage;
+	public SyncObjectSpawner syncObjectSpawner;
 	
 	KeywordRecognizer keywordRecognizer = null;
 	Dictionary<string, System.Action> keywords = new Dictionary<string, System.Action>();
@@ -21,6 +23,11 @@ public class SceneManagement : MonoBehaviour
 		{
 			loadingImage.gameObject.SetActive(true);
 			StartCoroutine(RestartScene());
+		});
+		keywords.Add("Spawn", () =>
+		{
+			syncObjectSpawner.SpawnBasicSyncObject();
+			Debug.Log("Spawn object");
 		});
 		
 		// Tell the KeywordRecognizer about our keywords.

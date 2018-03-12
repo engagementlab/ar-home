@@ -1,0 +1,1180 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="2d834ef2-a18a-43ce-8a95-d5c513a3ac91" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources.meta" afterPath="$PROJECT_DIR$/Assets/Resources.meta" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/VuforiaConfiguration.asset" afterPath="$PROJECT_DIR$/Assets/Resources/VuforiaConfiguration.asset" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/VuforiaConfiguration.asset.meta" afterPath="$PROJECT_DIR$/Assets/Resources/VuforiaConfiguration.asset.meta" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/ARVideo.unity" afterPath="$PROJECT_DIR$/Assets/Scenes/ARVideo.unity" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/AudioManager.asset" afterPath="$PROJECT_DIR$/ProjectSettings/AudioManager.asset" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/DynamicsManager.asset" afterPath="$PROJECT_DIR$/ProjectSettings/DynamicsManager.asset" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" afterPath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/EditorSettings.asset" afterPath="$PROJECT_DIR$/ProjectSettings/EditorSettings.asset" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/GraphicsSettings.asset" afterPath="$PROJECT_DIR$/ProjectSettings/GraphicsSettings.asset" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/InputManager.asset" afterPath="$PROJECT_DIR$/ProjectSettings/InputManager.asset" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/NavMeshAreas.asset" afterPath="$PROJECT_DIR$/ProjectSettings/NavMeshAreas.asset" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" afterPath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/QualitySettings.asset" afterPath="$PROJECT_DIR$/ProjectSettings/QualitySettings.asset" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" afterPath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/TimeManager.asset" afterPath="$PROJECT_DIR$/ProjectSettings/TimeManager.asset" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/UnityConnectSettings.asset" afterPath="$PROJECT_DIR$/ProjectSettings/UnityConnectSettings.asset" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="MedallionEventTracker.cs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Assets/Scripts/MedallionEventTracker.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="221">
+              <caret line="15" column="26" lean-forward="false" selection-start-line="15" selection-start-column="26" selection-end-line="15" selection-end-column="26" />
+              <folding>
+                <marker date="1520359730996" expanded="true" signature="0:256" ph="/* ============================================================================== ... */" />
+                <marker date="1520359730996" expanded="false" signature="264:316" ph="..." />
+                <marker date="1520359730996" expanded="true" signature="318:425" ph="///     A custom handler that implements the ITrackableEventHandler interface. ... " />
+                <marker date="1520359730996" expanded="true" signature="500:2814" ph="{...}" />
+                <marker date="1520359730996" expanded="true" signature="583:714" ph="PRIVATE_MEMBER_VARIABLES" />
+                <marker date="1520359730996" expanded="true" signature="720:1065" ph="UNTIY_MONOBEHAVIOUR_METHODS" />
+                <marker date="1520359730996" expanded="true" signature="791:1018" ph="{...}" />
+                <marker date="1520359730996" expanded="true" signature="1071:2319" ph="PUBLIC_METHODS" />
+                <marker date="1520359730996" expanded="true" signature="1099:1249" ph="///     Implementation of the ITrackableEventHandler function called when the ... " />
+                <marker date="1520359730996" expanded="true" signature="1385:2285" ph="{...}" />
+                <marker date="1520359730996" expanded="true" signature="1585:1720" ph="{...}" />
+                <marker date="1520359730996" expanded="true" signature="1859:1992" ph="{...}" />
+                <marker date="1520359730996" expanded="true" signature="2005:2279" ph="{...}" />
+                <marker date="1520359730996" expanded="true" signature="2028:2239" ph="/* For combo of previousStatus=UNKNOWN + newStatus=UNKNOWN|NOT_FOUND ... */" />
+                <marker date="1520359730996" expanded="true" signature="2325:2812" ph="PRIVATE_METHODS" />
+                <marker date="1520359730996" expanded="true" signature="2394:2719" ph="{...}" />
+                <marker date="1520359730996" expanded="true" signature="2513:2704" ph="/* videoSource.Play(); ... */" />
+                <marker date="1520359730996" expanded="true" signature="2765:2777" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SimpleTagalong.cs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Assets/HoloToolkit/Utilities/Scripts/SimpleTagalong.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1241">
+              <caret line="73" column="29" lean-forward="false" selection-start-line="73" selection-start-column="29" selection-end-line="73" selection-end-column="29" />
+              <folding>
+                <marker date="1520359112778" expanded="true" signature="0:152" ph="/* Copyright (c) Microsoft Corporation. All rights reserved. ... */" />
+                <marker date="1520359112778" expanded="true" signature="208:391" ph="/// A Tagalong that stays at a fixed distance from the camera and always ... " />
+                <marker date="1520359112778" expanded="true" signature="505:9029" ph="{...}" />
+                <marker date="1520359112778" expanded="true" signature="1381:1497" ph="/* The BoxCollider represents the volume of the object that is tagging ... */" />
+                <marker date="1520359112778" expanded="true" signature="1555:1735" ph="/* The Interpolator is a helper class that handles various changes to an ... */" />
+                <marker date="1520359112778" expanded="true" signature="1790:1981" ph="/* This is an array of planes that define the camera's view frustum along ... */" />
+                <marker date="1520359112778" expanded="true" signature="2244:2749" ph="{...}" />
+                <marker date="1520359112778" expanded="true" signature="2392:2543" ph="/* Get the Interpolator component and set some default parameters for ... */" />
+                <marker date="1520359112778" expanded="true" signature="2790:4277" ph="{...}" />
+                <marker date="1520359112778" expanded="true" signature="3004:3137" ph="/* Determine if the Tagalong needs to move based on whether its ... */" />
+                <marker date="1520359112778" expanded="true" signature="3278:3748" ph="{...}" />
+                <marker date="1520359112778" expanded="true" signature="3309:3592" ph="/* Derived classes will use the same Interpolator and may have ... */" />
+                <marker date="1520359112778" expanded="true" signature="3811:4267" ph="{...}" />
+                <marker date="1520359112778" expanded="true" signature="3842:4066" ph="/* If the Tagalong is inside the camera's view frustum, and it is ... */" />
+                <marker date="1520359112778" expanded="true" signature="4287:4675" ph="/// Determines if the Tagalong needs to move based on the provided ... " />
+                <marker date="1520359112778" expanded="true" signature="4784:9023" ph="{...}" />
+                <marker date="1520359112778" expanded="true" signature="4807:5003" ph="/* Check to see if any part of the Tagalong's BoxCollider's bounds is ... */" />
+                <marker date="1520359112778" expanded="true" signature="5375:5476" ph="{...}" />
+                <marker date="1520359112778" expanded="true" signature="5490:5635" ph="/* Calculate a default position where the Tagalong should go. In this ... */" />
+                <marker date="1520359112778" expanded="true" signature="5745:5851" ph="/* Create a Ray and set it's origin to be the default toPosition that ... */" />
+                <marker date="1520359112778" expanded="true" signature="6000:6222" ph="/* Determine if the Tagalong needs to move to the right or the left ... */" />
+                <marker date="1520359112778" expanded="true" signature="6437:6888" ph="{...}" />
+                <marker date="1520359112778" expanded="true" signature="6468:6766" ph="/* If the Tagalong needs to move to the right, that means it is to ... */" />
+                <marker date="1520359112778" expanded="true" signature="6919:7181" ph="{...}" />
+                <marker date="1520359112778" expanded="true" signature="6950:7059" ph="/* Apply similar logic to above for the case where the Tagalong ... */" />
+                <marker date="1520359112778" expanded="true" signature="7220:7679" ph="{...}" />
+                <marker date="1520359112778" expanded="true" signature="7251:7394" ph="/* If the Tagalong needed to move in the X direction, cast a Ray ... */" />
+                <marker date="1520359112778" expanded="true" signature="7468:7602" ph="/* Get the point along that ray that is on the plane and update ... */" />
+                <marker date="1520359112778" expanded="true" signature="7693:7809" ph="/* Similar logic follows below for determining if and how the ... */" />
+                <marker date="1520359112778" expanded="true" signature="8020:8151" ph="{...}" />
+                <marker date="1520359112778" expanded="true" signature="8180:8315" ph="{...}" />
+                <marker date="1520359112778" expanded="true" signature="8351:8498" ph="{...}" />
+                <marker date="1520359112778" expanded="true" signature="8512:8626" ph="/* Create a ray that starts at the camera and points in the direction ... */" />
+                <marker date="1520359112778" expanded="true" signature="8732:8866" ph="/* Find the point along that ray that is the right distance away and ... */" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="VideoTagalong.cs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Assets/Scripts/VideoTagalong.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1411">
+              <caret line="83" column="30" lean-forward="false" selection-start-line="83" selection-start-column="30" selection-end-line="83" selection-end-column="30" />
+              <folding>
+                <marker date="1520442683529" expanded="true" signature="0:152" ph="/* Copyright (c) Microsoft Corporation. All rights reserved. ... */" />
+                <marker date="1520442683529" expanded="true" signature="201:3034" ph="{...}" />
+                <marker date="1520442683529" expanded="true" signature="208:411" ph="/// A Tagalong that stays at a fixed distance from the camera and always ... " />
+                <marker date="1520442683529" expanded="true" signature="458:3032" ph="{...}" />
+                <marker date="1520442683529" expanded="true" signature="667:840" ph="/// When moving, use unscaled time. This is useful for games that have a pause mechanism or otherwise adjust the  ... " />
+                <marker date="1520442683529" expanded="true" signature="1066:1216" ph="/// Used to initialize the initial position of the SphereBasedTagalong before being hidden on LateUpdate. ... " />
+                <marker date="1520442683529" expanded="true" signature="1858:1991" ph="{...}" />
+                <marker date="1520442683529" expanded="true" signature="2022:2656" ph="{...}" />
+                <marker date="1520442683529" expanded="true" signature="2285:2646" ph="{...}" />
+                <marker date="1520442683529" expanded="true" signature="2691:2857" ph="{...}" />
+                <marker date="1520442683529" expanded="true" signature="2730:2847" ph="{...}" />
+                <marker date="1520442683529" expanded="true" signature="2891:2941" ph="{...}" />
+                <marker date="1520442683529" expanded="true" signature="2974:3026" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="VideoLogic.cs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Assets/Scripts/VideoLogic.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="697">
+              <caret line="41" column="4" lean-forward="false" selection-start-line="41" selection-start-column="4" selection-end-line="41" selection-end-column="4" />
+              <folding>
+                <marker date="1520460324696" expanded="true" signature="6:216" ph="..." />
+                <marker date="1520460324696" expanded="true" signature="257:1165" ph="{...}" />
+                <marker date="1520460324696" expanded="true" signature="564:618" ph="{...}" />
+                <marker date="1520460324696" expanded="true" signature="656:822" ph="{...}" />
+                <marker date="1520460324696" expanded="true" signature="849:1163" ph="{...}" />
+                <marker date="1520460324696" expanded="true" signature="944:1068" ph="{...}" />
+                <marker date="1520460324696" expanded="true" signature="1075:1160" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SceneManagement.cs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Assets/Scripts/SceneManagement.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="255">
+              <caret line="21" column="4" lean-forward="false" selection-start-line="21" selection-start-column="4" selection-end-line="21" selection-end-column="4" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ImportExportAnchorManager.cs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Assets/HoloToolkit-Examples/Sharing/SharingService/Scripts/ImportExportAnchorManager.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="884">
+              <caret line="877" column="13" lean-forward="false" selection-start-line="877" selection-start-column="13" selection-end-line="877" selection-end-column="13" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="HologramPlacement.cs" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Assets/Scripts/HologramPlacement.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="34">
+              <caret line="6" column="0" lean-forward="false" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+              <folding>
+                <marker date="1520528513652" expanded="false" signature="6:154" ph="..." />
+                <marker date="1520528513652" expanded="true" signature="217:3227" ph="{...}" />
+                <marker date="1520528513652" expanded="true" signature="224:394" ph="/// Tracks if we have been sent a transform for the anchor model. ... " />
+                <marker date="1520528513652" expanded="true" signature="506:863" ph="{...}" />
+                <marker date="1520528513652" expanded="true" signature="869:1076" ph="/// When a new user joins we want to send them the relative transform for the anchor if we have it. ... " />
+                <marker date="1520528513652" expanded="true" signature="1179:1343" ph="{...}" />
+                <marker date="1520528513652" expanded="true" signature="1211:1337" ph="{...}" />
+                <marker date="1520528513652" expanded="true" signature="1362:1946" ph="{...}" />
+                <marker date="1520528513652" expanded="true" signature="1394:1806" ph="{...}" />
+                <marker date="1520528513652" expanded="true" signature="1518:1796" ph="{...}" />
+                <marker date="1520528513652" expanded="true" signature="1549:1671" ph="/* This triggers the animation sequence for the anchor model and ... */" />
+                <marker date="1520528513652" expanded="true" signature="1819:1940" ph="{...}" />
+                <marker date="1520528513652" expanded="true" signature="1986:2166" ph="{...}" />
+                <marker date="1520528513652" expanded="true" signature="2194:2427" ph="{...}" />
+                <marker date="1520528513652" expanded="true" signature="2433:2572" ph="/// When a remote system has a transform for us, we'll get it here. ... " />
+                <marker date="1520528513652" expanded="true" signature="2620:3150" ph="{...}" />
+                <marker date="1520528513652" expanded="true" signature="2874:2992" ph="/* The first time, we'll want to send the message to the anchor to do its animation and ... */" />
+                <marker date="1520528513652" expanded="true" signature="3027:3114" ph="{...}" />
+                <marker date="1520528513652" expanded="true" signature="3180:3225" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SharingStage.cs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Assets/HoloToolkit/Sharing/Scripts/SharingStage.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-6987">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>DetailsText</find>
+      <find>PrimaryText</find>
+      <find>DoesScanMeetMinBarForCompletion</find>
+      <find>Instantiate(</find>
+      <find>OnScanDone</find>
+      <find>sit</find>
+      <find>Gestur</find>
+      <find>Move()</find>
+      <find>DisplayShadow</find>
+      <find>OnPlacementStart</find>
+      <find>IsPlacing</find>
+      <find>SetTargetPosition</find>
+      <find>tagalongCollider</find>
+    </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Positioning.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/MedallionEventTracker.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/HoloToolkit-Examples/MotionControllers-GrabMechanics/Scripts/DuplicateAfterThrow.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/HoloToolkit/Boundary/Scripts/SceneContentAdjuster.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/SampleResources/Scripts/VoiceCommands.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/../SharedHolograms/SharedHolograms/Assets/Scripts/SimpleTagalong.cs" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/Assets/Vuforia/Scripts/DefaultTrackableEventHandler.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/HoloToolkit/Input/Scripts/Focus/SimpleSinglePointerSelector.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/HoloToolkit/Utilities/Scripts/Singleton.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/../SharedHolograms/SharedHolograms/Assets/Positioning.cs" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/Assets/HoloToolkit/Input/Scripts/InputSources/InteractionInputSource.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/MicListener.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/HoloToolkit/SpatialUnderstanding/Scripts/SpatialUnderstandingDll.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/HoloToolkit/SpatialUnderstanding/Scripts/SpatialUnderstandingDllObjectPlacement.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/HoloToolkit/SpatialUnderstanding/Scripts/SpatialUnderstanding.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Placeable.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/HoloToolkit/SpatialUnderstanding/Scripts/SpatialUnderstandingCustomMesh.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/HoloToolkit/Utilities/Scripts/SimpleTagalong.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/HoloToolkit/SpatialUnderstanding/Scripts/SpatialUnderstandingDllTopology.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/HoloToolkit/Utilities/Scripts/SphereBasedTagalong.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/HoloToolkit-Examples/Sharing/SharingService/Scripts/ImportExportAnchorManager.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/HoloToolkit/Utilities/Scripts/Interpolator.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/HoloToolkit/Input/Scripts/Utilities/Interactions/TapToPlace.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/PhysicsTest.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/CanvasTest.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/HoloToolkit/Sharing/Scripts/SharingStage.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/HoloToolkit/Utilities/Scripts/Tagalong.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/HologramPlacement.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/HoloToolkit-Examples/SpatialUnderstanding/Scripts/SpatialUnderstandingCursor.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/HoloToolkit/Utilities/Scripts/FadeManager.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/VideoTagalong.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/VideoLogic.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/HoloToolkit-Examples/SpatialUnderstanding/Scripts/AppState.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/HoloToolkit/Utilities/Scripts/CameraCache.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/HoloToolkit/Input/Scripts/Utilities/Managers/MixedRealityTeleport.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/HoloToolkit/Sharing/Scripts/Spawning/SyncSpawnArray.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/SceneManagement.cs" root0="FORCE_HIGHLIGHTING" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/Assets/HoloToolkit-Examples/SpatialUnderstanding/Scripts/AppState.cs" />
+        <option value="$PROJECT_DIR$/../MixedRealityToolkit-Unity-2017.2.1.1/Assets/Scripts/SpaceCollectionManager.cs" />
+        <option value="$PROJECT_DIR$/Assets/HoloToolkit/SpatialUnderstanding/Scripts/SpatialUnderstanding.cs" />
+        <option value="$PROJECT_DIR$/Assets/Placeable.cs" />
+        <option value="$PROJECT_DIR$/Assets/PhysicsTest.cs" />
+        <option value="$PROJECT_DIR$/Assets/CanvasTest.cs" />
+        <option value="$PROJECT_DIR$/Assets/MicListener.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/MedallionEventTracker.cs" />
+        <option value="$PROJECT_DIR$/../SharedHolograms/SharedHolograms/Assets/Positioning.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Positioning.cs" />
+        <option value="$PROJECT_DIR$/Assets/HoloToolkit/Utilities/Scripts/SimpleTagalong.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/VideoTagalong.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/VideoLogic.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/SceneManager.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/SceneManagement.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/HologramPlacement.cs" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-7" />
+    <option name="width" value="974" />
+    <option name="height" value="1047" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="SolutionExplorer" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="SolutionExplorer">
+        <subPane>
+          <expand>
+            <path>
+              <item name="" type="13324e5d:SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
+              <item name="mr-hololens (3 projects)" type="977d5f41:SolutionExplorerNodeRider" />
+            </path>
+            <path>
+              <item name="" type="13324e5d:SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
+              <item name="mr-hololens (3 projects)" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="Assembly-CSharp" type="977d5f41:SolutionExplorerNodeRider" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+        <option name="show-file-system" value="false" />
+        <option name="show-all-items" value="false" />
+      </pane>
+      <pane id="Scratches" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" />
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="2d834ef2-a18a-43ce-8a95-d5c513a3ac91" name="Default" comment="" />
+      <created>1517337594691</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1517337594691</updated>
+      <workItem from="1517337619673" duration="5814000" />
+      <workItem from="1517417670373" duration="11323000" />
+      <workItem from="1517505599088" duration="1948000" />
+      <workItem from="1517869888439" duration="791000" />
+      <workItem from="1517929482937" duration="5262000" />
+      <workItem from="1518020786101" duration="641000" />
+      <workItem from="1518114835609" duration="733000" />
+      <workItem from="1520270381876" duration="5994000" />
+      <workItem from="1520286347278" duration="1217000" />
+      <workItem from="1520287679622" duration="1156000" />
+      <workItem from="1520289900745" duration="625000" />
+      <workItem from="1520351017130" duration="5640000" />
+      <workItem from="1520369939969" duration="3069000" />
+      <workItem from="1520437202816" duration="8113000" />
+      <workItem from="1520526579665" duration="2550000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="54876000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Errors In Solution" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Unit Tests" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="NuGet" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3997879" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/Assets/HoloToolkit/Utilities/Scripts/SimpleTagalong.cs</url>
+          <line>102</line>
+          <properties documentPath="$PROJECT_DIR$/Assets/HoloToolkit/Utilities/Scripts/SimpleTagalong.cs">
+            <startOffsets>
+              <startOffset value="5358" />
+            </startOffsets>
+            <endOffsets>
+              <endOffset value="5375" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/Assets/HoloToolkit/SpatialUnderstanding/Scripts/SpatialUnderstanding.cs</url>
+          <line>288</line>
+          <properties documentPath="$PROJECT_DIR$/Assets/HoloToolkit/SpatialUnderstanding/Scripts/SpatialUnderstanding.cs">
+            <startOffsets>
+              <startOffset value="10552" />
+            </startOffsets>
+            <endOffsets>
+              <endOffset value="10574" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/Assets/Placeable.cs</url>
+          <line>581</line>
+          <properties documentPath="$PROJECT_DIR$/Assets/Placeable.cs">
+            <startOffsets>
+              <startOffset value="20612" />
+            </startOffsets>
+            <endOffsets>
+              <endOffset value="20623" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/Assets/Placeable.cs</url>
+          <line>132</line>
+          <properties documentPath="$PROJECT_DIR$/Assets/Placeable.cs">
+            <startOffsets>
+              <startOffset value="5339" />
+            </startOffsets>
+            <endOffsets>
+              <endOffset value="5358" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/Assets/Placeable.cs</url>
+          <line>157</line>
+          <properties documentPath="$PROJECT_DIR$/Assets/Placeable.cs">
+            <startOffsets>
+              <startOffset value="5918" />
+            </startOffsets>
+            <endOffsets>
+              <endOffset value="5976" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/Assets/Placeable.cs</url>
+          <line>516</line>
+          <properties documentPath="$PROJECT_DIR$/Assets/Placeable.cs">
+            <startOffsets>
+              <startOffset value="18637" />
+            </startOffsets>
+            <endOffsets>
+              <endOffset value="18727" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="7" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/Assets/Placeable.cs</url>
+          <line>540</line>
+          <properties documentPath="$PROJECT_DIR$/Assets/Placeable.cs">
+            <startOffsets>
+              <startOffset value="19515" />
+            </startOffsets>
+            <endOffsets>
+              <endOffset value="19583" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="9" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/Assets/Placeable.cs</url>
+          <line>545</line>
+          <properties documentPath="$PROJECT_DIR$/Assets/Placeable.cs">
+            <startOffsets>
+              <startOffset value="19670" />
+            </startOffsets>
+            <endOffsets>
+              <endOffset value="19699" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="10" />
+        </line-breakpoint>
+      </breakpoints>
+      <breakpoints-dialog>
+        <breakpoints-dialog />
+      </breakpoints-dialog>
+      <option name="time" value="14" />
+    </breakpoint-manager>
+    <watches-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/Assets/HoloToolkit/Input/Scripts/Utilities/Interactions/TapToPlace.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2159">
+          <caret line="129" column="9" lean-forward="false" selection-start-line="129" selection-start-column="9" selection-end-line="137" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/PhysicsTest.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="17" column="11" lean-forward="false" selection-start-line="17" selection-start-column="11" selection-end-line="17" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Placeable.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/HoloToolkit/Input/Scripts/Utilities/Interactions/TapToPlace.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2176">
+          <caret line="130" column="0" lean-forward="false" selection-start-line="130" selection-start-column="0" selection-end-line="131" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Placeable.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/HoloToolkit/Input/Scripts/Utilities/Interactions/TapToPlace.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2176">
+          <caret line="130" column="0" lean-forward="false" selection-start-line="130" selection-start-column="0" selection-end-line="131" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/HoloToolkit/SpatialUnderstanding/Scripts/SpatialUnderstanding.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1517433131998" expanded="true" signature="0:152" ph="/* Copyright (c) Microsoft Corporation. All rights reserved. ... */" />
+            <marker date="1517433131998" expanded="false" signature="160:226" ph="..." />
+            <marker date="1517433131998" expanded="true" signature="255:10989" ph="{...}" />
+            <marker date="1517433131998" expanded="true" signature="262:429" ph="/// The SpatialUnderstanding class controls the state and flow of the  ... " />
+            <marker date="1517433131998" expanded="true" signature="627:10987" ph="{...}" />
+            <marker date="1517433131998" expanded="true" signature="754:879" ph="{...}" />
+            <marker date="1517433131998" expanded="true" signature="1429:1555" ph="/// Switch used by the entire SpatialUnderstanding module to activate processing. ... " />
+            <marker date="1517433131998" expanded="true" signature="1601:1694" ph="{...}" />
+            <marker date="1517433131998" expanded="true" signature="1627:1684" ph="{...}" />
+            <marker date="1517433131998" expanded="true" signature="1704:1840" ph="/// Reference to the SpatialUnderstandingDLL class (wraps the understanding DLL functions). ... " />
+            <marker date="1517433131998" expanded="true" signature="1927:2080" ph="/// Reference to the SpatialUnderstandingSourceMesh behavior (input mesh data for the understanding module). ... " />
+            <marker date="1517433131998" expanded="true" signature="2181:2329" ph="/// Reference to the UnderstandingCustomMesh behavior (output mesh data from the understanding module). ... " />
+            <marker date="1517433131998" expanded="true" signature="2430:2526" ph="/// Indicates the current state of the scan process ... " />
+            <marker date="1517433131998" expanded="true" signature="2562:3122" ph="{...}" />
+            <marker date="1517433131998" expanded="true" signature="2588:2650" ph="{...}" />
+            <marker date="1517433131998" expanded="true" signature="2674:3112" ph="{...}" />
+            <marker date="1517433131998" expanded="true" signature="2769:2845" ph="{...}" />
+            <marker date="1517433131998" expanded="true" signature="3131:3308" ph="/// Indicates the scanning statistics are still being processed. ... " />
+            <marker date="1517433131998" expanded="true" signature="3356:3710" ph="{...}" />
+            <marker date="1517433131998" expanded="true" signature="3382:3700" ph="{...}" />
+            <marker date="1517433131998" expanded="true" signature="3443:3656" ph="{...}" />
+            <marker date="1517433131998" expanded="true" signature="3790:3877" ph="/// Event indicating that the scan is done ... " />
+            <marker date="1517433131998" expanded="true" signature="3939:4036" ph="/// Event indicating that the scan state has changed ... " />
+            <marker date="1517433131998" expanded="true" signature="4254:4589" ph="{...}" />
+            <marker date="1517433131998" expanded="true" signature="4619:4821" ph="{...}" />
+            <marker date="1517433131998" expanded="true" signature="4706:4811" ph="{...}" />
+            <marker date="1517433131998" expanded="true" signature="4852:5388" ph="{...}" />
+            <marker date="1517433131998" expanded="true" signature="4906:4958" ph="{...}" />
+            <marker date="1517433131998" expanded="true" signature="4972:5069" ph="/* Only update every few frames, and only if we aren't pulling in a mesh ... */" />
+            <marker date="1517433131998" expanded="true" signature="5225:5378" ph="{...}" />
+            <marker date="1517433131998" expanded="true" signature="5433:5660" ph="{...}" />
+            <marker date="1517433131998" expanded="true" signature="5514:5619" ph="{...}" />
+            <marker date="1517433131998" expanded="true" signature="5670:5868" ph="/// Call to request that scanning should begin. If AutoBeginScanning ... " />
+            <marker date="1517433131998" expanded="true" signature="5911:6057" ph="{...}" />
+            <marker date="1517433131998" expanded="true" signature="5967:6047" ph="{...}" />
+            <marker date="1517433131998" expanded="true" signature="6067:6419" ph="/// Call to request that the scanning progress be finishing. The application must do ... " />
+            <marker date="1517433131998" expanded="true" signature="6459:6683" ph="{...}" />
+            <marker date="1517433131998" expanded="true" signature="6512:6673" ph="{...}" />
+            <marker date="1517433131998" expanded="true" signature="6693:7017" ph="/// Update the scan progress. This function will initialize the scan, update it,  ... " />
+            <marker date="1517433131998" expanded="true" signature="7067:9913" ph="{...}" />
+            <marker date="1517433131998" expanded="true" signature="7214:7282" ph="{...}" />
+            <marker date="1517433131998" expanded="true" signature="7564:9328" ph="{...}" />
+            <marker date="1517433131998" expanded="true" signature="7958:8351" ph="{...}" />
+            <marker date="1517433131998" expanded="true" signature="8533:9314" ph="{...}" />
+            <marker date="1517433131998" expanded="true" signature="9086:9296" ph="{...}" />
+            <marker date="1517433131998" expanded="true" signature="9565:9903" ph="{...}" />
+            <marker date="1517433131998" expanded="true" signature="9963:10981" ph="{...}" />
+            <marker date="1517433131998" expanded="true" signature="10574:10813" ph="{...}" />
+            <marker date="1517433131998" expanded="true" signature="10814:10971" ph="/* else ... */" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/HoloToolkit-Examples/SpatialUnderstanding/Scripts/AppState.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3264">
+          <caret line="201" column="26" lean-forward="false" selection-start-line="201" selection-start-column="26" selection-end-line="201" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/HoloToolkit/Utilities/Scripts/SimpleTagalong.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1785">
+          <caret line="105" column="13" lean-forward="false" selection-start-line="105" selection-start-column="13" selection-end-line="105" selection-end-column="13" />
+          <folding>
+            <marker date="1520359112778" expanded="true" signature="0:152" ph="/* Copyright (c) Microsoft Corporation. All rights reserved. ... */" />
+            <marker date="1520359112778" expanded="true" signature="208:391" ph="/// A Tagalong that stays at a fixed distance from the camera and always ... " />
+            <marker date="1520359112778" expanded="true" signature="505:9029" ph="{...}" />
+            <marker date="1520359112778" expanded="true" signature="1381:1497" ph="/* The BoxCollider represents the volume of the object that is tagging ... */" />
+            <marker date="1520359112778" expanded="true" signature="1555:1735" ph="/* The Interpolator is a helper class that handles various changes to an ... */" />
+            <marker date="1520359112778" expanded="true" signature="1790:1981" ph="/* This is an array of planes that define the camera's view frustum along ... */" />
+            <marker date="1520359112778" expanded="true" signature="2244:2749" ph="{...}" />
+            <marker date="1520359112778" expanded="true" signature="2392:2543" ph="/* Get the Interpolator component and set some default parameters for ... */" />
+            <marker date="1520359112778" expanded="true" signature="2790:4277" ph="{...}" />
+            <marker date="1520359112778" expanded="true" signature="3004:3137" ph="/* Determine if the Tagalong needs to move based on whether its ... */" />
+            <marker date="1520359112778" expanded="true" signature="3278:3748" ph="{...}" />
+            <marker date="1520359112778" expanded="true" signature="3309:3592" ph="/* Derived classes will use the same Interpolator and may have ... */" />
+            <marker date="1520359112778" expanded="true" signature="3811:4267" ph="{...}" />
+            <marker date="1520359112778" expanded="true" signature="3842:4066" ph="/* If the Tagalong is inside the camera's view frustum, and it is ... */" />
+            <marker date="1520359112778" expanded="true" signature="4287:4675" ph="/// Determines if the Tagalong needs to move based on the provided ... " />
+            <marker date="1520359112778" expanded="true" signature="4784:9023" ph="{...}" />
+            <marker date="1520359112778" expanded="true" signature="4807:5003" ph="/* Check to see if any part of the Tagalong's BoxCollider's bounds is ... */" />
+            <marker date="1520359112778" expanded="true" signature="5375:5476" ph="{...}" />
+            <marker date="1520359112778" expanded="true" signature="5490:5635" ph="/* Calculate a default position where the Tagalong should go. In this ... */" />
+            <marker date="1520359112778" expanded="true" signature="5745:5851" ph="/* Create a Ray and set it's origin to be the default toPosition that ... */" />
+            <marker date="1520359112778" expanded="true" signature="6000:6222" ph="/* Determine if the Tagalong needs to move to the right or the left ... */" />
+            <marker date="1520359112778" expanded="true" signature="6437:6888" ph="{...}" />
+            <marker date="1520359112778" expanded="true" signature="6468:6766" ph="/* If the Tagalong needs to move to the right, that means it is to ... */" />
+            <marker date="1520359112778" expanded="true" signature="6919:7181" ph="{...}" />
+            <marker date="1520359112778" expanded="true" signature="6950:7059" ph="/* Apply similar logic to above for the case where the Tagalong ... */" />
+            <marker date="1520359112778" expanded="true" signature="7220:7679" ph="{...}" />
+            <marker date="1520359112778" expanded="true" signature="7251:7394" ph="/* If the Tagalong needed to move in the X direction, cast a Ray ... */" />
+            <marker date="1520359112778" expanded="true" signature="7468:7602" ph="/* Get the point along that ray that is on the plane and update ... */" />
+            <marker date="1520359112778" expanded="true" signature="7693:7809" ph="/* Similar logic follows below for determining if and how the ... */" />
+            <marker date="1520359112778" expanded="true" signature="8020:8151" ph="{...}" />
+            <marker date="1520359112778" expanded="true" signature="8180:8315" ph="{...}" />
+            <marker date="1520359112778" expanded="true" signature="8351:8498" ph="{...}" />
+            <marker date="1520359112778" expanded="true" signature="8512:8626" ph="/* Create a ray that starts at the camera and points in the direction ... */" />
+            <marker date="1520359112778" expanded="true" signature="8732:8866" ph="/* Find the point along that ray that is the right distance away and ... */" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/HoloToolkit/Utilities/Scripts/Singleton.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="850">
+          <caret line="50" column="0" lean-forward="false" selection-start-line="50" selection-start-column="0" selection-end-line="50" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/HoloToolkit/Input/Scripts/Utilities/Managers/MixedRealityTeleport.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1207">
+          <caret line="78" column="0" lean-forward="false" selection-start-line="78" selection-start-column="0" selection-end-line="78" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/HoloToolkit/Input/Scripts/Focus/SimpleSinglePointerSelector.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="799">
+          <caret line="47" column="0" lean-forward="false" selection-start-line="47" selection-start-column="0" selection-end-line="47" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/HoloToolkit/Input/Scripts/InputSources/InteractionInputSource.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4318">
+          <caret line="262" column="0" lean-forward="false" selection-start-line="262" selection-start-column="0" selection-end-line="262" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/HoloToolkit/Utilities/Scripts/FadeManager.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-816">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/HoloToolkit/Input/Scripts/Utilities/Managers/MixedRealityTeleport.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1207">
+          <caret line="78" column="0" lean-forward="false" selection-start-line="78" selection-start-column="0" selection-end-line="78" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/HoloToolkit/SpatialUnderstanding/Scripts/SpatialUnderstandingCustomMesh.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2720">
+          <caret line="274" column="27" lean-forward="false" selection-start-line="274" selection-start-column="27" selection-end-line="274" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/HoloToolkit-Examples/SpatialUnderstanding/Scripts/AppState.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-622">
+          <caret line="201" column="26" lean-forward="false" selection-start-line="201" selection-start-column="26" selection-end-line="201" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/HoloToolkit/Input/Scripts/Focus/SimpleSinglePointerSelector.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="47" column="0" lean-forward="false" selection-start-line="47" selection-start-column="0" selection-end-line="47" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/HoloToolkit/Input/Scripts/InputSources/InteractionInputSource.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="262" column="0" lean-forward="false" selection-start-line="262" selection-start-column="0" selection-end-line="262" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../MixedRealityToolkit-Unity-2017.2.1.1/Assets/Scripts/SpaceCollectionManager.cs" />
+    <entry file="file://$PROJECT_DIR$/Assets/HoloToolkit/Utilities/Scripts/Singleton.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="303">
+          <caret line="50" column="0" lean-forward="false" selection-start-line="50" selection-start-column="0" selection-end-line="50" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/HoloToolkit/SpatialUnderstanding/Scripts/SpatialUnderstandingDllObjectPlacement.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-3638">
+          <caret line="15" column="62" lean-forward="false" selection-start-line="15" selection-start-column="24" selection-end-line="15" selection-end-column="62" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/HoloToolkit/SpatialUnderstanding/Scripts/SpatialUnderstandingDll.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="296">
+          <caret line="377" column="67" lean-forward="false" selection-start-line="377" selection-start-column="64" selection-end-line="377" selection-end-column="67" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/HoloToolkit/SpatialUnderstanding/Scripts/SpatialUnderstandingDllTopology.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="680">
+          <caret line="115" column="33" lean-forward="false" selection-start-line="115" selection-start-column="33" selection-end-line="115" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/HoloToolkit-Examples/SpatialUnderstanding/Scripts/SpatialUnderstandingCursor.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1173">
+          <caret line="36" column="100" lean-forward="false" selection-start-line="36" selection-start-column="100" selection-end-line="36" selection-end-column="100" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/HoloToolkit/SpatialUnderstanding/Scripts/SpatialUnderstanding.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="852">
+          <caret line="298" column="9" lean-forward="false" selection-start-line="298" selection-start-column="9" selection-end-line="298" selection-end-column="9" />
+          <folding>
+            <marker date="1517433131998" expanded="true" signature="0:152" ph="/* Copyright (c) Microsoft Corporation. All rights reserved. ... */" />
+            <marker date="1517433131998" expanded="false" signature="160:226" ph="..." />
+            <marker date="1517433131998" expanded="true" signature="255:10989" ph="{...}" />
+            <marker date="1517433131998" expanded="true" signature="262:429" ph="/// The SpatialUnderstanding class controls the state and flow of the  ... " />
+            <marker date="1517433131998" expanded="true" signature="627:10987" ph="{...}" />
+            <marker date="1517433131998" expanded="true" signature="754:879" ph="{...}" />
+            <marker date="1517433131998" expanded="true" signature="1429:1555" ph="/// Switch used by the entire SpatialUnderstanding module to activate processing. ... " />
+            <marker date="1517433131998" expanded="true" signature="1601:1694" ph="{...}" />
+            <marker date="1517433131998" expanded="true" signature="1627:1684" ph="{...}" />
+            <marker date="1517433131998" expanded="true" signature="1704:1840" ph="/// Reference to the SpatialUnderstandingDLL class (wraps the understanding DLL functions). ... " />
+            <marker date="1517433131998" expanded="true" signature="1927:2080" ph="/// Reference to the SpatialUnderstandingSourceMesh behavior (input mesh data for the understanding module). ... " />
+            <marker date="1517433131998" expanded="true" signature="2181:2329" ph="/// Reference to the UnderstandingCustomMesh behavior (output mesh data from the understanding module). ... " />
+            <marker date="1517433131998" expanded="true" signature="2430:2526" ph="/// Indicates the current state of the scan process ... " />
+            <marker date="1517433131998" expanded="true" signature="2562:3122" ph="{...}" />
+            <marker date="1517433131998" expanded="true" signature="2588:2650" ph="{...}" />
+            <marker date="1517433131998" expanded="true" signature="2674:3112" ph="{...}" />
+            <marker date="1517433131998" expanded="true" signature="2769:2845" ph="{...}" />
+            <marker date="1517433131998" expanded="true" signature="3131:3308" ph="/// Indicates the scanning statistics are still being processed. ... " />
+            <marker date="1517433131998" expanded="true" signature="3356:3710" ph="{...}" />
+            <marker date="1517433131998" expanded="true" signature="3382:3700" ph="{...}" />
+            <marker date="1517433131998" expanded="true" signature="3443:3656" ph="{...}" />
+            <marker date="1517433131998" expanded="true" signature="3790:3877" ph="/// Event indicating that the scan is done ... " />
+            <marker date="1517433131998" expanded="true" signature="3939:4036" ph="/// Event indicating that the scan state has changed ... " />
+            <marker date="1517433131998" expanded="true" signature="4254:4589" ph="{...}" />
+            <marker date="1517433131998" expanded="true" signature="4619:4821" ph="{...}" />
+            <marker date="1517433131998" expanded="true" signature="4706:4811" ph="{...}" />
+            <marker date="1517433131998" expanded="true" signature="4852:5388" ph="{...}" />
+            <marker date="1517433131998" expanded="true" signature="4906:4958" ph="{...}" />
+            <marker date="1517433131998" expanded="true" signature="4972:5069" ph="/* Only update every few frames, and only if we aren't pulling in a mesh ... */" />
+            <marker date="1517433131998" expanded="true" signature="5225:5378" ph="{...}" />
+            <marker date="1517433131998" expanded="true" signature="5433:5660" ph="{...}" />
+            <marker date="1517433131998" expanded="true" signature="5514:5619" ph="{...}" />
+            <marker date="1517433131998" expanded="true" signature="5670:5868" ph="/// Call to request that scanning should begin. If AutoBeginScanning ... " />
+            <marker date="1517433131998" expanded="true" signature="5911:6057" ph="{...}" />
+            <marker date="1517433131998" expanded="true" signature="5967:6047" ph="{...}" />
+            <marker date="1517433131998" expanded="true" signature="6067:6419" ph="/// Call to request that the scanning progress be finishing. The application must do ... " />
+            <marker date="1517433131998" expanded="true" signature="6459:6683" ph="{...}" />
+            <marker date="1517433131998" expanded="true" signature="6512:6673" ph="{...}" />
+            <marker date="1517433131998" expanded="true" signature="6693:7017" ph="/// Update the scan progress. This function will initialize the scan, update it,  ... " />
+            <marker date="1517433131998" expanded="true" signature="7067:9913" ph="{...}" />
+            <marker date="1517433131998" expanded="true" signature="7214:7282" ph="{...}" />
+            <marker date="1517433131998" expanded="true" signature="7564:9328" ph="{...}" />
+            <marker date="1517433131998" expanded="true" signature="7958:8351" ph="{...}" />
+            <marker date="1517433131998" expanded="true" signature="8533:9314" ph="{...}" />
+            <marker date="1517433131998" expanded="true" signature="9086:9296" ph="{...}" />
+            <marker date="1517433131998" expanded="true" signature="9565:9903" ph="{...}" />
+            <marker date="1517433131998" expanded="true" signature="9963:10981" ph="{...}" />
+            <marker date="1517433131998" expanded="true" signature="10574:10813" ph="{...}" />
+            <marker date="1517433131998" expanded="true" signature="10814:10971" ph="/* else ... */" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../vuforia/Assets/Vuforia/Scripts/DefaultSmartTerrainEventHandler.cs" />
+    <entry file="file://$PROJECT_DIR$/Assets/Placeable.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3264">
+          <caret line="194" column="17" lean-forward="false" selection-start-line="194" selection-start-column="17" selection-end-line="194" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/HoloToolkit/Input/Scripts/Utilities/Interactions/TapToPlace.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="129" column="9" lean-forward="false" selection-start-line="129" selection-start-column="9" selection-end-line="137" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/PhysicsTest.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="10" column="5" lean-forward="false" selection-start-line="10" selection-start-column="5" selection-end-line="10" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/MicListener.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="510">
+          <caret line="30" column="67" lean-forward="false" selection-start-line="30" selection-start-column="67" selection-end-line="30" selection-end-column="67" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Vuforia/Scripts/DefaultTrackableEventHandler.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="14" column="81" lean-forward="false" selection-start-line="14" selection-start-column="59" selection-end-line="14" selection-end-column="81" />
+          <folding>
+            <marker date="1511181145000" expanded="true" signature="0:366" ph="/* ============================================================================== ... */" />
+            <marker date="1511181145000" expanded="false" signature="374:401" ph="..." />
+            <marker date="1511181145000" expanded="true" signature="403:510" ph="///     A custom handler that implements the ITrackableEventHandler interface. ... " />
+            <marker date="1511181145000" expanded="true" signature="592:3636" ph="{...}" />
+            <marker date="1511181145000" expanded="true" signature="599:730" ph="PRIVATE_MEMBER_VARIABLES" />
+            <marker date="1511181145000" expanded="true" signature="736:1034" ph="UNTIY_MONOBEHAVIOUR_METHODS" />
+            <marker date="1511181145000" expanded="true" signature="807:987" ph="{...}" />
+            <marker date="1511181145000" expanded="true" signature="1040:2288" ph="PUBLIC_METHODS" />
+            <marker date="1511181145000" expanded="true" signature="1068:1218" ph="///     Implementation of the ITrackableEventHandler function called when the ... " />
+            <marker date="1511181145000" expanded="true" signature="1354:2254" ph="{...}" />
+            <marker date="1511181145000" expanded="true" signature="1554:1689" ph="{...}" />
+            <marker date="1511181145000" expanded="true" signature="1828:1961" ph="{...}" />
+            <marker date="1511181145000" expanded="true" signature="1974:2248" ph="{...}" />
+            <marker date="1511181145000" expanded="true" signature="1997:2208" ph="/* For combo of previousStatus=UNKNOWN + newStatus=UNKNOWN|NOT_FOUND ... */" />
+            <marker date="1511181145000" expanded="true" signature="2294:3634" ph="PRIVATE_METHODS" />
+            <marker date="1511181145000" expanded="true" signature="2363:2955" ph="{...}" />
+            <marker date="1511181145000" expanded="true" signature="3001:3599" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/HoloToolkit/Boundary/Scripts/SceneContentAdjuster.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="60" lean-forward="false" selection-start-line="0" selection-start-column="60" selection-end-line="0" selection-end-column="60" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../SharedHolograms/SharedHolograms/Assets/Positioning.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" column="39" lean-forward="false" selection-start-line="14" selection-start-column="39" selection-end-line="14" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Positioning.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="799">
+          <caret line="49" column="49" lean-forward="false" selection-start-line="49" selection-start-column="49" selection-end-line="49" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../SharedHolograms/SharedHolograms/Assets/Scripts/SimpleTagalong.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1666">
+          <caret line="98" column="51" lean-forward="false" selection-start-line="98" selection-start-column="40" selection-end-line="98" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/MedallionEventTracker.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="15" column="26" lean-forward="false" selection-start-line="15" selection-start-column="26" selection-end-line="15" selection-end-column="26" />
+          <folding>
+            <marker date="1520359730996" expanded="true" signature="0:256" ph="/* ============================================================================== ... */" />
+            <marker date="1520359730996" expanded="false" signature="264:316" ph="..." />
+            <marker date="1520359730996" expanded="true" signature="318:425" ph="///     A custom handler that implements the ITrackableEventHandler interface. ... " />
+            <marker date="1520359730996" expanded="true" signature="500:2814" ph="{...}" />
+            <marker date="1520359730996" expanded="true" signature="583:714" ph="PRIVATE_MEMBER_VARIABLES" />
+            <marker date="1520359730996" expanded="true" signature="720:1065" ph="UNTIY_MONOBEHAVIOUR_METHODS" />
+            <marker date="1520359730996" expanded="true" signature="791:1018" ph="{...}" />
+            <marker date="1520359730996" expanded="true" signature="1071:2319" ph="PUBLIC_METHODS" />
+            <marker date="1520359730996" expanded="true" signature="1099:1249" ph="///     Implementation of the ITrackableEventHandler function called when the ... " />
+            <marker date="1520359730996" expanded="true" signature="1385:2285" ph="{...}" />
+            <marker date="1520359730996" expanded="true" signature="1585:1720" ph="{...}" />
+            <marker date="1520359730996" expanded="true" signature="1859:1992" ph="{...}" />
+            <marker date="1520359730996" expanded="true" signature="2005:2279" ph="{...}" />
+            <marker date="1520359730996" expanded="true" signature="2028:2239" ph="/* For combo of previousStatus=UNKNOWN + newStatus=UNKNOWN|NOT_FOUND ... */" />
+            <marker date="1520359730996" expanded="true" signature="2325:2812" ph="PRIVATE_METHODS" />
+            <marker date="1520359730996" expanded="true" signature="2394:2719" ph="{...}" />
+            <marker date="1520359730996" expanded="true" signature="2513:2704" ph="/* videoSource.Play(); ... */" />
+            <marker date="1520359730996" expanded="true" signature="2765:2777" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Downloads/MixedRealityToolkit-Unity-2017.2.1.1/MixedRealityToolkit-Unity-2017.2.1.1/Assets/HoloToolkit/Utilities/Scripts/SphereBasedTagalong.cs" />
+    <entry file="file://$PROJECT_DIR$/Assets/HoloToolkit/Utilities/Scripts/Interpolator.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1989">
+          <caret line="117" column="37" lean-forward="false" selection-start-line="117" selection-start-column="20" selection-end-line="117" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/CanvasTest.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="442">
+          <caret line="29" column="0" lean-forward="false" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
+          <folding>
+            <marker date="1518020828544" expanded="false" signature="6:100" ph="..." />
+            <marker date="1518020828544" expanded="true" signature="141:644" ph="{...}" />
+            <marker date="1518020828544" expanded="true" signature="334:460" ph="{...}" />
+            <marker date="1518020828544" expanded="true" signature="478:639" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/HoloToolkit/Utilities/Scripts/Tagalong.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="510">
+          <caret line="30" column="72" lean-forward="false" selection-start-line="30" selection-start-column="72" selection-end-line="30" selection-end-column="72" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/HoloToolkit/Utilities/Scripts/SphereBasedTagalong.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="98" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/HoloToolkit/Utilities/Scripts/SimpleTagalong.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1241">
+          <caret line="73" column="29" lean-forward="false" selection-start-line="73" selection-start-column="29" selection-end-line="73" selection-end-column="29" />
+          <folding>
+            <marker date="1520359112778" expanded="true" signature="0:152" ph="/* Copyright (c) Microsoft Corporation. All rights reserved. ... */" />
+            <marker date="1520359112778" expanded="true" signature="208:391" ph="/// A Tagalong that stays at a fixed distance from the camera and always ... " />
+            <marker date="1520359112778" expanded="true" signature="505:9029" ph="{...}" />
+            <marker date="1520359112778" expanded="true" signature="1381:1497" ph="/* The BoxCollider represents the volume of the object that is tagging ... */" />
+            <marker date="1520359112778" expanded="true" signature="1555:1735" ph="/* The Interpolator is a helper class that handles various changes to an ... */" />
+            <marker date="1520359112778" expanded="true" signature="1790:1981" ph="/* This is an array of planes that define the camera's view frustum along ... */" />
+            <marker date="1520359112778" expanded="true" signature="2244:2749" ph="{...}" />
+            <marker date="1520359112778" expanded="true" signature="2392:2543" ph="/* Get the Interpolator component and set some default parameters for ... */" />
+            <marker date="1520359112778" expanded="true" signature="2790:4277" ph="{...}" />
+            <marker date="1520359112778" expanded="true" signature="3004:3137" ph="/* Determine if the Tagalong needs to move based on whether its ... */" />
+            <marker date="1520359112778" expanded="true" signature="3278:3748" ph="{...}" />
+            <marker date="1520359112778" expanded="true" signature="3309:3592" ph="/* Derived classes will use the same Interpolator and may have ... */" />
+            <marker date="1520359112778" expanded="true" signature="3811:4267" ph="{...}" />
+            <marker date="1520359112778" expanded="true" signature="3842:4066" ph="/* If the Tagalong is inside the camera's view frustum, and it is ... */" />
+            <marker date="1520359112778" expanded="true" signature="4287:4675" ph="/// Determines if the Tagalong needs to move based on the provided ... " />
+            <marker date="1520359112778" expanded="true" signature="4784:9023" ph="{...}" />
+            <marker date="1520359112778" expanded="true" signature="4807:5003" ph="/* Check to see if any part of the Tagalong's BoxCollider's bounds is ... */" />
+            <marker date="1520359112778" expanded="true" signature="5375:5476" ph="{...}" />
+            <marker date="1520359112778" expanded="true" signature="5490:5635" ph="/* Calculate a default position where the Tagalong should go. In this ... */" />
+            <marker date="1520359112778" expanded="true" signature="5745:5851" ph="/* Create a Ray and set it's origin to be the default toPosition that ... */" />
+            <marker date="1520359112778" expanded="true" signature="6000:6222" ph="/* Determine if the Tagalong needs to move to the right or the left ... */" />
+            <marker date="1520359112778" expanded="true" signature="6437:6888" ph="{...}" />
+            <marker date="1520359112778" expanded="true" signature="6468:6766" ph="/* If the Tagalong needs to move to the right, that means it is to ... */" />
+            <marker date="1520359112778" expanded="true" signature="6919:7181" ph="{...}" />
+            <marker date="1520359112778" expanded="true" signature="6950:7059" ph="/* Apply similar logic to above for the case where the Tagalong ... */" />
+            <marker date="1520359112778" expanded="true" signature="7220:7679" ph="{...}" />
+            <marker date="1520359112778" expanded="true" signature="7251:7394" ph="/* If the Tagalong needed to move in the X direction, cast a Ray ... */" />
+            <marker date="1520359112778" expanded="true" signature="7468:7602" ph="/* Get the point along that ray that is on the plane and update ... */" />
+            <marker date="1520359112778" expanded="true" signature="7693:7809" ph="/* Similar logic follows below for determining if and how the ... */" />
+            <marker date="1520359112778" expanded="true" signature="8020:8151" ph="{...}" />
+            <marker date="1520359112778" expanded="true" signature="8180:8315" ph="{...}" />
+            <marker date="1520359112778" expanded="true" signature="8351:8498" ph="{...}" />
+            <marker date="1520359112778" expanded="true" signature="8512:8626" ph="/* Create a ray that starts at the camera and points in the direction ... */" />
+            <marker date="1520359112778" expanded="true" signature="8732:8866" ph="/* Find the point along that ray that is the right distance away and ... */" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/HoloToolkit/Utilities/Scripts/CameraCache.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="561">
+          <caret line="33" column="52" lean-forward="false" selection-start-line="33" selection-start-column="52" selection-end-line="33" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/SampleResources/Scripts/VoiceCommands.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="32" column="39" lean-forward="false" selection-start-line="32" selection-start-column="22" selection-end-line="32" selection-end-column="39" />
+          <folding>
+            <marker date="1509407826000" expanded="true" signature="0:304" ph="/* =============================================================================== ... */" />
+            <marker date="1509407826000" expanded="false" signature="429:579" ph="..." />
+            <marker date="1509407826000" expanded="true" signature="623:3321" ph="{...}" />
+            <marker date="1509407826000" expanded="true" signature="627:863" ph="/* So that this builds against older versions of the Unity DLLs we need to ... */" />
+            <marker date="1509407826000" expanded="true" signature="900:1094" ph="PRIVATE_MEMBERS" />
+            <marker date="1509407826000" expanded="true" signature="1100:2967" ph="MONOBEHAVIOUR_METHODS" />
+            <marker date="1509407826000" expanded="true" signature="1181:2896" ph="{...}" />
+            <marker date="1509407826000" expanded="true" signature="1241:1869" ph="{...}" />
+            <marker date="1509407826000" expanded="true" signature="1404:1809" ph="{...}" />
+            <marker date="1509407826000" expanded="true" signature="1466:1795" ph="{...}" />
+            <marker date="1509407826000" expanded="true" signature="1625:1777" ph="{...}" />
+            <marker date="1509407826000" expanded="true" signature="1925:2550" ph="{...}" />
+            <marker date="1509407826000" expanded="true" signature="2088:2491" ph="{...}" />
+            <marker date="1509407826000" expanded="true" signature="2150:2477" ph="{...}" />
+            <marker date="1509407826000" expanded="true" signature="2308:2459" ph="{...}" />
+            <marker date="1509407826000" expanded="true" signature="2915:2927" ph="{...}" />
+            <marker date="1509407826000" expanded="true" signature="2973:3284" ph="PRIVATE_METHODS" />
+            <marker date="1509407826000" expanded="true" signature="3082:3251" ph="{...}" />
+            <marker date="1509407826000" expanded="true" signature="3189:3245" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/VideoTagalong.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1411">
+          <caret line="83" column="30" lean-forward="false" selection-start-line="83" selection-start-column="30" selection-end-line="83" selection-end-column="30" />
+          <folding>
+            <marker date="1520442683529" expanded="true" signature="0:152" ph="/* Copyright (c) Microsoft Corporation. All rights reserved. ... */" />
+            <marker date="1520442683529" expanded="true" signature="201:3034" ph="{...}" />
+            <marker date="1520442683529" expanded="true" signature="208:411" ph="/// A Tagalong that stays at a fixed distance from the camera and always ... " />
+            <marker date="1520442683529" expanded="true" signature="458:3032" ph="{...}" />
+            <marker date="1520442683529" expanded="true" signature="667:840" ph="/// When moving, use unscaled time. This is useful for games that have a pause mechanism or otherwise adjust the  ... " />
+            <marker date="1520442683529" expanded="true" signature="1066:1216" ph="/// Used to initialize the initial position of the SphereBasedTagalong before being hidden on LateUpdate. ... " />
+            <marker date="1520442683529" expanded="true" signature="1858:1991" ph="{...}" />
+            <marker date="1520442683529" expanded="true" signature="2022:2656" ph="{...}" />
+            <marker date="1520442683529" expanded="true" signature="2285:2646" ph="{...}" />
+            <marker date="1520442683529" expanded="true" signature="2691:2857" ph="{...}" />
+            <marker date="1520442683529" expanded="true" signature="2730:2847" ph="{...}" />
+            <marker date="1520442683529" expanded="true" signature="2891:2941" ph="{...}" />
+            <marker date="1520442683529" expanded="true" signature="2974:3026" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/VideoLogic.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="697">
+          <caret line="41" column="4" lean-forward="false" selection-start-line="41" selection-start-column="4" selection-end-line="41" selection-end-column="4" />
+          <folding>
+            <marker date="1520460324696" expanded="true" signature="6:216" ph="..." />
+            <marker date="1520460324696" expanded="true" signature="257:1165" ph="{...}" />
+            <marker date="1520460324696" expanded="true" signature="564:618" ph="{...}" />
+            <marker date="1520460324696" expanded="true" signature="656:822" ph="{...}" />
+            <marker date="1520460324696" expanded="true" signature="849:1163" ph="{...}" />
+            <marker date="1520460324696" expanded="true" signature="944:1068" ph="{...}" />
+            <marker date="1520460324696" expanded="true" signature="1075:1160" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/SceneManagement.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="21" column="4" lean-forward="false" selection-start-line="21" selection-start-column="4" selection-end-line="21" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/HoloToolkit/Sharing/Scripts/SharingStage.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-6987">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/HoloToolkit-Examples/Sharing/SharingService/Scripts/ImportExportAnchorManager.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="884">
+          <caret line="877" column="13" lean-forward="false" selection-start-line="877" selection-start-column="13" selection-end-line="877" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/HologramPlacement.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="6" column="0" lean-forward="false" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+          <folding>
+            <marker date="1520528513652" expanded="false" signature="6:154" ph="..." />
+            <marker date="1520528513652" expanded="true" signature="217:3227" ph="{...}" />
+            <marker date="1520528513652" expanded="true" signature="224:394" ph="/// Tracks if we have been sent a transform for the anchor model. ... " />
+            <marker date="1520528513652" expanded="true" signature="506:863" ph="{...}" />
+            <marker date="1520528513652" expanded="true" signature="869:1076" ph="/// When a new user joins we want to send them the relative transform for the anchor if we have it. ... " />
+            <marker date="1520528513652" expanded="true" signature="1179:1343" ph="{...}" />
+            <marker date="1520528513652" expanded="true" signature="1211:1337" ph="{...}" />
+            <marker date="1520528513652" expanded="true" signature="1362:1946" ph="{...}" />
+            <marker date="1520528513652" expanded="true" signature="1394:1806" ph="{...}" />
+            <marker date="1520528513652" expanded="true" signature="1518:1796" ph="{...}" />
+            <marker date="1520528513652" expanded="true" signature="1549:1671" ph="/* This triggers the animation sequence for the anchor model and ... */" />
+            <marker date="1520528513652" expanded="true" signature="1819:1940" ph="{...}" />
+            <marker date="1520528513652" expanded="true" signature="1986:2166" ph="{...}" />
+            <marker date="1520528513652" expanded="true" signature="2194:2427" ph="{...}" />
+            <marker date="1520528513652" expanded="true" signature="2433:2572" ph="/// When a remote system has a transform for us, we'll get it here. ... " />
+            <marker date="1520528513652" expanded="true" signature="2620:3150" ph="{...}" />
+            <marker date="1520528513652" expanded="true" signature="2874:2992" ph="/* The first time, we'll want to send the message to the anchor to do its animation and ... */" />
+            <marker date="1520528513652" expanded="true" signature="3027:3114" ph="{...}" />
+            <marker date="1520528513652" expanded="true" signature="3180:3225" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
