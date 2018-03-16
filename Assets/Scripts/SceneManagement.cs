@@ -29,7 +29,7 @@ public class SceneManagement : MonoBehaviour
 			loadingImage.gameObject.SetActive(true);
 			StartCoroutine(RestartScene());
 		});
-		keywords.Add("Spawn", () =>
+		keywords.Add("Dog bottom", () =>
 		{
 			syncObjectSpawner.SpawnBasicSyncObject();
 			Debug.Log("Spawn object");

@@ -1179,7 +1179,6 @@
             <e p="ReflectionTestBehaviour.cs" t="Include" />
           </e>
         </e>
-        <e p="ImportExportAnchorManager.cs" t="Include" />
         <e p="Mecanim Warrior Anim Free" t="Include">
           <e p="Script" t="Include">
             <e p="PlayGUI.cs" t="Include" />
@@ -1214,10 +1213,14 @@
             </e>
           </e>
           <e p="CustomMessages.cs" t="Include" />
+          <e p="ImportExportAnchorManager.cs" t="Include" />
           <e p="MedallionEventTracker.cs" t="Include" />
+          <e p="Moveable.cs" t="Include" />
           <e p="Placeable.cs" t="Include" />
           <e p="Positioning.cs" t="Include" />
           <e p="SceneManagement.cs" t="Include" />
+          <e p="SetStatusColor.cs" t="Include" />
+          <e p="UILogic.cs" t="Include" />
           <e p="VideoLogic.cs" t="Include" />
           <e p="VideoTagalong.cs" t="Include" />
         </e>

@@ -3,6 +3,7 @@ Copyright (c) 2018 Engagement Lab @ Emerson College. All Rights Reserved.
 by Johnny Richardson
 ==============================================================================*/
 
+using HoloToolkit.Unity;
 using UnityEngine;
 using UnityEngine.Video;
 using Vuforia;
@@ -14,6 +15,8 @@ public class MedallionEventTracker : MonoBehaviour, ITrackableEventHandler
 {
     public VideoPlayer videoSource;
     public GameObject videoPlayer;
+
+    private bool tracked;
     
     #region PRIVATE_MEMBER_VARIABLES
 
@@ -72,14 +75,24 @@ public class MedallionEventTracker : MonoBehaviour, ITrackableEventHandler
 
     protected virtual void OnTrackingFound()
     {
+        if(tracked) return;
+        tracked = true;
+        
         // Show video component
         Debug.Log("image found");
-
+        
+        Billboard billboard = gameObject.AddComponent<Billboard>();
+        billboard.PivotAxis = PivotAxis.Y;
+        
         videoPlayer.SetActive(true);
         //videoSource.Play();
         
         //Vector3 tempPos = videoPlayer.transform.position;
-        //videoPlayer.transform.parent = null;
+        videoPlayer.transform.parent = mTrackableBehaviour.transform;
+        videoPlayer.transform.localPosition = Vector3.zero;
+//        videoPlayer.transform.position= mTrackableBehaviour.transform.position;
+//        videoPlayer.transform.Translate(Vector3.up * .04f);
+//        videoPlayer.transform.position = Vector3.zero;
         //I videoPlayer.transform.position = tempPos;
         
     }
@@ -87,6 +100,7 @@ public class MedallionEventTracker : MonoBehaviour, ITrackableEventHandler
 
     protected virtual void OnTrackingLost()
     {
+        
     }
 
     #endregion // PRIVATE_METHODS
