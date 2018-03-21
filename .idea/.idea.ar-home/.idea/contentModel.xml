@@ -1213,6 +1213,7 @@
             </e>
           </e>
           <e p="CustomMessages.cs" t="Include" />
+          <e p="FloatBehavior.cs" t="Include" />
           <e p="ImportExportAnchorManager.cs" t="Include" />
           <e p="MedallionEventTracker.cs" t="Include" />
           <e p="Moveable.cs" t="Include" />

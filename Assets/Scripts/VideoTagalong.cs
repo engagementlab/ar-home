@@ -42,10 +42,17 @@ namespace HoloToolkit.Unity
         private Vector3 targetPosition;
         private Vector3 optimalPosition;
         private float initialDistanceToCamera;
+        private float initialSphereRadius;
 
         private void Start()
         {
             initialDistanceToCamera = Vector3.Distance(transform.position, CameraCache.Main.transform.position);
+
+            if (gameObject.GetComponent<SphereCollider>() == null)
+                gameObject.AddComponent<SphereCollider>();
+
+            initialSphereRadius = SphereRadius;
+            gameObject.GetComponent<SphereCollider>().radius = SphereRadius;
         }
 
         private void Update()
@@ -81,7 +88,7 @@ namespace HoloToolkit.Unity
 
         public void VideoStop()
         {
-            SphereRadius = .1f;
+            SphereRadius = initialSphereRadius;
         }
     }
 }

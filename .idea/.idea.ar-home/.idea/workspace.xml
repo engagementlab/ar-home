@@ -2,16 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6394d176-6f62-4b67-b56c-fbd3f5eecf54" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/Assets/Scripts/SetStatusColor.cs" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Assets/Scripts/FloatBehavior.cs" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.ar-home/.idea/contentModel.xml" afterPath="$PROJECT_DIR$/.idea/.idea.ar-home/.idea/contentModel.xml" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.ar-home/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/.idea.ar-home/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/Assets/ImportExportAnchorManager.cs" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/ImportExportAnchorManager.cs.meta" afterPath="" />
       <change beforePath="$PROJECT_DIR$/Assets/Resources/VuforiaConfiguration.asset" afterPath="$PROJECT_DIR$/Assets/Resources/VuforiaConfiguration.asset" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/ARVideo.unity" afterPath="$PROJECT_DIR$/Assets/Scenes/ARVideo.unity" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/MedallionEventTracker.cs" afterPath="$PROJECT_DIR$/Assets/Scripts/MedallionEventTracker.cs" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/SceneManagement.cs" afterPath="$PROJECT_DIR$/Assets/Scripts/SceneManagement.cs" />
-      <change beforePath="$PROJECT_DIR$/Assets/VideoPlayer.prefab" afterPath="$PROJECT_DIR$/Assets/VideoPlayer.prefab" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/VideoLogic.cs" afterPath="$PROJECT_DIR$/Assets/Scripts/VideoLogic.cs" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/VideoTagalong.cs" afterPath="$PROJECT_DIR$/Assets/Scripts/VideoTagalong.cs" />
+      <change beforePath="$PROJECT_DIR$/QCAR/somedata16" afterPath="$PROJECT_DIR$/QCAR/somedata16" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -25,7 +24,7 @@
       <file leaf-file-name="SceneManagement.cs" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/Scripts/SceneManagement.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
+            <state relative-caret-position="408">
               <caret line="31" column="32" lean-forward="false" selection-start-line="31" selection-start-column="32" selection-end-line="31" selection-end-column="32" />
               <folding>
                 <marker date="1521139852875" expanded="false" signature="6:249" ph="..." />
@@ -43,293 +42,52 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Cursor.cs" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Assets/HoloToolkit/Input/Scripts/Cursor/Cursor.cs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="262">
-              <caret line="299" column="0" lean-forward="false" selection-start-line="299" selection-start-column="0" selection-end-line="299" selection-end-column="0" />
-              <folding>
-                <marker date="1521217444921" expanded="true" signature="0:152" ph="/* Copyright (c) Microsoft Corporation. All rights reserved. ... */" />
-                <marker date="1521217444921" expanded="true" signature="213:16844" ph="{...}" />
-                <marker date="1521217444921" expanded="true" signature="220:324" ph="/// Object that represents a cursor in 3D space controlled by gaze. ... " />
-                <marker date="1521217444921" expanded="true" signature="382:16842" ph="{...}" />
-                <marker date="1521217444921" expanded="true" signature="818:933" ph="/// The pointer that this cursor should follow and process input from. ... " />
-                <marker date="1521217444921" expanded="true" signature="996:1090" ph="/// Minimum distance for cursor if nothing is hit ... " />
-                <marker date="1521217444921" expanded="true" signature="1260:1354" ph="/// Maximum distance for cursor if nothing is hit ... " />
-                <marker date="1521217444921" expanded="true" signature="1492:1599" ph="/// Surface distance to place the cursor off of the surface at ... " />
-                <marker date="1521217444921" expanded="true" signature="1955:2054" ph="/// Blend value for surface normal to user facing lerp ... " />
-                <marker date="1521217444921" expanded="true" signature="2111:2210" ph="/// Blend value for surface normal to user facing lerp ... " />
-                <marker date="1521217444921" expanded="true" signature="2264:2363" ph="/// Blend value for surface normal to user facing lerp ... " />
-                <marker date="1521217444921" expanded="true" signature="2420:2519" ph="/// Blend value for surface normal to user facing lerp ... " />
-                <marker date="1521217444921" expanded="true" signature="2598:2702" ph="/// Visual that is displayed when cursor is active normally ... " />
-                <marker date="1521217444921" expanded="true" signature="2822:2889" ph="{...}" />
-                <marker date="1521217444921" expanded="true" signature="2925:2992" ph="{...}" />
-                <marker date="1521217444921" expanded="true" signature="3027:3096" ph="{...}" />
-                <marker date="1521217444921" expanded="true" signature="3106:3195" ph="/// Indicates if hand is current in the view ... " />
-                <marker date="1521217444921" expanded="true" signature="3243:3314" ph="/// Indicates air tap down ... " />
-                <marker date="1521217444921" expanded="true" signature="3554:3650" ph="/// Position, scale and rotational goals for cursor ... " />
-                <marker date="1521217444921" expanded="true" signature="3780:3870" ph="/// Indicates if the cursor should be visible ... " />
-                <marker date="1521217444921" expanded="true" signature="3900:4041" ph="{...}" />
-                <marker date="1521217444921" expanded="true" signature="3926:4031" ph="{...}" />
-                <marker date="1521217444921" expanded="true" signature="4051:5424" ph="MonoBehaviour Functions" />
-                <marker date="1521217444921" expanded="true" signature="4112:4307" ph="{...}" />
-                <marker date="1521217444921" expanded="true" signature="4337:4427" ph="{...}" />
-                <marker date="1521217444921" expanded="true" signature="4458:4548" ph="{...}" />
-                <marker date="1521217444921" expanded="true" signature="4558:4636" ph="/// Override for enable functions ... " />
-                <marker date="1521217444921" expanded="true" signature="4678:4955" ph="{...}" />
-                <marker date="1521217444921" expanded="true" signature="4751:4890" ph="{...}" />
-                <marker date="1521217444921" expanded="true" signature="4965:5044" ph="/// Override for disable functions ... " />
-                <marker date="1521217444921" expanded="true" signature="5087:5316" ph="{...}" />
-                <marker date="1521217444921" expanded="true" signature="5350:5404" ph="{...}" />
-                <marker date="1521217444921" expanded="true" signature="5434:5537" ph="/// Register to events from the managers the cursor needs. ... " />
-                <marker date="1521217444921" expanded="true" signature="5587:6309" ph="{...}" />
-                <marker date="1521217444921" expanded="true" signature="5925:5987" ph="{...}" />
-                <marker date="1521217444921" expanded="true" signature="6004:6067" ph="{...}" />
-                <marker date="1521217444921" expanded="true" signature="6319:6426" ph="/// Unregister from events from the managers the cursor needs. ... " />
-                <marker date="1521217444921" expanded="true" signature="6478:6957" ph="{...}" />
-                <marker date="1521217444921" expanded="true" signature="6532:6774" ph="{...}" />
-                <marker date="1521217444921" expanded="true" signature="6819:6947" ph="{...}" />
-                <marker date="1521217444921" expanded="true" signature="7004:8247" ph="{...}" />
-                <marker date="1521217444921" expanded="true" signature="7047:7168" ph="{...}" />
-                <marker date="1521217444921" expanded="true" signature="7210:7607" ph="{...}" />
-                <marker date="1521217444921" expanded="true" signature="7333:7593" ph="{...}" />
-                <marker date="1521217444921" expanded="true" signature="7656:8077" ph="{...}" />
-                <marker date="1521217444921" expanded="true" signature="7687:7850" ph="/* For backward-compatibility, if a pointer wasn't specified, but there's exactly one ... */" />
-                <marker date="1521217444921" expanded="true" signature="7981:8063" ph="{...}" />
-                <marker date="1521217444921" expanded="true" signature="8094:8237" ph="{...}" />
-                <marker date="1521217444921" expanded="true" signature="8257:8704" ph="/// Updates the currently targeted object and cursor modifier upon getting ... " />
-                <marker date="1521217444921" expanded="true" signature="8848:9202" ph="{...}" />
-                <marker date="1521217444921" expanded="true" signature="8894:9192" ph="{...}" />
-                <marker date="1521217444921" expanded="true" signature="9212:9375" ph="/// Override function when a new modifier is found or no modifier is valid ... " />
-                <marker date="1521217444921" expanded="true" signature="9448:9515" ph="{...}" />
-                <marker date="1521217444921" expanded="true" signature="9525:9603" ph="/// Update the cursor's transform ... " />
-                <marker date="1521217444921" expanded="true" signature="9658:12385" ph="{...}" />
-                <marker date="1521217444921" expanded="true" signature="10083:10528" ph="{...}" />
-                <marker date="1521217444921" expanded="true" signature="10545:11833" ph="{...}" />
-                <marker date="1521217444921" expanded="true" signature="10716:10880" ph="{...}" />
-                <marker date="1521217444921" expanded="true" signature="10901:11819" ph="{...}" />
-                <marker date="1521217444921" expanded="true" signature="10940:11254" ph="/* If no modifier is on the target, just use the hit result to set cursor position ... */" />
-                <marker date="1521217444921" expanded="true" signature="12395:12492" ph="/// Updates the visual representation of the cursor. ... " />
-                <marker date="1521217444921" expanded="true" signature="12548:12708" ph="{...}" />
-                <marker date="1521217444921" expanded="true" signature="12603:12698" ph="{...}" />
-                <marker date="1521217444921" expanded="true" signature="12718:12820" ph="/// Disable input and set to contextual to override input ... " />
-                <marker date="1521217444921" expanded="true" signature="12866:13064" ph="{...}" />
-                <marker date="1521217444921" expanded="true" signature="13074:13167" ph="/// Enable input and set to none to reset cursor ... " />
-                <marker date="1521217444921" expanded="true" signature="13212:13287" ph="{...}" />
-                <marker date="1521217444921" expanded="true" signature="13297:13434" ph="/// Function for consuming the OnInputUp events ... " />
-                <marker date="1521217444921" expanded="true" signature="13498:13654" ph="{...}" />
-                <marker date="1521217444921" expanded="true" signature="13573:13644" ph="{...}" />
-                <marker date="1521217444921" expanded="true" signature="13664:13817" ph="/// Function for receiving OnInputDown events from InputManager ... " />
-                <marker date="1521217444921" expanded="true" signature="13883:14038" ph="{...}" />
-                <marker date="1521217444921" expanded="true" signature="13958:14028" ph="{...}" />
-                <marker date="1521217444921" expanded="true" signature="14048:14204" ph="/// Function for receiving OnInputClicked events from InputManager ... " />
-                <marker date="1521217444921" expanded="true" signature="14280:14357" ph="{...}" />
-                <marker date="1521217444921" expanded="true" signature="14368:14507" ph="/// Input source detected callback for the cursor ... " />
-                <marker date="1521217444921" expanded="true" signature="14584:14772" ph="{...}" />
-                <marker date="1521217444921" expanded="true" signature="14659:14762" ph="{...}" />
-                <marker date="1521217444921" expanded="true" signature="14783:14918" ph="/// Input source lost callback for the cursor ... " />
-                <marker date="1521217444921" expanded="true" signature="14991:15311" ph="{...}" />
-                <marker date="1521217444921" expanded="true" signature="15066:15301" ph="{...}" />
-                <marker date="1521217444921" expanded="true" signature="15161:15287" ph="{...}" />
-                <marker date="1521217444921" expanded="true" signature="15321:15419" ph="/// Internal update to check for cursor state changes ... " />
-                <marker date="1521217444921" expanded="true" signature="15460:15655" ph="{...}" />
-                <marker date="1521217444921" expanded="true" signature="15570:15645" ph="{...}" />
-                <marker date="1521217444921" expanded="true" signature="15665:15758" ph="/// Virtual function for checking state changes. ... " />
-                <marker date="1521217444921" expanded="true" signature="15816:16534" ph="{...}" />
-                <marker date="1521217444921" expanded="true" signature="15885:16477" ph="{...}" />
-                <marker date="1521217444921" expanded="true" signature="15938:16025" ph="{...}" />
-                <marker date="1521217444921" expanded="true" signature="16089:16177" ph="{...}" />
-                <marker date="1521217444921" expanded="true" signature="16213:16359" ph="{...}" />
-                <marker date="1521217444921" expanded="true" signature="16544:16712" ph="/// Change the cursor state to the new state.  Override in cursor implementations. ... " />
-                <marker date="1521217444921" expanded="true" signature="16783:16836" ph="{...}" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="FocusManager.cs" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Assets/HoloToolkit/Input/Scripts/Focus/FocusManager.cs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-867">
-              <caret line="15" column="17" lean-forward="false" selection-start-line="15" selection-start-column="17" selection-end-line="15" selection-end-column="17" />
-              <folding>
-                <marker date="1520441528771" expanded="true" signature="0:152" ph="/* Copyright (c) Microsoft Corporation. All rights reserved. ... */" />
-                <marker date="1520441528771" expanded="false" signature="160:252" ph="..." />
-                <marker date="1520441528771" expanded="true" signature="293:32877" ph="{...}" />
-                <marker date="1520441528771" expanded="true" signature="300:574" ph="/// Focus manager is the bridge that handles different types of pointing sources like gaze cursor ... " />
-                <marker date="1520441528771" expanded="true" signature="630:32875" ph="{...}" />
-                <marker date="1520441528771" expanded="true" signature="645:2162" ph="MonoBehaviour Implementation" />
-                <marker date="1520441528771" expanded="true" signature="722:1777" ph="{...}" />
-                <marker date="1520441528771" expanded="true" signature="803:1767" ph="{...}" />
-                <marker date="1520441528771" expanded="true" signature="906:1753" ph="{...}" />
-                <marker date="1520441528771" expanded="true" signature="1033:1209" ph="{...}" />
-                <marker date="1520441528771" expanded="true" signature="1351:1681" ph="{...}" />
-                <marker date="1520441528771" expanded="true" signature="1807:2025" ph="{...}" />
-                <marker date="1520441528771" expanded="true" signature="1932:2015" ph="{...}" />
-                <marker date="1520441528771" expanded="true" signature="2056:2142" ph="{...}" />
-                <marker date="1520441528771" expanded="true" signature="2172:3500" ph="Settings" />
-                <marker date="1520441528771" expanded="true" signature="2198:2312" ph="/// Maximum distance at which the pointer can collide with an object. ... " />
-                <marker date="1520441528771" expanded="true" signature="2391:2902" ph="/// The LayerMasks, in prioritized order, that are used to determine the HitObject when raycasting. ... " />
-                <marker date="1520441528771" expanded="true" signature="3510:8698" ph="Data" />
-                <marker date="1520441528771" expanded="true" signature="3573:6536" ph="{...}" />
-                <marker date="1520441528771" expanded="true" signature="3759:4059" ph="{...}" />
-                <marker date="1520441528771" expanded="true" signature="3793:4045" ph="{...}" />
-                <marker date="1520441528771" expanded="true" signature="3856:3986" ph="{...}" />
-                <marker date="1520441528771" expanded="true" signature="4123:4200" ph="{...}" />
-                <marker date="1520441528771" expanded="true" signature="4372:4453" ph="{...}" />
-                <marker date="1520441528771" expanded="true" signature="4541:4958" ph="{...}" />
-                <marker date="1520441528771" expanded="true" signature="4790:4943" ph="{...}" />
-                <marker date="1520441528771" expanded="true" signature="5068:5538" ph="{...}" />
-                <marker date="1520441528771" expanded="true" signature="5099:5228" ph="/* We do not update the PreviousEndObject here because ... */" />
-                <marker date="1520441528771" expanded="true" signature="5377:5523" ph="{...}" />
-                <marker date="1520441528771" expanded="true" signature="5587:6106" ph="{...}" />
-                <marker date="1520441528771" expanded="true" signature="5937:6091" ph="{...}" />
-                <marker date="1520441528771" expanded="true" signature="6184:6526" ph="{...}" />
-                <marker date="1520441528771" expanded="true" signature="6239:6321" ph="{...}" />
-                <marker date="1520441528771" expanded="true" signature="6378:6511" ph="{...}" />
-                <marker date="1520441528771" expanded="true" signature="6627:6970" ph="/// GazeManager is a little special, so we keep track of it even if it's not a registered pointer. For the sake ... " />
-                <marker date="1520441528771" expanded="true" signature="7502:7676" ph="/// Cached vector 3 reference to the new raycast position. ... " />
-                <marker date="1520441528771" expanded="true" signature="7747:7855" ph="/// Private uiRaycastCamera used primarily for UI pointer data. ... " />
-                <marker date="1520441528771" expanded="true" signature="7930:8138" ph="/// The Camera the Event System uses to raycast against. ... " />
-                <marker date="1520441528771" expanded="true" signature="8176:8678" ph="{...}" />
-                <marker date="1520441528771" expanded="true" signature="8202:8668" ph="{...}" />
-                <marker date="1520441528771" expanded="true" signature="8261:8613" ph="{...}" />
-                <marker date="1520441528771" expanded="true" signature="8708:15538" ph="Accessors" />
-                <marker date="1520441528771" expanded="true" signature="8794:10014" ph="{...}" />
-                <marker date="1520441528771" expanded="true" signature="9037:9163" ph="{...}" />
-                <marker date="1520441528771" expanded="true" signature="9211:9864" ph="{...}" />
-                <marker date="1520441528771" expanded="true" signature="9278:9498" ph="{...}" />
-                <marker date="1520441528771" expanded="true" signature="9347:9480" ph="{...}" />
-                <marker date="1520441528771" expanded="true" signature="9519:9735" ph="{...}" />
-                <marker date="1520441528771" expanded="true" signature="9881:9968" ph="{...}" />
-                <marker date="1520441528771" expanded="true" signature="10085:11529" ph="{...}" />
-                <marker date="1520441528771" expanded="true" signature="10778:11519" ph="{...}" />
-                <marker date="1520441528771" expanded="true" signature="10996:11246" ph="{...}" />
-                <marker date="1520441528771" expanded="true" signature="11086:11228" ph="{...}" />
-                <marker date="1520441528771" expanded="true" signature="11304:11401" ph="{...}" />
-                <marker date="1520441528771" expanded="true" signature="11603:11879" ph="{...}" />
-                <marker date="1520441528771" expanded="true" signature="11666:11843" ph="{...}" />
-                <marker date="1520441528771" expanded="true" signature="11749:11829" ph="{...}" />
-                <marker date="1520441528771" expanded="true" signature="11951:12515" ph="{...}" />
-                <marker date="1520441528771" expanded="true" signature="12062:12119" ph="{...}" />
-                <marker date="1520441528771" expanded="true" signature="12618:12984" ph="{...}" />
-                <marker date="1520441528771" expanded="true" signature="12681:12912" ph="{...}" />
-                <marker date="1520441528771" expanded="true" signature="12764:12898" ph="{...}" />
-                <marker date="1520441528771" expanded="true" signature="13061:13342" ph="{...}" />
-                <marker date="1520441528771" expanded="true" signature="13232:13303" ph="{...}" />
-                <marker date="1520441528771" expanded="true" signature="13418:13705" ph="{...}" />
-                <marker date="1520441528771" expanded="true" signature="13576:13660" ph="{...}" />
-                <marker date="1520441528771" expanded="true" signature="13715:13929" ph="/// Checks if exactly one pointer is registered and returns it if so. ... " />
-                <marker date="1520441528771" expanded="true" signature="14005:14242" ph="{...}" />
-                <marker date="1520441528771" expanded="true" signature="14052:14170" ph="{...}" />
-                <marker date="1520441528771" expanded="true" signature="14881:14947" ph="{...}" />
-                <marker date="1520441528771" expanded="true" signature="15011:15094" ph="{...}" />
-                <marker date="1520441528771" expanded="true" signature="15185:15358" ph="{...}" />
-                <marker date="1520441528771" expanded="true" signature="15430:15518" ph="{...}" />
-                <marker date="1520441528771" expanded="true" signature="15548:32869" ph="Utilities" />
-                <marker date="1520441528771" expanded="true" signature="15604:17101" ph="{...}" />
-                <marker date="1520441528771" expanded="true" signature="15739:16611" ph="{...}" />
-                <marker date="1520441528771" expanded="true" signature="15868:15956" ph="{...}" />
-                <marker date="1520441528771" expanded="true" signature="16041:16597" ph="{...}" />
-                <marker date="1520441528771" expanded="true" signature="16201:16354" ph="{...}" />
-                <marker date="1520441528771" expanded="true" signature="16379:16471" ph="{...}" />
-                <marker date="1520441528771" expanded="true" signature="16661:17091" ph="{...}" />
-                <marker date="1520441528771" expanded="true" signature="16831:16927" ph="{...}" />
-                <marker date="1520441528771" expanded="true" signature="17158:19201" ph="{...}" />
-                <marker date="1520441528771" expanded="true" signature="17181:17343" ph="/* Call the pointer's OnPreRaycast function ... */" />
-                <marker date="1520441528771" expanded="true" signature="17543:17730" ph="{...}" />
-                <marker date="1520441528771" expanded="true" signature="17747:18964" ph="{...}" />
-                <marker date="1520441528771" expanded="true" signature="17778:17994" ph="/* If the pointer is locked ... */" />
-                <marker date="1520441528771" expanded="true" signature="18051:18950" ph="{...}" />
-                <marker date="1520441528771" expanded="true" signature="18558:18817" ph="{...}" />
-                <marker date="1520441528771" expanded="true" signature="18978:19139" ph="/* Call the pointer's OnPostRaycast function ... */" />
-                <marker date="1520441528771" expanded="true" signature="19211:19377" ph="/// Perform a Unity physics Raycast to determine which scene objects with a collider is currently being gazed at, ... " />
-                <marker date="1520441528771" expanded="true" signature="19469:20735" ph="{...}" />
-                <marker date="1520441528771" expanded="true" signature="20004:20480" ph="{...}" />
-                <marker date="1520441528771" expanded="true" signature="20129:20466" ph="{...}" />
-                <marker date="1520441528771" expanded="true" signature="20504:20602" ph="{...}" />
-                <marker date="1520441528771" expanded="true" signature="20619:20725" ph="{...}" />
-                <marker date="1520441528771" expanded="true" signature="20852:21650" ph="{...}" />
-                <marker date="1520441528771" expanded="true" signature="21055:21208" ph="{...}" />
-                <marker date="1520441528771" expanded="true" signature="21225:21613" ph="{...}" />
-                <marker date="1520441528771" expanded="true" signature="21519:21599" ph="{...}" />
-                <marker date="1520441528771" expanded="true" signature="21743:23815" ph="{...}" />
-                <marker date="1520441528771" expanded="true" signature="22614:22958" ph="{...}" />
-                <marker date="1520441528771" expanded="true" signature="22781:22944" ph="{...}" />
-                <marker date="1520441528771" expanded="true" signature="23185:23805" ph="{...}" />
-                <marker date="1520441528771" expanded="true" signature="23573:23705" ph="{...}" />
-                <marker date="1520441528771" expanded="true" signature="23994:26379" ph="{...}" />
-                <marker date="1520441528771" expanded="true" signature="24825:26288" ph="{...}" />
-                <marker date="1520441528771" expanded="true" signature="24887:26180" ph="{...}" />
-                <marker date="1520441528771" expanded="true" signature="25013:25894" ph="{...}" />
-                <marker date="1520441528771" expanded="true" signature="25427:25538" ph="{...}" />
-                <marker date="1520441528771" expanded="true" signature="25605:25872" ph="{...}" />
-                <marker date="1520441528771" expanded="true" signature="25723:25846" ph="{...}" />
-                <marker date="1520441528771" expanded="true" signature="25919:26162" ph="{...}" />
-                <marker date="1520441528771" expanded="true" signature="26029:26140" ph="{...}" />
-                <marker date="1520441528771" expanded="true" signature="26424:29004" ph="{...}" />
-                <marker date="1520441528771" expanded="true" signature="26651:26897" ph="/* NOTE: We compute the set of events to send before sending the first event ... */" />
-                <marker date="1520441528771" expanded="true" signature="26972:27750" ph="{...}" />
-                <marker date="1520441528771" expanded="true" signature="27114:27736" ph="{...}" />
-                <marker date="1520441528771" expanded="true" signature="27222:27357" ph="/* Initially, we assume all pointer-specific focus changes will result ... */" />
-                <marker date="1520441528771" expanded="true" signature="27417:27544" ph="{...}" />
-                <marker date="1520441528771" expanded="true" signature="27597:27718" ph="{...}" />
-                <marker date="1520441528771" expanded="true" signature="27941:28179" ph="{...}" />
-                <marker date="1520441528771" expanded="true" signature="28289:28363" ph="{...}" />
-                <marker date="1520441528771" expanded="true" signature="28434:28510" ph="{...}" />
-                <marker date="1520441528771" expanded="true" signature="28607:28841" ph="{...}" />
-                <marker date="1520441528771" expanded="true" signature="29077:29339" ph="{...}" />
-                <marker date="1520441528771" expanded="true" signature="29255:29329" ph="{...}" />
-                <marker date="1520441528771" expanded="true" signature="29411:29671" ph="{...}" />
-                <marker date="1520441528771" expanded="true" signature="29588:29661" ph="{...}" />
-                <marker date="1520441528771" expanded="true" signature="29815:30126" ph="{...}" />
-                <marker date="1520441528771" expanded="true" signature="29998:30116" ph="{...}" />
-                <marker date="1520441528771" expanded="true" signature="30224:30515" ph="{...}" />
-                <marker date="1520441528771" expanded="true" signature="30335:30446" ph="{...}" />
-                <marker date="1520441528771" expanded="true" signature="30610:30942" ph="{...}" />
-                <marker date="1520441528771" expanded="true" signature="30673:30874" ph="{...}" />
-                <marker date="1520441528771" expanded="true" signature="30753:30860" ph="{...}" />
-                <marker date="1520441528771" expanded="true" signature="31029:32029" ph="{...}" />
-                <marker date="1520441528771" expanded="true" signature="31073:31130" ph="{...}" />
-                <marker date="1520441528771" expanded="true" signature="31144:31306" ph="/* Return the minimum distance hit within the first layer that has hits. ... */" />
-                <marker date="1520441528771" expanded="true" signature="31395:31993" ph="{...}" />
-                <marker date="1520441528771" expanded="true" signature="31522:31871" ph="{...}" />
-                <marker date="1520441528771" expanded="true" signature="31771:31853" ph="{...}" />
-                <marker date="1520441528771" expanded="true" signature="31908:31979" ph="{...}" />
-                <marker date="1520441528771" expanded="true" signature="32039:32199" ph="/// Helper for assigning world space canvases event cameras. ... " />
-                <marker date="1520441528771" expanded="true" signature="32246:32849" ph="{...}" />
-                <marker date="1520441528771" expanded="true" signature="32600:32839" ph="{...}" />
-                <marker date="1520441528771" expanded="true" signature="32721:32825" ph="{...}" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="MedallionEventTracker.cs" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/Scripts/MedallionEventTracker.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="357">
-              <caret line="77" column="11" lean-forward="false" selection-start-line="77" selection-start-column="11" selection-end-line="77" selection-end-column="11" />
+            <state relative-caret-position="442">
+              <caret line="88" column="33" lean-forward="false" selection-start-line="88" selection-start-column="33" selection-end-line="88" selection-end-column="33" />
               <folding>
-                <marker date="1521217397741" expanded="true" signature="0:256" ph="/* ============================================================================== ... */" />
-                <marker date="1521217397741" expanded="true" signature="264:341" ph="..." />
-                <marker date="1521217397741" expanded="true" signature="343:450" ph="///     A custom handler that implements the ITrackableEventHandler interface. ... " />
-                <marker date="1521217397741" expanded="true" signature="525:3348" ph="{...}" />
-                <marker date="1521217397741" expanded="true" signature="635:766" ph="PRIVATE_MEMBER_VARIABLES" />
-                <marker date="1521217397741" expanded="true" signature="772:1117" ph="UNTIY_MONOBEHAVIOUR_METHODS" />
-                <marker date="1521217397741" expanded="true" signature="843:1070" ph="{...}" />
-                <marker date="1521217397741" expanded="true" signature="1123:2371" ph="PUBLIC_METHODS" />
-                <marker date="1521217397741" expanded="true" signature="1151:1301" ph="///     Implementation of the ITrackableEventHandler function called when the ... " />
-                <marker date="1521217397741" expanded="true" signature="1437:2337" ph="{...}" />
-                <marker date="1521217397741" expanded="true" signature="1637:1772" ph="{...}" />
-                <marker date="1521217397741" expanded="true" signature="1911:2044" ph="{...}" />
-                <marker date="1521217397741" expanded="true" signature="2057:2331" ph="{...}" />
-                <marker date="1521217397741" expanded="true" signature="2080:2291" ph="/* For combo of previousStatus=UNKNOWN + newStatus=UNKNOWN|NOT_FOUND ... */" />
-                <marker date="1521217397741" expanded="true" signature="2377:3346" ph="PRIVATE_METHODS" />
-                <marker date="1521217397741" expanded="true" signature="2446:3244" ph="{...}" />
-                <marker date="1521217397741" expanded="true" signature="2754:2844" ph="/* videoSource.Play(); ... */" />
-                <marker date="1521217397741" expanded="true" signature="2975:3229" ph="/* videoPlayer.transform.position= mTrackableBehaviour.transform.position; ... */" />
-                <marker date="1521217397741" expanded="true" signature="3290:3311" ph="{...}" />
+                <marker date="1521670608505" expanded="true" signature="0:256" ph="/* ============================================================================== ... */" />
+                <marker date="1521670608505" expanded="false" signature="264:341" ph="..." />
+                <marker date="1521670608505" expanded="true" signature="343:450" ph="///     A custom handler that implements the ITrackableEventHandler interface. ... " />
+                <marker date="1521670608505" expanded="true" signature="525:3440" ph="{...}" />
+                <marker date="1521670608505" expanded="true" signature="668:799" ph="PRIVATE_MEMBER_VARIABLES" />
+                <marker date="1521670608505" expanded="true" signature="805:1307" ph="UNTIY_MONOBEHAVIOUR_METHODS" />
+                <marker date="1521670608505" expanded="true" signature="876:1260" ph="{...}" />
+                <marker date="1521670608505" expanded="true" signature="1313:2561" ph="PUBLIC_METHODS" />
+                <marker date="1521670608505" expanded="true" signature="1341:1491" ph="///     Implementation of the ITrackableEventHandler function called when the ... " />
+                <marker date="1521670608505" expanded="true" signature="1627:2527" ph="{...}" />
+                <marker date="1521670608505" expanded="true" signature="1827:1962" ph="{...}" />
+                <marker date="1521670608505" expanded="true" signature="2101:2234" ph="{...}" />
+                <marker date="1521670608505" expanded="true" signature="2247:2521" ph="{...}" />
+                <marker date="1521670608505" expanded="true" signature="2270:2481" ph="/* For combo of previousStatus=UNKNOWN + newStatus=UNKNOWN|NOT_FOUND ... */" />
+                <marker date="1521670608505" expanded="true" signature="2567:3438" ph="PRIVATE_METHODS" />
+                <marker date="1521670608505" expanded="true" signature="2636:3344" ph="{...}" />
+                <marker date="1521670608505" expanded="true" signature="2850:3329" ph="/* videoSource.Play(); ... */" />
+                <marker date="1521670608505" expanded="true" signature="3382:3403" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="VideoLogic.cs" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Assets/Scripts/VideoLogic.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="714">
+              <caret line="78" column="30" lean-forward="false" selection-start-line="78" selection-start-column="30" selection-end-line="78" selection-end-column="30" />
+              <folding>
+                <marker date="1521670887409" expanded="false" signature="6:216" ph="..." />
+                <marker date="1521670887409" expanded="true" signature="257:2006" ph="{...}" />
+                <marker date="1521670887409" expanded="true" signature="660:821" ph="{...}" />
+                <marker date="1521670887409" expanded="true" signature="845:996" ph="{...}" />
+                <marker date="1521670887409" expanded="true" signature="1023:1114" ph="{...}" />
+                <marker date="1521670887409" expanded="true" signature="1162:1277" ph="{...}" />
+                <marker date="1521670887409" expanded="true" signature="1279:1361" ph="/* private void VideoStopped(VideoPlayer source) ... */" />
+                <marker date="1521670887409" expanded="true" signature="1399:1663" ph="{...}" />
+                <marker date="1521670887409" expanded="true" signature="1690:2004" ph="{...}" />
+                <marker date="1521670887409" expanded="true" signature="1785:1909" ph="{...}" />
+                <marker date="1521670887409" expanded="true" signature="1916:2001" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -338,134 +96,22 @@
       <file leaf-file-name="VideoTagalong.cs" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/Scripts/VideoTagalong.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1088">
-              <caret line="64" column="13" lean-forward="false" selection-start-line="64" selection-start-column="13" selection-end-line="64" selection-end-column="13" />
+            <state relative-caret-position="748">
+              <caret line="90" column="46" lean-forward="false" selection-start-line="90" selection-start-column="46" selection-end-line="90" selection-end-column="46" />
               <folding>
-                <marker date="1520442683529" expanded="true" signature="0:152" ph="/* Copyright (c) Microsoft Corporation. All rights reserved. ... */" />
-                <marker date="1520442683529" expanded="true" signature="201:3034" ph="{...}" />
-                <marker date="1520442683529" expanded="true" signature="208:411" ph="/// A Tagalong that stays at a fixed distance from the camera and always ... " />
-                <marker date="1520442683529" expanded="true" signature="458:3032" ph="{...}" />
-                <marker date="1520442683529" expanded="true" signature="667:840" ph="/// When moving, use unscaled time. This is useful for games that have a pause mechanism or otherwise adjust the  ... " />
-                <marker date="1520442683529" expanded="true" signature="1066:1216" ph="/// Used to initialize the initial position of the SphereBasedTagalong before being hidden on LateUpdate. ... " />
-                <marker date="1520442683529" expanded="true" signature="1858:1991" ph="{...}" />
-                <marker date="1520442683529" expanded="true" signature="2022:2656" ph="{...}" />
-                <marker date="1520442683529" expanded="true" signature="2285:2646" ph="{...}" />
-                <marker date="1520442683529" expanded="true" signature="2691:2857" ph="{...}" />
-                <marker date="1520442683529" expanded="true" signature="2730:2847" ph="{...}" />
-                <marker date="1520442683529" expanded="true" signature="2891:2941" ph="{...}" />
-                <marker date="1520442683529" expanded="true" signature="2974:3026" ph="{...}" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Interactive.cs" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Assets/HoloToolkit-Examples/UX/Scripts/Interactive.cs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="3961">
-              <caret line="269" column="34" lean-forward="false" selection-start-line="269" selection-start-column="34" selection-end-line="269" selection-end-column="34" />
-              <folding>
-                <marker date="1521146674004" expanded="true" signature="0:152" ph="/* Copyright (c) Microsoft Corporation. All rights reserved. ... */" />
-                <marker date="1521146674004" expanded="false" signature="160:342" ph="..." />
-                <marker date="1521146674004" expanded="true" signature="401:16649" ph="{...}" />
-                <marker date="1521146674004" expanded="true" signature="408:942" ph="/// Interactive exposes basic button type events to the Unity Editor and receives messages from the GestureManage ... " />
-                <marker date="1521146674004" expanded="true" signature="1034:16647" ph="{...}" />
-                <marker date="1521146674004" expanded="true" signature="1091:1174" ph="/// Should the button listen to input? ... " />
-                <marker date="1521146674004" expanded="true" signature="1222:1312" ph="/// Does the GameObject currently have focus? ... " />
-                <marker date="1521146674004" expanded="true" signature="1374:1462" ph="/// Is the Tap currently in the down state? ... " />
-                <marker date="1521146674004" expanded="true" signature="1524:1617" ph="/// Should the button care about click and hold? ... " />
-                <marker date="1521146674004" expanded="true" signature="1667:1771" ph="/// Configure the amount to time for the hold event to fire ... " />
-                <marker date="1521146674004" expanded="true" signature="1819:2041" ph="/// Configure the amount of time a roll off update should incur. When building more advanced UI, ... " />
-                <marker date="1521146674004" expanded="true" signature="2093:2219" ph="/// Current selected state, can be set from the Unity Editor for default behavior ... " />
-                <marker date="1521146674004" expanded="true" signature="2517:2586" ph="/// Exposed Unity Events ... " />
-                <marker date="1521146674004" expanded="true" signature="2716:2988" ph="/// A button typically has 8 potential states. ... " />
-                <marker date="1521146674004" expanded="true" signature="3196:3251" ph="/// Timers ... " />
-                <marker date="1521146674004" expanded="true" signature="3639:3776" ph="/// Internal comparison variables to allow for live state updates no matter the input method ... " />
-                <marker date="1521146674004" expanded="true" signature="4150:4336" ph="{...}" />
-                <marker date="1521146674004" expanded="true" signature="4198:4274" ph="{...}" />
-                <marker date="1521146674004" expanded="true" signature="4346:4429" ph="/// Set default visual states on Start ... " />
-                <marker date="1521146674004" expanded="true" signature="4468:5460" ph="{...}" />
-                <marker date="1521146674004" expanded="true" signature="4509:5339" ph="{...}" />
-                <marker date="1521146674004" expanded="true" signature="4629:4974" ph="{...}" />
-                <marker date="1521146674004" expanded="true" signature="4843:4956" ph="{...}" />
-                <marker date="1521146674004" expanded="true" signature="5055:5317" ph="{...}" />
-                <marker date="1521146674004" expanded="true" signature="5470:5542" ph="/// An OnTap event occurred ... " />
-                <marker date="1521146674004" expanded="true" signature="5618:5949" ph="{...}" />
-                <marker date="1521146674004" expanded="true" signature="5656:5708" ph="{...}" />
-                <marker date="1521146674004" expanded="true" signature="5780:5871" ph="{...}" />
-                <marker date="1521146674004" expanded="true" signature="5959:6036" ph="/// The gameObject received gaze ... " />
-                <marker date="1521146674004" expanded="true" signature="6079:6316" ph="{...}" />
-                <marker date="1521146674004" expanded="true" signature="6156:6208" ph="{...}" />
-                <marker date="1521146674004" expanded="true" signature="6326:6408" ph="/// The gameObject no longer has gaze ... " />
-                <marker date="1521146674004" expanded="true" signature="6450:6703" ph="{...}" />
-                <marker date="1521146674004" expanded="true" signature="6757:8055" ph="{...}" />
-                <marker date="1521146674004" expanded="false" signature="6829:7529" ph="{...}" />
-                <marker date="1521146674004" expanded="false" signature="7546:8038" ph="{...}" />
-                <marker date="1521146674004" expanded="true" signature="8065:8263" ph="/// shortcut to set title ... " />
-                <marker date="1521146674004" expanded="true" signature="8306:8683" ph="{...}" />
-                <marker date="1521146674004" expanded="true" signature="8423:8493" ph="{...}" />
-                <marker date="1521146674004" expanded="true" signature="8606:8673" ph="{...}" />
-                <marker date="1521146674004" expanded="true" signature="8693:8778" ph="/// The user is initiating a tap or hold ... " />
-                <marker date="1521146674004" expanded="true" signature="8844:9233" ph="{...}" />
-                <marker date="1521146674004" expanded="true" signature="8919:8971" ph="{...}" />
-                <marker date="1521146674004" expanded="true" signature="9064:9159" ph="{...}" />
-                <marker date="1521146674004" expanded="true" signature="9243:9339" ph="/// All tab, hold, and gesture events are completed ... " />
-                <marker date="1521146674004" expanded="true" signature="9403:9616" ph="{...}" />
-                <marker date="1521146674004" expanded="true" signature="9626:9702" ph="/// The hold timer has finished ... " />
-                <marker date="1521146674004" expanded="true" signature="9739:9890" ph="{...}" />
-                <marker date="1521146674004" expanded="true" signature="9900:10034" ph="/// The percentage of hold time completed ... " />
-                <marker date="1521146674004" expanded="true" signature="10075:10137" ph="{...}" />
-                <marker date="1521146674004" expanded="true" signature="10180:10260" ph="{...}" />
-                <marker date="1521146674004" expanded="true" signature="10327:11045" ph="{...}" />
-                <marker date="1521146674004" expanded="true" signature="10404:11035" ph="{...}" />
-                <marker date="1521146674004" expanded="true" signature="10460:10575" ph="{...}" />
-                <marker date="1521146674004" expanded="true" signature="10643:11021" ph="{...}" />
-                <marker date="1521146674004" expanded="true" signature="10733:10848" ph="{...}" />
-                <marker date="1521146674004" expanded="true" signature="10873:11003" ph="{...}" />
-                <marker date="1521146674004" expanded="true" signature="11055:11181" ph="/// Loop through all InteractiveEffects on child elements and update their states ... " />
-                <marker date="1521146674004" expanded="true" signature="11220:11917" ph="{...}" />
-                <marker date="1521146674004" expanded="true" signature="11408:11907" ph="{...}" />
-                <marker date="1521146674004" expanded="true" signature="11646:11893" ph="{...}" />
-                <marker date="1521146674004" expanded="true" signature="11979:12218" ph="{...}" />
-                <marker date="1521146674004" expanded="true" signature="12073:12125" ph="{...}" />
-                <marker date="1521146674004" expanded="true" signature="12282:12427" ph="{...}" />
-                <marker date="1521146674004" expanded="true" signature="12337:12417" ph="{...}" />
-                <marker date="1521146674004" expanded="true" signature="12566:12933" ph="{...}" />
-                <marker date="1521146674004" expanded="true" signature="12769:12923" ph="{...}" />
-                <marker date="1521146674004" expanded="true" signature="12831:12909" ph="{...}" />
-                <marker date="1521146674004" expanded="true" signature="12950:13069" ph="/// Check if any state changes have occurred, from alternate input sources ... " />
-                <marker date="1521146674004" expanded="true" signature="13108:15188" ph="{...}" />
-                <marker date="1521146674004" expanded="true" signature="13145:14810" ph="{...}" />
-                <marker date="1521146674004" expanded="true" signature="13221:14010" ph="{...}" />
-                <marker date="1521146674004" expanded="true" signature="13272:13622" ph="{...}" />
-                <marker date="1521146674004" expanded="true" signature="13331:13451" ph="{...}" />
-                <marker date="1521146674004" expanded="true" signature="13480:13600" ph="{...}" />
-                <marker date="1521146674004" expanded="true" signature="13647:13992" ph="{...}" />
-                <marker date="1521146674004" expanded="true" signature="13706:13826" ph="{...}" />
-                <marker date="1521146674004" expanded="true" signature="13855:13970" ph="{...}" />
-                <marker date="1521146674004" expanded="true" signature="14031:14795" ph="{...}" />
-                <marker date="1521146674004" expanded="true" signature="14082:14416" ph="{...}" />
-                <marker date="1521146674004" expanded="true" signature="14141:14253" ph="{...}" />
-                <marker date="1521146674004" expanded="true" signature="14282:14394" ph="{...}" />
-                <marker date="1521146674004" expanded="true" signature="14441:14777" ph="{...}" />
-                <marker date="1521146674004" expanded="true" signature="14500:14612" ph="{...}" />
-                <marker date="1521146674004" expanded="true" signature="14641:14755" ph="{...}" />
-                <marker date="1521146674004" expanded="true" signature="14827:15098" ph="{...}" />
-                <marker date="1521146674004" expanded="true" signature="14873:14972" ph="{...}" />
-                <marker date="1521146674004" expanded="true" signature="14993:15084" ph="{...}" />
-                <marker date="1521146674004" expanded="true" signature="15198:15279" ph="/// Run timers and check for updates ... " />
-                <marker date="1521146674004" expanded="true" signature="15319:16201" ph="{...}" />
-                <marker date="1521146674004" expanded="true" signature="15372:15675" ph="{...}" />
-                <marker date="1521146674004" expanded="true" signature="15435:15524" ph="{...}" />
-                <marker date="1521146674004" expanded="true" signature="15545:15661" ph="{...}" />
-                <marker date="1521146674004" expanded="true" signature="15703:15987" ph="{...}" />
-                <marker date="1521146674004" expanded="true" signature="15760:15846" ph="{...}" />
-                <marker date="1521146674004" expanded="true" signature="15867:15973" ph="{...}" />
-                <marker date="1521146674004" expanded="true" signature="16089:16150" ph="{...}" />
-                <marker date="1521146674004" expanded="true" signature="16245:16304" ph="{...}" />
-                <marker date="1521146674004" expanded="true" signature="16347:16550" ph="{...}" />
-                <marker date="1521146674004" expanded="true" signature="16463:16533" ph="{...}" />
-                <marker date="1521146674004" expanded="true" signature="16594:16641" ph="{...}" />
+                <marker date="1521657885039" expanded="true" signature="0:152" ph="/* Copyright (c) Microsoft Corporation. All rights reserved. ... */" />
+                <marker date="1521657885039" expanded="true" signature="201:3346" ph="{...}" />
+                <marker date="1521657885039" expanded="true" signature="208:411" ph="/// A Tagalong that stays at a fixed distance from the camera and always ... " />
+                <marker date="1521657885039" expanded="true" signature="458:3344" ph="{...}" />
+                <marker date="1521657885039" expanded="true" signature="667:840" ph="/// When moving, use unscaled time. This is useful for games that have a pause mechanism or otherwise adjust the  ... " />
+                <marker date="1521657885039" expanded="true" signature="1066:1216" ph="/// Used to initialize the initial position of the SphereBasedTagalong before being hidden on LateUpdate. ... " />
+                <marker date="1521657885039" expanded="true" signature="1901:2287" ph="{...}" />
+                <marker date="1521657885039" expanded="true" signature="2318:2952" ph="{...}" />
+                <marker date="1521657885039" expanded="true" signature="2581:2942" ph="{...}" />
+                <marker date="1521657885039" expanded="true" signature="2987:3153" ph="{...}" />
+                <marker date="1521657885039" expanded="true" signature="3026:3143" ph="{...}" />
+                <marker date="1521657885039" expanded="true" signature="3187:3237" ph="{...}" />
+                <marker date="1521657885039" expanded="true" signature="3270:3338" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -527,54 +173,56 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/Assets/HoloToolkit/Input/Scripts/Cursor/Cursor.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/UILogic.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/HoloToolkit/Sharing/Scripts/SDK/SharingManager.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Positioning.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/HoloToolkit/Sharing/Scripts/Extensions/SessionExtensions.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/MedallionEventTracker.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/HoloToolkit/Utilities/Scripts/Billboard.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/HoloToolkit-Sharing-240/Sharing/Scripts/SDK/DiscoveryClientListener.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/HoloToolkit/Sharing/Scripts/Utilities/ConsoleLogWriter.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/HoloToolkit/Utilities/Scripts/Extensions/ComponentExtensions.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/HoloToolkit/Sharing/Scripts/Utilities/DirectPairing.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/HoloToolkit/Sharing/Scripts/Utilities/ManualIpConfiguration.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/ImportExportAnchorManager.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/HoloToolkit/Sharing/Scripts/Utilities/AutoJoinSessionAndRoom.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/HoloToolkit-Examples/Sharing/SharingService/Scripts/SyncObjectSpawner.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/HoloToolkit/Input/Scripts/Utilities/SetGlobalListener.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/HoloToolkit-Examples/Sharing/SharingService/Scripts/ImportExportAnchorManager.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/HoloToolkit-Sharing-240/Input/CursorManager.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/HoloToolkit/Sharing/Scripts/SyncModel/SyncPrimitive.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/MicListener.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/HoloToolkit-Sharing-240/Sharing/Scripts/SharingSessionTracker.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/HoloToolkit-Sharing-240/Sharing/Scripts/SharingStage.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/HoloToolkit/Sharing/Scripts/SyncModel/SyncObject.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/HoloToolkit/Sharing/Scripts/Spawning/SpawnManager.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/963E7EA8-65A3-4B38-BE41-4D0DBF4A422D/80/6b078ca7/ITrackableEventHandler.cs" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/Assets/HoloToolkit/Sharing/Scripts/Spawning/PrefabSpawnManager.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/HoloToolkit/Sharing/Scripts/Spawning/SyncSpawnedObject.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/HoloToolkit/Input/Scripts/Cursor/ObjectCursor.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/HoloToolkit/Sharing/Scripts/Editor/SharingMenu.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/HoloToolkit/Sharing/Scripts/Unity/ISyncModelAccessor.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/HoloToolkit/Sharing/Scripts/Unity/TransformSynchronizer.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/HoloToolkit/Sharing/Scripts/Unity/DefaultSyncModelAccessor.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Placeable.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/SetStatusColor.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/HoloToolkit/Input/Scripts/Cursor/Cursor.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/UILogic.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/HoloToolkit/Sharing/Scripts/SDK/SharingManager.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/HoloToolkit/Utilities/Scripts/Billboard.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/HoloToolkit-Sharing-240/Sharing/Scripts/SDK/DiscoveryClientListener.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/HoloToolkit/Utilities/Scripts/Extensions/ComponentExtensions.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/HoloToolkit-Examples/Sharing/SharingService/Scripts/SyncObjectSpawner.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/HoloToolkit-Examples/Sharing/SharingService/Scripts/ImportExportAnchorManager.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/HoloToolkit/Input/Scripts/Focus/SimpleSinglePointerSelector.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/HoloToolkit/Utilities/Scripts/Singleton.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/HoloToolkit/Sharing/Scripts/SyncModel/SyncPrimitive.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/HoloToolkit/SharingWithUNET/Scripts/UNetAnchorManager.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/HoloToolkit/Sharing/Scripts/SharingStage.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Moveable.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/HoloToolkit/Input/Scripts/Focus/FocusManager.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/CustomMessages.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/MicListener.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/HoloToolkit-Sharing-240/Sharing/Scripts/SharingSessionTracker.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/HoloToolkit-Examples/UX/Scripts/Interactive.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/HoloToolkit-Sharing-240/Sharing/Scripts/SharingStage.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/HoloToolkit/Sharing/Scripts/SyncModel/SyncObject.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/HoloToolkit-Sharing-240/Utilities/Singleton.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/HoloToolkit/Sharing/Scripts/Spawning/SpawnManager.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/HoloToolkit/Sharing/Scripts/Spawning/PrefabSpawnManager.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/HoloToolkit/Sharing/Scripts/Spawning/SyncSpawnedObject.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/HoloToolkit/Input/Scripts/Cursor/ObjectCursor.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/HoloToolkit/Sharing/Scripts/Editor/SharingMenu.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/HoloToolkit/Input/Scripts/Utilities/Interactions/CustomInputControl.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/HoloToolkit/Sharing/Scripts/Unity/ISyncModelAccessor.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/HoloToolkit/Sharing/Scripts/Unity/TransformSynchronizer.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/HoloToolkit-Examples/SpatialUnderstanding/Scripts/LevelSolver.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/HoloToolkit/Sharing/Scripts/Unity/DefaultSyncModelAccessor.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/VideoTagalong.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/../SharedHolograms/SharedHolograms/Assets/Holograms/Support/PlayerAvatar/PlayerAvatarStore.cs" root0="SKIP_INSPECTION" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Placeable.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/VideoLogic.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/SetStatusColor.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/SceneManagement.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/FloatBehavior.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -591,8 +239,11 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/SceneManagement.cs" />
         <option value="$PROJECT_DIR$/Assets/HoloToolkit/Utilities/Scripts/Billboard.cs" />
         <option value="$PROJECT_DIR$/Assets/HoloToolkit-Examples/UX/Scripts/Interactive.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/MedallionEventTracker.cs" />
         <option value="$PROJECT_DIR$/Assets/HoloToolkit/Input/Scripts/Cursor/Cursor.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/VideoTagalong.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/FloatBehavior.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/MedallionEventTracker.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/VideoLogic.cs" />
       </list>
     </option>
   </component>
@@ -689,7 +340,7 @@
     </option>
   </component>
   <component name="RunManager">
-    <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" pid="17528" />
+    <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" />
   </component>
   <component name="ShelveChangesManager" show_recycled="false">
     <option name="remove_strategy" value="false" />
@@ -710,11 +361,12 @@
       <workItem from="1521039482934" duration="6973000" />
       <workItem from="1521127845918" duration="9044000" />
       <workItem from="1521214304557" duration="3066000" />
+      <workItem from="1521644037674" duration="8788000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="43472000" />
+    <option name="totallyTimeSpent" value="52260000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -731,18 +383,18 @@
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Errors In Solution" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32979852" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Unit Tests" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="NuGet" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3997879" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3997879" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -787,105 +439,10 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Assets/HoloToolkit/Sharing/Scripts/Editor/SharingMenu.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="15" column="72" lean-forward="false" selection-start-line="15" selection-start-column="72" selection-end-line="15" selection-end-column="72" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/ImportExportAnchorManager.cs" />
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/Placeable.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2635">
           <caret line="157" column="14" lean-forward="false" selection-start-line="157" selection-start-column="14" selection-end-line="157" selection-end-column="14" />
-          <folding>
-            <marker date="1520547082608" expanded="false" signature="6:89" ph="..." />
-            <marker date="1520547082608" expanded="true" signature="126:320" ph="/// Enumeration containing the surfaces on which a GameObject ... " />
-            <marker date="1520547082608" expanded="true" signature="350:510" ph="{...}" />
-            <marker date="1520547082608" expanded="true" signature="512:1139" ph="/// The Placeable class implements the logic used to determine if a GameObject ... " />
-            <marker date="1520547082608" expanded="true" signature="2089:2188" ph="/// Indicates if the object is in the process of being placed. ... " />
-            <marker date="1520547082608" expanded="true" signature="2242:2406" ph="/* The most recent distance to the surface.  This is used to ... */" />
-            <marker date="1520547082608" expanded="true" signature="2896:3046" ph="/* Maximum distance, from the object, that placement is allowed. ... */" />
-            <marker date="1520547082608" expanded="true" signature="3367:3502" ph="/* The box collider used to determine of the object will fit in the desired location. ... */" />
-            <marker date="1520547082608" expanded="true" signature="3552:3671" ph="/* Visible asset used to show the dimensions of the object. This asset is sized ... */" />
-            <marker date="1520547082608" expanded="true" signature="3720:3858" ph="/* Visible asset used to show the where the object is attempting to be placed. ... */" />
-            <marker date="1520547082608" expanded="true" signature="4000:4079" ph="/// Called when the GameObject is created. ... " />
-            <marker date="1520547082608" expanded="true" signature="4104:5076" ph="{...}" />
-            <marker date="1520547082608" expanded="true" signature="4300:4583" ph="{...}" />
-            <marker date="1520547082608" expanded="true" signature="4323:4426" ph="/* The object does not have a collider, create one and remember that ... */" />
-            <marker date="1520547082608" expanded="true" signature="5082:5219" ph="/// Called when our object is selected.  Generally called by ... " />
-            <marker date="1520547082608" expanded="true" signature="5246:5438" ph="{...}" />
-            <marker date="1520547082608" expanded="true" signature="5316:5368" ph="{...}" />
-            <marker date="1520547082608" expanded="true" signature="5381:5432" ph="{...}" />
-            <marker date="1520547082608" expanded="true" signature="5444:5507" ph="/// Called once per frame. ... " />
-            <marker date="1520547082608" expanded="true" signature="5533:6767" ph="{...}" />
-            <marker date="1520547082608" expanded="true" signature="5602:5988" ph="{...}" />
-            <marker date="1520547082608" expanded="true" signature="6001:6761" ph="{...}" />
-            <marker date="1520547082608" expanded="true" signature="6317:6480" ph="{...}" />
-            <marker date="1520547082608" expanded="true" signature="6497:6751" ph="{...}" />
-            <marker date="1520547082608" expanded="true" signature="6646:6737" ph="{...}" />
-            <marker date="1520547082608" expanded="true" signature="6773:7202" ph="/// Verify whether or not the object can be placed. ... " />
-            <marker date="1520547082608" expanded="true" signature="7286:9586" ph="{...}" />
-            <marker date="1520547082608" expanded="true" signature="7420:7598" ph="{...}" />
-            <marker date="1520547082608" expanded="true" signature="7443:7542" ph="/* Placing on horizontal surfaces. ... */" />
-            <marker date="1520547082608" expanded="true" signature="7775:7876" ph="/* The origin points we receive are in local space and we ... */" />
-            <marker date="1520547082608" expanded="true" signature="7928:8061" ph="{...}" />
-            <marker date="1520547082608" expanded="true" signature="8380:8492" ph="{...}" />
-            <marker date="1520547082608" expanded="true" signature="8773:9558" ph="{...}" />
-            <marker date="1520547082608" expanded="true" signature="9057:9399" ph="{...}" />
-            <marker date="1520547082608" expanded="true" signature="9088:9234" ph="/* To be a valid placement location, each of the corners must have a similar ... */" />
-            <marker date="1520547082608" expanded="true" signature="9315:9385" ph="{...}" />
-            <marker date="1520547082608" expanded="true" signature="9416:9548" ph="{...}" />
-            <marker date="1520547082608" expanded="true" signature="9592:9862" ph="/// Determine the coordinates, in local space, of the box collider face that  ... " />
-            <marker date="1520547082608" expanded="true" signature="9908:11456" ph="{...}" />
-            <marker date="1520547082608" expanded="true" signature="9923:10003" ph="/* Get the collider extents. ... */" />
-            <marker date="1520547082608" expanded="true" signature="10635:10998" ph="{...}" />
-            <marker date="1520547082608" expanded="true" signature="11011:11372" ph="{...}" />
-            <marker date="1520547082608" expanded="true" signature="11462:11538" ph="/// Put the object into placement mode. ... " />
-            <marker date="1520547082608" expanded="true" signature="11573:12160" ph="{...}" />
-            <marker date="1520547082608" expanded="true" signature="11668:11728" ph="{...}" />
-            <marker date="1520547082608" expanded="true" signature="11846:11914" ph="{...}" />
-            <marker date="1520547082608" expanded="true" signature="11924:12128" ph="/* Tell the gesture manager that it is to assume ... */" />
-            <marker date="1520547082608" expanded="true" signature="12166:12512" ph="/// Take the object out of placement mode. ... " />
-            <marker date="1520547082608" expanded="true" signature="12546:13430" ph="{...}" />
-            <marker date="1520547082608" expanded="true" signature="12798:12838" ph="{...}" />
-            <marker date="1520547082608" expanded="true" signature="12848:12953" ph="/* The object is allowed to be placed. ... */" />
-            <marker date="1520547082608" expanded="true" signature="13149:13210" ph="{...}" />
-            <marker date="1520547082608" expanded="true" signature="13220:13397" ph="/* Tell the gesture manager that it is to resume ... */" />
-            <marker date="1520547082608" expanded="true" signature="13436:13720" ph="/// Positions the object along the surface toward which the user is gazing. ... " />
-            <marker date="1520547082608" expanded="true" signature="13744:15403" ph="{...}" />
-            <marker date="1520547082608" expanded="true" signature="14153:14643" ph="{...}" />
-            <marker date="1520547082608" expanded="true" signature="14227:14354" ph="/* Place the object a small distance away from the surface while keeping ... */" />
-            <marker date="1520547082608" expanded="true" signature="14405:14470" ph="{...}" />
-            <marker date="1520547082608" expanded="true" signature="14656:14925" ph="{...}" />
-            <marker date="1520547082608" expanded="true" signature="14679:14813" ph="/* The raycast failed to hit a surface.  In this case, keep the object at the distance of the last ... */" />
-            <marker date="1520547082608" expanded="true" signature="15174:15355" ph="/* Orient the object. ... */" />
-            <marker date="1520547082608" expanded="true" signature="15409:15984" ph="/// Orients the object so that it faces the user. ... " />
-            <marker date="1520547082608" expanded="true" signature="16066:16899" ph="{...}" />
-            <marker date="1520547082608" expanded="true" signature="16149:16267" ph="/* If the user's gaze does not intersect with the Spatial Mapping mesh, ... */" />
-            <marker date="1520547082608" expanded="true" signature="16355:16751" ph="{...}" />
-            <marker date="1520547082608" expanded="true" signature="16378:16562" ph="/* We are placing on a vertical surface. ... */" />
-            <marker date="1520547082608" expanded="true" signature="16633:16741" ph="{...}" />
-            <marker date="1520547082608" expanded="true" signature="16764:16842" ph="{...}" />
-            <marker date="1520547082608" expanded="true" signature="16905:17090" ph="/// Displays the bounds asset. ... " />
-            <marker date="1520547082608" expanded="true" signature="17139:17799" ph="{...}" />
-            <marker date="1520547082608" expanded="true" signature="17483:17594" ph="{...}" />
-            <marker date="1520547082608" expanded="true" signature="17607:17721" ph="{...}" />
-            <marker date="1520547082608" expanded="true" signature="17805:18228" ph="/// Displays the placement shadow asset. ... " />
-            <marker date="1520547082608" expanded="true" signature="18374:19717" ph="{...}" />
-            <marker date="1520547082608" expanded="true" signature="18585:18739" ph="{...}" />
-            <marker date="1520547082608" expanded="true" signature="18752:18837" ph="{...}" />
-            <marker date="1520547082608" expanded="true" signature="19065:19176" ph="{...}" />
-            <marker date="1520547082608" expanded="true" signature="19189:19303" ph="{...}" />
-            <marker date="1520547082608" expanded="true" signature="19399:19636" ph="{...}" />
-            <marker date="1520547082608" expanded="true" signature="19649:19711" ph="{...}" />
-            <marker date="1520547082608" expanded="true" signature="19723:20093" ph="/// Determines if two distance values should be considered equivalent.  ... " />
-            <marker date="1520547082608" expanded="true" signature="20151:20248" ph="{...}" />
-            <marker date="1520547082608" expanded="true" signature="20254:20334" ph="/// Called when the GameObject is unloaded. ... " />
-            <marker date="1520547082608" expanded="true" signature="20363:20534" ph="{...}" />
-            <marker date="1520547082608" expanded="true" signature="20599:20631" ph="{...}" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1115,27 +672,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Scripts/VideoLogic.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <marker date="1520460324696" expanded="false" signature="6:216" ph="..." />
-            <marker date="1520460324696" expanded="true" signature="257:1165" ph="{...}" />
-            <marker date="1520460324696" expanded="true" signature="564:618" ph="{...}" />
-            <marker date="1520460324696" expanded="true" signature="656:822" ph="{...}" />
-            <marker date="1520460324696" expanded="true" signature="849:1163" ph="{...}" />
-            <marker date="1520460324696" expanded="true" signature="944:1068" ph="{...}" />
-            <marker date="1520460324696" expanded="true" signature="1075:1160" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../SharedHolograms/SharedHolograms/Assets/Holograms/Support/PlayerAvatar/PlayerAvatarStore.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1802">
           <caret line="106" column="11" lean-forward="false" selection-start-line="106" selection-start-column="11" selection-end-line="110" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1143,14 +683,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="510">
           <caret line="32" column="35" lean-forward="false" selection-start-line="32" selection-start-column="35" selection-end-line="32" selection-end-column="35" />
-          <folding>
-            <marker date="1521139797483" expanded="false" signature="6:78" ph="..." />
-            <marker date="1521139797483" expanded="true" signature="116:1025" ph="{...}" />
-            <marker date="1521139797483" expanded="true" signature="283:842" ph="{...}" />
-            <marker date="1521139797483" expanded="true" signature="452:725" ph="{...}" />
-            <marker date="1521139797483" expanded="true" signature="897:1023" ph="{...}" />
-            <marker date="1521139797483" expanded="true" signature="955:1017" ph="{...}" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1158,93 +690,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="884">
           <caret line="373" column="5" lean-forward="false" selection-start-line="373" selection-start-column="5" selection-end-line="425" selection-end-column="5" />
-          <folding>
-            <marker date="1520547082608" expanded="false" signature="6:89" ph="..." />
-            <marker date="1520547082608" expanded="true" signature="126:320" ph="/// Enumeration containing the surfaces on which a GameObject ... " />
-            <marker date="1520547082608" expanded="true" signature="350:510" ph="{...}" />
-            <marker date="1520547082608" expanded="true" signature="512:1139" ph="/// The Placeable class implements the logic used to determine if a GameObject ... " />
-            <marker date="1520547082608" expanded="true" signature="2089:2188" ph="/// Indicates if the object is in the process of being placed. ... " />
-            <marker date="1520547082608" expanded="true" signature="2242:2406" ph="/* The most recent distance to the surface.  This is used to ... */" />
-            <marker date="1520547082608" expanded="true" signature="2896:3046" ph="/* Maximum distance, from the object, that placement is allowed. ... */" />
-            <marker date="1520547082608" expanded="true" signature="3367:3502" ph="/* The box collider used to determine of the object will fit in the desired location. ... */" />
-            <marker date="1520547082608" expanded="true" signature="3552:3671" ph="/* Visible asset used to show the dimensions of the object. This asset is sized ... */" />
-            <marker date="1520547082608" expanded="true" signature="3720:3858" ph="/* Visible asset used to show the where the object is attempting to be placed. ... */" />
-            <marker date="1520547082608" expanded="true" signature="4000:4079" ph="/// Called when the GameObject is created. ... " />
-            <marker date="1520547082608" expanded="true" signature="4104:5076" ph="{...}" />
-            <marker date="1520547082608" expanded="true" signature="4300:4583" ph="{...}" />
-            <marker date="1520547082608" expanded="true" signature="4323:4426" ph="/* The object does not have a collider, create one and remember that ... */" />
-            <marker date="1520547082608" expanded="true" signature="5082:5219" ph="/// Called when our object is selected.  Generally called by ... " />
-            <marker date="1520547082608" expanded="true" signature="5246:5438" ph="{...}" />
-            <marker date="1520547082608" expanded="true" signature="5316:5368" ph="{...}" />
-            <marker date="1520547082608" expanded="true" signature="5381:5432" ph="{...}" />
-            <marker date="1520547082608" expanded="true" signature="5444:5507" ph="/// Called once per frame. ... " />
-            <marker date="1520547082608" expanded="true" signature="5533:6767" ph="{...}" />
-            <marker date="1520547082608" expanded="true" signature="5602:5988" ph="{...}" />
-            <marker date="1520547082608" expanded="true" signature="6001:6761" ph="{...}" />
-            <marker date="1520547082608" expanded="true" signature="6317:6480" ph="{...}" />
-            <marker date="1520547082608" expanded="true" signature="6497:6751" ph="{...}" />
-            <marker date="1520547082608" expanded="true" signature="6646:6737" ph="{...}" />
-            <marker date="1520547082608" expanded="true" signature="6773:7202" ph="/// Verify whether or not the object can be placed. ... " />
-            <marker date="1520547082608" expanded="true" signature="7286:9586" ph="{...}" />
-            <marker date="1520547082608" expanded="true" signature="7420:7598" ph="{...}" />
-            <marker date="1520547082608" expanded="true" signature="7443:7542" ph="/* Placing on horizontal surfaces. ... */" />
-            <marker date="1520547082608" expanded="true" signature="7775:7876" ph="/* The origin points we receive are in local space and we ... */" />
-            <marker date="1520547082608" expanded="true" signature="7928:8061" ph="{...}" />
-            <marker date="1520547082608" expanded="true" signature="8380:8492" ph="{...}" />
-            <marker date="1520547082608" expanded="true" signature="8773:9558" ph="{...}" />
-            <marker date="1520547082608" expanded="true" signature="9057:9399" ph="{...}" />
-            <marker date="1520547082608" expanded="true" signature="9088:9234" ph="/* To be a valid placement location, each of the corners must have a similar ... */" />
-            <marker date="1520547082608" expanded="true" signature="9315:9385" ph="{...}" />
-            <marker date="1520547082608" expanded="true" signature="9416:9548" ph="{...}" />
-            <marker date="1520547082608" expanded="true" signature="9592:9862" ph="/// Determine the coordinates, in local space, of the box collider face that  ... " />
-            <marker date="1520547082608" expanded="true" signature="9908:11456" ph="{...}" />
-            <marker date="1520547082608" expanded="true" signature="9923:10003" ph="/* Get the collider extents. ... */" />
-            <marker date="1520547082608" expanded="true" signature="10635:10998" ph="{...}" />
-            <marker date="1520547082608" expanded="true" signature="11011:11372" ph="{...}" />
-            <marker date="1520547082608" expanded="true" signature="11462:11538" ph="/// Put the object into placement mode. ... " />
-            <marker date="1520547082608" expanded="true" signature="11573:12160" ph="{...}" />
-            <marker date="1520547082608" expanded="true" signature="11668:11728" ph="{...}" />
-            <marker date="1520547082608" expanded="true" signature="11846:11914" ph="{...}" />
-            <marker date="1520547082608" expanded="true" signature="11924:12128" ph="/* Tell the gesture manager that it is to assume ... */" />
-            <marker date="1520547082608" expanded="true" signature="12166:12512" ph="/// Take the object out of placement mode. ... " />
-            <marker date="1520547082608" expanded="true" signature="12546:13430" ph="{...}" />
-            <marker date="1520547082608" expanded="true" signature="12798:12838" ph="{...}" />
-            <marker date="1520547082608" expanded="true" signature="12848:12953" ph="/* The object is allowed to be placed. ... */" />
-            <marker date="1520547082608" expanded="true" signature="13149:13210" ph="{...}" />
-            <marker date="1520547082608" expanded="true" signature="13220:13397" ph="/* Tell the gesture manager that it is to resume ... */" />
-            <marker date="1520547082608" expanded="true" signature="13436:13720" ph="/// Positions the object along the surface toward which the user is gazing. ... " />
-            <marker date="1520547082608" expanded="true" signature="13744:15403" ph="{...}" />
-            <marker date="1520547082608" expanded="true" signature="14153:14643" ph="{...}" />
-            <marker date="1520547082608" expanded="true" signature="14227:14354" ph="/* Place the object a small distance away from the surface while keeping ... */" />
-            <marker date="1520547082608" expanded="true" signature="14405:14470" ph="{...}" />
-            <marker date="1520547082608" expanded="true" signature="14656:14925" ph="{...}" />
-            <marker date="1520547082608" expanded="true" signature="14679:14813" ph="/* The raycast failed to hit a surface.  In this case, keep the object at the distance of the last ... */" />
-            <marker date="1520547082608" expanded="true" signature="15174:15355" ph="/* Orient the object. ... */" />
-            <marker date="1520547082608" expanded="true" signature="15409:15984" ph="/// Orients the object so that it faces the user. ... " />
-            <marker date="1520547082608" expanded="true" signature="16066:16899" ph="{...}" />
-            <marker date="1520547082608" expanded="true" signature="16149:16267" ph="/* If the user's gaze does not intersect with the Spatial Mapping mesh, ... */" />
-            <marker date="1520547082608" expanded="true" signature="16355:16751" ph="{...}" />
-            <marker date="1520547082608" expanded="true" signature="16378:16562" ph="/* We are placing on a vertical surface. ... */" />
-            <marker date="1520547082608" expanded="true" signature="16633:16741" ph="{...}" />
-            <marker date="1520547082608" expanded="true" signature="16764:16842" ph="{...}" />
-            <marker date="1520547082608" expanded="true" signature="16905:17090" ph="/// Displays the bounds asset. ... " />
-            <marker date="1520547082608" expanded="true" signature="17139:17799" ph="{...}" />
-            <marker date="1520547082608" expanded="true" signature="17483:17594" ph="{...}" />
-            <marker date="1520547082608" expanded="true" signature="17607:17721" ph="{...}" />
-            <marker date="1520547082608" expanded="true" signature="17805:18228" ph="/// Displays the placement shadow asset. ... " />
-            <marker date="1520547082608" expanded="true" signature="18374:19717" ph="{...}" />
-            <marker date="1520547082608" expanded="true" signature="18585:18739" ph="{...}" />
-            <marker date="1520547082608" expanded="true" signature="18752:18837" ph="{...}" />
-            <marker date="1520547082608" expanded="true" signature="19065:19176" ph="{...}" />
-            <marker date="1520547082608" expanded="true" signature="19189:19303" ph="{...}" />
-            <marker date="1520547082608" expanded="true" signature="19399:19636" ph="{...}" />
-            <marker date="1520547082608" expanded="true" signature="19649:19711" ph="{...}" />
-            <marker date="1520547082608" expanded="true" signature="19723:20093" ph="/// Determines if two distance values should be considered equivalent.  ... " />
-            <marker date="1520547082608" expanded="true" signature="20151:20248" ph="{...}" />
-            <marker date="1520547082608" expanded="true" signature="20254:20334" ph="/// Called when the GameObject is unloaded. ... " />
-            <marker date="1520547082608" expanded="true" signature="20363:20534" ph="{...}" />
-            <marker date="1520547082608" expanded="true" signature="20599:20631" ph="{...}" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1266,28 +711,6 @@
             <marker date="1521145125075" expanded="true" signature="1349:1401" ph="{...}" />
             <marker date="1521145125075" expanded="true" signature="1639:1908" ph="{...}" />
             <marker date="1521145125075" expanded="true" signature="2044:2096" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Scripts/VideoTagalong.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1088">
-          <caret line="64" column="13" lean-forward="false" selection-start-line="64" selection-start-column="13" selection-end-line="64" selection-end-column="13" />
-          <folding>
-            <marker date="1520442683529" expanded="true" signature="0:152" ph="/* Copyright (c) Microsoft Corporation. All rights reserved. ... */" />
-            <marker date="1520442683529" expanded="true" signature="201:3034" ph="{...}" />
-            <marker date="1520442683529" expanded="true" signature="208:411" ph="/// A Tagalong that stays at a fixed distance from the camera and always ... " />
-            <marker date="1520442683529" expanded="true" signature="458:3032" ph="{...}" />
-            <marker date="1520442683529" expanded="true" signature="667:840" ph="/// When moving, use unscaled time. This is useful for games that have a pause mechanism or otherwise adjust the  ... " />
-            <marker date="1520442683529" expanded="true" signature="1066:1216" ph="/// Used to initialize the initial position of the SphereBasedTagalong before being hidden on LateUpdate. ... " />
-            <marker date="1520442683529" expanded="true" signature="1858:1991" ph="{...}" />
-            <marker date="1520442683529" expanded="true" signature="2022:2656" ph="{...}" />
-            <marker date="1520442683529" expanded="true" signature="2285:2646" ph="{...}" />
-            <marker date="1520442683529" expanded="true" signature="2691:2857" ph="{...}" />
-            <marker date="1520442683529" expanded="true" signature="2730:2847" ph="{...}" />
-            <marker date="1520442683529" expanded="true" signature="2891:2941" ph="{...}" />
-            <marker date="1520442683529" expanded="true" signature="2974:3026" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -1406,7 +829,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="235">
           <caret line="14" column="0" lean-forward="false" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1414,64 +836,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="527">
           <caret line="94" column="9" lean-forward="false" selection-start-line="94" selection-start-column="9" selection-end-line="94" selection-end-column="9" />
-          <folding>
-            <marker date="1520878055701" expanded="false" signature="6:89" ph="..." />
-            <marker date="1520878055701" expanded="true" signature="91:718" ph="/// The Placeable class implements the logic used to determine if a GameObject ... " />
-            <marker date="1520878055701" expanded="true" signature="776:7740" ph="{...}" />
-            <marker date="1520878055701" expanded="true" signature="1667:1766" ph="/// Indicates if the object is in the process of being placed. ... " />
-            <marker date="1520878055701" expanded="true" signature="1820:1984" ph="/* The most recent distance to the surface.  This is used to ... */" />
-            <marker date="1520878055701" expanded="true" signature="2474:2624" ph="/* Maximum distance, from the object, that placement is allowed. ... */" />
-            <marker date="1520878055701" expanded="true" signature="2945:3080" ph="/* The box collider used to determine of the object will fit in the desired location. ... */" />
-            <marker date="1520878055701" expanded="true" signature="3130:3249" ph="/* Visible asset used to show the dimensions of the object. This asset is sized ... */" />
-            <marker date="1520878055701" expanded="true" signature="3298:3436" ph="/* Visible asset used to show the where the object is attempting to be placed. ... */" />
-            <marker date="1520878055701" expanded="true" signature="3578:3657" ph="/// Called when the GameObject is created. ... " />
-            <marker date="1520878055701" expanded="true" signature="3682:4167" ph="{...}" />
-            <marker date="1520878055701" expanded="true" signature="3878:4161" ph="{...}" />
-            <marker date="1520878055701" expanded="true" signature="3901:4004" ph="/* The object does not have a collider, create one and remember that ... */" />
-            <marker date="1520878055701" expanded="true" signature="4173:4310" ph="/// Called when our object is selected.  Generally called by ... " />
-            <marker date="1520878055701" expanded="true" signature="4337:4529" ph="{...}" />
-            <marker date="1520878055701" expanded="true" signature="4407:4459" ph="{...}" />
-            <marker date="1520878055701" expanded="true" signature="4472:4523" ph="{...}" />
-            <marker date="1520878055701" expanded="true" signature="4535:4598" ph="/// Called once per frame. ... " />
-            <marker date="1520878055701" expanded="true" signature="4624:4771" ph="{...}" />
-            <marker date="1520878055701" expanded="true" signature="4693:4765" ph="{...}" />
-            <marker date="1520878055701" expanded="true" signature="4777:4853" ph="/// Put the object into placement mode. ... " />
-            <marker date="1520878055701" expanded="true" signature="4888:5303" ph="{...}" />
-            <marker date="1520878055701" expanded="true" signature="4983:5043" ph="{...}" />
-            <marker date="1520878055701" expanded="true" signature="5161:5229" ph="{...}" />
-            <marker date="1520878055701" expanded="true" signature="5309:5387" ph="/// Take the object out of movement mode. ... " />
-            <marker date="1520878055701" expanded="true" signature="5421:5460" ph="{...}" />
-            <marker date="1520878055701" expanded="true" signature="5466:5750" ph="/// Positions the object along the surface toward which the user is gazing. ... " />
-            <marker date="1520878055701" expanded="true" signature="5774:7355" ph="{...}" />
-            <marker date="1520878055701" expanded="true" signature="6103:6593" ph="{...}" />
-            <marker date="1520878055701" expanded="true" signature="6177:6304" ph="/* Place the object a small distance away from the surface while keeping ... */" />
-            <marker date="1520878055701" expanded="true" signature="6355:6420" ph="{...}" />
-            <marker date="1520878055701" expanded="true" signature="6606:6875" ph="{...}" />
-            <marker date="1520878055701" expanded="true" signature="6629:6763" ph="/* The raycast failed to hit a surface.  In this case, keep the object at the distance of the last ... */" />
-            <marker date="1520878055701" expanded="true" signature="7124:7349" ph="/* Orient the object. ... */" />
-            <marker date="1520878055701" expanded="true" signature="7361:7441" ph="/// Called when the GameObject is unloaded. ... " />
-            <marker date="1520878055701" expanded="true" signature="7470:7641" ph="{...}" />
-            <marker date="1520878055701" expanded="true" signature="7706:7738" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Scripts/SceneManagement.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="31" column="32" lean-forward="false" selection-start-line="31" selection-start-column="32" selection-end-line="31" selection-end-column="32" />
-          <folding>
-            <marker date="1521139852875" expanded="false" signature="6:249" ph="..." />
-            <marker date="1521139852875" expanded="true" signature="295:1987" ph="{...}" />
-            <marker date="1521139852875" expanded="true" signature="554:1403" ph="{...}" />
-            <marker date="1521139852875" expanded="true" signature="640:970" ph="{...}" />
-            <marker date="1521139852875" expanded="true" signature="1007:1090" ph="{...}" />
-            <marker date="1521139852875" expanded="true" signature="1427:1510" ph="{...}" />
-            <marker date="1521139852875" expanded="true" signature="1539:1769" ph="{...}" />
-            <marker date="1521139852875" expanded="true" signature="1736:1766" ph="{...}" />
-            <marker date="1521139852875" expanded="true" signature="1854:1984" ph="{...}" />
-            <marker date="1521139852875" expanded="true" signature="1946:1981" ph="{...}" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1479,21 +843,157 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="374">
           <caret line="22" column="0" lean-forward="false" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/963E7EA8-65A3-4B38-BE41-4D0DBF4A422D/80/6b078ca7/ITrackableEventHandler.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="39" lean-forward="true" selection-start-line="0" selection-start-column="39" selection-end-line="0" selection-end-column="39" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/FloatBehavior.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="18" column="117" lean-forward="false" selection-start-line="18" selection-start-column="117" selection-end-line="18" selection-end-column="117" />
           <folding>
-            <marker date="1520441539154" expanded="true" signature="0:152" ph="/* Copyright (c) Microsoft Corporation. All rights reserved. ... */" />
-            <marker date="1520441539154" expanded="true" signature="213:1065" ph="{...}" />
-            <marker date="1520441539154" expanded="true" signature="220:350" ph="/// Utility class that writes the sharing service log messages to the Unity Engine's console. ... " />
-            <marker date="1520441539154" expanded="true" signature="396:1063" ph="{...}" />
-            <marker date="1520441539154" expanded="true" signature="530:1057" ph="{...}" />
-            <marker date="1520441539154" expanded="true" signature="570:1047" ph="{...}" />
-            <marker date="1520441539154" expanded="true" signature="918:1006" ph="{...}" />
+            <marker date="1521668920629" expanded="false" signature="6:78" ph="..." />
+            <marker date="1521668920629" expanded="true" signature="123:475" ph="{...}" />
+            <marker date="1521668920629" expanded="true" signature="217:224" ph="{...}" />
+            <marker date="1521668920629" expanded="true" signature="278:473" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/VideoTagalong.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="748">
+          <caret line="90" column="46" lean-forward="false" selection-start-line="90" selection-start-column="46" selection-end-line="90" selection-end-column="46" />
+          <folding>
+            <marker date="1521657885039" expanded="true" signature="0:152" ph="/* Copyright (c) Microsoft Corporation. All rights reserved. ... */" />
+            <marker date="1521657885039" expanded="true" signature="201:3346" ph="{...}" />
+            <marker date="1521657885039" expanded="true" signature="208:411" ph="/// A Tagalong that stays at a fixed distance from the camera and always ... " />
+            <marker date="1521657885039" expanded="true" signature="458:3344" ph="{...}" />
+            <marker date="1521657885039" expanded="true" signature="667:840" ph="/// When moving, use unscaled time. This is useful for games that have a pause mechanism or otherwise adjust the  ... " />
+            <marker date="1521657885039" expanded="true" signature="1066:1216" ph="/// Used to initialize the initial position of the SphereBasedTagalong before being hidden on LateUpdate. ... " />
+            <marker date="1521657885039" expanded="true" signature="1901:2287" ph="{...}" />
+            <marker date="1521657885039" expanded="true" signature="2318:2952" ph="{...}" />
+            <marker date="1521657885039" expanded="true" signature="2581:2942" ph="{...}" />
+            <marker date="1521657885039" expanded="true" signature="2987:3153" ph="{...}" />
+            <marker date="1521657885039" expanded="true" signature="3026:3143" ph="{...}" />
+            <marker date="1521657885039" expanded="true" signature="3187:3237" ph="{...}" />
+            <marker date="1521657885039" expanded="true" signature="3270:3338" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/HoloToolkit/Input/Scripts/Cursor/Cursor.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="262">
+          <caret line="299" column="0" lean-forward="false" selection-start-line="299" selection-start-column="0" selection-end-line="299" selection-end-column="0" />
+          <folding>
+            <marker date="1521217444921" expanded="true" signature="0:152" ph="/* Copyright (c) Microsoft Corporation. All rights reserved. ... */" />
+            <marker date="1521217444921" expanded="true" signature="213:16844" ph="{...}" />
+            <marker date="1521217444921" expanded="true" signature="220:324" ph="/// Object that represents a cursor in 3D space controlled by gaze. ... " />
+            <marker date="1521217444921" expanded="true" signature="382:16842" ph="{...}" />
+            <marker date="1521217444921" expanded="true" signature="818:933" ph="/// The pointer that this cursor should follow and process input from. ... " />
+            <marker date="1521217444921" expanded="true" signature="996:1090" ph="/// Minimum distance for cursor if nothing is hit ... " />
+            <marker date="1521217444921" expanded="true" signature="1260:1354" ph="/// Maximum distance for cursor if nothing is hit ... " />
+            <marker date="1521217444921" expanded="true" signature="1492:1599" ph="/// Surface distance to place the cursor off of the surface at ... " />
+            <marker date="1521217444921" expanded="true" signature="1955:2054" ph="/// Blend value for surface normal to user facing lerp ... " />
+            <marker date="1521217444921" expanded="true" signature="2111:2210" ph="/// Blend value for surface normal to user facing lerp ... " />
+            <marker date="1521217444921" expanded="true" signature="2264:2363" ph="/// Blend value for surface normal to user facing lerp ... " />
+            <marker date="1521217444921" expanded="true" signature="2420:2519" ph="/// Blend value for surface normal to user facing lerp ... " />
+            <marker date="1521217444921" expanded="true" signature="2598:2702" ph="/// Visual that is displayed when cursor is active normally ... " />
+            <marker date="1521217444921" expanded="true" signature="2822:2889" ph="{...}" />
+            <marker date="1521217444921" expanded="true" signature="2925:2992" ph="{...}" />
+            <marker date="1521217444921" expanded="true" signature="3027:3096" ph="{...}" />
+            <marker date="1521217444921" expanded="true" signature="3106:3195" ph="/// Indicates if hand is current in the view ... " />
+            <marker date="1521217444921" expanded="true" signature="3243:3314" ph="/// Indicates air tap down ... " />
+            <marker date="1521217444921" expanded="true" signature="3554:3650" ph="/// Position, scale and rotational goals for cursor ... " />
+            <marker date="1521217444921" expanded="true" signature="3780:3870" ph="/// Indicates if the cursor should be visible ... " />
+            <marker date="1521217444921" expanded="true" signature="3900:4041" ph="{...}" />
+            <marker date="1521217444921" expanded="true" signature="3926:4031" ph="{...}" />
+            <marker date="1521217444921" expanded="true" signature="4051:5424" ph="MonoBehaviour Functions" />
+            <marker date="1521217444921" expanded="true" signature="4112:4307" ph="{...}" />
+            <marker date="1521217444921" expanded="true" signature="4337:4427" ph="{...}" />
+            <marker date="1521217444921" expanded="true" signature="4458:4548" ph="{...}" />
+            <marker date="1521217444921" expanded="true" signature="4558:4636" ph="/// Override for enable functions ... " />
+            <marker date="1521217444921" expanded="true" signature="4678:4955" ph="{...}" />
+            <marker date="1521217444921" expanded="true" signature="4751:4890" ph="{...}" />
+            <marker date="1521217444921" expanded="true" signature="4965:5044" ph="/// Override for disable functions ... " />
+            <marker date="1521217444921" expanded="true" signature="5087:5316" ph="{...}" />
+            <marker date="1521217444921" expanded="true" signature="5350:5404" ph="{...}" />
+            <marker date="1521217444921" expanded="true" signature="5434:5537" ph="/// Register to events from the managers the cursor needs. ... " />
+            <marker date="1521217444921" expanded="true" signature="5587:6309" ph="{...}" />
+            <marker date="1521217444921" expanded="true" signature="5925:5987" ph="{...}" />
+            <marker date="1521217444921" expanded="true" signature="6004:6067" ph="{...}" />
+            <marker date="1521217444921" expanded="true" signature="6319:6426" ph="/// Unregister from events from the managers the cursor needs. ... " />
+            <marker date="1521217444921" expanded="true" signature="6478:6957" ph="{...}" />
+            <marker date="1521217444921" expanded="true" signature="6532:6774" ph="{...}" />
+            <marker date="1521217444921" expanded="true" signature="6819:6947" ph="{...}" />
+            <marker date="1521217444921" expanded="true" signature="7004:8247" ph="{...}" />
+            <marker date="1521217444921" expanded="true" signature="7047:7168" ph="{...}" />
+            <marker date="1521217444921" expanded="true" signature="7210:7607" ph="{...}" />
+            <marker date="1521217444921" expanded="true" signature="7333:7593" ph="{...}" />
+            <marker date="1521217444921" expanded="true" signature="7656:8077" ph="{...}" />
+            <marker date="1521217444921" expanded="true" signature="7687:7850" ph="/* For backward-compatibility, if a pointer wasn't specified, but there's exactly one ... */" />
+            <marker date="1521217444921" expanded="true" signature="7981:8063" ph="{...}" />
+            <marker date="1521217444921" expanded="true" signature="8094:8237" ph="{...}" />
+            <marker date="1521217444921" expanded="true" signature="8257:8704" ph="/// Updates the currently targeted object and cursor modifier upon getting ... " />
+            <marker date="1521217444921" expanded="true" signature="8848:9202" ph="{...}" />
+            <marker date="1521217444921" expanded="true" signature="8894:9192" ph="{...}" />
+            <marker date="1521217444921" expanded="true" signature="9212:9375" ph="/// Override function when a new modifier is found or no modifier is valid ... " />
+            <marker date="1521217444921" expanded="true" signature="9448:9515" ph="{...}" />
+            <marker date="1521217444921" expanded="true" signature="9525:9603" ph="/// Update the cursor's transform ... " />
+            <marker date="1521217444921" expanded="true" signature="9658:12385" ph="{...}" />
+            <marker date="1521217444921" expanded="true" signature="10083:10528" ph="{...}" />
+            <marker date="1521217444921" expanded="true" signature="10545:11833" ph="{...}" />
+            <marker date="1521217444921" expanded="true" signature="10716:10880" ph="{...}" />
+            <marker date="1521217444921" expanded="true" signature="10901:11819" ph="{...}" />
+            <marker date="1521217444921" expanded="true" signature="10940:11254" ph="/* If no modifier is on the target, just use the hit result to set cursor position ... */" />
+            <marker date="1521217444921" expanded="true" signature="12395:12492" ph="/// Updates the visual representation of the cursor. ... " />
+            <marker date="1521217444921" expanded="true" signature="12548:12708" ph="{...}" />
+            <marker date="1521217444921" expanded="true" signature="12603:12698" ph="{...}" />
+            <marker date="1521217444921" expanded="true" signature="12718:12820" ph="/// Disable input and set to contextual to override input ... " />
+            <marker date="1521217444921" expanded="true" signature="12866:13064" ph="{...}" />
+            <marker date="1521217444921" expanded="true" signature="13074:13167" ph="/// Enable input and set to none to reset cursor ... " />
+            <marker date="1521217444921" expanded="true" signature="13212:13287" ph="{...}" />
+            <marker date="1521217444921" expanded="true" signature="13297:13434" ph="/// Function for consuming the OnInputUp events ... " />
+            <marker date="1521217444921" expanded="true" signature="13498:13654" ph="{...}" />
+            <marker date="1521217444921" expanded="true" signature="13573:13644" ph="{...}" />
+            <marker date="1521217444921" expanded="true" signature="13664:13817" ph="/// Function for receiving OnInputDown events from InputManager ... " />
+            <marker date="1521217444921" expanded="true" signature="13883:14038" ph="{...}" />
+            <marker date="1521217444921" expanded="true" signature="13958:14028" ph="{...}" />
+            <marker date="1521217444921" expanded="true" signature="14048:14204" ph="/// Function for receiving OnInputClicked events from InputManager ... " />
+            <marker date="1521217444921" expanded="true" signature="14280:14357" ph="{...}" />
+            <marker date="1521217444921" expanded="true" signature="14368:14507" ph="/// Input source detected callback for the cursor ... " />
+            <marker date="1521217444921" expanded="true" signature="14584:14772" ph="{...}" />
+            <marker date="1521217444921" expanded="true" signature="14659:14762" ph="{...}" />
+            <marker date="1521217444921" expanded="true" signature="14783:14918" ph="/// Input source lost callback for the cursor ... " />
+            <marker date="1521217444921" expanded="true" signature="14991:15311" ph="{...}" />
+            <marker date="1521217444921" expanded="true" signature="15066:15301" ph="{...}" />
+            <marker date="1521217444921" expanded="true" signature="15161:15287" ph="{...}" />
+            <marker date="1521217444921" expanded="true" signature="15321:15419" ph="/// Internal update to check for cursor state changes ... " />
+            <marker date="1521217444921" expanded="true" signature="15460:15655" ph="{...}" />
+            <marker date="1521217444921" expanded="true" signature="15570:15645" ph="{...}" />
+            <marker date="1521217444921" expanded="true" signature="15665:15758" ph="/// Virtual function for checking state changes. ... " />
+            <marker date="1521217444921" expanded="true" signature="15816:16534" ph="{...}" />
+            <marker date="1521217444921" expanded="true" signature="15885:16477" ph="{...}" />
+            <marker date="1521217444921" expanded="true" signature="15938:16025" ph="{...}" />
+            <marker date="1521217444921" expanded="true" signature="16089:16177" ph="{...}" />
+            <marker date="1521217444921" expanded="true" signature="16213:16359" ph="{...}" />
+            <marker date="1521217444921" expanded="true" signature="16544:16712" ph="/// Change the cursor state to the new state.  Override in cursor implementations. ... " />
+            <marker date="1521217444921" expanded="true" signature="16783:16836" ph="{...}" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Assets/HoloToolkit/Input/Scripts/Focus/FocusManager.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-867">
+        <state relative-caret-position="17">
           <caret line="15" column="17" lean-forward="false" selection-start-line="15" selection-start-column="17" selection-end-line="15" selection-end-column="17" />
           <folding>
             <marker date="1520441528771" expanded="true" signature="0:152" ph="/* Copyright (c) Microsoft Corporation. All rights reserved. ... */" />
@@ -1647,132 +1147,68 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Scripts/MedallionEventTracker.cs">
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/SceneManagement.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="77" column="11" lean-forward="false" selection-start-line="77" selection-start-column="11" selection-end-line="77" selection-end-column="11" />
+        <state relative-caret-position="408">
+          <caret line="31" column="32" lean-forward="false" selection-start-line="31" selection-start-column="32" selection-end-line="31" selection-end-column="32" />
           <folding>
-            <marker date="1521217397741" expanded="true" signature="0:256" ph="/* ============================================================================== ... */" />
-            <marker date="1521217397741" expanded="true" signature="264:341" ph="..." />
-            <marker date="1521217397741" expanded="true" signature="343:450" ph="///     A custom handler that implements the ITrackableEventHandler interface. ... " />
-            <marker date="1521217397741" expanded="true" signature="525:3348" ph="{...}" />
-            <marker date="1521217397741" expanded="true" signature="635:766" ph="PRIVATE_MEMBER_VARIABLES" />
-            <marker date="1521217397741" expanded="true" signature="772:1117" ph="UNTIY_MONOBEHAVIOUR_METHODS" />
-            <marker date="1521217397741" expanded="true" signature="843:1070" ph="{...}" />
-            <marker date="1521217397741" expanded="true" signature="1123:2371" ph="PUBLIC_METHODS" />
-            <marker date="1521217397741" expanded="true" signature="1151:1301" ph="///     Implementation of the ITrackableEventHandler function called when the ... " />
-            <marker date="1521217397741" expanded="true" signature="1437:2337" ph="{...}" />
-            <marker date="1521217397741" expanded="true" signature="1637:1772" ph="{...}" />
-            <marker date="1521217397741" expanded="true" signature="1911:2044" ph="{...}" />
-            <marker date="1521217397741" expanded="true" signature="2057:2331" ph="{...}" />
-            <marker date="1521217397741" expanded="true" signature="2080:2291" ph="/* For combo of previousStatus=UNKNOWN + newStatus=UNKNOWN|NOT_FOUND ... */" />
-            <marker date="1521217397741" expanded="true" signature="2377:3346" ph="PRIVATE_METHODS" />
-            <marker date="1521217397741" expanded="true" signature="2446:3244" ph="{...}" />
-            <marker date="1521217397741" expanded="true" signature="2754:2844" ph="/* videoSource.Play(); ... */" />
-            <marker date="1521217397741" expanded="true" signature="2975:3229" ph="/* videoPlayer.transform.position= mTrackableBehaviour.transform.position; ... */" />
-            <marker date="1521217397741" expanded="true" signature="3290:3311" ph="{...}" />
+            <marker date="1521139852875" expanded="false" signature="6:249" ph="..." />
+            <marker date="1521139852875" expanded="true" signature="295:1987" ph="{...}" />
+            <marker date="1521139852875" expanded="true" signature="554:1403" ph="{...}" />
+            <marker date="1521139852875" expanded="true" signature="640:970" ph="{...}" />
+            <marker date="1521139852875" expanded="true" signature="1007:1090" ph="{...}" />
+            <marker date="1521139852875" expanded="true" signature="1427:1510" ph="{...}" />
+            <marker date="1521139852875" expanded="true" signature="1539:1769" ph="{...}" />
+            <marker date="1521139852875" expanded="true" signature="1736:1766" ph="{...}" />
+            <marker date="1521139852875" expanded="true" signature="1854:1984" ph="{...}" />
+            <marker date="1521139852875" expanded="true" signature="1946:1981" ph="{...}" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/HoloToolkit/Input/Scripts/Cursor/Cursor.cs">
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/MedallionEventTracker.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="262">
-          <caret line="299" column="0" lean-forward="false" selection-start-line="299" selection-start-column="0" selection-end-line="299" selection-end-column="0" />
+        <state relative-caret-position="442">
+          <caret line="88" column="33" lean-forward="false" selection-start-line="88" selection-start-column="33" selection-end-line="88" selection-end-column="33" />
           <folding>
-            <marker date="1521217444921" expanded="true" signature="0:152" ph="/* Copyright (c) Microsoft Corporation. All rights reserved. ... */" />
-            <marker date="1521217444921" expanded="true" signature="213:16844" ph="{...}" />
-            <marker date="1521217444921" expanded="true" signature="220:324" ph="/// Object that represents a cursor in 3D space controlled by gaze. ... " />
-            <marker date="1521217444921" expanded="true" signature="382:16842" ph="{...}" />
-            <marker date="1521217444921" expanded="true" signature="818:933" ph="/// The pointer that this cursor should follow and process input from. ... " />
-            <marker date="1521217444921" expanded="true" signature="996:1090" ph="/// Minimum distance for cursor if nothing is hit ... " />
-            <marker date="1521217444921" expanded="true" signature="1260:1354" ph="/// Maximum distance for cursor if nothing is hit ... " />
-            <marker date="1521217444921" expanded="true" signature="1492:1599" ph="/// Surface distance to place the cursor off of the surface at ... " />
-            <marker date="1521217444921" expanded="true" signature="1955:2054" ph="/// Blend value for surface normal to user facing lerp ... " />
-            <marker date="1521217444921" expanded="true" signature="2111:2210" ph="/// Blend value for surface normal to user facing lerp ... " />
-            <marker date="1521217444921" expanded="true" signature="2264:2363" ph="/// Blend value for surface normal to user facing lerp ... " />
-            <marker date="1521217444921" expanded="true" signature="2420:2519" ph="/// Blend value for surface normal to user facing lerp ... " />
-            <marker date="1521217444921" expanded="true" signature="2598:2702" ph="/// Visual that is displayed when cursor is active normally ... " />
-            <marker date="1521217444921" expanded="true" signature="2822:2889" ph="{...}" />
-            <marker date="1521217444921" expanded="true" signature="2925:2992" ph="{...}" />
-            <marker date="1521217444921" expanded="true" signature="3027:3096" ph="{...}" />
-            <marker date="1521217444921" expanded="true" signature="3106:3195" ph="/// Indicates if hand is current in the view ... " />
-            <marker date="1521217444921" expanded="true" signature="3243:3314" ph="/// Indicates air tap down ... " />
-            <marker date="1521217444921" expanded="true" signature="3554:3650" ph="/// Position, scale and rotational goals for cursor ... " />
-            <marker date="1521217444921" expanded="true" signature="3780:3870" ph="/// Indicates if the cursor should be visible ... " />
-            <marker date="1521217444921" expanded="true" signature="3900:4041" ph="{...}" />
-            <marker date="1521217444921" expanded="true" signature="3926:4031" ph="{...}" />
-            <marker date="1521217444921" expanded="true" signature="4051:5424" ph="MonoBehaviour Functions" />
-            <marker date="1521217444921" expanded="true" signature="4112:4307" ph="{...}" />
-            <marker date="1521217444921" expanded="true" signature="4337:4427" ph="{...}" />
-            <marker date="1521217444921" expanded="true" signature="4458:4548" ph="{...}" />
-            <marker date="1521217444921" expanded="true" signature="4558:4636" ph="/// Override for enable functions ... " />
-            <marker date="1521217444921" expanded="true" signature="4678:4955" ph="{...}" />
-            <marker date="1521217444921" expanded="true" signature="4751:4890" ph="{...}" />
-            <marker date="1521217444921" expanded="true" signature="4965:5044" ph="/// Override for disable functions ... " />
-            <marker date="1521217444921" expanded="true" signature="5087:5316" ph="{...}" />
-            <marker date="1521217444921" expanded="true" signature="5350:5404" ph="{...}" />
-            <marker date="1521217444921" expanded="true" signature="5434:5537" ph="/// Register to events from the managers the cursor needs. ... " />
-            <marker date="1521217444921" expanded="true" signature="5587:6309" ph="{...}" />
-            <marker date="1521217444921" expanded="true" signature="5925:5987" ph="{...}" />
-            <marker date="1521217444921" expanded="true" signature="6004:6067" ph="{...}" />
-            <marker date="1521217444921" expanded="true" signature="6319:6426" ph="/// Unregister from events from the managers the cursor needs. ... " />
-            <marker date="1521217444921" expanded="true" signature="6478:6957" ph="{...}" />
-            <marker date="1521217444921" expanded="true" signature="6532:6774" ph="{...}" />
-            <marker date="1521217444921" expanded="true" signature="6819:6947" ph="{...}" />
-            <marker date="1521217444921" expanded="true" signature="7004:8247" ph="{...}" />
-            <marker date="1521217444921" expanded="true" signature="7047:7168" ph="{...}" />
-            <marker date="1521217444921" expanded="true" signature="7210:7607" ph="{...}" />
-            <marker date="1521217444921" expanded="true" signature="7333:7593" ph="{...}" />
-            <marker date="1521217444921" expanded="true" signature="7656:8077" ph="{...}" />
-            <marker date="1521217444921" expanded="true" signature="7687:7850" ph="/* For backward-compatibility, if a pointer wasn't specified, but there's exactly one ... */" />
-            <marker date="1521217444921" expanded="true" signature="7981:8063" ph="{...}" />
-            <marker date="1521217444921" expanded="true" signature="8094:8237" ph="{...}" />
-            <marker date="1521217444921" expanded="true" signature="8257:8704" ph="/// Updates the currently targeted object and cursor modifier upon getting ... " />
-            <marker date="1521217444921" expanded="true" signature="8848:9202" ph="{...}" />
-            <marker date="1521217444921" expanded="true" signature="8894:9192" ph="{...}" />
-            <marker date="1521217444921" expanded="true" signature="9212:9375" ph="/// Override function when a new modifier is found or no modifier is valid ... " />
-            <marker date="1521217444921" expanded="true" signature="9448:9515" ph="{...}" />
-            <marker date="1521217444921" expanded="true" signature="9525:9603" ph="/// Update the cursor's transform ... " />
-            <marker date="1521217444921" expanded="true" signature="9658:12385" ph="{...}" />
-            <marker date="1521217444921" expanded="true" signature="10083:10528" ph="{...}" />
-            <marker date="1521217444921" expanded="true" signature="10545:11833" ph="{...}" />
-            <marker date="1521217444921" expanded="true" signature="10716:10880" ph="{...}" />
-            <marker date="1521217444921" expanded="true" signature="10901:11819" ph="{...}" />
-            <marker date="1521217444921" expanded="true" signature="10940:11254" ph="/* If no modifier is on the target, just use the hit result to set cursor position ... */" />
-            <marker date="1521217444921" expanded="true" signature="12395:12492" ph="/// Updates the visual representation of the cursor. ... " />
-            <marker date="1521217444921" expanded="true" signature="12548:12708" ph="{...}" />
-            <marker date="1521217444921" expanded="true" signature="12603:12698" ph="{...}" />
-            <marker date="1521217444921" expanded="true" signature="12718:12820" ph="/// Disable input and set to contextual to override input ... " />
-            <marker date="1521217444921" expanded="true" signature="12866:13064" ph="{...}" />
-            <marker date="1521217444921" expanded="true" signature="13074:13167" ph="/// Enable input and set to none to reset cursor ... " />
-            <marker date="1521217444921" expanded="true" signature="13212:13287" ph="{...}" />
-            <marker date="1521217444921" expanded="true" signature="13297:13434" ph="/// Function for consuming the OnInputUp events ... " />
-            <marker date="1521217444921" expanded="true" signature="13498:13654" ph="{...}" />
-            <marker date="1521217444921" expanded="true" signature="13573:13644" ph="{...}" />
-            <marker date="1521217444921" expanded="true" signature="13664:13817" ph="/// Function for receiving OnInputDown events from InputManager ... " />
-            <marker date="1521217444921" expanded="true" signature="13883:14038" ph="{...}" />
-            <marker date="1521217444921" expanded="true" signature="13958:14028" ph="{...}" />
-            <marker date="1521217444921" expanded="true" signature="14048:14204" ph="/// Function for receiving OnInputClicked events from InputManager ... " />
-            <marker date="1521217444921" expanded="true" signature="14280:14357" ph="{...}" />
-            <marker date="1521217444921" expanded="true" signature="14368:14507" ph="/// Input source detected callback for the cursor ... " />
-            <marker date="1521217444921" expanded="true" signature="14584:14772" ph="{...}" />
-            <marker date="1521217444921" expanded="true" signature="14659:14762" ph="{...}" />
-            <marker date="1521217444921" expanded="true" signature="14783:14918" ph="/// Input source lost callback for the cursor ... " />
-            <marker date="1521217444921" expanded="true" signature="14991:15311" ph="{...}" />
-            <marker date="1521217444921" expanded="true" signature="15066:15301" ph="{...}" />
-            <marker date="1521217444921" expanded="true" signature="15161:15287" ph="{...}" />
-            <marker date="1521217444921" expanded="true" signature="15321:15419" ph="/// Internal update to check for cursor state changes ... " />
-            <marker date="1521217444921" expanded="true" signature="15460:15655" ph="{...}" />
-            <marker date="1521217444921" expanded="true" signature="15570:15645" ph="{...}" />
-            <marker date="1521217444921" expanded="true" signature="15665:15758" ph="/// Virtual function for checking state changes. ... " />
-            <marker date="1521217444921" expanded="true" signature="15816:16534" ph="{...}" />
-            <marker date="1521217444921" expanded="true" signature="15885:16477" ph="{...}" />
-            <marker date="1521217444921" expanded="true" signature="15938:16025" ph="{...}" />
-            <marker date="1521217444921" expanded="true" signature="16089:16177" ph="{...}" />
-            <marker date="1521217444921" expanded="true" signature="16213:16359" ph="{...}" />
-            <marker date="1521217444921" expanded="true" signature="16544:16712" ph="/// Change the cursor state to the new state.  Override in cursor implementations. ... " />
-            <marker date="1521217444921" expanded="true" signature="16783:16836" ph="{...}" />
+            <marker date="1521670608505" expanded="true" signature="0:256" ph="/* ============================================================================== ... */" />
+            <marker date="1521670608505" expanded="false" signature="264:341" ph="..." />
+            <marker date="1521670608505" expanded="true" signature="343:450" ph="///     A custom handler that implements the ITrackableEventHandler interface. ... " />
+            <marker date="1521670608505" expanded="true" signature="525:3440" ph="{...}" />
+            <marker date="1521670608505" expanded="true" signature="668:799" ph="PRIVATE_MEMBER_VARIABLES" />
+            <marker date="1521670608505" expanded="true" signature="805:1307" ph="UNTIY_MONOBEHAVIOUR_METHODS" />
+            <marker date="1521670608505" expanded="true" signature="876:1260" ph="{...}" />
+            <marker date="1521670608505" expanded="true" signature="1313:2561" ph="PUBLIC_METHODS" />
+            <marker date="1521670608505" expanded="true" signature="1341:1491" ph="///     Implementation of the ITrackableEventHandler function called when the ... " />
+            <marker date="1521670608505" expanded="true" signature="1627:2527" ph="{...}" />
+            <marker date="1521670608505" expanded="true" signature="1827:1962" ph="{...}" />
+            <marker date="1521670608505" expanded="true" signature="2101:2234" ph="{...}" />
+            <marker date="1521670608505" expanded="true" signature="2247:2521" ph="{...}" />
+            <marker date="1521670608505" expanded="true" signature="2270:2481" ph="/* For combo of previousStatus=UNKNOWN + newStatus=UNKNOWN|NOT_FOUND ... */" />
+            <marker date="1521670608505" expanded="true" signature="2567:3438" ph="PRIVATE_METHODS" />
+            <marker date="1521670608505" expanded="true" signature="2636:3344" ph="{...}" />
+            <marker date="1521670608505" expanded="true" signature="2850:3329" ph="/* videoSource.Play(); ... */" />
+            <marker date="1521670608505" expanded="true" signature="3382:3403" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/VideoLogic.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="714">
+          <caret line="78" column="30" lean-forward="false" selection-start-line="78" selection-start-column="30" selection-end-line="78" selection-end-column="30" />
+          <folding>
+            <marker date="1521670887409" expanded="false" signature="6:216" ph="..." />
+            <marker date="1521670887409" expanded="true" signature="257:2006" ph="{...}" />
+            <marker date="1521670887409" expanded="true" signature="660:821" ph="{...}" />
+            <marker date="1521670887409" expanded="true" signature="845:996" ph="{...}" />
+            <marker date="1521670887409" expanded="true" signature="1023:1114" ph="{...}" />
+            <marker date="1521670887409" expanded="true" signature="1162:1277" ph="{...}" />
+            <marker date="1521670887409" expanded="true" signature="1279:1361" ph="/* private void VideoStopped(VideoPlayer source) ... */" />
+            <marker date="1521670887409" expanded="true" signature="1399:1663" ph="{...}" />
+            <marker date="1521670887409" expanded="true" signature="1690:2004" ph="{...}" />
+            <marker date="1521670887409" expanded="true" signature="1785:1909" ph="{...}" />
+            <marker date="1521670887409" expanded="true" signature="1916:2001" ph="{...}" />
           </folding>
         </state>
       </provider>

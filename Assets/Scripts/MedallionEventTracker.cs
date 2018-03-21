@@ -17,6 +17,7 @@ public class MedallionEventTracker : MonoBehaviour, ITrackableEventHandler
     public GameObject videoPlayer;
 
     private bool tracked;
+    private Billboard billboard;
     
     #region PRIVATE_MEMBER_VARIABLES
 
@@ -33,6 +34,10 @@ public class MedallionEventTracker : MonoBehaviour, ITrackableEventHandler
             mTrackableBehaviour.RegisterTrackableEventHandler(this);
         
         videoPlayer.SetActive(false);
+        
+        billboard = videoPlayer.gameObject.AddComponent<Billboard>();
+        billboard.PivotAxis = PivotAxis.Y;
+        billboard.enabled = false;
     }
 
     #endregion // UNTIY_MONOBEHAVIOUR_METHODS
@@ -80,16 +85,14 @@ public class MedallionEventTracker : MonoBehaviour, ITrackableEventHandler
         
         // Show video component
         Debug.Log("image found");
-        
-        Billboard billboard = gameObject.AddComponent<Billboard>();
-        billboard.PivotAxis = PivotAxis.Y;
-        
+
+        billboard.enabled = true;
         videoPlayer.SetActive(true);
         //videoSource.Play();
         
         //Vector3 tempPos = videoPlayer.transform.position;
-        videoPlayer.transform.parent = mTrackableBehaviour.transform;
-        videoPlayer.transform.localPosition = Vector3.zero;
+//        videoPlayer.transform.parent = mTrackableBehaviour.transform;
+//        videoPlayer.transform.localPosition = Vector3.zero;
 //        videoPlayer.transform.position= mTrackableBehaviour.transform.position;
 //        videoPlayer.transform.Translate(Vector3.up * .04f);
 //        videoPlayer.transform.position = Vector3.zero;
@@ -98,7 +101,7 @@ public class MedallionEventTracker : MonoBehaviour, ITrackableEventHandler
     }
 
 
-    protected virtual void OnTrackingLost()
+    protected void OnTrackingLost()
     {
         
     }
