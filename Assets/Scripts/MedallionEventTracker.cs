@@ -88,8 +88,9 @@ public class MedallionEventTracker : MonoBehaviour, ITrackableEventHandler
 
         billboard.enabled = true;
         videoPlayer.SetActive(true);
+        videoPlayer.transform.parent = null;
         //videoSource.Play();
-        
+
         //Vector3 tempPos = videoPlayer.transform.position;
 //        videoPlayer.transform.parent = mTrackableBehaviour.transform;
 //        videoPlayer.transform.localPosition = Vector3.zero;
@@ -97,7 +98,7 @@ public class MedallionEventTracker : MonoBehaviour, ITrackableEventHandler
 //        videoPlayer.transform.Translate(Vector3.up * .04f);
 //        videoPlayer.transform.position = Vector3.zero;
         //I videoPlayer.transform.position = tempPos;
-        
+
     }
 
 

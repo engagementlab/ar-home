@@ -2,15 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6394d176-6f62-4b67-b56c-fbd3f5eecf54" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/Assets/Scripts/FloatBehavior.cs" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.ar-home/.idea/contentModel.xml" afterPath="$PROJECT_DIR$/.idea/.idea.ar-home/.idea/contentModel.xml" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.ar-home/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/.idea.ar-home/.idea/workspace.xml" />
       <change beforePath="$PROJECT_DIR$/Assets/Resources/VuforiaConfiguration.asset" afterPath="$PROJECT_DIR$/Assets/Resources/VuforiaConfiguration.asset" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/ARVideo.unity" afterPath="$PROJECT_DIR$/Assets/Scenes/ARVideo.unity" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/MedallionEventTracker.cs" afterPath="$PROJECT_DIR$/Assets/Scripts/MedallionEventTracker.cs" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/VideoLogic.cs" afterPath="$PROJECT_DIR$/Assets/Scripts/VideoLogic.cs" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/VideoTagalong.cs" afterPath="$PROJECT_DIR$/Assets/Scripts/VideoTagalong.cs" />
-      <change beforePath="$PROJECT_DIR$/QCAR/somedata16" afterPath="$PROJECT_DIR$/QCAR/somedata16" />
+      <change beforePath="$PROJECT_DIR$/Assets/UIPrefab.prefab" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Assets/UIPrefab.prefab.meta" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Assets/VideoPlayer.prefab" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Assets/VideoPlayer.prefab.meta" afterPath="" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -45,27 +45,27 @@
       <file leaf-file-name="MedallionEventTracker.cs" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/Scripts/MedallionEventTracker.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="442">
-              <caret line="88" column="33" lean-forward="false" selection-start-line="88" selection-start-column="33" selection-end-line="88" selection-end-column="33" />
+            <state relative-caret-position="476">
+              <caret line="90" column="44" lean-forward="false" selection-start-line="90" selection-start-column="44" selection-end-line="90" selection-end-column="44" />
               <folding>
-                <marker date="1521670608505" expanded="true" signature="0:256" ph="/* ============================================================================== ... */" />
-                <marker date="1521670608505" expanded="false" signature="264:341" ph="..." />
-                <marker date="1521670608505" expanded="true" signature="343:450" ph="///     A custom handler that implements the ITrackableEventHandler interface. ... " />
-                <marker date="1521670608505" expanded="true" signature="525:3440" ph="{...}" />
-                <marker date="1521670608505" expanded="true" signature="668:799" ph="PRIVATE_MEMBER_VARIABLES" />
-                <marker date="1521670608505" expanded="true" signature="805:1307" ph="UNTIY_MONOBEHAVIOUR_METHODS" />
-                <marker date="1521670608505" expanded="true" signature="876:1260" ph="{...}" />
-                <marker date="1521670608505" expanded="true" signature="1313:2561" ph="PUBLIC_METHODS" />
-                <marker date="1521670608505" expanded="true" signature="1341:1491" ph="///     Implementation of the ITrackableEventHandler function called when the ... " />
-                <marker date="1521670608505" expanded="true" signature="1627:2527" ph="{...}" />
-                <marker date="1521670608505" expanded="true" signature="1827:1962" ph="{...}" />
-                <marker date="1521670608505" expanded="true" signature="2101:2234" ph="{...}" />
-                <marker date="1521670608505" expanded="true" signature="2247:2521" ph="{...}" />
-                <marker date="1521670608505" expanded="true" signature="2270:2481" ph="/* For combo of previousStatus=UNKNOWN + newStatus=UNKNOWN|NOT_FOUND ... */" />
-                <marker date="1521670608505" expanded="true" signature="2567:3438" ph="PRIVATE_METHODS" />
-                <marker date="1521670608505" expanded="true" signature="2636:3344" ph="{...}" />
-                <marker date="1521670608505" expanded="true" signature="2850:3329" ph="/* videoSource.Play(); ... */" />
-                <marker date="1521670608505" expanded="true" signature="3382:3403" ph="{...}" />
+                <marker date="1521748139982" expanded="true" signature="0:256" ph="/* ============================================================================== ... */" />
+                <marker date="1521748139982" expanded="false" signature="264:341" ph="..." />
+                <marker date="1521748139982" expanded="true" signature="343:450" ph="///     A custom handler that implements the ITrackableEventHandler interface. ... " />
+                <marker date="1521748139982" expanded="true" signature="525:3469" ph="{...}" />
+                <marker date="1521748139982" expanded="true" signature="668:799" ph="PRIVATE_MEMBER_VARIABLES" />
+                <marker date="1521748139982" expanded="true" signature="805:1307" ph="UNTIY_MONOBEHAVIOUR_METHODS" />
+                <marker date="1521748139982" expanded="true" signature="876:1260" ph="{...}" />
+                <marker date="1521748139982" expanded="true" signature="1313:2561" ph="PUBLIC_METHODS" />
+                <marker date="1521748139982" expanded="true" signature="1341:1491" ph="///     Implementation of the ITrackableEventHandler function called when the ... " />
+                <marker date="1521748139982" expanded="true" signature="1627:2527" ph="{...}" />
+                <marker date="1521748139982" expanded="true" signature="1827:1962" ph="{...}" />
+                <marker date="1521748139982" expanded="true" signature="2101:2234" ph="{...}" />
+                <marker date="1521748139982" expanded="true" signature="2247:2521" ph="{...}" />
+                <marker date="1521748139982" expanded="true" signature="2270:2481" ph="/* For combo of previousStatus=UNKNOWN + newStatus=UNKNOWN|NOT_FOUND ... */" />
+                <marker date="1521748139982" expanded="true" signature="2567:3467" ph="PRIVATE_METHODS" />
+                <marker date="1521748139982" expanded="true" signature="2636:3373" ph="{...}" />
+                <marker date="1521748139982" expanded="true" signature="2895:3366" ph="/* videoSource.Play(); ... */" />
+                <marker date="1521748139982" expanded="true" signature="3411:3432" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -74,20 +74,21 @@
       <file leaf-file-name="VideoLogic.cs" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Assets/Scripts/VideoLogic.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="714">
-              <caret line="78" column="30" lean-forward="false" selection-start-line="78" selection-start-column="30" selection-end-line="78" selection-end-column="30" />
+            <state relative-caret-position="357">
+              <caret line="35" column="42" lean-forward="false" selection-start-line="35" selection-start-column="42" selection-end-line="35" selection-end-column="42" />
               <folding>
-                <marker date="1521670887409" expanded="false" signature="6:216" ph="..." />
-                <marker date="1521670887409" expanded="true" signature="257:2006" ph="{...}" />
-                <marker date="1521670887409" expanded="true" signature="660:821" ph="{...}" />
-                <marker date="1521670887409" expanded="true" signature="845:996" ph="{...}" />
-                <marker date="1521670887409" expanded="true" signature="1023:1114" ph="{...}" />
-                <marker date="1521670887409" expanded="true" signature="1162:1277" ph="{...}" />
-                <marker date="1521670887409" expanded="true" signature="1279:1361" ph="/* private void VideoStopped(VideoPlayer source) ... */" />
-                <marker date="1521670887409" expanded="true" signature="1399:1663" ph="{...}" />
-                <marker date="1521670887409" expanded="true" signature="1690:2004" ph="{...}" />
-                <marker date="1521670887409" expanded="true" signature="1785:1909" ph="{...}" />
-                <marker date="1521670887409" expanded="true" signature="1916:2001" ph="{...}" />
+                <marker date="1521756429511" expanded="false" signature="6:216" ph="..." />
+                <marker date="1521756429511" expanded="true" signature="257:2185" ph="{...}" />
+                <marker date="1521756429511" expanded="true" signature="660:860" ph="{...}" />
+                <marker date="1521756429511" expanded="true" signature="884:1035" ph="{...}" />
+                <marker date="1521756429511" expanded="true" signature="1062:1153" ph="{...}" />
+                <marker date="1521756429511" expanded="true" signature="1201:1316" ph="{...}" />
+                <marker date="1521756429511" expanded="true" signature="1318:1400" ph="/* private void VideoStopped(VideoPlayer source) ... */" />
+                <marker date="1521756429511" expanded="true" signature="1438:1669" ph="{...}" />
+                <marker date="1521756429511" expanded="true" signature="1696:1842" ph="{...}" />
+                <marker date="1521756429511" expanded="true" signature="1869:2183" ph="{...}" />
+                <marker date="1521756429511" expanded="true" signature="1964:2088" ph="{...}" />
+                <marker date="1521756429511" expanded="true" signature="2095:2180" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -96,8 +97,8 @@
       <file leaf-file-name="VideoTagalong.cs" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/Scripts/VideoTagalong.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="748">
-              <caret line="90" column="46" lean-forward="false" selection-start-line="90" selection-start-column="46" selection-end-line="90" selection-end-column="46" />
+            <state relative-caret-position="901">
+              <caret line="84" column="9" lean-forward="false" selection-start-line="84" selection-start-column="9" selection-end-line="85" selection-end-column="29" />
               <folding>
                 <marker date="1521657885039" expanded="true" signature="0:152" ph="/* Copyright (c) Microsoft Corporation. All rights reserved. ... */" />
                 <marker date="1521657885039" expanded="true" signature="201:3346" ph="{...}" />
@@ -361,12 +362,12 @@
       <workItem from="1521039482934" duration="6973000" />
       <workItem from="1521127845918" duration="9044000" />
       <workItem from="1521214304557" duration="3066000" />
-      <workItem from="1521644037674" duration="8788000" />
+      <workItem from="1521644037674" duration="11489000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="52260000" />
+    <option name="totallyTimeSpent" value="54961000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -867,28 +868,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Scripts/VideoTagalong.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="748">
-          <caret line="90" column="46" lean-forward="false" selection-start-line="90" selection-start-column="46" selection-end-line="90" selection-end-column="46" />
-          <folding>
-            <marker date="1521657885039" expanded="true" signature="0:152" ph="/* Copyright (c) Microsoft Corporation. All rights reserved. ... */" />
-            <marker date="1521657885039" expanded="true" signature="201:3346" ph="{...}" />
-            <marker date="1521657885039" expanded="true" signature="208:411" ph="/// A Tagalong that stays at a fixed distance from the camera and always ... " />
-            <marker date="1521657885039" expanded="true" signature="458:3344" ph="{...}" />
-            <marker date="1521657885039" expanded="true" signature="667:840" ph="/// When moving, use unscaled time. This is useful for games that have a pause mechanism or otherwise adjust the  ... " />
-            <marker date="1521657885039" expanded="true" signature="1066:1216" ph="/// Used to initialize the initial position of the SphereBasedTagalong before being hidden on LateUpdate. ... " />
-            <marker date="1521657885039" expanded="true" signature="1901:2287" ph="{...}" />
-            <marker date="1521657885039" expanded="true" signature="2318:2952" ph="{...}" />
-            <marker date="1521657885039" expanded="true" signature="2581:2942" ph="{...}" />
-            <marker date="1521657885039" expanded="true" signature="2987:3153" ph="{...}" />
-            <marker date="1521657885039" expanded="true" signature="3026:3143" ph="{...}" />
-            <marker date="1521657885039" expanded="true" signature="3187:3237" ph="{...}" />
-            <marker date="1521657885039" expanded="true" signature="3270:3338" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Assets/HoloToolkit/Input/Scripts/Cursor/Cursor.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="262">
@@ -1168,47 +1147,70 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/MedallionEventTracker.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="442">
-          <caret line="88" column="33" lean-forward="false" selection-start-line="88" selection-start-column="33" selection-end-line="88" selection-end-column="33" />
+        <state relative-caret-position="476">
+          <caret line="90" column="44" lean-forward="false" selection-start-line="90" selection-start-column="44" selection-end-line="90" selection-end-column="44" />
           <folding>
-            <marker date="1521670608505" expanded="true" signature="0:256" ph="/* ============================================================================== ... */" />
-            <marker date="1521670608505" expanded="false" signature="264:341" ph="..." />
-            <marker date="1521670608505" expanded="true" signature="343:450" ph="///     A custom handler that implements the ITrackableEventHandler interface. ... " />
-            <marker date="1521670608505" expanded="true" signature="525:3440" ph="{...}" />
-            <marker date="1521670608505" expanded="true" signature="668:799" ph="PRIVATE_MEMBER_VARIABLES" />
-            <marker date="1521670608505" expanded="true" signature="805:1307" ph="UNTIY_MONOBEHAVIOUR_METHODS" />
-            <marker date="1521670608505" expanded="true" signature="876:1260" ph="{...}" />
-            <marker date="1521670608505" expanded="true" signature="1313:2561" ph="PUBLIC_METHODS" />
-            <marker date="1521670608505" expanded="true" signature="1341:1491" ph="///     Implementation of the ITrackableEventHandler function called when the ... " />
-            <marker date="1521670608505" expanded="true" signature="1627:2527" ph="{...}" />
-            <marker date="1521670608505" expanded="true" signature="1827:1962" ph="{...}" />
-            <marker date="1521670608505" expanded="true" signature="2101:2234" ph="{...}" />
-            <marker date="1521670608505" expanded="true" signature="2247:2521" ph="{...}" />
-            <marker date="1521670608505" expanded="true" signature="2270:2481" ph="/* For combo of previousStatus=UNKNOWN + newStatus=UNKNOWN|NOT_FOUND ... */" />
-            <marker date="1521670608505" expanded="true" signature="2567:3438" ph="PRIVATE_METHODS" />
-            <marker date="1521670608505" expanded="true" signature="2636:3344" ph="{...}" />
-            <marker date="1521670608505" expanded="true" signature="2850:3329" ph="/* videoSource.Play(); ... */" />
-            <marker date="1521670608505" expanded="true" signature="3382:3403" ph="{...}" />
+            <marker date="1521748139982" expanded="true" signature="0:256" ph="/* ============================================================================== ... */" />
+            <marker date="1521748139982" expanded="false" signature="264:341" ph="..." />
+            <marker date="1521748139982" expanded="true" signature="343:450" ph="///     A custom handler that implements the ITrackableEventHandler interface. ... " />
+            <marker date="1521748139982" expanded="true" signature="525:3469" ph="{...}" />
+            <marker date="1521748139982" expanded="true" signature="668:799" ph="PRIVATE_MEMBER_VARIABLES" />
+            <marker date="1521748139982" expanded="true" signature="805:1307" ph="UNTIY_MONOBEHAVIOUR_METHODS" />
+            <marker date="1521748139982" expanded="true" signature="876:1260" ph="{...}" />
+            <marker date="1521748139982" expanded="true" signature="1313:2561" ph="PUBLIC_METHODS" />
+            <marker date="1521748139982" expanded="true" signature="1341:1491" ph="///     Implementation of the ITrackableEventHandler function called when the ... " />
+            <marker date="1521748139982" expanded="true" signature="1627:2527" ph="{...}" />
+            <marker date="1521748139982" expanded="true" signature="1827:1962" ph="{...}" />
+            <marker date="1521748139982" expanded="true" signature="2101:2234" ph="{...}" />
+            <marker date="1521748139982" expanded="true" signature="2247:2521" ph="{...}" />
+            <marker date="1521748139982" expanded="true" signature="2270:2481" ph="/* For combo of previousStatus=UNKNOWN + newStatus=UNKNOWN|NOT_FOUND ... */" />
+            <marker date="1521748139982" expanded="true" signature="2567:3467" ph="PRIVATE_METHODS" />
+            <marker date="1521748139982" expanded="true" signature="2636:3373" ph="{...}" />
+            <marker date="1521748139982" expanded="true" signature="2895:3366" ph="/* videoSource.Play(); ... */" />
+            <marker date="1521748139982" expanded="true" signature="3411:3432" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/VideoTagalong.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="901">
+          <caret line="84" column="9" lean-forward="false" selection-start-line="84" selection-start-column="9" selection-end-line="85" selection-end-column="29" />
+          <folding>
+            <marker date="1521657885039" expanded="true" signature="0:152" ph="/* Copyright (c) Microsoft Corporation. All rights reserved. ... */" />
+            <marker date="1521657885039" expanded="true" signature="201:3346" ph="{...}" />
+            <marker date="1521657885039" expanded="true" signature="208:411" ph="/// A Tagalong that stays at a fixed distance from the camera and always ... " />
+            <marker date="1521657885039" expanded="true" signature="458:3344" ph="{...}" />
+            <marker date="1521657885039" expanded="true" signature="667:840" ph="/// When moving, use unscaled time. This is useful for games that have a pause mechanism or otherwise adjust the  ... " />
+            <marker date="1521657885039" expanded="true" signature="1066:1216" ph="/// Used to initialize the initial position of the SphereBasedTagalong before being hidden on LateUpdate. ... " />
+            <marker date="1521657885039" expanded="true" signature="1901:2287" ph="{...}" />
+            <marker date="1521657885039" expanded="true" signature="2318:2952" ph="{...}" />
+            <marker date="1521657885039" expanded="true" signature="2581:2942" ph="{...}" />
+            <marker date="1521657885039" expanded="true" signature="2987:3153" ph="{...}" />
+            <marker date="1521657885039" expanded="true" signature="3026:3143" ph="{...}" />
+            <marker date="1521657885039" expanded="true" signature="3187:3237" ph="{...}" />
+            <marker date="1521657885039" expanded="true" signature="3270:3338" ph="{...}" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/VideoLogic.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="714">
-          <caret line="78" column="30" lean-forward="false" selection-start-line="78" selection-start-column="30" selection-end-line="78" selection-end-column="30" />
+        <state relative-caret-position="357">
+          <caret line="35" column="42" lean-forward="false" selection-start-line="35" selection-start-column="42" selection-end-line="35" selection-end-column="42" />
           <folding>
-            <marker date="1521670887409" expanded="false" signature="6:216" ph="..." />
-            <marker date="1521670887409" expanded="true" signature="257:2006" ph="{...}" />
-            <marker date="1521670887409" expanded="true" signature="660:821" ph="{...}" />
-            <marker date="1521670887409" expanded="true" signature="845:996" ph="{...}" />
-            <marker date="1521670887409" expanded="true" signature="1023:1114" ph="{...}" />
-            <marker date="1521670887409" expanded="true" signature="1162:1277" ph="{...}" />
-            <marker date="1521670887409" expanded="true" signature="1279:1361" ph="/* private void VideoStopped(VideoPlayer source) ... */" />
-            <marker date="1521670887409" expanded="true" signature="1399:1663" ph="{...}" />
-            <marker date="1521670887409" expanded="true" signature="1690:2004" ph="{...}" />
-            <marker date="1521670887409" expanded="true" signature="1785:1909" ph="{...}" />
-            <marker date="1521670887409" expanded="true" signature="1916:2001" ph="{...}" />
+            <marker date="1521756429511" expanded="false" signature="6:216" ph="..." />
+            <marker date="1521756429511" expanded="true" signature="257:2185" ph="{...}" />
+            <marker date="1521756429511" expanded="true" signature="660:860" ph="{...}" />
+            <marker date="1521756429511" expanded="true" signature="884:1035" ph="{...}" />
+            <marker date="1521756429511" expanded="true" signature="1062:1153" ph="{...}" />
+            <marker date="1521756429511" expanded="true" signature="1201:1316" ph="{...}" />
+            <marker date="1521756429511" expanded="true" signature="1318:1400" ph="/* private void VideoStopped(VideoPlayer source) ... */" />
+            <marker date="1521756429511" expanded="true" signature="1438:1669" ph="{...}" />
+            <marker date="1521756429511" expanded="true" signature="1696:1842" ph="{...}" />
+            <marker date="1521756429511" expanded="true" signature="1869:2183" ph="{...}" />
+            <marker date="1521756429511" expanded="true" signature="1964:2088" ph="{...}" />
+            <marker date="1521756429511" expanded="true" signature="2095:2180" ph="{...}" />
           </folding>
         </state>
       </provider>

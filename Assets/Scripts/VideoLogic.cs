@@ -33,6 +33,7 @@ public class VideoLogic : MonoBehaviour
 
 		promptText.SetActive(false);		
 		sampleModel.SetActive(false);
+		videoPlayerTexture.SetActive(false);
 		
 	}
 
@@ -67,7 +68,6 @@ public class VideoLogic : MonoBehaviour
 	void ShowPrompt(VideoPlayer source)
 	{
 		
-		restartButton.SetActive(true);
 		promptText.SetActive(true);
 		
 		videoPlayerTexture.SetActive(false);
@@ -78,6 +78,15 @@ public class VideoLogic : MonoBehaviour
 
 		// Re-enable billboard
 		GetComponent<Billboard>().enabled = true;
+	}
+
+	public void StartVideo()
+	{
+		videoPlayer.Play();
+		videoPlayerTexture.SetActive(true);
+		
+		playButton.SetActive(false);
+		GetComponent<VideoTagalong>().VideoStart();
 	}
 	
 	public void StopVideo()
