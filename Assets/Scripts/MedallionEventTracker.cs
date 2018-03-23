@@ -15,6 +15,7 @@ public class MedallionEventTracker : MonoBehaviour, ITrackableEventHandler
 {
     public VideoPlayer videoSource;
     public GameObject videoPlayer;
+    public GameObject queueObject;
 
     private bool tracked;
     private Billboard billboard;
@@ -33,11 +34,15 @@ public class MedallionEventTracker : MonoBehaviour, ITrackableEventHandler
         if (mTrackableBehaviour)
             mTrackableBehaviour.RegisterTrackableEventHandler(this);
         
-        videoPlayer.SetActive(false);
+//        videoPlayer.SetActive(false);
+//        #if !UNITY_EDITOR    
+            queueObject.SetActive(false);        
+//        #endif
         
         billboard = videoPlayer.gameObject.AddComponent<Billboard>();
         billboard.PivotAxis = PivotAxis.Y;
         billboard.enabled = false;
+      
     }
 
     #endregion // UNTIY_MONOBEHAVIOUR_METHODS
@@ -59,19 +64,6 @@ public class MedallionEventTracker : MonoBehaviour, ITrackableEventHandler
             Debug.Log("Trackable " + mTrackableBehaviour.TrackableName + " found");
             OnTrackingFound();
         }
-        else if (previousStatus == TrackableBehaviour.Status.TRACKED &&
-                 newStatus == TrackableBehaviour.Status.NOT_FOUND)
-        {
-            Debug.Log("Trackable " + mTrackableBehaviour.TrackableName + " lost");
-            OnTrackingLost();
-        }
-        else
-        {
-            // For combo of previousStatus=UNKNOWN + newStatus=UNKNOWN|NOT_FOUND
-            // Vuforia is starting, but tracking has not been lost or found yet
-            // Call OnTrackingLost() to hide the augmentations
-            OnTrackingLost();
-        }
     }
 
     #endregion // PUBLIC_METHODS
@@ -88,7 +80,10 @@ public class MedallionEventTracker : MonoBehaviour, ITrackableEventHandler
 
         billboard.enabled = true;
         videoPlayer.SetActive(true);
-        videoPlayer.transform.parent = null;
+        videoPlayer.transform.parent = null;            
+        
+        queueObject.SetActive(true);
+
         //videoSource.Play();
 
         //Vector3 tempPos = videoPlayer.transform.position;
@@ -99,12 +94,6 @@ public class MedallionEventTracker : MonoBehaviour, ITrackableEventHandler
 //        videoPlayer.transform.position = Vector3.zero;
         //I videoPlayer.transform.position = tempPos;
 
-    }
-
-
-    protected void OnTrackingLost()
-    {
-        
     }
 
     #endregion // PRIVATE_METHODS

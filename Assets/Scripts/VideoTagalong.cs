@@ -59,10 +59,11 @@ namespace HoloToolkit.Unity
         {
             optimalPosition = CameraCache.Main.transform.position + CameraCache.Main.transform.forward * initialDistanceToCamera;
             Vector3 offsetDir = transform.position - optimalPosition;
-
+            
             if (offsetDir.magnitude > SphereRadius)
             {
                 targetPosition = optimalPosition + offsetDir.normalized * SphereRadius;
+                targetPosition = new Vector3(targetPosition.x, targetPosition.y, transform.position.z);
 
                 float deltaTime = useUnscaledTime
                     ? Time.unscaledDeltaTime
