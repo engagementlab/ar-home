@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using HoloToolkit.Unity;
 using UnityEngine;
+using UnityEngine.EventSystems;
 using UnityEngine.SceneManagement;
 using UnityEngine.Video;
 using UnityEngine.Windows.Speech;
@@ -21,12 +22,16 @@ public class VideoLogic : MonoBehaviour
 	public bool videoPlayed;
 	
 	private VideoPlayer _video;
+	private Camera mainCamera;
+
 	private float videoCurrentTime;
 	private bool videoIsPlaying;
 
 	// Use this for initialization
 	void Start ()
 	{
+		
+		mainCamera = Camera.main;
 
 		videoPlayer.started += VideoStarted;
 		videoPlayer.loopPointReached += ShowPrompt;
@@ -60,11 +65,6 @@ public class VideoLogic : MonoBehaviour
 		videoIsPlaying = true;
 	}
 
-/*	private void VideoStopped(VideoPlayer source)
-	{
-		videoIsPlaying = false;
-	}*/
-
 	void ShowPrompt(VideoPlayer source)
 	{
 		
@@ -80,13 +80,23 @@ public class VideoLogic : MonoBehaviour
 		GetComponent<Billboard>().enabled = true;
 	}
 
+	// Called via OnDownEvrnt on caller interactive object
 	public void StartVideo()
 	{
+        
+		Vector3 playerPos = mainCamera.transform.position;
+		Vector3 playerDirection = mainCamera.transform.forward;
+		transform.position = playerPos + (playerDirection * 2);
+		
 		videoPlayer.Play();
 		videoPlayerTexture.SetActive(true);
 		
 		playButton.SetActive(false);
 		GetComponent<VideoTagalong>().VideoStart();
+
+		// Hide caller object
+//		EventSystem.current.currentSelectedGameObject.SetActive(false);
+
 	}
 	
 	public void StopVideo()

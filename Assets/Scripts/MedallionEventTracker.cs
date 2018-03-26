@@ -13,12 +13,24 @@ using Vuforia;
 /// </summary>
 public class MedallionEventTracker : MonoBehaviour, ITrackableEventHandler
 {
+    #region PUBLIC_MEMBERS
+    
     public VideoPlayer videoSource;
     public GameObject videoPlayer;
     public GameObject queueObject;
+    public enum TurnOffRendering{
+        PlayModeAndDevice,
+        PlayModeOnly,
+        Neither
+    }
+
+    public TurnOffRendering turnOffRendering = TurnOffRendering.PlayModeAndDevice;
+    
+    #endregion //PUBLIC_MEMBERS
 
     private bool tracked;
     private Billboard billboard;
+    private Camera mainCamera;
     
     #region PRIVATE_MEMBER_VARIABLES
 
@@ -42,7 +54,11 @@ public class MedallionEventTracker : MonoBehaviour, ITrackableEventHandler
         billboard = videoPlayer.gameObject.AddComponent<Billboard>();
         billboard.PivotAxis = PivotAxis.Y;
         billboard.enabled = false;
-      
+
+        mainCamera = Camera.main;
+
+        TurnOffImage();
+
     }
 
     #endregion // UNTIY_MONOBEHAVIOUR_METHODS
@@ -70,29 +86,38 @@ public class MedallionEventTracker : MonoBehaviour, ITrackableEventHandler
 
     #region PRIVATE_METHODS
 
+    // Disable image target rendering
+    private void TurnOffImage()
+    {
+        if (VuforiaRuntimeUtilities.IsVuforiaEnabled() && 
+             turnOffRendering != TurnOffRendering.Neither &&
+             (turnOffRendering == TurnOffRendering.PlayModeAndDevice ||
+              Application.isEditor))
+        {
+            MeshRenderer meshRenderer = GetComponent<MeshRenderer>();
+            MeshFilter meshFilter = GetComponent<MeshFilter>();
+
+            if (meshRenderer)
+                Destroy(meshRenderer);
+            if (meshFilter)
+                Destroy(meshFilter);
+        }
+    }
+
     protected virtual void OnTrackingFound()
     {
         if(tracked) return;
         tracked = true;
+        Vector3 playerPos = mainCamera.transform.position;
+        Vector3 playerDirection = mainCamera.transform.forward;
         
-        // Show video component
-        Debug.Log("image found");
-
         billboard.enabled = true;
         videoPlayer.SetActive(true);
         videoPlayer.transform.parent = null;            
         
         queueObject.SetActive(true);
+        queueObject.transform.position = playerPos + (playerDirection * 1.5f);
 
-        //videoSource.Play();
-
-        //Vector3 tempPos = videoPlayer.transform.position;
-//        videoPlayer.transform.parent = mTrackableBehaviour.transform;
-//        videoPlayer.transform.localPosition = Vector3.zero;
-//        videoPlayer.transform.position= mTrackableBehaviour.transform.position;
-//        videoPlayer.transform.Translate(Vector3.up * .04f);
-//        videoPlayer.transform.position = Vector3.zero;
-        //I videoPlayer.transform.position = tempPos;
 
     }
 
