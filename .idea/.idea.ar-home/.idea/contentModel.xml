@@ -851,28 +851,6 @@
                 </e>
               </e>
             </e>
-            <e p="Medical" t="Include">
-              <e p="Editor" t="Include">
-                <e p="VolumeInformationEditor.cs" t="Include" />
-              </e>
-              <e p="Scripts" t="Include">
-                <e p="RestrictToBounds.cs" t="Include" />
-                <e p="SlicingPlaneController.cs" t="Include" />
-                <e p="TapToPlaceScene.cs" t="Include" />
-                <e p="VolumeBuffer.cs" t="Include" />
-                <e p="VolumeController.cs" t="Include" />
-                <e p="VolumeImportImages.cs" t="Include" />
-                <e p="VolumeInformation.cs" t="Include" />
-                <e p="VolumeTextureUtils.cs" t="Include" />
-              </e>
-              <e p="Shaders" t="Include">
-                <e p="math.cginc" t="Include" />
-                <e p="PlaneCut.cginc" t="Include" />
-                <e p="VolumeRenderShared.cginc" t="Include" />
-                <e p="VolumeRenderSlice.shader" t="Include" />
-                <e p="VolumeRenderThickSlice.shader" t="Include" />
-              </e>
-            </e>
             <e p="MotionControllers-GrabMechanics" t="Include">
               <e p="Scripts" t="Include">
                 <e p="BaseGrabbable.cs" t="Include" />

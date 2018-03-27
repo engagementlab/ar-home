@@ -1,4 +1,9 @@
-﻿using System.Collections;
+﻿/*==============================================================================
+Copyright (c) 2018 Engagement Lab @ Emerson College. All Rights Reserved.
+by Johnny Richardson
+==============================================================================*/
+
+using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
 using HoloToolkit.Sharing.Tests;

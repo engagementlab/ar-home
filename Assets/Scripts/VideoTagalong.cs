@@ -1,6 +1,8 @@
-﻿// Copyright (c) Microsoft Corporation. All rights reserved.
-// Licensed under the MIT License. See LICENSE in the project root for license information.
-
+﻿/*==============================================================================
+Copyright (c) 2018 Engagement Lab @ Emerson College. All Rights Reserved.
+by Johnny Richardson
+==============================================================================*/
+// Based on SphereTagalong, Copyright (c) Microsoft Corporation. All rights reserved.
 using UnityEngine;
 
 namespace HoloToolkit.Unity

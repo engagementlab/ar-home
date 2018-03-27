@@ -1,4 +1,9 @@
-﻿using System.Collections;
+﻿/*==============================================================================
+Copyright (c) 2018 Engagement Lab @ Emerson College. All Rights Reserved.
+by Johnny Richardson
+==============================================================================*/
+
+using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
 using HoloToolkit.Unity;
@@ -37,8 +42,11 @@ public class VideoLogic : MonoBehaviour
 		videoPlayer.loopPointReached += ShowPrompt;
 
 		promptText.SetActive(false);		
-		sampleModel.SetActive(false);
-		videoPlayerTexture.SetActive(false);
+		
+		if(sampleModel != null)
+			sampleModel.SetActive(false);
+
+//		videoPlayerTexture.SetActive(false);
 		
 	}
 
@@ -46,9 +54,13 @@ public class VideoLogic : MonoBehaviour
 	{
 		if(videoIsPlaying)
 			videoCurrentTime += Time.deltaTime;
-		
-		if(videoCurrentTime > 5 && !sampleModel.active)
-			sampleModel.SetActive(true);
+
+		if (videoCurrentTime > 5 && !sampleModel.active)
+		{
+			if(sampleModel != null)
+				sampleModel.SetActive(true);
+
+		}
 	}
 
 	private void OnDestroy()
@@ -70,7 +82,7 @@ public class VideoLogic : MonoBehaviour
 		
 		promptText.SetActive(true);
 		
-		videoPlayerTexture.SetActive(false);
+//		videoPlayerTexture.SetActive(false);
 		stopButton.SetActive(false);
 
 		videoPlayed = true;
@@ -95,7 +107,8 @@ public class VideoLogic : MonoBehaviour
 		GetComponent<VideoTagalong>().VideoStart();
 
 		// Hide caller object
-//		EventSystem.current.currentSelectedGameObject.SetActive(false);
+		Debug.Log("Hide "  + EventSystem.current.currentSelectedGameObject.name);
+		EventSystem.current.currentSelectedGameObject.SetActive(false);
 
 	}
 	

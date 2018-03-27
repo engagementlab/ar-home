@@ -209,8 +209,6 @@ namespace HoloToolkit.Examples.InteractiveElements
         /// </summary>
         public virtual void OnInputDown(InputEventData eventData)
         {
-            Debug.Log("OnInputDown");
-
             if (!HasGaze)
             {
                 return;
