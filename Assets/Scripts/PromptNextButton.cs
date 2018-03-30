@@ -15,18 +15,12 @@ public class PromptNextButton : MonoBehaviour
 	private CompoundButton _compoundButton;
 	private int promptIndex;
 
-	// Use this for initialization
-	void Start ()
-	{
-
-	}
-
 	public void AdvancePrompt()
 	{
 		promptText[promptIndex].gameObject.SetActive(false);
 		promptIndex++;
 
-		if (promptIndex == promptText.Length - 1)
+		if (promptIndex == promptText.Length)
 		{
 			transform.parent.gameObject.SetActive(false);
 			return;

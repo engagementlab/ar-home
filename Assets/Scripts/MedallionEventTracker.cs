@@ -14,9 +14,8 @@ using Vuforia;
 public class MedallionEventTracker : MonoBehaviour, ITrackableEventHandler
 {
     #region PUBLIC_MEMBERS
-    
-    public VideoPlayer videoSource;
-    public GameObject videoPlayer;
+
+    public VideoClip clipToPlay;
     public GameObject queueObject;
     public enum TurnOffRendering{
         PlayModeAndDevice,
@@ -29,8 +28,8 @@ public class MedallionEventTracker : MonoBehaviour, ITrackableEventHandler
     #endregion //PUBLIC_MEMBERS
 
     private bool tracked;
-    private Billboard billboard;
     private Camera mainCamera;
+    private VideoPlayer videoSource;
     
     #region PRIVATE_MEMBER_VARIABLES
 
@@ -46,18 +45,22 @@ public class MedallionEventTracker : MonoBehaviour, ITrackableEventHandler
         if (mTrackableBehaviour)
             mTrackableBehaviour.RegisterTrackableEventHandler(this);
         
-//        videoPlayer.SetActive(false);
-//        #if !UNITY_EDITOR    
+        #if !UNITY_EDITOR    
             queueObject.SetActive(false);        
-//        #endif
+        #endif
         
-        billboard = videoPlayer.gameObject.AddComponent<Billboard>();
-        billboard.PivotAxis = PivotAxis.Y;
-        billboard.enabled = false;
+        // Add video source
+        videoSource = gameObject.AddComponent<VideoPlayer>();
+        videoSource.playOnAwake = false;
+        videoSource.renderMode = VideoRenderMode.RenderTexture;
+        videoSource.targetTexture = Resources.Load<RenderTexture>("VideoTex");
+        videoSource.clip = clipToPlay;
 
         mainCamera = Camera.main;
 
         TurnOffImage();
+        
+        Events.instance.AddListener<GenericEvent>(PlaceAtAnchor);
 
     }
 
@@ -69,13 +72,13 @@ public class MedallionEventTracker : MonoBehaviour, ITrackableEventHandler
     ///     Implementation of the ITrackableEventHandler function called when the
     ///     tracking state changes.
     /// </summary>
+    /// 
+    
     public void OnTrackableStateChanged(
         TrackableBehaviour.Status previousStatus,
         TrackableBehaviour.Status newStatus)
     {
-        if (newStatus == TrackableBehaviour.Status.DETECTED ||
-            newStatus == TrackableBehaviour.Status.TRACKED ||
-            newStatus == TrackableBehaviour.Status.EXTENDED_TRACKED)
+        if (newStatus == TrackableBehaviour.Status.TRACKED)
         {
             Debug.Log("Trackable " + mTrackableBehaviour.TrackableName + " found");
             OnTrackingFound();
@@ -111,14 +114,25 @@ public class MedallionEventTracker : MonoBehaviour, ITrackableEventHandler
         Vector3 playerPos = mainCamera.transform.position;
         Vector3 playerDirection = mainCamera.transform.forward;
         
-        billboard.enabled = true;
-        videoPlayer.SetActive(true);
-        videoPlayer.transform.parent = null;            
-        
         queueObject.SetActive(true);
         queueObject.transform.position = playerPos + (playerDirection * 1.5f);
 
+        GetComponent<ImageTargetBehaviour>().enabled = false;
 
+
+    }
+
+    private void PlaceAtAnchor(GenericEvent evt)
+    {
+       
+        if (evt.EventName != "PlaceHead") return;
+
+        GameObject placeholder = GameObject.FindGameObjectWithTag("HeadPlaceholder");
+        transform.position = placeholder.transform.position;
+        placeholder.SetActive(false);
+        
+        GetComponent<VideoLogic>().StartVideo();
+        
     }
 
     #endregion // PRIVATE_METHODS

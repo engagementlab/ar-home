@@ -40,7 +40,6 @@
             </e>
           </e>
         </e>
-        <e p="MicListener.cs" t="Include" />
         <e p="PhysicsTest.cs" t="Include" />
         <e p="Plugins" t="Include">
           <e p="Editor" t="Include">
@@ -57,15 +56,28 @@
             </e>
           </e>
           <e p="CustomMessages.cs" t="Include" />
+          <e p="EventHandling" t="Include">
+            <e p="Events" t="Include">
+              <e p="GenericEvent.cs" t="Include" />
+            </e>
+            <e p="Events.cs" t="Include" />
+          </e>
           <e p="FloatBehavior.cs" t="Include" />
+          <e p="HeadAnchoring.cs" t="Include" />
           <e p="ImportExportAnchorManager.cs" t="Include" />
           <e p="InteractiveObject.cs" t="Include" />
           <e p="MedallionEventTracker.cs" t="Include" />
           <e p="Moveable.cs" t="Include" />
           <e p="Placeable.cs" t="Include" />
           <e p="Positioning.cs" t="Include" />
+          <e p="PromptNextButton.cs" t="Include" />
           <e p="SceneManagement.cs" t="Include" />
           <e p="SetStatusColor.cs" t="Include" />
+          <e p="Standard Assets" t="Include">
+            <e p="shader" t="Include">
+              <e p="DifSpecTransp.shader" t="Include" />
+            </e>
+          </e>
           <e p="UILogic.cs" t="Include" />
           <e p="VideoLogic.cs" t="Include" />
           <e p="VideoTagalong.cs" t="Include" />

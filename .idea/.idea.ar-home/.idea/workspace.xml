@@ -4,12 +4,25 @@
     <list default="true" id="6394d176-6f62-4b67-b56c-fbd3f5eecf54" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.ar-home/.idea/contentModel.xml" afterPath="$PROJECT_DIR$/.idea/.idea.ar-home/.idea/contentModel.xml" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.ar-home/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/.idea.ar-home/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animations/Mouse.controller" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animations/Mouse.controller.meta" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animations/MouseMove.anim" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animations/MouseMove.anim.meta" afterPath="" />
       <change beforePath="$PROJECT_DIR$/Assets/Materials/VideoMat.mat" afterPath="$PROJECT_DIR$/Assets/Materials/VideoMat.mat" />
-      <change beforePath="$PROJECT_DIR$/Assets/Materials/VideoTex.renderTexture" afterPath="$PROJECT_DIR$/Assets/Materials/VideoTex.renderTexture" />
+      <change beforePath="$PROJECT_DIR$/Assets/Materials/VideoTex.renderTexture" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Assets/Materials/VideoTex.renderTexture.meta" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Assets/MicListener.cs" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Assets/MicListener.cs.meta" afterPath="" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/ARVideo.unity" afterPath="$PROJECT_DIR$/Assets/Scenes/ARVideo.unity" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/MedallionEventTracker.cs" afterPath="$PROJECT_DIR$/Assets/Scripts/MedallionEventTracker.cs" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/PromptNextButton.cs" afterPath="$PROJECT_DIR$/Assets/Scripts/PromptNextButton.cs" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/SceneManagement.cs" afterPath="$PROJECT_DIR$/Assets/Scripts/SceneManagement.cs" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/VideoLogic.cs" afterPath="$PROJECT_DIR$/Assets/Scripts/VideoLogic.cs" />
-      <change beforePath="$PROJECT_DIR$/Assets/Toolkit/HoloToolkit-Examples.meta" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Toolkit/HoloToolkit-Examples/UX/Prefabs/ButtonPush.prefab" afterPath="$PROJECT_DIR$/Assets/Toolkit/HoloToolkit-Examples/UX/Prefabs/ButtonPush.prefab" />
+      <change beforePath="$PROJECT_DIR$/Assets/Standard Assets.meta" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Assets/Standard Assets/shader.meta" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Assets/Standard Assets/shader/DifSpecTransp.shader" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Assets/Standard Assets/shader/DifSpecTransp.shader.meta" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" afterPath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -26,155 +39,34 @@
       <file leaf-file-name="SceneManagement.cs" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/Scripts/SceneManagement.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="408">
-              <caret line="31" column="32" lean-forward="false" selection-start-line="31" selection-start-column="32" selection-end-line="31" selection-end-column="32" />
+            <state relative-caret-position="238">
+              <caret line="34" column="11" lean-forward="false" selection-start-line="34" selection-start-column="11" selection-end-line="34" selection-end-column="11" />
               <folding>
-                <marker date="1521139852875" expanded="false" signature="6:249" ph="..." />
-                <marker date="1521139852875" expanded="true" signature="295:1987" ph="{...}" />
-                <marker date="1521139852875" expanded="true" signature="554:1403" ph="{...}" />
-                <marker date="1521139852875" expanded="true" signature="640:970" ph="{...}" />
-                <marker date="1521139852875" expanded="true" signature="1007:1090" ph="{...}" />
-                <marker date="1521139852875" expanded="true" signature="1427:1510" ph="{...}" />
-                <marker date="1521139852875" expanded="true" signature="1539:1769" ph="{...}" />
-                <marker date="1521139852875" expanded="true" signature="1736:1766" ph="{...}" />
-                <marker date="1521139852875" expanded="true" signature="1854:1984" ph="{...}" />
-                <marker date="1521139852875" expanded="true" signature="1946:1981" ph="{...}" />
+                <marker date="1522274405613" expanded="true" signature="0:256" ph="/* ============================================================================== ... */" />
+                <marker date="1522274405613" expanded="false" signature="264:507" ph="..." />
+                <marker date="1522274405613" expanded="true" signature="553:2396" ph="{...}" />
+                <marker date="1522274405613" expanded="true" signature="812:1769" ph="{...}" />
+                <marker date="1522274405613" expanded="true" signature="848:1180" ph="{...}" />
+                <marker date="1522274405613" expanded="true" signature="1212:1305" ph="{...}" />
+                <marker date="1522274405613" expanded="true" signature="1373:1456" ph="{...}" />
+                <marker date="1522274405613" expanded="true" signature="1793:1876" ph="{...}" />
+                <marker date="1522274405613" expanded="true" signature="1905:2178" ph="{...}" />
+                <marker date="1522274405613" expanded="true" signature="2145:2175" ph="{...}" />
+                <marker date="1522274405613" expanded="true" signature="2263:2393" ph="{...}" />
+                <marker date="1522274405613" expanded="true" signature="2355:2390" ph="{...}" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MedallionEventTracker.cs" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Assets/Scripts/MedallionEventTracker.cs">
+      <file leaf-file-name="GenericEvent.cs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Assets/Scripts/EventHandling/Events/GenericEvent.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1173">
-              <caret line="125" column="0" lean-forward="false" selection-start-line="125" selection-start-column="0" selection-end-line="125" selection-end-column="0" />
+            <state relative-caret-position="102">
+              <caret line="6" column="25" lean-forward="false" selection-start-line="6" selection-start-column="25" selection-end-line="6" selection-end-column="25" />
               <folding>
-                <marker date="1522094732284" expanded="true" signature="0:256" ph="/* ============================================================================== ... */" />
-                <marker date="1522094732284" expanded="true" signature="264:341" ph="..." />
-                <marker date="1522094732284" expanded="true" signature="343:450" ph="///     A custom handler that implements the ITrackableEventHandler interface. ... " />
-                <marker date="1522094732284" expanded="true" signature="525:3652" ph="{...}" />
-                <marker date="1522094732284" expanded="true" signature="532:891" ph="PUBLIC_MEMBERS" />
-                <marker date="1522094732284" expanded="true" signature="698:770" ph="{...}" />
-                <marker date="1522094732284" expanded="true" signature="992:1123" ph="PRIVATE_MEMBER_VARIABLES" />
-                <marker date="1522094732284" expanded="true" signature="1129:1793" ph="UNTIY_MONOBEHAVIOUR_METHODS" />
-                <marker date="1522094732284" expanded="true" signature="1200:1746" ph="{...}" />
-                <marker date="1522094732284" expanded="true" signature="1384:1455" ph="/* videoPlayer.SetActive(false); ... */" />
-                <marker date="1522094732284" expanded="true" signature="1799:2488" ph="PUBLIC_METHODS" />
-                <marker date="1522094732284" expanded="true" signature="1827:1977" ph="///     Implementation of the ITrackableEventHandler function called when the ... " />
-                <marker date="1522094732284" expanded="true" signature="2113:2454" ph="{...}" />
-                <marker date="1522094732284" expanded="true" signature="2313:2448" ph="{...}" />
-                <marker date="1522094732284" expanded="true" signature="2494:3650" ph="PRIVATE_METHODS" />
-                <marker date="1522094732284" expanded="true" signature="2588:3118" ph="{...}" />
-                <marker date="1522094732284" expanded="true" signature="2823:3112" ph="{...}" />
-                <marker date="1522094732284" expanded="true" signature="3164:3615" ph="{...}" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="VideoLogic.cs" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Assets/Scripts/VideoLogic.cs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="714">
-              <caret line="56" column="0" lean-forward="false" selection-start-line="56" selection-start-column="0" selection-end-line="56" selection-end-column="0" />
-              <folding>
-                <marker date="1522171018993" expanded="false" signature="6:248" ph="..." />
-                <marker date="1522171018993" expanded="true" signature="289:2665" ph="{...}" />
-                <marker date="1522171018993" expanded="true" signature="721:983" ph="{...}" />
-                <marker date="1522171018993" expanded="true" signature="1007:1194" ph="{...}" />
-                <marker date="1522171018993" expanded="true" signature="1122:1191" ph="{...}" />
-                <marker date="1522171018993" expanded="true" signature="1221:1312" ph="{...}" />
-                <marker date="1522171018993" expanded="true" signature="1360:1475" ph="{...}" />
-                <marker date="1522171018993" expanded="true" signature="1513:1744" ph="{...}" />
-                <marker date="1522171018993" expanded="true" signature="1827:2322" ph="{...}" />
-                <marker date="1522171018993" expanded="true" signature="2349:2663" ph="{...}" />
-                <marker date="1522171018993" expanded="true" signature="2444:2568" ph="{...}" />
-                <marker date="1522171018993" expanded="true" signature="2575:2660" ph="{...}" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="InteractiveObject.cs" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Assets/Scripts/InteractiveObject.cs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="21" column="34" lean-forward="false" selection-start-line="21" selection-start-column="34" selection-end-line="21" selection-end-column="34" />
-              <folding>
-                <marker date="1521826173046" expanded="true" signature="0:152" ph="/* Copyright (c) Microsoft Corporation. All rights reserved. ... */" />
-                <marker date="1521826173046" expanded="false" signature="160:342" ph="..." />
-                <marker date="1521826173046" expanded="true" signature="401:9626" ph="{...}" />
-                <marker date="1521826173046" expanded="true" signature="408:942" ph="/// Interactive exposes basic button type events to the Unity Editor and receives messages from the GestureManage ... " />
-                <marker date="1521826173046" expanded="true" signature="1040:9624" ph="{...}" />
-                <marker date="1521826173046" expanded="true" signature="1097:1180" ph="/// Should the button listen to input? ... " />
-                <marker date="1521826173046" expanded="true" signature="1228:1318" ph="/// Does the GameObject currently have focus? ... " />
-                <marker date="1521826173046" expanded="true" signature="1380:1468" ph="/// Is the Tap currently in the down state? ... " />
-                <marker date="1521826173046" expanded="true" signature="1530:1623" ph="/// Should the button care about click and hold? ... " />
-                <marker date="1521826173046" expanded="true" signature="1673:1777" ph="/// Configure the amount to time for the hold event to fire ... " />
-                <marker date="1521826173046" expanded="true" signature="1825:2047" ph="/// Configure the amount of time a roll off update should incur. When building more advanced UI, ... " />
-                <marker date="1521826173046" expanded="true" signature="2099:2225" ph="/// Current selected state, can be set from the Unity Editor for default behavior ... " />
-                <marker date="1521826173046" expanded="true" signature="2523:2592" ph="/// Exposed Unity Events ... " />
-                <marker date="1521826173046" expanded="true" signature="2806:3078" ph="/// A button typically has 8 potential states. ... " />
-                <marker date="1521826173046" expanded="true" signature="3286:3341" ph="/// Timers ... " />
-                <marker date="1521826173046" expanded="true" signature="3729:3866" ph="/// Internal comparison variables to allow for live state updates no matter the input method ... " />
-                <marker date="1521826173046" expanded="true" signature="4240:4374" ph="{...}" />
-                <marker date="1521826173046" expanded="true" signature="4288:4364" ph="{...}" />
-                <marker date="1521826173046" expanded="true" signature="4384:4467" ph="/// Set default visual states on Start ... " />
-                <marker date="1521826173046" expanded="true" signature="4506:5481" ph="{...}" />
-                <marker date="1521826173046" expanded="true" signature="4547:5377" ph="{...}" />
-                <marker date="1521826173046" expanded="true" signature="4667:5012" ph="{...}" />
-                <marker date="1521826173046" expanded="true" signature="4881:4994" ph="{...}" />
-                <marker date="1521826173046" expanded="true" signature="5093:5355" ph="{...}" />
-                <marker date="1521826173046" expanded="true" signature="5491:5563" ph="/// An OnTap event occurred ... " />
-                <marker date="1521826173046" expanded="true" signature="5639:5940" ph="{...}" />
-                <marker date="1521826173046" expanded="true" signature="5677:5729" ph="{...}" />
-                <marker date="1521826173046" expanded="true" signature="5801:5892" ph="{...}" />
-                <marker date="1521826173046" expanded="true" signature="5950:6027" ph="/// The gameObject received gaze ... " />
-                <marker date="1521826173046" expanded="true" signature="6070:6276" ph="{...}" />
-                <marker date="1521826173046" expanded="true" signature="6147:6199" ph="{...}" />
-                <marker date="1521826173046" expanded="true" signature="6286:6368" ph="/// The gameObject no longer has gaze ... " />
-                <marker date="1521826173046" expanded="true" signature="6410:6659" ph="{...}" />
-                <marker date="1521826173046" expanded="true" signature="6669:6754" ph="/// The user is initiating a tap or hold ... " />
-                <marker date="1521826173046" expanded="true" signature="6820:7192" ph="{...}" />
-                <marker date="1521826173046" expanded="true" signature="6895:6947" ph="{...}" />
-                <marker date="1521826173046" expanded="true" signature="7040:7135" ph="{...}" />
-                <marker date="1521826173046" expanded="true" signature="7202:7298" ph="/// All tab, hold, and gesture events are completed ... " />
-                <marker date="1521826173046" expanded="true" signature="7362:7547" ph="{...}" />
-                <marker date="1521826173046" expanded="true" signature="7557:7633" ph="/// The hold timer has finished ... " />
-                <marker date="1521826173046" expanded="true" signature="7670:7791" ph="{...}" />
-                <marker date="1521826173046" expanded="true" signature="7801:7935" ph="/// The percentage of hold time completed ... " />
-                <marker date="1521826173046" expanded="true" signature="7976:8038" ph="{...}" />
-                <marker date="1521826173046" expanded="true" signature="8081:8161" ph="{...}" />
-                <marker date="1521826173046" expanded="true" signature="8300:8667" ph="{...}" />
-                <marker date="1521826173046" expanded="true" signature="8503:8657" ph="{...}" />
-                <marker date="1521826173046" expanded="true" signature="8565:8643" ph="{...}" />
-                <marker date="1521826173046" expanded="true" signature="8683:8764" ph="/// Run timers and check for updates ... " />
-                <marker date="1521826173046" expanded="true" signature="8804:9535" ph="{...}" />
-                <marker date="1521826173046" expanded="true" signature="8857:9160" ph="{...}" />
-                <marker date="1521826173046" expanded="true" signature="8920:9009" ph="{...}" />
-                <marker date="1521826173046" expanded="true" signature="9030:9146" ph="{...}" />
-                <marker date="1521826173046" expanded="true" signature="9188:9472" ph="{...}" />
-                <marker date="1521826173046" expanded="true" signature="9245:9331" ph="{...}" />
-                <marker date="1521826173046" expanded="true" signature="9352:9458" ph="{...}" />
-                <marker date="1521826173046" expanded="true" signature="9571:9618" ph="{...}" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="UILogic.cs" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Assets/Scripts/UILogic.cs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="510">
-              <caret line="32" column="35" lean-forward="false" selection-start-line="32" selection-start-column="35" selection-end-line="32" selection-end-column="35" />
-              <folding>
-                <marker date="1521139797483" expanded="false" signature="6:78" ph="..." />
-                <marker date="1521139797483" expanded="true" signature="116:1025" ph="{...}" />
-                <marker date="1521139797483" expanded="true" signature="283:842" ph="{...}" />
-                <marker date="1521139797483" expanded="true" signature="452:725" ph="{...}" />
-                <marker date="1521139797483" expanded="true" signature="897:1023" ph="{...}" />
-                <marker date="1521139797483" expanded="true" signature="955:1017" ph="{...}" />
+                <marker date="1522255921817" expanded="true" signature="38:139" ph="{...}" />
+                <marker date="1522255921817" expanded="true" signature="111:137" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -183,23 +75,89 @@
       <file leaf-file-name="VideoTagalong.cs" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/Scripts/VideoTagalong.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="493">
-              <caret line="65" column="59" lean-forward="false" selection-start-line="65" selection-start-column="59" selection-end-line="65" selection-end-column="59" />
+            <state relative-caret-position="884">
+              <caret line="86" column="20" lean-forward="false" selection-start-line="86" selection-start-column="20" selection-end-line="86" selection-end-column="20" />
               <folding>
-                <marker date="1521840522340" expanded="true" signature="0:152" ph="/* Copyright (c) Microsoft Corporation. All rights reserved. ... */" />
-                <marker date="1521840522340" expanded="true" signature="201:3462" ph="{...}" />
-                <marker date="1521840522340" expanded="true" signature="208:411" ph="/// A Tagalong that stays at a fixed distance from the camera and always ... " />
-                <marker date="1521840522340" expanded="true" signature="458:3460" ph="{...}" />
-                <marker date="1521840522340" expanded="true" signature="667:840" ph="/// When moving, use unscaled time. This is useful for games that have a pause mechanism or otherwise adjust the  ... " />
-                <marker date="1521840522340" expanded="true" signature="1066:1216" ph="/// Used to initialize the initial position of the SphereBasedTagalong before being hidden on LateUpdate. ... " />
-                <marker date="1521840522340" expanded="true" signature="1901:2287" ph="{...}" />
-                <marker date="1521840522340" expanded="true" signature="2318:3068" ph="{...}" />
-                <marker date="1521840522340" expanded="true" signature="2593:3058" ph="{...}" />
-                <marker date="1521840522340" expanded="true" signature="3103:3269" ph="{...}" />
-                <marker date="1521840522340" expanded="true" signature="3142:3259" ph="{...}" />
-                <marker date="1521840522340" expanded="true" signature="3303:3353" ph="{...}" />
-                <marker date="1521840522340" expanded="true" signature="3386:3454" ph="{...}" />
+                <marker date="1522183392666" expanded="true" signature="0:256" ph="/* ============================================================================== ... */" />
+                <marker date="1522183392666" expanded="true" signature="390:3651" ph="{...}" />
+                <marker date="1522183392666" expanded="true" signature="397:600" ph="/// A Tagalong that stays at a fixed distance from the camera and always ... " />
+                <marker date="1522183392666" expanded="true" signature="647:3649" ph="{...}" />
+                <marker date="1522183392666" expanded="true" signature="856:1029" ph="/// When moving, use unscaled time. This is useful for games that have a pause mechanism or otherwise adjust the  ... " />
+                <marker date="1522183392666" expanded="true" signature="1255:1405" ph="/// Used to initialize the initial position of the SphereBasedTagalong before being hidden on LateUpdate. ... " />
+                <marker date="1522183392666" expanded="true" signature="2090:2476" ph="{...}" />
+                <marker date="1522183392666" expanded="true" signature="2507:3257" ph="{...}" />
+                <marker date="1522183392666" expanded="true" signature="2782:3247" ph="{...}" />
+                <marker date="1522183392666" expanded="true" signature="3292:3458" ph="{...}" />
+                <marker date="1522183392666" expanded="true" signature="3331:3448" ph="{...}" />
+                <marker date="1522183392666" expanded="true" signature="3492:3542" ph="{...}" />
+                <marker date="1522183392666" expanded="true" signature="3575:3643" ph="{...}" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="VideoLogic.cs" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Assets/Scripts/VideoLogic.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-1037">
+              <caret line="12" column="33" lean-forward="false" selection-start-line="12" selection-start-column="33" selection-end-line="12" selection-end-column="33" />
+              <folding>
+                <marker date="1522442692056" expanded="true" signature="0:256" ph="/* ============================================================================== ... */" />
+                <marker date="1522442692056" expanded="false" signature="264:358" ph="..." />
+                <marker date="1522442692056" expanded="true" signature="399:2848" ph="{...}" />
+                <marker date="1522442692056" expanded="true" signature="777:1321" ph="{...}" />
+                <marker date="1522442692056" expanded="true" signature="935:1249" ph="/* videoTexture = Instantiate(Resources.Load&lt;GameObject&gt;(&quot;VideoTexture&quot;), Vector3.zero, Quaternion.identity); ... */" />
+                <marker date="1522442692056" expanded="true" signature="1345:1532" ph="{...}" />
+                <marker date="1522442692056" expanded="true" signature="1436:1529" ph="{...}" />
+                <marker date="1522442692056" expanded="true" signature="1559:1689" ph="{...}" />
+                <marker date="1522442692056" expanded="true" signature="1737:1854" ph="{...}" />
+                <marker date="1522442692056" expanded="true" signature="1743:1824" ph="/* Disable billboard when watching ... */" />
+                <marker date="1522442692056" expanded="true" signature="1892:1983" ph="{...}" />
+                <marker date="1522442692056" expanded="true" signature="2038:2615" ph="{...}" />
+                <marker date="1522442692056" expanded="true" signature="2391:2560" ph="/* videoTextureBillboard = videoTexture.AddComponent&lt;Billboard&gt;(); ... */" />
+                <marker date="1522442692056" expanded="true" signature="2642:2846" ph="{...}" />
+                <marker date="1522442692056" expanded="true" signature="2692:2784" ph="{...}" />
+                <marker date="1522442692056" expanded="true" signature="2785:2841" ph="/* else ... */" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MedallionEventTracker.cs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Assets/Scripts/MedallionEventTracker.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-1258">
+              <caret line="17" column="32" lean-forward="false" selection-start-line="17" selection-start-column="32" selection-end-line="17" selection-end-column="32" />
+              <folding>
+                <marker date="1522439351321" expanded="true" signature="0:256" ph="/* ============================================================================== ... */" />
+                <marker date="1522439351321" expanded="false" signature="264:341" ph="..." />
+                <marker date="1522439351321" expanded="true" signature="343:450" ph="///     A custom handler that implements the ITrackableEventHandler interface. ... " />
+                <marker date="1522439351321" expanded="true" signature="525:3989" ph="{...}" />
+                <marker date="1522439351321" expanded="true" signature="532:849" ph="PUBLIC_MEMBERS" />
+                <marker date="1522439351321" expanded="true" signature="656:728" ph="{...}" />
+                <marker date="1522439351321" expanded="true" signature="954:1085" ph="PRIVATE_MEMBER_VARIABLES" />
+                <marker date="1522439351321" expanded="true" signature="1091:1951" ph="UNTIY_MONOBEHAVIOUR_METHODS" />
+                <marker date="1522439351321" expanded="true" signature="1162:1904" ph="{...}" />
+                <marker date="1522439351321" expanded="true" signature="1957:2526" ph="PUBLIC_METHODS" />
+                <marker date="1522439351321" expanded="true" signature="1985:2144" ph="///     Implementation of the ITrackableEventHandler function called when the ... " />
+                <marker date="1522439351321" expanded="true" signature="2285:2492" ph="{...}" />
+                <marker date="1522439351321" expanded="true" signature="2351:2486" ph="{...}" />
+                <marker date="1522439351321" expanded="true" signature="2532:3987" ph="PRIVATE_METHODS" />
+                <marker date="1522439351321" expanded="true" signature="2626:3156" ph="{...}" />
+                <marker date="1522439351321" expanded="true" signature="2861:3150" ph="{...}" />
+                <marker date="1522439351321" expanded="true" signature="3202:3579" ph="{...}" />
+                <marker date="1522439351321" expanded="true" signature="3629:3952" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="HeadAnchoring.cs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../ar-home-testing/Assets/Scripts/HeadAnchoring.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="80" lean-forward="false" selection-start-line="0" selection-start-column="80" selection-end-line="0" selection-end-column="80" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -237,21 +195,25 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Positioning.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/MedallionEventTracker.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/ImportExportAnchorManager.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/MicListener.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/963E7EA8-65A3-4B38-BE41-4D0DBF4A422D/80/6b078ca7/ITrackableEventHandler.cs" root0="SKIP_INSPECTION" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Placeable.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/SetStatusColor.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/UILogic.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Positioning.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/D290425A-E4B3-4E49-A420-29F09BB3F974/d8/fe25ff39/UnityEvent.cs" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/PromptNextButton.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/../ar-home-testing/Assets/Scripts/VideoLogic.cs" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/MedallionEventTracker.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/EventHandling/Events/GenericEvent.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/ImportExportAnchorManager.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/963E7EA8-65A3-4B38-BE41-4D0DBF4A422D/80/6b078ca7/ITrackableEventHandler.cs" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/../ar-home-testing/Assets/Scripts/HeadAnchoring.cs" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/HeadAnchoring.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Moveable.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/CustomMessages.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/InteractiveObject.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/D290425A-E4B3-4E49-A420-29F09BB3F974/d8/fe25ff39/UnityEvent.cs" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/VideoTagalong.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/../SharedHolograms/SharedHolograms/Assets/Holograms/Support/PlayerAvatar/PlayerAvatarStore.cs" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Placeable.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/VideoLogic.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/SetStatusColor.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/InteractiveObject.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/SceneManagement.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/FloatBehavior.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
@@ -267,13 +229,18 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/Moveable.cs" />
         <option value="$PROJECT_DIR$/Assets/ImportExportAnchorManager.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/UILogic.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/SceneManagement.cs" />
         <option value="$PROJECT_DIR$/Assets/HoloToolkit/Utilities/Scripts/Billboard.cs" />
         <option value="$PROJECT_DIR$/Assets/HoloToolkit/Input/Scripts/Cursor/Cursor.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/FloatBehavior.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/InteractiveObject.cs" />
         <option value="$PROJECT_DIR$/Assets/HoloToolkit-Examples/UX/Scripts/Interactive.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/VideoTagalong.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/PromptNextButton.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/EventHandling/Events/GenericEvent.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/MicListener.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/HeadAnchoring.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/SceneManagement.cs" />
+        <option value="$PROJECT_DIR$/../ar-home-testing/Assets/Scripts/VideoLogic.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/MedallionEventTracker.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/VideoLogic.cs" />
       </list>
@@ -312,24 +279,6 @@
             <path>
               <item name="" type="13324e5d:SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
               <item name="ar-home (3 projects)" type="977d5f41:SolutionExplorerNodeRider" />
-            </path>
-            <path>
-              <item name="" type="13324e5d:SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
-              <item name="ar-home (3 projects)" type="977d5f41:SolutionExplorerNodeRider" />
-              <item name="Assembly-CSharp" type="977d5f41:SolutionExplorerNodeRider" />
-            </path>
-            <path>
-              <item name="" type="13324e5d:SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
-              <item name="ar-home (3 projects)" type="977d5f41:SolutionExplorerNodeRider" />
-              <item name="Assembly-CSharp" type="977d5f41:SolutionExplorerNodeRider" />
-              <item name="Assets" type="977d5f41:SolutionExplorerNodeRider" />
-            </path>
-            <path>
-              <item name="" type="13324e5d:SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
-              <item name="ar-home (3 projects)" type="977d5f41:SolutionExplorerNodeRider" />
-              <item name="Assembly-CSharp" type="977d5f41:SolutionExplorerNodeRider" />
-              <item name="Assets" type="977d5f41:SolutionExplorerNodeRider" />
-              <item name="Scripts" type="977d5f41:SolutionExplorerNodeRider" />
             </path>
           </expand>
           <select />
@@ -377,12 +326,14 @@
       <workItem from="1521127845918" duration="9044000" />
       <workItem from="1521214304557" duration="3066000" />
       <workItem from="1521644037674" duration="17031000" />
-      <workItem from="1522077488585" duration="8594000" />
+      <workItem from="1522077488585" duration="20924000" />
+      <workItem from="1522335018318" duration="22000" />
+      <workItem from="1522420431918" duration="7260000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="69097000" />
+    <option name="totallyTimeSpent" value="88709000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -455,175 +406,24 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Assets/HoloToolkit-Sharing-240/Sharing/Scripts/SDK/DiscoveryClientListener.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1037">
-          <caret line="61" column="0" lean-forward="false" selection-start-line="61" selection-start-column="0" selection-end-line="61" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Scripts/HologramPlacement.cs" />
-    <entry file="file://$PROJECT_DIR$/Assets/HoloToolkit/SharingWithUNET/Scripts/UNetAnchorManager.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/HoloToolkit-Sharing-240/Sharing/Scripts/SharingStage.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="24" column="30" lean-forward="false" selection-start-line="24" selection-start-column="30" selection-end-line="24" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/HoloToolkit-Sharing-240/Sharing/Scripts/SDK/DiscoveryClientListener.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="61" column="0" lean-forward="false" selection-start-line="61" selection-start-column="0" selection-end-line="61" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/HoloToolkit/Sharing/Scripts/Editor/SharingMenu.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="15" column="72" lean-forward="false" selection-start-line="15" selection-start-column="72" selection-end-line="15" selection-end-column="72" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/HoloToolkit-Sharing-240/Sharing/Scripts/SharingSessionTracker.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="25" column="58" lean-forward="false" selection-start-line="25" selection-start-column="58" selection-end-line="25" selection-end-column="58" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/HoloToolkit/Input/Scripts/Cursor/ObjectCursor.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="12" column="35" lean-forward="false" selection-start-line="12" selection-start-column="35" selection-end-line="12" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/HoloToolkit/Utilities/Scripts/Extensions/ComponentExtensions.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="26" column="13" lean-forward="true" selection-start-line="26" selection-start-column="13" selection-end-line="26" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/HoloToolkit/Sharing/Scripts/Unity/TransformSynchronizer.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1870">
-          <caret line="112" column="52" lean-forward="false" selection-start-line="110" selection-start-column="58" selection-end-line="112" selection-end-column="52" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/HoloToolkit/Sharing/Scripts/SyncModel/SyncPrimitive.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1377">
-          <caret line="81" column="22" lean-forward="false" selection-start-line="81" selection-start-column="22" selection-end-line="81" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/HoloToolkit/Sharing/Scripts/Unity/ISyncModelAccessor.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="18" column="16" lean-forward="false" selection-start-line="18" selection-start-column="16" selection-end-line="18" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/HoloToolkit/Sharing/Scripts/Unity/DefaultSyncModelAccessor.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="16" column="20" lean-forward="false" selection-start-line="16" selection-start-column="20" selection-end-line="16" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/HoloToolkit/Sharing/Scripts/Spawning/SyncSpawnedObject.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="442">
-          <caret line="27" column="21" lean-forward="false" selection-start-line="27" selection-start-column="21" selection-end-line="27" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/HoloToolkit/Sharing/Scripts/Spawning/PrefabSpawnManager.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="200" column="50" lean-forward="false" selection-start-line="200" selection-start-column="32" selection-end-line="200" selection-end-column="50" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/HoloToolkit/Sharing/Scripts/SyncModel/SyncObject.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-4012">
-          <caret line="22" column="17" lean-forward="false" selection-start-line="22" selection-start-column="17" selection-end-line="22" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/HoloToolkit-Examples/Sharing/SharingService/Scripts/SyncObjectSpawner.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="44" column="38" lean-forward="false" selection-start-line="44" selection-start-column="38" selection-end-line="44" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/HoloToolkit/Sharing/Scripts/Utilities/AutoJoinSessionAndRoom.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="67" column="0" lean-forward="false" selection-start-line="67" selection-start-column="0" selection-end-line="67" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/HoloToolkit/Utilities/Scripts/Singleton.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="544">
-          <caret line="32" column="0" lean-forward="false" selection-start-line="32" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/HoloToolkit/Input/Scripts/Focus/SimpleSinglePointerSelector.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1904">
-          <caret line="112" column="0" lean-forward="false" selection-start-line="112" selection-start-column="0" selection-end-line="112" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/MicListener.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="19" column="34" lean-forward="false" selection-start-line="19" selection-start-column="34" selection-end-line="19" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/HoloToolkit/Sharing/Scripts/Spawning/SpawnManager.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="33" column="41" lean-forward="false" selection-start-line="33" selection-start-column="29" selection-end-line="33" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/HoloToolkit-Sharing-240/Utilities/Singleton.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="24" lean-forward="false" selection-start-line="7" selection-start-column="24" selection-end-line="7" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/HoloToolkit-Sharing-240/Input/CursorManager.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="17" column="44" lean-forward="false" selection-start-line="17" selection-start-column="26" selection-end-line="17" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/HoloToolkit/Input/Scripts/Utilities/Interactions/CustomInputControl.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="133" column="0" lean-forward="false" selection-start-line="133" selection-start-column="0" selection-end-line="133" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/HoloToolkit/Input/Scripts/Cursor/ObjectCursor.cs" />
+    <entry file="file://$PROJECT_DIR$/Assets/HoloToolkit/Utilities/Scripts/Extensions/ComponentExtensions.cs" />
+    <entry file="file://$PROJECT_DIR$/Assets/HoloToolkit/Sharing/Scripts/Unity/TransformSynchronizer.cs" />
+    <entry file="file://$PROJECT_DIR$/Assets/HoloToolkit/Sharing/Scripts/SyncModel/SyncPrimitive.cs" />
+    <entry file="file://$PROJECT_DIR$/Assets/HoloToolkit/Sharing/Scripts/Unity/ISyncModelAccessor.cs" />
+    <entry file="file://$PROJECT_DIR$/Assets/HoloToolkit/Sharing/Scripts/Unity/DefaultSyncModelAccessor.cs" />
+    <entry file="file://$PROJECT_DIR$/Assets/HoloToolkit/Sharing/Scripts/Spawning/SyncSpawnedObject.cs" />
+    <entry file="file://$PROJECT_DIR$/Assets/HoloToolkit/Sharing/Scripts/Spawning/PrefabSpawnManager.cs" />
+    <entry file="file://$PROJECT_DIR$/Assets/HoloToolkit/Sharing/Scripts/SyncModel/SyncObject.cs" />
+    <entry file="file://$PROJECT_DIR$/Assets/HoloToolkit-Examples/Sharing/SharingService/Scripts/SyncObjectSpawner.cs" />
+    <entry file="file://$PROJECT_DIR$/Assets/HoloToolkit/Sharing/Scripts/Utilities/AutoJoinSessionAndRoom.cs" />
+    <entry file="file://$PROJECT_DIR$/Assets/HoloToolkit/Utilities/Scripts/Singleton.cs" />
+    <entry file="file://$PROJECT_DIR$/Assets/HoloToolkit/Input/Scripts/Focus/SimpleSinglePointerSelector.cs" />
+    <entry file="file://$PROJECT_DIR$/Assets/MicListener.cs" />
+    <entry file="file://$PROJECT_DIR$/Assets/HoloToolkit/Sharing/Scripts/Spawning/SpawnManager.cs" />
+    <entry file="file://$PROJECT_DIR$/Assets/HoloToolkit-Sharing-240/Utilities/Singleton.cs" />
+    <entry file="file://$PROJECT_DIR$/Assets/HoloToolkit-Sharing-240/Input/CursorManager.cs" />
+    <entry file="file://$PROJECT_DIR$/Assets/HoloToolkit/Input/Scripts/Utilities/Interactions/CustomInputControl.cs" />
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/SetStatusColor.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
@@ -631,27 +431,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/HoloToolkit-Examples/Sharing/SharingService/Scripts/ImportExportAnchorManager.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="41" column="12" lean-forward="false" selection-start-line="41" selection-start-column="12" selection-end-line="41" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/HoloToolkit/Sharing/Scripts/SDK/SharingManager.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" column="13" lean-forward="false" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/HoloToolkit/Sharing/Scripts/SharingStage.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="561">
-          <caret line="111" column="43" lean-forward="true" selection-start-line="111" selection-start-column="43" selection-end-line="111" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/HoloToolkit-Examples/Sharing/SharingService/Scripts/ImportExportAnchorManager.cs" />
+    <entry file="file://$PROJECT_DIR$/Assets/HoloToolkit/Sharing/Scripts/SDK/SharingManager.cs" />
+    <entry file="file://$PROJECT_DIR$/Assets/HoloToolkit/Sharing/Scripts/SharingStage.cs" />
     <entry file="file://$PROJECT_DIR$/Assets/ImportExportAnchorManager.cs" />
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/ImportExportAnchorManager.cs">
       <provider selected="true" editor-type-id="text-editor">
@@ -681,13 +463,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/HoloToolkit/Input/Scripts/Utilities/SetGlobalListener.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="235">
-          <caret line="14" column="0" lean-forward="false" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/HoloToolkit/Input/Scripts/Utilities/SetGlobalListener.cs" />
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/Moveable.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="527">
@@ -695,13 +471,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/HoloToolkit/Sharing/Scripts/Utilities/ConsoleLogWriter.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="22" column="0" lean-forward="false" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/HoloToolkit/Sharing/Scripts/Utilities/ConsoleLogWriter.cs" />
     <entry file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/963E7EA8-65A3-4B38-BE41-4D0DBF4A422D/80/6b078ca7/ITrackableEventHandler.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -716,47 +486,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/HoloToolkit/Input/Scripts/Cursor/Cursor.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="262">
-          <caret line="299" column="0" lean-forward="false" selection-start-line="299" selection-start-column="0" selection-end-line="299" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/HoloToolkit/Input/Scripts/Focus/FocusManager.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="15" column="17" lean-forward="false" selection-start-line="15" selection-start-column="17" selection-end-line="15" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Scripts/SceneManagement.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="31" column="32" lean-forward="false" selection-start-line="31" selection-start-column="32" selection-end-line="31" selection-end-column="32" />
-          <folding>
-            <marker date="1521139852875" expanded="false" signature="6:249" ph="..." />
-            <marker date="1521139852875" expanded="true" signature="295:1987" ph="{...}" />
-            <marker date="1521139852875" expanded="true" signature="554:1403" ph="{...}" />
-            <marker date="1521139852875" expanded="true" signature="640:970" ph="{...}" />
-            <marker date="1521139852875" expanded="true" signature="1007:1090" ph="{...}" />
-            <marker date="1521139852875" expanded="true" signature="1427:1510" ph="{...}" />
-            <marker date="1521139852875" expanded="true" signature="1539:1769" ph="{...}" />
-            <marker date="1521139852875" expanded="true" signature="1736:1766" ph="{...}" />
-            <marker date="1521139852875" expanded="true" signature="1854:1984" ph="{...}" />
-            <marker date="1521139852875" expanded="true" signature="1946:1981" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/HoloToolkit/Utilities/Scripts/Billboard.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="20" column="23" lean-forward="false" selection-start-line="20" selection-start-column="23" selection-end-line="20" selection-end-column="23" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/HoloToolkit/Input/Scripts/Cursor/Cursor.cs" />
+    <entry file="file://$PROJECT_DIR$/Assets/HoloToolkit/Input/Scripts/Focus/FocusManager.cs" />
+    <entry file="file://$PROJECT_DIR$/Assets/HoloToolkit/Utilities/Scripts/Billboard.cs" />
     <entry file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/D290425A-E4B3-4E49-A420-29F09BB3F974/d8/fe25ff39/UnityEvent.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
@@ -764,154 +496,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/HoloToolkit-Examples/UX/Scripts/Interactive.cs">
+    <entry file="file://$PROJECT_DIR$/Assets/HoloToolkit-Examples/UX/Scripts/Interactive.cs" />
+    <entry file="file://$PROJECT_DIR$/Assets/HoloToolkit-Examples/UX/Scripts/InteractiveToggle.cs" />
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/PromptNextButton.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="6681">
-          <caret line="399" column="0" lean-forward="false" selection-start-line="332" selection-start-column="0" selection-end-line="399" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/HoloToolkit-Examples/UX/Scripts/InteractiveToggle.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2890">
-          <caret line="174" column="0" lean-forward="false" selection-start-line="174" selection-start-column="0" selection-end-line="174" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Scripts/MedallionEventTracker.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1173">
-          <caret line="125" column="0" lean-forward="false" selection-start-line="125" selection-start-column="0" selection-end-line="125" selection-end-column="0" />
-          <folding>
-            <marker date="1522094732284" expanded="true" signature="0:256" ph="/* ============================================================================== ... */" />
-            <marker date="1522094732284" expanded="true" signature="264:341" ph="..." />
-            <marker date="1522094732284" expanded="true" signature="343:450" ph="///     A custom handler that implements the ITrackableEventHandler interface. ... " />
-            <marker date="1522094732284" expanded="true" signature="525:3652" ph="{...}" />
-            <marker date="1522094732284" expanded="true" signature="532:891" ph="PUBLIC_MEMBERS" />
-            <marker date="1522094732284" expanded="true" signature="698:770" ph="{...}" />
-            <marker date="1522094732284" expanded="true" signature="992:1123" ph="PRIVATE_MEMBER_VARIABLES" />
-            <marker date="1522094732284" expanded="true" signature="1129:1793" ph="UNTIY_MONOBEHAVIOUR_METHODS" />
-            <marker date="1522094732284" expanded="true" signature="1200:1746" ph="{...}" />
-            <marker date="1522094732284" expanded="true" signature="1384:1455" ph="/* videoPlayer.SetActive(false); ... */" />
-            <marker date="1522094732284" expanded="true" signature="1799:2488" ph="PUBLIC_METHODS" />
-            <marker date="1522094732284" expanded="true" signature="1827:1977" ph="///     Implementation of the ITrackableEventHandler function called when the ... " />
-            <marker date="1522094732284" expanded="true" signature="2113:2454" ph="{...}" />
-            <marker date="1522094732284" expanded="true" signature="2313:2448" ph="{...}" />
-            <marker date="1522094732284" expanded="true" signature="2494:3650" ph="PRIVATE_METHODS" />
-            <marker date="1522094732284" expanded="true" signature="2588:3118" ph="{...}" />
-            <marker date="1522094732284" expanded="true" signature="2823:3112" ph="{...}" />
-            <marker date="1522094732284" expanded="true" signature="3164:3615" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Scripts/VideoTagalong.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="493">
-          <caret line="65" column="59" lean-forward="false" selection-start-line="65" selection-start-column="59" selection-end-line="65" selection-end-column="59" />
-          <folding>
-            <marker date="1521840522340" expanded="true" signature="0:152" ph="/* Copyright (c) Microsoft Corporation. All rights reserved. ... */" />
-            <marker date="1521840522340" expanded="true" signature="201:3462" ph="{...}" />
-            <marker date="1521840522340" expanded="true" signature="208:411" ph="/// A Tagalong that stays at a fixed distance from the camera and always ... " />
-            <marker date="1521840522340" expanded="true" signature="458:3460" ph="{...}" />
-            <marker date="1521840522340" expanded="true" signature="667:840" ph="/// When moving, use unscaled time. This is useful for games that have a pause mechanism or otherwise adjust the  ... " />
-            <marker date="1521840522340" expanded="true" signature="1066:1216" ph="/// Used to initialize the initial position of the SphereBasedTagalong before being hidden on LateUpdate. ... " />
-            <marker date="1521840522340" expanded="true" signature="1901:2287" ph="{...}" />
-            <marker date="1521840522340" expanded="true" signature="2318:3068" ph="{...}" />
-            <marker date="1521840522340" expanded="true" signature="2593:3058" ph="{...}" />
-            <marker date="1521840522340" expanded="true" signature="3103:3269" ph="{...}" />
-            <marker date="1521840522340" expanded="true" signature="3142:3259" ph="{...}" />
-            <marker date="1521840522340" expanded="true" signature="3303:3353" ph="{...}" />
-            <marker date="1521840522340" expanded="true" signature="3386:3454" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Scripts/InteractiveObject.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="21" column="34" lean-forward="false" selection-start-line="21" selection-start-column="34" selection-end-line="21" selection-end-column="34" />
-          <folding>
-            <marker date="1521826173046" expanded="true" signature="0:152" ph="/* Copyright (c) Microsoft Corporation. All rights reserved. ... */" />
-            <marker date="1521826173046" expanded="false" signature="160:342" ph="..." />
-            <marker date="1521826173046" expanded="true" signature="401:9626" ph="{...}" />
-            <marker date="1521826173046" expanded="true" signature="408:942" ph="/// Interactive exposes basic button type events to the Unity Editor and receives messages from the GestureManage ... " />
-            <marker date="1521826173046" expanded="true" signature="1040:9624" ph="{...}" />
-            <marker date="1521826173046" expanded="true" signature="1097:1180" ph="/// Should the button listen to input? ... " />
-            <marker date="1521826173046" expanded="true" signature="1228:1318" ph="/// Does the GameObject currently have focus? ... " />
-            <marker date="1521826173046" expanded="true" signature="1380:1468" ph="/// Is the Tap currently in the down state? ... " />
-            <marker date="1521826173046" expanded="true" signature="1530:1623" ph="/// Should the button care about click and hold? ... " />
-            <marker date="1521826173046" expanded="true" signature="1673:1777" ph="/// Configure the amount to time for the hold event to fire ... " />
-            <marker date="1521826173046" expanded="true" signature="1825:2047" ph="/// Configure the amount of time a roll off update should incur. When building more advanced UI, ... " />
-            <marker date="1521826173046" expanded="true" signature="2099:2225" ph="/// Current selected state, can be set from the Unity Editor for default behavior ... " />
-            <marker date="1521826173046" expanded="true" signature="2523:2592" ph="/// Exposed Unity Events ... " />
-            <marker date="1521826173046" expanded="true" signature="2806:3078" ph="/// A button typically has 8 potential states. ... " />
-            <marker date="1521826173046" expanded="true" signature="3286:3341" ph="/// Timers ... " />
-            <marker date="1521826173046" expanded="true" signature="3729:3866" ph="/// Internal comparison variables to allow for live state updates no matter the input method ... " />
-            <marker date="1521826173046" expanded="true" signature="4240:4374" ph="{...}" />
-            <marker date="1521826173046" expanded="true" signature="4288:4364" ph="{...}" />
-            <marker date="1521826173046" expanded="true" signature="4384:4467" ph="/// Set default visual states on Start ... " />
-            <marker date="1521826173046" expanded="true" signature="4506:5481" ph="{...}" />
-            <marker date="1521826173046" expanded="true" signature="4547:5377" ph="{...}" />
-            <marker date="1521826173046" expanded="true" signature="4667:5012" ph="{...}" />
-            <marker date="1521826173046" expanded="true" signature="4881:4994" ph="{...}" />
-            <marker date="1521826173046" expanded="true" signature="5093:5355" ph="{...}" />
-            <marker date="1521826173046" expanded="true" signature="5491:5563" ph="/// An OnTap event occurred ... " />
-            <marker date="1521826173046" expanded="true" signature="5639:5940" ph="{...}" />
-            <marker date="1521826173046" expanded="true" signature="5677:5729" ph="{...}" />
-            <marker date="1521826173046" expanded="true" signature="5801:5892" ph="{...}" />
-            <marker date="1521826173046" expanded="true" signature="5950:6027" ph="/// The gameObject received gaze ... " />
-            <marker date="1521826173046" expanded="true" signature="6070:6276" ph="{...}" />
-            <marker date="1521826173046" expanded="true" signature="6147:6199" ph="{...}" />
-            <marker date="1521826173046" expanded="true" signature="6286:6368" ph="/// The gameObject no longer has gaze ... " />
-            <marker date="1521826173046" expanded="true" signature="6410:6659" ph="{...}" />
-            <marker date="1521826173046" expanded="true" signature="6669:6754" ph="/// The user is initiating a tap or hold ... " />
-            <marker date="1521826173046" expanded="true" signature="6820:7192" ph="{...}" />
-            <marker date="1521826173046" expanded="true" signature="6895:6947" ph="{...}" />
-            <marker date="1521826173046" expanded="true" signature="7040:7135" ph="{...}" />
-            <marker date="1521826173046" expanded="true" signature="7202:7298" ph="/// All tab, hold, and gesture events are completed ... " />
-            <marker date="1521826173046" expanded="true" signature="7362:7547" ph="{...}" />
-            <marker date="1521826173046" expanded="true" signature="7557:7633" ph="/// The hold timer has finished ... " />
-            <marker date="1521826173046" expanded="true" signature="7670:7791" ph="{...}" />
-            <marker date="1521826173046" expanded="true" signature="7801:7935" ph="/// The percentage of hold time completed ... " />
-            <marker date="1521826173046" expanded="true" signature="7976:8038" ph="{...}" />
-            <marker date="1521826173046" expanded="true" signature="8081:8161" ph="{...}" />
-            <marker date="1521826173046" expanded="true" signature="8300:8667" ph="{...}" />
-            <marker date="1521826173046" expanded="true" signature="8503:8657" ph="{...}" />
-            <marker date="1521826173046" expanded="true" signature="8565:8643" ph="{...}" />
-            <marker date="1521826173046" expanded="true" signature="8683:8764" ph="/// Run timers and check for updates ... " />
-            <marker date="1521826173046" expanded="true" signature="8804:9535" ph="{...}" />
-            <marker date="1521826173046" expanded="true" signature="8857:9160" ph="{...}" />
-            <marker date="1521826173046" expanded="true" signature="8920:9009" ph="{...}" />
-            <marker date="1521826173046" expanded="true" signature="9030:9146" ph="{...}" />
-            <marker date="1521826173046" expanded="true" signature="9188:9472" ph="{...}" />
-            <marker date="1521826173046" expanded="true" signature="9245:9331" ph="{...}" />
-            <marker date="1521826173046" expanded="true" signature="9352:9458" ph="{...}" />
-            <marker date="1521826173046" expanded="true" signature="9571:9618" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Scripts/VideoLogic.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="714">
-          <caret line="56" column="0" lean-forward="false" selection-start-line="56" selection-start-column="0" selection-end-line="56" selection-end-column="0" />
-          <folding>
-            <marker date="1522171018993" expanded="false" signature="6:248" ph="..." />
-            <marker date="1522171018993" expanded="true" signature="289:2665" ph="{...}" />
-            <marker date="1522171018993" expanded="true" signature="721:983" ph="{...}" />
-            <marker date="1522171018993" expanded="true" signature="1007:1194" ph="{...}" />
-            <marker date="1522171018993" expanded="true" signature="1122:1191" ph="{...}" />
-            <marker date="1522171018993" expanded="true" signature="1221:1312" ph="{...}" />
-            <marker date="1522171018993" expanded="true" signature="1360:1475" ph="{...}" />
-            <marker date="1522171018993" expanded="true" signature="1513:1744" ph="{...}" />
-            <marker date="1522171018993" expanded="true" signature="1827:2322" ph="{...}" />
-            <marker date="1522171018993" expanded="true" signature="2349:2663" ph="{...}" />
-            <marker date="1522171018993" expanded="true" signature="2444:2568" ph="{...}" />
-            <marker date="1522171018993" expanded="true" signature="2575:2660" ph="{...}" />
-          </folding>
+        <state relative-caret-position="221">
+          <caret line="16" column="0" lean-forward="false" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
         </state>
       </provider>
     </entry>
@@ -919,13 +509,174 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="510">
           <caret line="32" column="35" lean-forward="false" selection-start-line="32" selection-start-column="35" selection-end-line="32" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/InteractiveObject.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="21" column="34" lean-forward="false" selection-start-line="21" selection-start-column="34" selection-end-line="21" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/MicListener.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="493">
+          <caret line="29" column="5" lean-forward="false" selection-start-line="29" selection-start-column="5" selection-end-line="31" selection-end-column="71" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/EventHandling/Events/GenericEvent.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="25" lean-forward="false" selection-start-line="6" selection-start-column="25" selection-end-line="6" selection-end-column="25" />
           <folding>
-            <marker date="1521139797483" expanded="false" signature="6:78" ph="..." />
-            <marker date="1521139797483" expanded="true" signature="116:1025" ph="{...}" />
-            <marker date="1521139797483" expanded="true" signature="283:842" ph="{...}" />
-            <marker date="1521139797483" expanded="true" signature="452:725" ph="{...}" />
-            <marker date="1521139797483" expanded="true" signature="897:1023" ph="{...}" />
-            <marker date="1521139797483" expanded="true" signature="955:1017" ph="{...}" />
+            <marker date="1522255921817" expanded="true" signature="38:139" ph="{...}" />
+            <marker date="1522255921817" expanded="true" signature="111:137" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/HeadAnchoring.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="17" column="33" lean-forward="false" selection-start-line="17" selection-start-column="33" selection-end-line="17" selection-end-column="33" />
+          <folding>
+            <marker date="1522431022115" expanded="true" signature="0:256" ph="/* ============================================================================== ... */" />
+            <marker date="1522431022115" expanded="true" signature="1263:1268" ph="{...}" />
+            <marker date="1522431022115" expanded="true" signature="1263:1270" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/SceneManagement.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="34" column="11" lean-forward="false" selection-start-line="34" selection-start-column="11" selection-end-line="34" selection-end-column="11" />
+          <folding>
+            <marker date="1522274405613" expanded="true" signature="0:256" ph="/* ============================================================================== ... */" />
+            <marker date="1522274405613" expanded="false" signature="264:507" ph="..." />
+            <marker date="1522274405613" expanded="true" signature="553:2396" ph="{...}" />
+            <marker date="1522274405613" expanded="true" signature="812:1769" ph="{...}" />
+            <marker date="1522274405613" expanded="true" signature="848:1180" ph="{...}" />
+            <marker date="1522274405613" expanded="true" signature="1212:1305" ph="{...}" />
+            <marker date="1522274405613" expanded="true" signature="1373:1456" ph="{...}" />
+            <marker date="1522274405613" expanded="true" signature="1793:1876" ph="{...}" />
+            <marker date="1522274405613" expanded="true" signature="1905:2178" ph="{...}" />
+            <marker date="1522274405613" expanded="true" signature="2145:2175" ph="{...}" />
+            <marker date="1522274405613" expanded="true" signature="2263:2393" ph="{...}" />
+            <marker date="1522274405613" expanded="true" signature="2355:2390" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../ar-home-testing/Assets/Scripts/MicListener.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="0" lean-forward="false" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/VideoTagalong.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="884">
+          <caret line="86" column="20" lean-forward="false" selection-start-line="86" selection-start-column="20" selection-end-line="86" selection-end-column="20" />
+          <folding>
+            <marker date="1522183392666" expanded="true" signature="0:256" ph="/* ============================================================================== ... */" />
+            <marker date="1522183392666" expanded="true" signature="390:3651" ph="{...}" />
+            <marker date="1522183392666" expanded="true" signature="397:600" ph="/// A Tagalong that stays at a fixed distance from the camera and always ... " />
+            <marker date="1522183392666" expanded="true" signature="647:3649" ph="{...}" />
+            <marker date="1522183392666" expanded="true" signature="856:1029" ph="/// When moving, use unscaled time. This is useful for games that have a pause mechanism or otherwise adjust the  ... " />
+            <marker date="1522183392666" expanded="true" signature="1255:1405" ph="/// Used to initialize the initial position of the SphereBasedTagalong before being hidden on LateUpdate. ... " />
+            <marker date="1522183392666" expanded="true" signature="2090:2476" ph="{...}" />
+            <marker date="1522183392666" expanded="true" signature="2507:3257" ph="{...}" />
+            <marker date="1522183392666" expanded="true" signature="2782:3247" ph="{...}" />
+            <marker date="1522183392666" expanded="true" signature="3292:3458" ph="{...}" />
+            <marker date="1522183392666" expanded="true" signature="3331:3448" ph="{...}" />
+            <marker date="1522183392666" expanded="true" signature="3492:3542" ph="{...}" />
+            <marker date="1522183392666" expanded="true" signature="3575:3643" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../ar-home-testing/Assets/Scripts/VideoLogic.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="595">
+          <caret line="39" column="34" lean-forward="false" selection-start-line="39" selection-start-column="34" selection-end-line="39" selection-end-column="34" />
+          <folding>
+            <marker date="1522442692056" expanded="true" signature="0:256" ph="/* ============================================================================== ... */" />
+            <marker date="1522442692056" expanded="false" signature="264:358" ph="..." />
+            <marker date="1522442692056" expanded="true" signature="399:2848" ph="{...}" />
+            <marker date="1522442692056" expanded="true" signature="1315:1321" ph="{...}" />
+            <marker date="1522442692056" expanded="true" signature="1345:1532" ph="{...}" />
+            <marker date="1522442692056" expanded="true" signature="1492:1528" ph="{...}" />
+            <marker date="1522442692056" expanded="true" signature="1559:1689" ph="{...}" />
+            <marker date="1522442692056" expanded="true" signature="1737:1854" ph="{...}" />
+            <marker date="1522442692056" expanded="true" signature="1892:1983" ph="{...}" />
+            <marker date="1522442692056" expanded="true" signature="2038:2615" ph="{...}" />
+            <marker date="1522442692056" expanded="true" signature="2642:2846" ph="{...}" />
+            <marker date="1522442692056" expanded="true" signature="2692:2784" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../ar-home-testing/Assets/Scripts/HeadAnchoring.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="80" lean-forward="false" selection-start-line="0" selection-start-column="80" selection-end-line="0" selection-end-column="80" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/MedallionEventTracker.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1258">
+          <caret line="17" column="32" lean-forward="false" selection-start-line="17" selection-start-column="32" selection-end-line="17" selection-end-column="32" />
+          <folding>
+            <marker date="1522439351321" expanded="true" signature="0:256" ph="/* ============================================================================== ... */" />
+            <marker date="1522439351321" expanded="false" signature="264:341" ph="..." />
+            <marker date="1522439351321" expanded="true" signature="343:450" ph="///     A custom handler that implements the ITrackableEventHandler interface. ... " />
+            <marker date="1522439351321" expanded="true" signature="525:3989" ph="{...}" />
+            <marker date="1522439351321" expanded="true" signature="532:849" ph="PUBLIC_MEMBERS" />
+            <marker date="1522439351321" expanded="true" signature="656:728" ph="{...}" />
+            <marker date="1522439351321" expanded="true" signature="954:1085" ph="PRIVATE_MEMBER_VARIABLES" />
+            <marker date="1522439351321" expanded="true" signature="1091:1951" ph="UNTIY_MONOBEHAVIOUR_METHODS" />
+            <marker date="1522439351321" expanded="true" signature="1162:1904" ph="{...}" />
+            <marker date="1522439351321" expanded="true" signature="1957:2526" ph="PUBLIC_METHODS" />
+            <marker date="1522439351321" expanded="true" signature="1985:2144" ph="///     Implementation of the ITrackableEventHandler function called when the ... " />
+            <marker date="1522439351321" expanded="true" signature="2285:2492" ph="{...}" />
+            <marker date="1522439351321" expanded="true" signature="2351:2486" ph="{...}" />
+            <marker date="1522439351321" expanded="true" signature="2532:3987" ph="PRIVATE_METHODS" />
+            <marker date="1522439351321" expanded="true" signature="2626:3156" ph="{...}" />
+            <marker date="1522439351321" expanded="true" signature="2861:3150" ph="{...}" />
+            <marker date="1522439351321" expanded="true" signature="3202:3579" ph="{...}" />
+            <marker date="1522439351321" expanded="true" signature="3629:3952" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/VideoLogic.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1037">
+          <caret line="12" column="33" lean-forward="false" selection-start-line="12" selection-start-column="33" selection-end-line="12" selection-end-column="33" />
+          <folding>
+            <marker date="1522442692056" expanded="true" signature="0:256" ph="/* ============================================================================== ... */" />
+            <marker date="1522442692056" expanded="false" signature="264:358" ph="..." />
+            <marker date="1522442692056" expanded="true" signature="399:2848" ph="{...}" />
+            <marker date="1522442692056" expanded="true" signature="777:1321" ph="{...}" />
+            <marker date="1522442692056" expanded="true" signature="935:1249" ph="/* videoTexture = Instantiate(Resources.Load&lt;GameObject&gt;(&quot;VideoTexture&quot;), Vector3.zero, Quaternion.identity); ... */" />
+            <marker date="1522442692056" expanded="true" signature="1345:1532" ph="{...}" />
+            <marker date="1522442692056" expanded="true" signature="1436:1529" ph="{...}" />
+            <marker date="1522442692056" expanded="true" signature="1559:1689" ph="{...}" />
+            <marker date="1522442692056" expanded="true" signature="1737:1854" ph="{...}" />
+            <marker date="1522442692056" expanded="true" signature="1743:1824" ph="/* Disable billboard when watching ... */" />
+            <marker date="1522442692056" expanded="true" signature="1892:1983" ph="{...}" />
+            <marker date="1522442692056" expanded="true" signature="2038:2615" ph="{...}" />
+            <marker date="1522442692056" expanded="true" signature="2391:2560" ph="/* videoTextureBillboard = videoTexture.AddComponent&lt;Billboard&gt;(); ... */" />
+            <marker date="1522442692056" expanded="true" signature="2642:2846" ph="{...}" />
+            <marker date="1522442692056" expanded="true" signature="2692:2784" ph="{...}" />
+            <marker date="1522442692056" expanded="true" signature="2785:2841" ph="/* else ... */" />
           </folding>
         </state>
       </provider>

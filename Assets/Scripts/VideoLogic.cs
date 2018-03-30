@@ -3,31 +3,24 @@ Copyright (c) 2018 Engagement Lab @ Emerson College. All Rights Reserved.
 by Johnny Richardson
 ==============================================================================*/
 
-using System.Collections;
-using System.Collections.Generic;
-using System.Linq;
 using HoloToolkit.Unity;
 using UnityEngine;
 using UnityEngine.EventSystems;
-using UnityEngine.SceneManagement;
 using UnityEngine.Video;
-using UnityEngine.Windows.Speech;
 
 public class VideoLogic : MonoBehaviour
 {
-	public VideoPlayer videoPlayer;
-	public GameObject videoPlayerTexture;
-	public GameObject playButton;
-	public GameObject restartButton;
-	public GameObject stopButton;
 	public GameObject promptText;
+	public GameObject videoTexture;
 
 	public GameObject sampleModel;
 
 	public bool videoPlayed;
 	
-	private VideoPlayer _video;
+	private AudioSource audioSource;
+	private VideoPlayer videoSource;
 	private Camera mainCamera;
+	private Billboard videoTextureBillboard;
 
 	private float videoCurrentTime;
 	private bool videoIsPlaying;
@@ -37,17 +30,19 @@ public class VideoLogic : MonoBehaviour
 	{
 		
 		mainCamera = Camera.main;
-
-		videoPlayer.started += VideoStarted;
-		videoPlayer.loopPointReached += ShowPrompt;
-
-		promptText.SetActive(false);		
+		promptText.SetActive(false);	
 		
 		if(sampleModel != null)
 			sampleModel.SetActive(false);
-
-//		videoPlayerTexture.SetActive(false);
 		
+		// Create video texture
+/*		videoTexture = Instantiate(Resources.Load<GameObject>("VideoTexture"), Vector3.zero, Quaternion.identity);
+		videoTexture.transform.parent = transform;
+//		videoTexture.transform.position = new Vector3(0, 0, .2f);
+		videoTexture.transform.localRotation = Quaternion.identity;
+		videoTexture.SetActive(false);*/
+		audioSource = videoTexture.GetComponentInChildren<AudioSource>();
+
 	}
 
 	private void Update()
@@ -55,24 +50,26 @@ public class VideoLogic : MonoBehaviour
 		if(videoIsPlaying)
 			videoCurrentTime += Time.deltaTime;
 
-		if (videoCurrentTime > 5 && !sampleModel.active)
+		if (sampleModel != null)
 		{
-			if(sampleModel != null)
+			if (videoCurrentTime > 5 && !sampleModel.active)
 				sampleModel.SetActive(true);
-
 		}
 	}
 
 	private void OnDestroy()
 	{
-		videoPlayer.started -= VideoStarted;
-		videoPlayer.loopPointReached -= ShowPrompt;
+
+		if (videoSource == null) return;
+		videoSource.started -= VideoStarted;
+		videoSource.loopPointReached -= ShowPrompt;
+		
 	}
 
 	private void VideoStarted(VideoPlayer source)
 	{
 		// Disable billboard when watching
-		GetComponent<Billboard>().enabled = false;
+//		GetComponent<Billboard>().enabled = false;
 	
 		videoIsPlaying = true;
 	}
@@ -82,51 +79,43 @@ public class VideoLogic : MonoBehaviour
 		
 		promptText.SetActive(true);
 		
-//		videoPlayerTexture.SetActive(false);
-		stopButton.SetActive(false);
-
 		videoPlayed = true;
 		videoIsPlaying = false;
 
-		// Re-enable billboard
-		GetComponent<Billboard>().enabled = true;
 	}
 
-	// Called via OnDownEvrnt on caller interactive object
+	// Called via "Ok" command
 	public void StartVideo()
 	{
-        
-		Vector3 playerPos = mainCamera.transform.position;
-		Vector3 playerDirection = mainCamera.transform.forward;
-		transform.position = playerPos + (playerDirection * 2);
+		videoSource = GetComponent<VideoPlayer>();
+		videoSource.audioOutputMode = VideoAudioOutputMode.AudioSource;
+		videoSource.EnableAudioTrack(0, true);
+		videoSource.SetTargetAudioSource(0, audioSource);
 		
-		videoPlayer.Play();
-		videoPlayerTexture.SetActive(true);
-		
-		playButton.SetActive(false);
-		GetComponent<VideoTagalong>().VideoStart();
+		videoSource.started += VideoStarted;
+		videoSource.loopPointReached += ShowPrompt;
 
-		// Hide caller object
-		Debug.Log("Hide "  + EventSystem.current.currentSelectedGameObject.name);
-		EventSystem.current.currentSelectedGameObject.SetActive(false);
+		videoSource.Play();
+		videoTexture.SetActive(true);
+		/*videoTextureBillboard = videoTexture.AddComponent<Billboard>();
+        videoTextureBillboard.PivotAxis = PivotAxis.Y;
+        videoTextureBillboard.enabled = false;*/
+		
+//		GetComponent<VideoTagalong>().VideoStart();
 
 	}
 	
 	public void StopVideo()
 	{
-		videoPlayerTexture.SetActive(false);
-		stopButton.SetActive(false);
+		Destroy(videoTexture);
 		
 		if (videoPlayed)
 		{
-			restartButton.SetActive(true);
 			promptText.SetActive(true);
-			GetComponent<VideoTagalong>().SphereRadius = 4;
+//			GetComponent<VideoTagalong>().SphereRadius = 4;
 		}
-		else
-		{
-			playButton.SetActive(true);
-			GetComponent<VideoTagalong>().VideoStop();
-		}
+//		else
+//			GetComponent<VideoTagalong>().VideoStop();
+	
 	}
 }

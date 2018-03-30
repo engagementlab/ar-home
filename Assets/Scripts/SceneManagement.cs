@@ -23,7 +23,6 @@ public class SceneManagement : MonoBehaviour
 
 	// Use this for initialization
 	void Start () {
-		//if (keywordRecognizer.Keywords.Any()) return;
 		keywords.Add("Start Over", () =>
 		{
 			Vuforia.CameraDevice.Instance.Deinit();
@@ -31,9 +30,17 @@ public class SceneManagement : MonoBehaviour
 			Vuforia.TrackerManager.Instance.GetTracker<Vuforia.ObjectTracker>().Stop();
 			Vuforia.DigitalEyewearARController.Instance.SetViewerActive(true, true);
 			
-			loadingImage.gameObject.SetActive(true);
+//			loadingImage.gameObject.SetActive(true);
 			StartCoroutine(RestartScene());
 		});
+		
+		keywords.Add("Ok", () =>
+		{
+			Debug.Log("Place head");
+			Events.instance.Raise(new GenericEvent("PlaceHead"));
+		});
+		
+		// Hologram sharing tests
 		keywords.Add("Dog bottom", () =>
 		{
 			syncObjectSpawner.SpawnBasicSyncObject();
@@ -57,7 +64,8 @@ public class SceneManagement : MonoBehaviour
 
 	IEnumerator RestartScene()
 	{
-		AsyncOperation asyncLoad = SceneManager.LoadSceneAsync(SceneManager.GetActiveScene().buildIndex);
+		Debug.Log(SceneManager.GetActiveScene().name);
+		AsyncOperation asyncLoad = SceneManager.LoadSceneAsync(SceneManager.GetActiveScene().name);
 
 		//Wait until the last operation fully loads to return anything
 		while (!asyncLoad.isDone)
