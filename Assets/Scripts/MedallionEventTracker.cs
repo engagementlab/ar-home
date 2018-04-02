@@ -17,6 +17,7 @@ public class MedallionEventTracker : MonoBehaviour, ITrackableEventHandler
 
     public VideoClip clipToPlay;
     public GameObject queueObject;
+    public GameObject headPlacementPlaceholderObject;
     public enum TurnOffRendering{
         PlayModeAndDevice,
         PlayModeOnly,
@@ -30,6 +31,8 @@ public class MedallionEventTracker : MonoBehaviour, ITrackableEventHandler
     private bool tracked;
     private Camera mainCamera;
     private VideoPlayer videoSource;
+    private Quaternion initalRotation;
+
     
     #region PRIVATE_MEMBER_VARIABLES
 
@@ -57,11 +60,17 @@ public class MedallionEventTracker : MonoBehaviour, ITrackableEventHandler
         videoSource.clip = clipToPlay;
 
         mainCamera = Camera.main;
+        initalRotation = transform.rotation;
 
         TurnOffImage();
         
         Events.instance.AddListener<GenericEvent>(PlaceAtAnchor);
 
+    }
+
+    private void OnDestroy()
+    {
+        Events.instance.RemoveListener<GenericEvent>(PlaceAtAnchor);
     }
 
     #endregion // UNTIY_MONOBEHAVIOUR_METHODS
@@ -118,7 +127,7 @@ public class MedallionEventTracker : MonoBehaviour, ITrackableEventHandler
         queueObject.transform.position = playerPos + (playerDirection * 1.5f);
 
         GetComponent<ImageTargetBehaviour>().enabled = false;
-
+//        transform.rotation = Quaternion.AngleAxis(-90, Vector3.right);
 
     }
 
@@ -127,8 +136,17 @@ public class MedallionEventTracker : MonoBehaviour, ITrackableEventHandler
        
         if (evt.EventName != "PlaceHead") return;
 
-        GameObject placeholder = GameObject.FindGameObjectWithTag("HeadPlaceholder");
+        GameObject placeholder = headPlacementPlaceholderObject;
         transform.position = placeholder.transform.position;
+        
+        Debug.Log("Placeholder: " + placeholder.name);
+        Debug.Log(mainCamera.name);
+        
+        // Adopted from billboard script
+        Vector3 directionToTarget = mainCamera.transform.position - gameObject.transform.position;
+        directionToTarget.z = gameObject.transform.position.z;
+        transform.Rotate(new Vector3(0, Quaternion.LookRotation(directionToTarget).y, 0), Space.World);
+        
         placeholder.SetActive(false);
         
         GetComponent<VideoLogic>().StartVideo();

@@ -36,13 +36,13 @@ AnimationClip:
         outSlope: {x: 0, y: 0, z: 0}
         tangentMode: 0
       - serializedVersion: 2
-        time: 0.5
+        time: 1
         value: {x: -104.604996, y: -15.461975, z: -166.99}
-        inSlope: {x: 0, y: 0, z: -361.425}
-        outSlope: {x: 0, y: 0, z: -361.425}
+        inSlope: {x: 0, y: 0, z: -180.7125}
+        outSlope: {x: 0, y: 0, z: -180.7125}
         tangentMode: 0
       - serializedVersion: 2
-        time: 1
+        time: 2
         value: {x: -104.604996, y: -15.461975, z: -347.951}
         inSlope: {x: 0, y: 0, z: 0}
         outSlope: {x: 0, y: 0, z: 0}
@@ -82,7 +82,7 @@ AnimationClip:
     m_AdditiveReferencePoseClip: {fileID: 0}
     m_AdditiveReferencePoseTime: 0
     m_StartTime: 0
-    m_StopTime: 1
+    m_StopTime: 2
     m_OrientationOffsetY: 0
     m_Level: 0
     m_CycleOffset: 0
@@ -156,13 +156,13 @@ AnimationClip:
         outSlope: 0
         tangentMode: 136
       - serializedVersion: 2
-        time: 0.5
+        time: 1
         value: -104.604996
         inSlope: 0
         outSlope: 0
         tangentMode: 136
       - serializedVersion: 2
-        time: 1
+        time: 2
         value: -104.604996
         inSlope: 0
         outSlope: 0
@@ -184,13 +184,13 @@ AnimationClip:
         outSlope: 0
         tangentMode: 136
       - serializedVersion: 2
-        time: 0.5
+        time: 1
         value: -15.461975
         inSlope: 0
         outSlope: 0
         tangentMode: 136
       - serializedVersion: 2
-        time: 1
+        time: 2
         value: -15.461975
         inSlope: 0
         outSlope: 0
@@ -212,13 +212,13 @@ AnimationClip:
         outSlope: 0
         tangentMode: 136
       - serializedVersion: 2
-        time: 0.5
+        time: 1
         value: -166.99
-        inSlope: -361.425
-        outSlope: -361.425
+        inSlope: -180.7125
+        outSlope: -180.7125
         tangentMode: 136
       - serializedVersion: 2
-        time: 1
+        time: 2
         value: -347.951
         inSlope: 0
         outSlope: 0
