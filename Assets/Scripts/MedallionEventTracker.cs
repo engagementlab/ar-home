@@ -32,6 +32,7 @@ public class MedallionEventTracker : MonoBehaviour, ITrackableEventHandler
     private Camera mainCamera;
     private VideoPlayer videoSource;
     private Quaternion initalRotation;
+    private Vector3 initialPosition;
 
     
     #region PRIVATE_MEMBER_VARIABLES
@@ -61,6 +62,7 @@ public class MedallionEventTracker : MonoBehaviour, ITrackableEventHandler
 
         mainCamera = Camera.main;
         initalRotation = transform.rotation;
+        initialPosition = transform.position;
 
         TurnOffImage();
         
@@ -127,8 +129,10 @@ public class MedallionEventTracker : MonoBehaviour, ITrackableEventHandler
         queueObject.transform.position = playerPos + (playerDirection * 1.5f);
 
         GetComponent<ImageTargetBehaviour>().enabled = false;
-//        transform.rotation = Quaternion.AngleAxis(-90, Vector3.right);
 
+        // Experimental! Move back to init
+//        transform.position = initialPosition;
+//        transform.rotation = initalRotation;
     }
 
     private void PlaceAtAnchor(GenericEvent evt)
@@ -138,9 +142,6 @@ public class MedallionEventTracker : MonoBehaviour, ITrackableEventHandler
 
         GameObject placeholder = headPlacementPlaceholderObject;
         transform.position = placeholder.transform.position;
-        
-        Debug.Log("Placeholder: " + placeholder.name);
-        Debug.Log(mainCamera.name);
         
         // Adopted from billboard script
         Vector3 directionToTarget = mainCamera.transform.position - gameObject.transform.position;

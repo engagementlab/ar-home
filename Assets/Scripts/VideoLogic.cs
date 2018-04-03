@@ -15,7 +15,10 @@ public class VideoLogic : MonoBehaviour
 
 	public GameObject sampleModel;
 
+	[HideInInspector]
 	public bool videoPlayed;
+
+	public float timeToShowModel;
 	
 	private AudioSource audioSource;
 	private VideoPlayer videoSource;
@@ -50,9 +53,9 @@ public class VideoLogic : MonoBehaviour
 		if(videoIsPlaying)
 			videoCurrentTime += Time.deltaTime;
 
-		if (sampleModel != null)
+		if (sampleModel != null && !sampleModel.active)
 		{
-			if (videoCurrentTime > 5 && !sampleModel.active)
+			if (videoCurrentTime > timeToShowModel)
 				sampleModel.SetActive(true);
 		}
 	}
