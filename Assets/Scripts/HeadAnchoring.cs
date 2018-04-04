@@ -16,9 +16,6 @@ public class HeadAnchoring : MonoBehaviour
 	void Start () {
 		
 		mainCamera = Camera.main;
-		gestureRecognizer = new GestureRecognizer();
-		gestureRecognizer.TappedEvent += OnAirTap;
-		gestureRecognizer.StartCapturingGestures();
 
 	}
 	
@@ -31,6 +28,24 @@ public class HeadAnchoring : MonoBehaviour
 
 		transform.position =
 			Vector3.Slerp(transform.position, playerPos + (playerDirection * 1.5f), 1.5f * Time.deltaTime);
+	}
+
+	private void OnEnable()
+	{
+		
+		if (gestureRecognizer != null) return;
+	
+		gestureRecognizer = new GestureRecognizer();
+		gestureRecognizer.TappedEvent += OnAirTap;
+		gestureRecognizer.StartCapturingGestures();
+	}
+
+	private void OnDisable()
+	{
+		
+		if (gestureRecognizer == null) return;
+		gestureRecognizer.TappedEvent -= OnAirTap;
+		
 	}
 
 	private void OnDestroy()

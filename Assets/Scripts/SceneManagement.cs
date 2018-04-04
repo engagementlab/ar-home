@@ -40,7 +40,7 @@ public class SceneManagement : MonoBehaviour
 			});
 
 			// Place friend's head pos
-			keywords.Add("Ok", () => { Events.instance.Raise(new GenericEvent("PlaceHead")); });
+			keywords.Add("Place", () => { Events.instance.Raise(new GenericEvent("PlaceHead")); });
 
 			// Hologram sharing tests
 			keywords.Add("Dog bottom", () =>

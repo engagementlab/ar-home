@@ -2,7 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6394d176-6f62-4b67-b56c-fbd3f5eecf54" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.ar-home/.idea/contentModel.xml" afterPath="$PROJECT_DIR$/.idea/.idea.ar-home/.idea/contentModel.xml" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.ar-home/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/.idea.ar-home/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/ARVideo.unity" afterPath="$PROJECT_DIR$/Assets/Scenes/ARVideo.unity" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/HeadAnchoring.cs" afterPath="$PROJECT_DIR$/Assets/Scripts/HeadAnchoring.cs" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/MedallionEventTracker.cs" afterPath="$PROJECT_DIR$/Assets/Scripts/MedallionEventTracker.cs" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/SceneManagement.cs" afterPath="$PROJECT_DIR$/Assets/Scripts/SceneManagement.cs" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" afterPath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" />
+      <change beforePath="$PROJECT_DIR$/QCAR/somedata16" afterPath="$PROJECT_DIR$/QCAR/somedata16" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -19,39 +26,41 @@
       <file leaf-file-name="SceneManagement.cs" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/Scripts/SceneManagement.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="595">
-              <caret line="42" column="77" lean-forward="false" selection-start-line="42" selection-start-column="54" selection-end-line="42" selection-end-column="77" />
+            <state relative-caret-position="544">
+              <caret line="42" column="31" lean-forward="false" selection-start-line="42" selection-start-column="31" selection-end-line="42" selection-end-column="31" />
               <folding>
-                <marker date="1522705657771" expanded="true" signature="0:256" ph="/* ============================================================================== ... */" />
-                <marker date="1522705657771" expanded="false" signature="264:507" ph="..." />
-                <marker date="1522705657771" expanded="true" signature="553:2457" ph="{...}" />
-                <marker date="1522705657771" expanded="true" signature="812:1866" ph="{...}" />
-                <marker date="1522705657771" expanded="true" signature="875:1862" ph="{...}" />
-                <marker date="1522705657771" expanded="true" signature="931:1268" ph="{...}" />
-                <marker date="1522705657771" expanded="true" signature="1455:1542" ph="{...}" />
-                <marker date="1522705657771" expanded="true" signature="1892:1980" ph="{...}" />
-                <marker date="1522705657771" expanded="true" signature="2009:2239" ph="{...}" />
-                <marker date="1522705657771" expanded="true" signature="2203:2233" ph="{...}" />
-                <marker date="1522705657771" expanded="true" signature="2324:2454" ph="{...}" />
-                <marker date="1522705657771" expanded="true" signature="2416:2451" ph="{...}" />
+                <marker date="1522876638344" expanded="true" signature="0:256" ph="/* ============================================================================== ... */" />
+                <marker date="1522876638344" expanded="false" signature="264:507" ph="..." />
+                <marker date="1522876638344" expanded="true" signature="553:2460" ph="{...}" />
+                <marker date="1522876638344" expanded="true" signature="812:1869" ph="{...}" />
+                <marker date="1522876638344" expanded="true" signature="875:1865" ph="{...}" />
+                <marker date="1522876638344" expanded="true" signature="931:1268" ph="{...}" />
+                <marker date="1522876638344" expanded="true" signature="1458:1545" ph="{...}" />
+                <marker date="1522876638344" expanded="true" signature="1895:1983" ph="{...}" />
+                <marker date="1522876638344" expanded="true" signature="2012:2242" ph="{...}" />
+                <marker date="1522876638344" expanded="true" signature="2206:2236" ph="{...}" />
+                <marker date="1522876638344" expanded="true" signature="2327:2457" ph="{...}" />
+                <marker date="1522876638344" expanded="true" signature="2419:2454" ph="{...}" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="HeadAnchoring.cs" pinned="false" current-in-tab="false">
+      <file leaf-file-name="HeadAnchoring.cs" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Assets/Scripts/HeadAnchoring.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="748">
-              <caret line="45" column="23" lean-forward="false" selection-start-line="45" selection-start-column="23" selection-end-line="45" selection-end-column="23" />
+            <state relative-caret-position="629">
+              <caret line="46" column="50" lean-forward="false" selection-start-line="46" selection-start-column="50" selection-end-line="46" selection-end-column="50" />
               <folding>
-                <marker date="1522431022115" expanded="true" signature="0:256" ph="/* ============================================================================== ... */" />
-                <marker date="1522431022115" expanded="false" signature="264:308" ph="..." />
-                <marker date="1522431022115" expanded="true" signature="352:1270" ph="{...}" />
-                <marker date="1522431022115" expanded="true" signature="478:652" ph="{...}" />
-                <marker date="1522431022115" expanded="true" signature="707:1008" ph="{...}" />
-                <marker date="1522431022115" expanded="true" signature="1035:1131" ph="{...}" />
-                <marker date="1522431022115" expanded="true" signature="1206:1268" ph="{...}" />
+                <marker date="1522880183389" expanded="true" signature="0:256" ph="/* ============================================================================== ... */" />
+                <marker date="1522880183389" expanded="false" signature="264:308" ph="..." />
+                <marker date="1522880183389" expanded="true" signature="352:1473" ph="{...}" />
+                <marker date="1522880183389" expanded="true" signature="478:514" ph="{...}" />
+                <marker date="1522880183389" expanded="true" signature="569:870" ph="{...}" />
+                <marker date="1522880183389" expanded="true" signature="896:1086" ph="{...}" />
+                <marker date="1522880183389" expanded="true" signature="1113:1211" ph="{...}" />
+                <marker date="1522880183389" expanded="true" signature="1238:1334" ph="{...}" />
+                <marker date="1522880183389" expanded="true" signature="1409:1471" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -60,8 +69,8 @@
       <file leaf-file-name="VideoLogic.cs" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/Scripts/VideoLogic.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-34">
-              <caret line="55" column="54" lean-forward="false" selection-start-line="55" selection-start-column="54" selection-end-line="55" selection-end-column="54" />
+            <state relative-caret-position="867">
+              <caret line="54" column="0" lean-forward="false" selection-start-line="54" selection-start-column="0" selection-end-line="54" selection-end-column="0" />
               <folding>
                 <marker date="1522768636643" expanded="true" signature="0:256" ph="/* ============================================================================== ... */" />
                 <marker date="1522768636643" expanded="false" signature="264:358" ph="..." />
@@ -79,53 +88,34 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MedallionEventTracker.cs" pinned="false" current-in-tab="true">
+      <file leaf-file-name="MedallionEventTracker.cs" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/Scripts/MedallionEventTracker.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="680">
-              <caret line="150" column="37" lean-forward="false" selection-start-line="150" selection-start-column="37" selection-end-line="150" selection-end-column="37" />
+            <state relative-caret-position="663">
+              <caret line="155" column="8" lean-forward="false" selection-start-line="155" selection-start-column="8" selection-end-line="155" selection-end-column="8" />
               <folding>
-                <marker date="1522863646877" expanded="true" signature="0:256" ph="/* ============================================================================== ... */" />
-                <marker date="1522863646877" expanded="false" signature="264:341" ph="..." />
-                <marker date="1522863646877" expanded="true" signature="343:450" ph="///     A custom handler that implements the ITrackableEventHandler interface. ... " />
-                <marker date="1522863646877" expanded="true" signature="525:4765" ph="{...}" />
-                <marker date="1522863646877" expanded="true" signature="532:903" ph="PUBLIC_MEMBERS" />
-                <marker date="1522863646877" expanded="true" signature="710:782" ph="{...}" />
-                <marker date="1522863646877" expanded="true" signature="1085:1216" ph="PRIVATE_MEMBER_VARIABLES" />
-                <marker date="1522863646877" expanded="true" signature="1222:2284" ph="UNTIY_MONOBEHAVIOUR_METHODS" />
-                <marker date="1522863646877" expanded="true" signature="1293:2126" ph="{...}" />
-                <marker date="1522863646877" expanded="true" signature="2156:2237" ph="{...}" />
-                <marker date="1522863646877" expanded="true" signature="2290:2859" ph="PUBLIC_METHODS" />
-                <marker date="1522863646877" expanded="true" signature="2318:2477" ph="///     Implementation of the ITrackableEventHandler function called when the ... " />
-                <marker date="1522863646877" expanded="true" signature="2618:2825" ph="{...}" />
-                <marker date="1522863646877" expanded="true" signature="2684:2819" ph="{...}" />
-                <marker date="1522863646877" expanded="true" signature="2865:4763" ph="PRIVATE_METHODS" />
-                <marker date="1522863646877" expanded="true" signature="2959:3489" ph="{...}" />
-                <marker date="1522863646877" expanded="true" signature="3194:3483" ph="{...}" />
-                <marker date="1522863646877" expanded="true" signature="3535:4049" ph="{...}" />
-                <marker date="1522863646877" expanded="true" signature="3914:4043" ph="/* Experimental! Move back to init ... */" />
-                <marker date="1522863646877" expanded="true" signature="4099:4728" ph="{...}" />
+                <marker date="1522877508529" expanded="true" signature="0:256" ph="/* ============================================================================== ... */" />
+                <marker date="1522877508529" expanded="false" signature="264:341" ph="..." />
+                <marker date="1522877508529" expanded="true" signature="343:450" ph="///     A custom handler that implements the ITrackableEventHandler interface. ... " />
+                <marker date="1522877508529" expanded="true" signature="525:4936" ph="{...}" />
+                <marker date="1522877508529" expanded="true" signature="532:903" ph="PUBLIC_MEMBERS" />
+                <marker date="1522877508529" expanded="true" signature="710:782" ph="{...}" />
+                <marker date="1522877508529" expanded="true" signature="1129:1260" ph="PRIVATE_MEMBER_VARIABLES" />
+                <marker date="1522877508529" expanded="true" signature="1266:2394" ph="UNTIY_MONOBEHAVIOUR_METHODS" />
+                <marker date="1522877508529" expanded="true" signature="1337:2236" ph="{...}" />
+                <marker date="1522877508529" expanded="true" signature="2266:2347" ph="{...}" />
+                <marker date="1522877508529" expanded="true" signature="2400:2969" ph="PUBLIC_METHODS" />
+                <marker date="1522877508529" expanded="true" signature="2428:2587" ph="///     Implementation of the ITrackableEventHandler function called when the ... " />
+                <marker date="1522877508529" expanded="true" signature="2728:2935" ph="{...}" />
+                <marker date="1522877508529" expanded="true" signature="2794:2929" ph="{...}" />
+                <marker date="1522877508529" expanded="true" signature="2975:4934" ph="PRIVATE_METHODS" />
+                <marker date="1522877508529" expanded="true" signature="3069:3599" ph="{...}" />
+                <marker date="1522877508529" expanded="true" signature="3304:3593" ph="{...}" />
+                <marker date="1522877508529" expanded="true" signature="3645:4222" ph="{...}" />
+                <marker date="1522877508529" expanded="true" signature="3721:3839" ph="/* Vector3 playerPos = mainCamera.transform.position; ... */" />
+                <marker date="1522877508529" expanded="true" signature="4088:4171" ph="/* Experimental! Move back to init ... */" />
+                <marker date="1522877508529" expanded="true" signature="4272:4899" ph="{...}" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Assembly-CSharp.csproj" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Assembly-CSharp.csproj">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="306">
-              <caret line="60" column="58" lean-forward="false" selection-start-line="60" selection-start-column="58" selection-end-line="60" selection-end-column="58" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="HeadAnchoring.cs" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../ar-home-testing/Assets/Scripts/HeadAnchoring.cs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="80" lean-forward="false" selection-start-line="0" selection-start-column="80" selection-end-line="0" selection-end-column="80" />
-              <folding />
             </state>
           </provider>
         </entry>
@@ -172,6 +162,7 @@
     <setting file="file://$PROJECT_DIR$/../ar-home-testing/Assets/Scripts/VideoLogic.cs" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/MedallionEventTracker.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/EventHandling/Events/GenericEvent.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Networking/Autohost.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/ImportExportAnchorManager.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/963E7EA8-65A3-4B38-BE41-4D0DBF4A422D/80/6b078ca7/ITrackableEventHandler.cs" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/../ar-home-testing/Assets/Scripts/HeadAnchoring.cs" root0="SKIP_INSPECTION" />
@@ -180,6 +171,7 @@
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/CustomMessages.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/VideoTagalong.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/../SharedHolograms/SharedHolograms/Assets/Holograms/Support/PlayerAvatar/PlayerAvatarStore.cs" root0="SKIP_INSPECTION" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/013D91E3-6170-4056-93AF-D93BED541432/f3/74e50a42/NetworkManager.cs" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Placeable.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/VideoLogic.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/SetStatusColor.cs" root0="FORCE_HIGHLIGHTING" />
@@ -208,11 +200,11 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/PromptNextButton.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/EventHandling/Events/GenericEvent.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/MicListener.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/HeadAnchoring.cs" />
         <option value="$PROJECT_DIR$/../ar-home-testing/Assets/Scripts/VideoLogic.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/SceneManagement.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/VideoLogic.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/SceneManagement.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/MedallionEventTracker.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/HeadAnchoring.cs" />
       </list>
     </option>
   </component>
@@ -249,24 +241,6 @@
               <item name="" type="13324e5d:SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
               <item name="ar-home (3 projects)" type="977d5f41:SolutionExplorerNodeRider" />
             </path>
-            <path>
-              <item name="" type="13324e5d:SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
-              <item name="ar-home (3 projects)" type="977d5f41:SolutionExplorerNodeRider" />
-              <item name="Assembly-CSharp" type="977d5f41:SolutionExplorerNodeRider" />
-            </path>
-            <path>
-              <item name="" type="13324e5d:SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
-              <item name="ar-home (3 projects)" type="977d5f41:SolutionExplorerNodeRider" />
-              <item name="Assembly-CSharp" type="977d5f41:SolutionExplorerNodeRider" />
-              <item name="Assets" type="977d5f41:SolutionExplorerNodeRider" />
-            </path>
-            <path>
-              <item name="" type="13324e5d:SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
-              <item name="ar-home (3 projects)" type="977d5f41:SolutionExplorerNodeRider" />
-              <item name="Assembly-CSharp" type="977d5f41:SolutionExplorerNodeRider" />
-              <item name="Assets" type="977d5f41:SolutionExplorerNodeRider" />
-              <item name="Vuforia" type="977d5f41:SolutionExplorerNodeRider" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -278,6 +252,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="SearchEverywhereHistoryKey" value="///&#9;null&#9;null" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -320,11 +295,12 @@
       <workItem from="1522682043057" duration="8176000" />
       <workItem from="1522775990634" duration="1430000" />
       <workItem from="1522788128711" duration="797000" />
+      <workItem from="1522874637119" duration="5396000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="100982000" />
+    <option name="totallyTimeSpent" value="107115000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -343,22 +319,22 @@
       <window_info id="Errors In Solution" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32979852" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Unit Tests" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="NuGet" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3997879" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -397,8 +373,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Assets/HoloToolkit/Utilities/Scripts/Extensions/ComponentExtensions.cs" />
-    <entry file="file://$PROJECT_DIR$/Assets/HoloToolkit/Sharing/Scripts/Unity/TransformSynchronizer.cs" />
     <entry file="file://$PROJECT_DIR$/Assets/HoloToolkit/Sharing/Scripts/SyncModel/SyncPrimitive.cs" />
     <entry file="file://$PROJECT_DIR$/Assets/HoloToolkit/Sharing/Scripts/Unity/ISyncModelAccessor.cs" />
     <entry file="file://$PROJECT_DIR$/Assets/HoloToolkit/Sharing/Scripts/Unity/DefaultSyncModelAccessor.cs" />
@@ -542,53 +516,55 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Assembly-CSharp.csproj">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
+        <state relative-caret-position="1020">
           <caret line="60" column="58" lean-forward="false" selection-start-line="60" selection-start-column="58" selection-end-line="60" selection-end-column="58" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Scripts/SceneManagement.cs">
+    <entry file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/013D91E3-6170-4056-93AF-D93BED541432/f3/74e50a42/NetworkManager.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="595">
-          <caret line="42" column="77" lean-forward="false" selection-start-line="42" selection-start-column="54" selection-end-line="42" selection-end-column="77" />
+        <state relative-caret-position="-3536">
+          <caret line="20" column="15" lean-forward="false" selection-start-line="20" selection-start-column="15" selection-end-line="20" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Networking/Autohost.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="8" column="31" lean-forward="false" selection-start-line="8" selection-start-column="31" selection-end-line="8" selection-end-column="31" />
           <folding>
-            <marker date="1522705657771" expanded="true" signature="0:256" ph="/* ============================================================================== ... */" />
-            <marker date="1522705657771" expanded="false" signature="264:507" ph="..." />
-            <marker date="1522705657771" expanded="true" signature="553:2457" ph="{...}" />
-            <marker date="1522705657771" expanded="true" signature="812:1866" ph="{...}" />
-            <marker date="1522705657771" expanded="true" signature="875:1862" ph="{...}" />
-            <marker date="1522705657771" expanded="true" signature="931:1268" ph="{...}" />
-            <marker date="1522705657771" expanded="true" signature="1455:1542" ph="{...}" />
-            <marker date="1522705657771" expanded="true" signature="1892:1980" ph="{...}" />
-            <marker date="1522705657771" expanded="true" signature="2009:2239" ph="{...}" />
-            <marker date="1522705657771" expanded="true" signature="2203:2233" ph="{...}" />
-            <marker date="1522705657771" expanded="true" signature="2324:2454" ph="{...}" />
-            <marker date="1522705657771" expanded="true" signature="2416:2451" ph="{...}" />
+            <marker date="1522873704767" expanded="false" signature="6:48" ph="..." />
+            <marker date="1522873704767" expanded="true" signature="157:226" ph="{...}" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Scripts/HeadAnchoring.cs">
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/SceneManagement.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="748">
-          <caret line="45" column="23" lean-forward="false" selection-start-line="45" selection-start-column="23" selection-end-line="45" selection-end-column="23" />
+        <state relative-caret-position="544">
+          <caret line="42" column="31" lean-forward="false" selection-start-line="42" selection-start-column="31" selection-end-line="42" selection-end-column="31" />
           <folding>
-            <marker date="1522431022115" expanded="true" signature="0:256" ph="/* ============================================================================== ... */" />
-            <marker date="1522431022115" expanded="false" signature="264:308" ph="..." />
-            <marker date="1522431022115" expanded="true" signature="352:1270" ph="{...}" />
-            <marker date="1522431022115" expanded="true" signature="478:652" ph="{...}" />
-            <marker date="1522431022115" expanded="true" signature="707:1008" ph="{...}" />
-            <marker date="1522431022115" expanded="true" signature="1035:1131" ph="{...}" />
-            <marker date="1522431022115" expanded="true" signature="1206:1268" ph="{...}" />
+            <marker date="1522876638344" expanded="true" signature="0:256" ph="/* ============================================================================== ... */" />
+            <marker date="1522876638344" expanded="false" signature="264:507" ph="..." />
+            <marker date="1522876638344" expanded="true" signature="553:2460" ph="{...}" />
+            <marker date="1522876638344" expanded="true" signature="812:1869" ph="{...}" />
+            <marker date="1522876638344" expanded="true" signature="875:1865" ph="{...}" />
+            <marker date="1522876638344" expanded="true" signature="931:1268" ph="{...}" />
+            <marker date="1522876638344" expanded="true" signature="1458:1545" ph="{...}" />
+            <marker date="1522876638344" expanded="true" signature="1895:1983" ph="{...}" />
+            <marker date="1522876638344" expanded="true" signature="2012:2242" ph="{...}" />
+            <marker date="1522876638344" expanded="true" signature="2206:2236" ph="{...}" />
+            <marker date="1522876638344" expanded="true" signature="2327:2457" ph="{...}" />
+            <marker date="1522876638344" expanded="true" signature="2419:2454" ph="{...}" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/VideoLogic.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-34">
-          <caret line="55" column="54" lean-forward="false" selection-start-line="55" selection-start-column="54" selection-end-line="55" selection-end-column="54" />
+        <state relative-caret-position="867">
+          <caret line="54" column="0" lean-forward="false" selection-start-line="54" selection-start-column="0" selection-end-line="54" selection-end-column="0" />
           <folding>
             <marker date="1522768636643" expanded="true" signature="0:256" ph="/* ============================================================================== ... */" />
             <marker date="1522768636643" expanded="false" signature="264:358" ph="..." />
@@ -607,29 +583,48 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/MedallionEventTracker.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="680">
-          <caret line="150" column="37" lean-forward="false" selection-start-line="150" selection-start-column="37" selection-end-line="150" selection-end-column="37" />
+        <state relative-caret-position="663">
+          <caret line="155" column="8" lean-forward="false" selection-start-line="155" selection-start-column="8" selection-end-line="155" selection-end-column="8" />
           <folding>
-            <marker date="1522863646877" expanded="true" signature="0:256" ph="/* ============================================================================== ... */" />
-            <marker date="1522863646877" expanded="false" signature="264:341" ph="..." />
-            <marker date="1522863646877" expanded="true" signature="343:450" ph="///     A custom handler that implements the ITrackableEventHandler interface. ... " />
-            <marker date="1522863646877" expanded="true" signature="525:4765" ph="{...}" />
-            <marker date="1522863646877" expanded="true" signature="532:903" ph="PUBLIC_MEMBERS" />
-            <marker date="1522863646877" expanded="true" signature="710:782" ph="{...}" />
-            <marker date="1522863646877" expanded="true" signature="1085:1216" ph="PRIVATE_MEMBER_VARIABLES" />
-            <marker date="1522863646877" expanded="true" signature="1222:2284" ph="UNTIY_MONOBEHAVIOUR_METHODS" />
-            <marker date="1522863646877" expanded="true" signature="1293:2126" ph="{...}" />
-            <marker date="1522863646877" expanded="true" signature="2156:2237" ph="{...}" />
-            <marker date="1522863646877" expanded="true" signature="2290:2859" ph="PUBLIC_METHODS" />
-            <marker date="1522863646877" expanded="true" signature="2318:2477" ph="///     Implementation of the ITrackableEventHandler function called when the ... " />
-            <marker date="1522863646877" expanded="true" signature="2618:2825" ph="{...}" />
-            <marker date="1522863646877" expanded="true" signature="2684:2819" ph="{...}" />
-            <marker date="1522863646877" expanded="true" signature="2865:4763" ph="PRIVATE_METHODS" />
-            <marker date="1522863646877" expanded="true" signature="2959:3489" ph="{...}" />
-            <marker date="1522863646877" expanded="true" signature="3194:3483" ph="{...}" />
-            <marker date="1522863646877" expanded="true" signature="3535:4049" ph="{...}" />
-            <marker date="1522863646877" expanded="true" signature="3914:4043" ph="/* Experimental! Move back to init ... */" />
-            <marker date="1522863646877" expanded="true" signature="4099:4728" ph="{...}" />
+            <marker date="1522877508529" expanded="true" signature="0:256" ph="/* ============================================================================== ... */" />
+            <marker date="1522877508529" expanded="false" signature="264:341" ph="..." />
+            <marker date="1522877508529" expanded="true" signature="343:450" ph="///     A custom handler that implements the ITrackableEventHandler interface. ... " />
+            <marker date="1522877508529" expanded="true" signature="525:4936" ph="{...}" />
+            <marker date="1522877508529" expanded="true" signature="532:903" ph="PUBLIC_MEMBERS" />
+            <marker date="1522877508529" expanded="true" signature="710:782" ph="{...}" />
+            <marker date="1522877508529" expanded="true" signature="1129:1260" ph="PRIVATE_MEMBER_VARIABLES" />
+            <marker date="1522877508529" expanded="true" signature="1266:2394" ph="UNTIY_MONOBEHAVIOUR_METHODS" />
+            <marker date="1522877508529" expanded="true" signature="1337:2236" ph="{...}" />
+            <marker date="1522877508529" expanded="true" signature="2266:2347" ph="{...}" />
+            <marker date="1522877508529" expanded="true" signature="2400:2969" ph="PUBLIC_METHODS" />
+            <marker date="1522877508529" expanded="true" signature="2428:2587" ph="///     Implementation of the ITrackableEventHandler function called when the ... " />
+            <marker date="1522877508529" expanded="true" signature="2728:2935" ph="{...}" />
+            <marker date="1522877508529" expanded="true" signature="2794:2929" ph="{...}" />
+            <marker date="1522877508529" expanded="true" signature="2975:4934" ph="PRIVATE_METHODS" />
+            <marker date="1522877508529" expanded="true" signature="3069:3599" ph="{...}" />
+            <marker date="1522877508529" expanded="true" signature="3304:3593" ph="{...}" />
+            <marker date="1522877508529" expanded="true" signature="3645:4222" ph="{...}" />
+            <marker date="1522877508529" expanded="true" signature="3721:3839" ph="/* Vector3 playerPos = mainCamera.transform.position; ... */" />
+            <marker date="1522877508529" expanded="true" signature="4088:4171" ph="/* Experimental! Move back to init ... */" />
+            <marker date="1522877508529" expanded="true" signature="4272:4899" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/HeadAnchoring.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="629">
+          <caret line="46" column="50" lean-forward="false" selection-start-line="46" selection-start-column="50" selection-end-line="46" selection-end-column="50" />
+          <folding>
+            <marker date="1522880183389" expanded="true" signature="0:256" ph="/* ============================================================================== ... */" />
+            <marker date="1522880183389" expanded="false" signature="264:308" ph="..." />
+            <marker date="1522880183389" expanded="true" signature="352:1473" ph="{...}" />
+            <marker date="1522880183389" expanded="true" signature="478:514" ph="{...}" />
+            <marker date="1522880183389" expanded="true" signature="569:870" ph="{...}" />
+            <marker date="1522880183389" expanded="true" signature="896:1086" ph="{...}" />
+            <marker date="1522880183389" expanded="true" signature="1113:1211" ph="{...}" />
+            <marker date="1522880183389" expanded="true" signature="1238:1334" ph="{...}" />
+            <marker date="1522880183389" expanded="true" signature="1409:1471" ph="{...}" />
           </folding>
         </state>
       </provider>
