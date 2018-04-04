@@ -3,11 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="6394d176-6f62-4b67-b56c-fbd3f5eecf54" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.ar-home/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/.idea.ar-home/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animations/HouseSpinAnim.anim" afterPath="$PROJECT_DIR$/Assets/Animations/HouseSpinAnim.anim" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/VuforiaConfiguration.asset" afterPath="$PROJECT_DIR$/Assets/Resources/VuforiaConfiguration.asset" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/ARVideo.unity" afterPath="$PROJECT_DIR$/Assets/Scenes/ARVideo.unity" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/MedallionEventTracker.cs" afterPath="$PROJECT_DIR$/Assets/Scripts/MedallionEventTracker.cs" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/VideoLogic.cs" afterPath="$PROJECT_DIR$/Assets/Scripts/VideoLogic.cs" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -282,7 +277,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="99112000" />
+    <option name="totallyTimeSpent" value="100982000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
