@@ -146,7 +146,7 @@ public class MedallionEventTracker : MonoBehaviour, ITrackableEventHandler
         // Adopted from billboard script
         Vector3 directionToTarget = mainCamera.transform.position - gameObject.transform.position;
         directionToTarget.z = gameObject.transform.position.z;
-//        transform.Rotate(new Vector3(0, Quaternion.LookRotation(directionToTarget).y, 0), Space.World);
+        transform.Rotate(new Vector3(0, Quaternion.LookRotation(directionToTarget).y, 0), Space.World);
         
         placeholder.SetActive(false);
         
