@@ -671,7 +671,7 @@ PlayerSettings:
       HumanInterfaceDevice: False
       InputInjectionBrokered: False
       InternetClient: True
-      InternetClientServer: True
+      InternetClientServer: False
       Location: False
       Microphone: True
       MusicLibrary: False
