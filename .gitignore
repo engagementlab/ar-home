@@ -44,8 +44,6 @@ obj/
 Assets/ThirdParty/
 Assets/ThirdParty.meta
 Assets/Holo*
-Assets/Editor\Vuforia/
-Assets/Editor/Vuforia/
-Assets/Vuforia/
+
 Assets/StreamingAssets/Vuforia/
 Assets/SampleResources/AugmentationAssets/
