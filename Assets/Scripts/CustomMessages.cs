@@ -1,5 +1,5 @@
-﻿using Academy.HoloToolkit.Sharing;
-using Academy.HoloToolkit.Unity;
+﻿using HoloToolkit.Sharing;
+using HoloToolkit.Unity;
 using System.Collections.Generic;
 using UnityEngine;
 
