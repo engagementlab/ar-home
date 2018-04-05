@@ -1,21 +1,15 @@
 ﻿// Copyright (c) Microsoft Corporation. All rights reserved.
 // Licensed under the MIT License. See LICENSE in the project root for license information.
 
-using HoloToolkit.Sharing;
-using Academy.HoloToolkit.Unity;
 using System;
 using System.Collections.Generic;
-using Academy.HoloToolkit.Sharing;
-using HoloToolkit.Sharing;
 using UnityEngine;
 using UnityEngine.XR.WSA;
 using UnityEngine.XR.WSA.Persistence;
 using UnityEngine.XR.WSA.Sharing;
-using AnchorDownloadRequest = Academy.HoloToolkit.Sharing.AnchorDownloadRequest;
-using Room = Academy.HoloToolkit.Sharing.Room;
-using RoomManager = HoloToolkit.Sharing.RoomManager;
 using SharingStage = HoloToolkit.Sharing.SharingStage;
-using XString = Academy.HoloToolkit.Sharing.XString;
+using HoloToolkit.Unity;
+using HoloToolkit.Sharing;
 
 /// <summary>
 /// Manages creating anchors and sharing the anchors with other clients.
@@ -114,6 +108,8 @@ public class ImportExportAnchorManager : Singleton<ImportExportAnchorManager>
     /// </summary>
     const long roomID = 8675309;
 
+    Session connectedSession;
+
     /// <summary>
     /// Provides updates when anchor data is uploaded/downloaded.
     /// </summary>
@@ -131,7 +127,8 @@ public class ImportExportAnchorManager : Singleton<ImportExportAnchorManager>
 
         // We will register for session joined to indicate when the sharing service
         // is ready for us to make room related requests.
-        SharingSessionTracker.Instance.SessionJoined += Instance_SessionJoined;
+        SharingStage.Instance.SessionsTracker.UserJoined += Instance_SessionJoined;
+
 
         // Setup the room manager callbacks.
         roomManager = SharingStage.Instance.Manager.GetRoomManager();
@@ -144,6 +141,8 @@ public class ImportExportAnchorManager : Singleton<ImportExportAnchorManager>
 
     void OnDestroy()
     {
+        base.OnDestroy();
+
         if (roomManagerCallbacks != null)
         {
             roomManagerCallbacks.AnchorsDownloadedEvent -= RoomManagerCallbacks_AnchorsDownloaded;
@@ -212,11 +211,13 @@ public class ImportExportAnchorManager : Singleton<ImportExportAnchorManager>
     /// </summary>
     /// <param name="sender"></param>
     /// <param name="e"></param>
-    private void Instance_SessionJoined(object sender, SharingSessionTracker.SessionJoinedEventArgs e)
+    private void Instance_SessionJoined(Session session, User user)
     {
-        // We don't need to get this event anymore.
-        SharingSessionTracker.Instance.SessionJoined -= Instance_SessionJoined;
+        connectedSession = session;
 
+        // We don't need to get this event anymore.
+        SharingStage.Instance.SessionsTracker.UserJoined -= Instance_SessionJoined;
+        
         // We still wait to wait a few seconds for everything to settle.
         Invoke("MarkSharingServiceReady", 5);
     }
@@ -262,9 +263,10 @@ public class ImportExportAnchorManager : Singleton<ImportExportAnchorManager>
     bool LocalUserHasLowestUserId()
     {
         long localUserId = CustomMessages.Instance.localUserID;
-        foreach (long userid in SharingSessionTracker.Instance.UserIds)
+        for (var i = 0; i < connectedSession.GetUserCount(); i++)
         {
-            if (userid < localUserId)
+            var userId = connectedSession.GetUser(i).GetID();
+            if (userId < localUserId)
             {
                 return false;
             }

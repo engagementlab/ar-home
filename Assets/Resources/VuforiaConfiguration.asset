@@ -13,7 +13,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   vuforia:
     vuforiaLicenseKey: AQ2tKlr/////AAAAmYkQ+nEKAU2OmsN2XK37EIEcP/BNfnIua5vIKi8/dYo/e5F5sTaMVmd5bTBdByq2ymceO5hdEoCW81aA0ZlNAyeW2dbOR4ktBd5xW5UXqexB0/3WnnQHd9ocN3ULiwLVS5ZCDItxhQ4RMBJ7w+qRydcg/LEBodnTTp6Ecan/DZIkFLAluQSj15XNDrBqAnLlu1k31UV20VHVS5XG9u52nxmw/1MZqBdYETYYDK8Az+byDeeV7BG8zJGl27/LEOZ7kGN7VWEe5sC6+1iROlBJetJiTbEXG9uAjvlinKMsp6vhml7jlHrojgmi22+D25wu3ET5n+yqIg8hW69TJNms2aUIwjoDntg+LHMhNPNKFywh
-    ufoLicenseKey: QVl1aHR3ai8vLy8vQUFBQUtHUXU0TVZ4S0UrN25Bc3J1K2E3NFVsMFR3SVRNanBocTBTZitXNFJVdHIwODhqdk1ON1NadEtPYnBYSnNnUDRtaENpa0s3eG5UdUFNSFVUdUQ4R1ZITUxRczJEU05zQndwYnZTU0ErdnAxYWNBeUZEZXAyNU8xRU8wYTdHVUowV0gwNE1Oc3pkV3Jnc1duOFVXNDVkdXVCTzRGK1JOd2t2Zm1lRmNVZGNDVDNCV1NieHJER0J4ZmpzZE00NlUzTmNEdWJZZ0swSDRYZ0wvaDA4NkpjTGNQQ2syZXd3MkRzMDUrTE1nUFVrY2hHUUdHckV5OXlNUDFQek1EUEdSb1MyemxidkF2U3d0SFZTaE5jcnNYdFFFNG9NTjMrN0Y2QlhlOVUwa2dKaTcwMnZrRHBQUEJxSEJVZ2E0VG8vMDlON2Y4cDVpWHh6TnA5ZktZa1czOW1idWtNMXlrNnJOZE4yTEcxc1NWZXluOEM=
+    ufoLicenseKey: QWJhUjNKdi8vLy8vQUFBQUtFZU0xK3M3SDA1bHR2MDBJcGZmcDF4cmo3MG9IMG5iUTNheWpHZisyYkxsRHcvRnp2VG1tUVM1MytuOVlZS1RUc2dXeHhhYUVDOWJ6MmYwOHVnOHkzUlMrYVQ5OFAyakN2dUZ4dlJFZEpKSXd6MlY3N0M0Y0JWbTUzVVppMFdOQVBXLy92OXVMbjBMb3d4ODBxcXNxMGlqL2JGb3FmQ2Q1Vnd6VCtQTm9SbmVmSzQxSDRBZE9jRVkyckZCMXVPbTJ2UzVkSWtmK3doMFZZdFBpMWRGNU1TSytxNHIyMFFXWExONkNXTHpyNHlZeXA2dDNBL2hORjZEaUlmbGVHQm90MFlwajYvT2dkREJnVUljUW9aQ0FVMCtoZUp0TTh0SGhHRmNhcU52bnRyenF5dFNlbjVWK2tkUVQxSVF0czdYU0MycW5LTFV6NnhMSzNLNFJQK01oUEVvRVJaM2I0V2ZVMWdyV0k4VU8rQTU=
     delayedInitialization: 0
     cameraDeviceModeSetting: -2
     maxSimultaneousImageTargets: 1
@@ -27,8 +27,8 @@ MonoBehaviour:
     eyewearType: 1
     stereoFramework: 0
     seeThroughConfiguration: 1
-    viewerName: Generic Cardboard
-    viewerManufacturer: Vuforia
+    viewerName: 
+    viewerManufacturer: 
     useCustomViewer: 0
     customViewer:
       Version: 0
@@ -53,7 +53,12 @@ MonoBehaviour:
     videoBackgroundShader: {fileID: 15311, guid: 0000000000000000f000000000000000,
       type: 0}
     matteShader: {fileID: 15310, guid: 0000000000000000f000000000000000, type: 0}
-    videoBackgroundEnabled: 0
+    videoBackgroundEnabled: 1
+  smartTerrainTracker:
+    autoInitTracker: 0
+    autoStartTracker: 0
+    autoInitBuilder: 0
+    sceneUnitsToMillimeter: 0
   deviceTracker:
     autoInitTracker: 0
     autoStartTracker: 0
@@ -62,11 +67,8 @@ MonoBehaviour:
     modelCorrectionMode: 0
     modelTransformEnabled: 0
     modelTransform: {x: 0, y: 0.1, z: -0.1}
-  smartTerrain:
-    autoInitTracker: 0
-    autoStartTracker: 0
   webcam:
-    deviceNameSetInEditor: Logitech HD Pro Webcam C920
+    deviceNameSetInEditor: 
     flipHorizontally: 0
     turnOffWebCam: 0
     renderTextureLayer: 30
