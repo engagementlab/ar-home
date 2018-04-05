@@ -33,6 +33,7 @@ public class MedallionEventTracker : MonoBehaviour, ITrackableEventHandler
     private VideoPlayer videoSource;
     private Quaternion initalRotation;
     private Vector3 initialPosition;
+    private Vector3 contentInitialPosition;
 
     
     #region PRIVATE_MEMBER_VARIABLES
@@ -63,6 +64,8 @@ public class MedallionEventTracker : MonoBehaviour, ITrackableEventHandler
         mainCamera = Camera.main;
         initalRotation = transform.rotation;
         initialPosition = transform.position;
+
+        contentInitialPosition = transform.GetChild(0).position;
 
         TurnOffImage();
         
@@ -122,17 +125,20 @@ public class MedallionEventTracker : MonoBehaviour, ITrackableEventHandler
     {
         if(tracked) return;
         tracked = true;
-        Vector3 playerPos = mainCamera.transform.position;
-        Vector3 playerDirection = mainCamera.transform.forward;
+        
+        //Vector3 playerPos = mainCamera.transform.position;
+        //Vector3 playerDirection = mainCamera.transform.forward;
         
         queueObject.SetActive(true);
-        queueObject.transform.position = playerPos + (playerDirection * 1.5f);
+        // queueObject.transform.position = playerPos + (playerDirection * 1.5f);
 
         GetComponent<ImageTargetBehaviour>().enabled = false;
+        
+        Debug.Log("Medallion found!");
 
         // Experimental! Move back to init
-//        transform.position = initialPosition;
-//        transform.rotation = initalRotation;
+        // transform.position = initialPosition;
+        transform.rotation = initalRotation;
     }
 
     private void PlaceAtAnchor(GenericEvent evt)
@@ -146,7 +152,7 @@ public class MedallionEventTracker : MonoBehaviour, ITrackableEventHandler
         // Adopted from billboard script
         Vector3 directionToTarget = mainCamera.transform.position - gameObject.transform.position;
         directionToTarget.z = gameObject.transform.position.z;
-//        transform.Rotate(new Vector3(0, Quaternion.LookRotation(directionToTarget).y, 0), Space.World);
+        transform.Rotate(new Vector3(0, Quaternion.LookRotation(directionToTarget).y, 0), Space.World);
         
         placeholder.SetActive(false);
         

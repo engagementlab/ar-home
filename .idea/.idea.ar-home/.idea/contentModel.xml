@@ -68,6 +68,9 @@
           <e p="InteractiveObject.cs" t="Include" />
           <e p="MedallionEventTracker.cs" t="Include" />
           <e p="Moveable.cs" t="Include" />
+          <e p="Networking" t="Include">
+            <e p="Autohost.cs" t="Include" />
+          </e>
           <e p="Placeable.cs" t="Include" />
           <e p="Positioning.cs" t="Include" />
           <e p="PromptNextButton.cs" t="Include" />
