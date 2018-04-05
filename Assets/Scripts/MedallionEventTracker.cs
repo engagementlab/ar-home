@@ -17,6 +17,7 @@ public class MedallionEventTracker : MonoBehaviour, ITrackableEventHandler
 
     public VideoClip clipToPlay;
     public GameObject queueObject;
+    public GameObject storyObject;
     public GameObject headPlacementPlaceholderObject;
     public enum TurnOffRendering{
         PlayModeAndDevice,
@@ -32,9 +33,8 @@ public class MedallionEventTracker : MonoBehaviour, ITrackableEventHandler
     private Camera mainCamera;
     private VideoPlayer videoSource;
     private Quaternion initalRotation;
-    private Vector3 initialPosition;
-    private Vector3 contentInitialPosition;
-
+    private Transform queueObjectPositioner;
+    private Transform storyObjectPositioner;
     
     #region PRIVATE_MEMBER_VARIABLES
 
@@ -50,11 +50,7 @@ public class MedallionEventTracker : MonoBehaviour, ITrackableEventHandler
         if (mTrackableBehaviour)
             mTrackableBehaviour.RegisterTrackableEventHandler(this);
         
-        #if !UNITY_EDITOR    
-            queueObject.SetActive(false);        
-        #endif
-        
-        // Add video source
+        // Add video player
         videoSource = gameObject.AddComponent<VideoPlayer>();
         videoSource.playOnAwake = false;
         videoSource.renderMode = VideoRenderMode.RenderTexture;
@@ -63,10 +59,11 @@ public class MedallionEventTracker : MonoBehaviour, ITrackableEventHandler
 
         mainCamera = Camera.main;
         initalRotation = transform.rotation;
-        initialPosition = transform.position;
-
-        contentInitialPosition = transform.GetChild(0).position;
-
+ 
+        // Find positioner objects
+        queueObjectPositioner = transform.Find("Content/QueueObjectPositioner");
+        storyObjectPositioner = transform.Find("Content/StoryObjectPositioner");
+        
         TurnOffImage();
         
         Events.instance.AddListener<GenericEvent>(PlaceAtAnchor);
@@ -126,27 +123,25 @@ public class MedallionEventTracker : MonoBehaviour, ITrackableEventHandler
         if(tracked) return;
         tracked = true;
         
-        //Vector3 playerPos = mainCamera.transform.position;
-        //Vector3 playerDirection = mainCamera.transform.forward;
-        
-        queueObject.SetActive(true);
-        // queueObject.transform.position = playerPos + (playerDirection * 1.5f);
-
+        // Spawn queue object as child of the queue positioner transform
+//        Debug.Log(queueObjectPositioner.position);
+        GameObject queueObjectInstance = Instantiate(queueObject, queueObjectPositioner.position, Quaternion.identity);
+//        Debug.Log(queueObjectInstance.transform.position);
         GetComponent<ImageTargetBehaviour>().enabled = false;
         
         Debug.Log("Medallion found!");
 
-        // Experimental! Move back to init
-        // transform.position = initialPosition;
+        // Move back to init rotation
         transform.rotation = initalRotation;
     }
 
+    // Place medallion parent (this gameobject) where player places friend's head in world
     private void PlaceAtAnchor(GenericEvent evt)
     {
        
         if (evt.EventName != "PlaceHead") return;
 
-        GameObject placeholder = headPlacementPlaceholderObject;
+        GameObject placeholder = GameObject.FindGameObjectWithTag("HeadPlaceholder");
         transform.position = placeholder.transform.position;
         
         // Adopted from billboard script
@@ -154,7 +149,9 @@ public class MedallionEventTracker : MonoBehaviour, ITrackableEventHandler
         directionToTarget.z = gameObject.transform.position.z;
         transform.Rotate(new Vector3(0, Quaternion.LookRotation(directionToTarget).y, 0), Space.World);
         
-        placeholder.SetActive(false);
+        GameObject storyObjectInstance = Instantiate(storyObject, storyObjectPositioner, false);
+        
+        Destroy(placeholder);
         
         GetComponent<VideoLogic>().StartVideo();
         

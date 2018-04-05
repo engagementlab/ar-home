@@ -4,11 +4,16 @@
     <list default="true" id="6394d176-6f62-4b67-b56c-fbd3f5eecf54" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.ar-home/.idea/contentModel.xml" afterPath="$PROJECT_DIR$/.idea/.idea.ar-home/.idea/contentModel.xml" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.ar-home/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/.idea.ar-home/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/Assets/Editor/Vuforia/ImageTargetTextures/Testing/magic_scaled.jpg.meta" afterPath="$PROJECT_DIR$/Assets/Editor/Vuforia/ImageTargetTextures/Testing/magic_scaled.jpg.meta" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/ModelQueueSample.prefab" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/ModelQueueSample.prefab.meta" afterPath="" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/ARVideo.unity" afterPath="$PROJECT_DIR$/Assets/Scenes/ARVideo.unity" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/HeadAnchoring.cs" afterPath="$PROJECT_DIR$/Assets/Scripts/HeadAnchoring.cs" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/InteractiveObject.cs" afterPath="$PROJECT_DIR$/Assets/Scripts/InteractiveObject.cs" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/MedallionEventTracker.cs" afterPath="$PROJECT_DIR$/Assets/Scripts/MedallionEventTracker.cs" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/SceneManagement.cs" afterPath="$PROJECT_DIR$/Assets/Scripts/SceneManagement.cs" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" afterPath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" />
+      <change beforePath="$PROJECT_DIR$/Assets/StreamingAssets/Vuforia/Testing.dat" afterPath="$PROJECT_DIR$/Assets/StreamingAssets/Vuforia/Testing.dat" />
+      <change beforePath="$PROJECT_DIR$/Assets/StreamingAssets/Vuforia/Testing.dat.meta" afterPath="$PROJECT_DIR$/Assets/StreamingAssets/Vuforia/Testing.dat.meta" />
+      <change beforePath="$PROJECT_DIR$/Assets/StreamingAssets/Vuforia/Testing.xml" afterPath="$PROJECT_DIR$/Assets/StreamingAssets/Vuforia/Testing.xml" />
+      <change beforePath="$PROJECT_DIR$/Assets/StreamingAssets/Vuforia/Testing.xml.meta" afterPath="$PROJECT_DIR$/Assets/StreamingAssets/Vuforia/Testing.xml.meta" />
       <change beforePath="$PROJECT_DIR$/QCAR/somedata16" afterPath="$PROJECT_DIR$/QCAR/somedata16" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -26,30 +31,17 @@
       <file leaf-file-name="SceneManagement.cs" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/Scripts/SceneManagement.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="544">
-              <caret line="42" column="31" lean-forward="false" selection-start-line="42" selection-start-column="31" selection-end-line="42" selection-end-column="31" />
-              <folding>
-                <marker date="1522876638344" expanded="true" signature="0:256" ph="/* ============================================================================== ... */" />
-                <marker date="1522876638344" expanded="false" signature="264:507" ph="..." />
-                <marker date="1522876638344" expanded="true" signature="553:2460" ph="{...}" />
-                <marker date="1522876638344" expanded="true" signature="812:1869" ph="{...}" />
-                <marker date="1522876638344" expanded="true" signature="875:1865" ph="{...}" />
-                <marker date="1522876638344" expanded="true" signature="931:1268" ph="{...}" />
-                <marker date="1522876638344" expanded="true" signature="1458:1545" ph="{...}" />
-                <marker date="1522876638344" expanded="true" signature="1895:1983" ph="{...}" />
-                <marker date="1522876638344" expanded="true" signature="2012:2242" ph="{...}" />
-                <marker date="1522876638344" expanded="true" signature="2206:2236" ph="{...}" />
-                <marker date="1522876638344" expanded="true" signature="2327:2457" ph="{...}" />
-                <marker date="1522876638344" expanded="true" signature="2419:2454" ph="{...}" />
-              </folding>
+            <state relative-caret-position="748">
+              <caret line="44" column="31" lean-forward="false" selection-start-line="44" selection-start-column="31" selection-end-line="44" selection-end-column="31" />
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="HeadAnchoring.cs" pinned="false" current-in-tab="true">
+      <file leaf-file-name="HeadAnchoring.cs" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/Scripts/HeadAnchoring.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="629">
+            <state relative-caret-position="765">
               <caret line="46" column="50" lean-forward="false" selection-start-line="46" selection-start-column="50" selection-end-line="46" selection-end-column="50" />
               <folding>
                 <marker date="1522880183389" expanded="true" signature="0:256" ph="/* ============================================================================== ... */" />
@@ -88,33 +80,100 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MedallionEventTracker.cs" pinned="false" current-in-tab="false">
+      <file leaf-file-name="MedallionEventTracker.cs" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Assets/Scripts/MedallionEventTracker.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="663">
-              <caret line="155" column="8" lean-forward="false" selection-start-line="155" selection-start-column="8" selection-end-line="155" selection-end-column="8" />
+            <state relative-caret-position="289">
+              <caret line="127" column="49" lean-forward="false" selection-start-line="127" selection-start-column="49" selection-end-line="127" selection-end-column="49" />
               <folding>
-                <marker date="1522877508529" expanded="true" signature="0:256" ph="/* ============================================================================== ... */" />
-                <marker date="1522877508529" expanded="false" signature="264:341" ph="..." />
-                <marker date="1522877508529" expanded="true" signature="343:450" ph="///     A custom handler that implements the ITrackableEventHandler interface. ... " />
-                <marker date="1522877508529" expanded="true" signature="525:4936" ph="{...}" />
-                <marker date="1522877508529" expanded="true" signature="532:903" ph="PUBLIC_MEMBERS" />
-                <marker date="1522877508529" expanded="true" signature="710:782" ph="{...}" />
-                <marker date="1522877508529" expanded="true" signature="1129:1260" ph="PRIVATE_MEMBER_VARIABLES" />
-                <marker date="1522877508529" expanded="true" signature="1266:2394" ph="UNTIY_MONOBEHAVIOUR_METHODS" />
-                <marker date="1522877508529" expanded="true" signature="1337:2236" ph="{...}" />
-                <marker date="1522877508529" expanded="true" signature="2266:2347" ph="{...}" />
-                <marker date="1522877508529" expanded="true" signature="2400:2969" ph="PUBLIC_METHODS" />
-                <marker date="1522877508529" expanded="true" signature="2428:2587" ph="///     Implementation of the ITrackableEventHandler function called when the ... " />
-                <marker date="1522877508529" expanded="true" signature="2728:2935" ph="{...}" />
-                <marker date="1522877508529" expanded="true" signature="2794:2929" ph="{...}" />
-                <marker date="1522877508529" expanded="true" signature="2975:4934" ph="PRIVATE_METHODS" />
-                <marker date="1522877508529" expanded="true" signature="3069:3599" ph="{...}" />
-                <marker date="1522877508529" expanded="true" signature="3304:3593" ph="{...}" />
-                <marker date="1522877508529" expanded="true" signature="3645:4222" ph="{...}" />
-                <marker date="1522877508529" expanded="true" signature="3721:3839" ph="/* Vector3 playerPos = mainCamera.transform.position; ... */" />
-                <marker date="1522877508529" expanded="true" signature="4088:4171" ph="/* Experimental! Move back to init ... */" />
-                <marker date="1522877508529" expanded="true" signature="4272:4899" ph="{...}" />
+                <marker date="1522966661879" expanded="true" signature="0:256" ph="/* ============================================================================== ... */" />
+                <marker date="1522966661879" expanded="false" signature="264:341" ph="..." />
+                <marker date="1522966661879" expanded="true" signature="343:450" ph="///     A custom handler that implements the ITrackableEventHandler interface. ... " />
+                <marker date="1522966661879" expanded="true" signature="525:5177" ph="{...}" />
+                <marker date="1522966661879" expanded="true" signature="532:938" ph="PUBLIC_MEMBERS" />
+                <marker date="1522966661879" expanded="true" signature="745:817" ph="{...}" />
+                <marker date="1522966661879" expanded="true" signature="1172:1303" ph="PRIVATE_MEMBER_VARIABLES" />
+                <marker date="1522966661879" expanded="true" signature="1309:2428" ph="UNTIY_MONOBEHAVIOUR_METHODS" />
+                <marker date="1522966661879" expanded="true" signature="1380:2270" ph="{...}" />
+                <marker date="1522966661879" expanded="true" signature="2300:2381" ph="{...}" />
+                <marker date="1522966661879" expanded="true" signature="2434:3003" ph="PUBLIC_METHODS" />
+                <marker date="1522966661879" expanded="true" signature="2462:2621" ph="///     Implementation of the ITrackableEventHandler function called when the ... " />
+                <marker date="1522966661879" expanded="true" signature="2762:2969" ph="{...}" />
+                <marker date="1522966661879" expanded="true" signature="2828:2963" ph="{...}" />
+                <marker date="1522966661879" expanded="true" signature="3009:5175" ph="PRIVATE_METHODS" />
+                <marker date="1522966661879" expanded="true" signature="3103:3633" ph="{...}" />
+                <marker date="1522966661879" expanded="true" signature="3338:3627" ph="{...}" />
+                <marker date="1522966661879" expanded="true" signature="3679:4253" ph="{...}" />
+                <marker date="1522966661879" expanded="true" signature="3755:3872" ph="/* Spawn queue object as child of the queue positioner transform ... */" />
+                <marker date="1522966661879" expanded="true" signature="4394:5140" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="InteractiveObject.cs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Assets/Scripts/InteractiveObject.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="884">
+              <caret line="323" column="104" lean-forward="false" selection-start-line="323" selection-start-column="104" selection-end-line="323" selection-end-column="104" />
+              <folding>
+                <marker date="1522964568201" expanded="true" signature="0:152" ph="/* Copyright (c) Microsoft Corporation. All rights reserved. ... */" />
+                <marker date="1522964568201" expanded="false" signature="160:342" ph="..." />
+                <marker date="1522964568201" expanded="true" signature="401:9791" ph="{...}" />
+                <marker date="1522964568201" expanded="true" signature="408:942" ph="/// Interactive exposes basic button type events to the Unity Editor and receives messages from the GestureManage ... " />
+                <marker date="1522964568201" expanded="true" signature="1040:9789" ph="{...}" />
+                <marker date="1522964568201" expanded="true" signature="1097:1180" ph="/// Should the button listen to input? ... " />
+                <marker date="1522964568201" expanded="true" signature="1228:1318" ph="/// Does the GameObject currently have focus? ... " />
+                <marker date="1522964568201" expanded="true" signature="1380:1468" ph="/// Is the Tap currently in the down state? ... " />
+                <marker date="1522964568201" expanded="true" signature="1530:1623" ph="/// Should the button care about click and hold? ... " />
+                <marker date="1522964568201" expanded="true" signature="1673:1777" ph="/// Configure the amount to time for the hold event to fire ... " />
+                <marker date="1522964568201" expanded="true" signature="1825:2047" ph="/// Configure the amount of time a roll off update should incur. When building more advanced UI, ... " />
+                <marker date="1522964568201" expanded="true" signature="2099:2225" ph="/// Current selected state, can be set from the Unity Editor for default behavior ... " />
+                <marker date="1522964568201" expanded="true" signature="2523:2592" ph="/// Exposed Unity Events ... " />
+                <marker date="1522964568201" expanded="true" signature="2806:3078" ph="/// A button typically has 8 potential states. ... " />
+                <marker date="1522964568201" expanded="true" signature="3286:3341" ph="/// Timers ... " />
+                <marker date="1522964568201" expanded="true" signature="3729:3866" ph="/// Internal comparison variables to allow for live state updates no matter the input method ... " />
+                <marker date="1522964568201" expanded="true" signature="4240:4374" ph="{...}" />
+                <marker date="1522964568201" expanded="true" signature="4288:4364" ph="{...}" />
+                <marker date="1522964568201" expanded="true" signature="4384:4467" ph="/// Set default visual states on Start ... " />
+                <marker date="1522964568201" expanded="true" signature="4506:5481" ph="{...}" />
+                <marker date="1522964568201" expanded="true" signature="4547:5377" ph="{...}" />
+                <marker date="1522964568201" expanded="true" signature="4667:5012" ph="{...}" />
+                <marker date="1522964568201" expanded="true" signature="4881:4994" ph="{...}" />
+                <marker date="1522964568201" expanded="true" signature="5093:5355" ph="{...}" />
+                <marker date="1522964568201" expanded="true" signature="5491:5563" ph="/// An OnTap event occurred ... " />
+                <marker date="1522964568201" expanded="true" signature="5639:5940" ph="{...}" />
+                <marker date="1522964568201" expanded="true" signature="5677:5729" ph="{...}" />
+                <marker date="1522964568201" expanded="true" signature="5801:5892" ph="{...}" />
+                <marker date="1522964568201" expanded="true" signature="5950:6027" ph="/// The gameObject received gaze ... " />
+                <marker date="1522964568201" expanded="true" signature="6070:6237" ph="{...}" />
+                <marker date="1522964568201" expanded="true" signature="6108:6160" ph="{...}" />
+                <marker date="1522964568201" expanded="true" signature="6247:6329" ph="/// The gameObject no longer has gaze ... " />
+                <marker date="1522964568201" expanded="true" signature="6371:6581" ph="{...}" />
+                <marker date="1522964568201" expanded="true" signature="6591:6676" ph="/// The user is initiating a tap or hold ... " />
+                <marker date="1522964568201" expanded="true" signature="6742:7185" ph="{...}" />
+                <marker date="1522964568201" expanded="true" signature="6778:6830" ph="{...}" />
+                <marker date="1522964568201" expanded="true" signature="6923:7018" ph="{...}" />
+                <marker date="1522964568201" expanded="true" signature="7195:7291" ph="/// All tab, hold, and gesture events are completed ... " />
+                <marker date="1522964568201" expanded="true" signature="7355:7540" ph="{...}" />
+                <marker date="1522964568201" expanded="true" signature="7550:7626" ph="/// The hold timer has finished ... " />
+                <marker date="1522964568201" expanded="true" signature="7663:7784" ph="{...}" />
+                <marker date="1522964568201" expanded="true" signature="7794:7928" ph="/// The percentage of hold time completed ... " />
+                <marker date="1522964568201" expanded="true" signature="7969:8031" ph="{...}" />
+                <marker date="1522964568201" expanded="true" signature="8074:8154" ph="{...}" />
+                <marker date="1522964568201" expanded="true" signature="8293:8660" ph="{...}" />
+                <marker date="1522964568201" expanded="true" signature="8496:8650" ph="{...}" />
+                <marker date="1522964568201" expanded="true" signature="8558:8636" ph="{...}" />
+                <marker date="1522964568201" expanded="true" signature="8676:8757" ph="/// Run timers and check for updates ... " />
+                <marker date="1522964568201" expanded="true" signature="8797:9528" ph="{...}" />
+                <marker date="1522964568201" expanded="true" signature="8850:9153" ph="{...}" />
+                <marker date="1522964568201" expanded="true" signature="8913:9002" ph="{...}" />
+                <marker date="1522964568201" expanded="true" signature="9023:9139" ph="{...}" />
+                <marker date="1522964568201" expanded="true" signature="9181:9465" ph="{...}" />
+                <marker date="1522964568201" expanded="true" signature="9238:9324" ph="{...}" />
+                <marker date="1522964568201" expanded="true" signature="9345:9451" ph="{...}" />
+                <marker date="1522964568201" expanded="true" signature="9564:9611" ph="{...}" />
+                <marker date="1522964568201" expanded="true" signature="9656:9783" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -194,7 +253,6 @@
         <option value="$PROJECT_DIR$/Assets/HoloToolkit/Utilities/Scripts/Billboard.cs" />
         <option value="$PROJECT_DIR$/Assets/HoloToolkit/Input/Scripts/Cursor/Cursor.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/FloatBehavior.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/InteractiveObject.cs" />
         <option value="$PROJECT_DIR$/Assets/HoloToolkit-Examples/UX/Scripts/Interactive.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/VideoTagalong.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/PromptNextButton.cs" />
@@ -203,8 +261,9 @@
         <option value="$PROJECT_DIR$/../ar-home-testing/Assets/Scripts/VideoLogic.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/VideoLogic.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/SceneManagement.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/MedallionEventTracker.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/HeadAnchoring.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/InteractiveObject.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/MedallionEventTracker.cs" />
       </list>
     </option>
   </component>
@@ -295,12 +354,14 @@
       <workItem from="1522682043057" duration="8176000" />
       <workItem from="1522775990634" duration="1430000" />
       <workItem from="1522788128711" duration="797000" />
-      <workItem from="1522874637119" duration="5396000" />
+      <workItem from="1522874637119" duration="5992000" />
+      <workItem from="1522959575195" duration="2010000" />
+      <workItem from="1522962968148" duration="3398000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="107115000" />
+    <option name="totallyTimeSpent" value="113119000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -319,16 +380,16 @@
       <window_info id="Errors In Solution" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32979852" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Unit Tests" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="NuGet" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3997879" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.18133616" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -346,10 +407,25 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/Assets/Scripts/MedallionEventTracker.cs</url>
+          <line>127</line>
+          <properties documentPath="$PROJECT_DIR$/Assets/Scripts/MedallionEventTracker.cs">
+            <startOffsets>
+              <startOffset value="3914" />
+            </startOffsets>
+            <endOffsets>
+              <endOffset value="3992" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="27" />
+        </line-breakpoint>
+      </breakpoints>
       <breakpoints-dialog>
         <breakpoints-dialog />
       </breakpoints-dialog>
-      <option name="time" value="27" />
+      <option name="time" value="28" />
     </breakpoint-manager>
     <watches-manager>
       <configuration name="UNITY_DEBUG_RUN_CONFIGURATION">
@@ -476,13 +552,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Scripts/InteractiveObject.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="21" column="34" lean-forward="false" selection-start-line="21" selection-start-column="34" selection-end-line="21" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/MicListener.cs" />
     <entry file="file://$PROJECT_DIR$/../ar-home-testing/Assets/Scripts/MicListener.cs" />
     <entry file="file://$PROJECT_DIR$/../ar-home-testing/Assets/Scripts/VideoLogic.cs">
@@ -510,7 +579,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="80" lean-forward="false" selection-start-line="0" selection-start-column="80" selection-end-line="0" selection-end-column="80" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -518,7 +586,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1020">
           <caret line="60" column="58" lean-forward="false" selection-start-line="60" selection-start-column="58" selection-end-line="60" selection-end-column="58" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -533,31 +600,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
           <caret line="8" column="31" lean-forward="false" selection-start-line="8" selection-start-column="31" selection-end-line="8" selection-end-column="31" />
-          <folding>
-            <marker date="1522873704767" expanded="false" signature="6:48" ph="..." />
-            <marker date="1522873704767" expanded="true" signature="157:226" ph="{...}" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/SceneManagement.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="544">
-          <caret line="42" column="31" lean-forward="false" selection-start-line="42" selection-start-column="31" selection-end-line="42" selection-end-column="31" />
-          <folding>
-            <marker date="1522876638344" expanded="true" signature="0:256" ph="/* ============================================================================== ... */" />
-            <marker date="1522876638344" expanded="false" signature="264:507" ph="..." />
-            <marker date="1522876638344" expanded="true" signature="553:2460" ph="{...}" />
-            <marker date="1522876638344" expanded="true" signature="812:1869" ph="{...}" />
-            <marker date="1522876638344" expanded="true" signature="875:1865" ph="{...}" />
-            <marker date="1522876638344" expanded="true" signature="931:1268" ph="{...}" />
-            <marker date="1522876638344" expanded="true" signature="1458:1545" ph="{...}" />
-            <marker date="1522876638344" expanded="true" signature="1895:1983" ph="{...}" />
-            <marker date="1522876638344" expanded="true" signature="2012:2242" ph="{...}" />
-            <marker date="1522876638344" expanded="true" signature="2206:2236" ph="{...}" />
-            <marker date="1522876638344" expanded="true" signature="2327:2457" ph="{...}" />
-            <marker date="1522876638344" expanded="true" signature="2419:2454" ph="{...}" />
-          </folding>
+        <state relative-caret-position="748">
+          <caret line="44" column="31" lean-forward="false" selection-start-line="44" selection-start-column="31" selection-end-line="44" selection-end-column="31" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -581,39 +631,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Scripts/MedallionEventTracker.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="663">
-          <caret line="155" column="8" lean-forward="false" selection-start-line="155" selection-start-column="8" selection-end-line="155" selection-end-column="8" />
-          <folding>
-            <marker date="1522877508529" expanded="true" signature="0:256" ph="/* ============================================================================== ... */" />
-            <marker date="1522877508529" expanded="false" signature="264:341" ph="..." />
-            <marker date="1522877508529" expanded="true" signature="343:450" ph="///     A custom handler that implements the ITrackableEventHandler interface. ... " />
-            <marker date="1522877508529" expanded="true" signature="525:4936" ph="{...}" />
-            <marker date="1522877508529" expanded="true" signature="532:903" ph="PUBLIC_MEMBERS" />
-            <marker date="1522877508529" expanded="true" signature="710:782" ph="{...}" />
-            <marker date="1522877508529" expanded="true" signature="1129:1260" ph="PRIVATE_MEMBER_VARIABLES" />
-            <marker date="1522877508529" expanded="true" signature="1266:2394" ph="UNTIY_MONOBEHAVIOUR_METHODS" />
-            <marker date="1522877508529" expanded="true" signature="1337:2236" ph="{...}" />
-            <marker date="1522877508529" expanded="true" signature="2266:2347" ph="{...}" />
-            <marker date="1522877508529" expanded="true" signature="2400:2969" ph="PUBLIC_METHODS" />
-            <marker date="1522877508529" expanded="true" signature="2428:2587" ph="///     Implementation of the ITrackableEventHandler function called when the ... " />
-            <marker date="1522877508529" expanded="true" signature="2728:2935" ph="{...}" />
-            <marker date="1522877508529" expanded="true" signature="2794:2929" ph="{...}" />
-            <marker date="1522877508529" expanded="true" signature="2975:4934" ph="PRIVATE_METHODS" />
-            <marker date="1522877508529" expanded="true" signature="3069:3599" ph="{...}" />
-            <marker date="1522877508529" expanded="true" signature="3304:3593" ph="{...}" />
-            <marker date="1522877508529" expanded="true" signature="3645:4222" ph="{...}" />
-            <marker date="1522877508529" expanded="true" signature="3721:3839" ph="/* Vector3 playerPos = mainCamera.transform.position; ... */" />
-            <marker date="1522877508529" expanded="true" signature="4088:4171" ph="/* Experimental! Move back to init ... */" />
-            <marker date="1522877508529" expanded="true" signature="4272:4899" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/HeadAnchoring.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="629">
+        <state relative-caret-position="765">
           <caret line="46" column="50" lean-forward="false" selection-start-line="46" selection-start-column="50" selection-end-line="46" selection-end-column="50" />
           <folding>
             <marker date="1522880183389" expanded="true" signature="0:256" ph="/* ============================================================================== ... */" />
@@ -625,6 +645,101 @@
             <marker date="1522880183389" expanded="true" signature="1113:1211" ph="{...}" />
             <marker date="1522880183389" expanded="true" signature="1238:1334" ph="{...}" />
             <marker date="1522880183389" expanded="true" signature="1409:1471" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/InteractiveObject.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="884">
+          <caret line="323" column="104" lean-forward="false" selection-start-line="323" selection-start-column="104" selection-end-line="323" selection-end-column="104" />
+          <folding>
+            <marker date="1522964568201" expanded="true" signature="0:152" ph="/* Copyright (c) Microsoft Corporation. All rights reserved. ... */" />
+            <marker date="1522964568201" expanded="false" signature="160:342" ph="..." />
+            <marker date="1522964568201" expanded="true" signature="401:9791" ph="{...}" />
+            <marker date="1522964568201" expanded="true" signature="408:942" ph="/// Interactive exposes basic button type events to the Unity Editor and receives messages from the GestureManage ... " />
+            <marker date="1522964568201" expanded="true" signature="1040:9789" ph="{...}" />
+            <marker date="1522964568201" expanded="true" signature="1097:1180" ph="/// Should the button listen to input? ... " />
+            <marker date="1522964568201" expanded="true" signature="1228:1318" ph="/// Does the GameObject currently have focus? ... " />
+            <marker date="1522964568201" expanded="true" signature="1380:1468" ph="/// Is the Tap currently in the down state? ... " />
+            <marker date="1522964568201" expanded="true" signature="1530:1623" ph="/// Should the button care about click and hold? ... " />
+            <marker date="1522964568201" expanded="true" signature="1673:1777" ph="/// Configure the amount to time for the hold event to fire ... " />
+            <marker date="1522964568201" expanded="true" signature="1825:2047" ph="/// Configure the amount of time a roll off update should incur. When building more advanced UI, ... " />
+            <marker date="1522964568201" expanded="true" signature="2099:2225" ph="/// Current selected state, can be set from the Unity Editor for default behavior ... " />
+            <marker date="1522964568201" expanded="true" signature="2523:2592" ph="/// Exposed Unity Events ... " />
+            <marker date="1522964568201" expanded="true" signature="2806:3078" ph="/// A button typically has 8 potential states. ... " />
+            <marker date="1522964568201" expanded="true" signature="3286:3341" ph="/// Timers ... " />
+            <marker date="1522964568201" expanded="true" signature="3729:3866" ph="/// Internal comparison variables to allow for live state updates no matter the input method ... " />
+            <marker date="1522964568201" expanded="true" signature="4240:4374" ph="{...}" />
+            <marker date="1522964568201" expanded="true" signature="4288:4364" ph="{...}" />
+            <marker date="1522964568201" expanded="true" signature="4384:4467" ph="/// Set default visual states on Start ... " />
+            <marker date="1522964568201" expanded="true" signature="4506:5481" ph="{...}" />
+            <marker date="1522964568201" expanded="true" signature="4547:5377" ph="{...}" />
+            <marker date="1522964568201" expanded="true" signature="4667:5012" ph="{...}" />
+            <marker date="1522964568201" expanded="true" signature="4881:4994" ph="{...}" />
+            <marker date="1522964568201" expanded="true" signature="5093:5355" ph="{...}" />
+            <marker date="1522964568201" expanded="true" signature="5491:5563" ph="/// An OnTap event occurred ... " />
+            <marker date="1522964568201" expanded="true" signature="5639:5940" ph="{...}" />
+            <marker date="1522964568201" expanded="true" signature="5677:5729" ph="{...}" />
+            <marker date="1522964568201" expanded="true" signature="5801:5892" ph="{...}" />
+            <marker date="1522964568201" expanded="true" signature="5950:6027" ph="/// The gameObject received gaze ... " />
+            <marker date="1522964568201" expanded="true" signature="6070:6237" ph="{...}" />
+            <marker date="1522964568201" expanded="true" signature="6108:6160" ph="{...}" />
+            <marker date="1522964568201" expanded="true" signature="6247:6329" ph="/// The gameObject no longer has gaze ... " />
+            <marker date="1522964568201" expanded="true" signature="6371:6581" ph="{...}" />
+            <marker date="1522964568201" expanded="true" signature="6591:6676" ph="/// The user is initiating a tap or hold ... " />
+            <marker date="1522964568201" expanded="true" signature="6742:7185" ph="{...}" />
+            <marker date="1522964568201" expanded="true" signature="6778:6830" ph="{...}" />
+            <marker date="1522964568201" expanded="true" signature="6923:7018" ph="{...}" />
+            <marker date="1522964568201" expanded="true" signature="7195:7291" ph="/// All tab, hold, and gesture events are completed ... " />
+            <marker date="1522964568201" expanded="true" signature="7355:7540" ph="{...}" />
+            <marker date="1522964568201" expanded="true" signature="7550:7626" ph="/// The hold timer has finished ... " />
+            <marker date="1522964568201" expanded="true" signature="7663:7784" ph="{...}" />
+            <marker date="1522964568201" expanded="true" signature="7794:7928" ph="/// The percentage of hold time completed ... " />
+            <marker date="1522964568201" expanded="true" signature="7969:8031" ph="{...}" />
+            <marker date="1522964568201" expanded="true" signature="8074:8154" ph="{...}" />
+            <marker date="1522964568201" expanded="true" signature="8293:8660" ph="{...}" />
+            <marker date="1522964568201" expanded="true" signature="8496:8650" ph="{...}" />
+            <marker date="1522964568201" expanded="true" signature="8558:8636" ph="{...}" />
+            <marker date="1522964568201" expanded="true" signature="8676:8757" ph="/// Run timers and check for updates ... " />
+            <marker date="1522964568201" expanded="true" signature="8797:9528" ph="{...}" />
+            <marker date="1522964568201" expanded="true" signature="8850:9153" ph="{...}" />
+            <marker date="1522964568201" expanded="true" signature="8913:9002" ph="{...}" />
+            <marker date="1522964568201" expanded="true" signature="9023:9139" ph="{...}" />
+            <marker date="1522964568201" expanded="true" signature="9181:9465" ph="{...}" />
+            <marker date="1522964568201" expanded="true" signature="9238:9324" ph="{...}" />
+            <marker date="1522964568201" expanded="true" signature="9345:9451" ph="{...}" />
+            <marker date="1522964568201" expanded="true" signature="9564:9611" ph="{...}" />
+            <marker date="1522964568201" expanded="true" signature="9656:9783" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/MedallionEventTracker.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="127" column="49" lean-forward="false" selection-start-line="127" selection-start-column="49" selection-end-line="127" selection-end-column="49" />
+          <folding>
+            <marker date="1522966661879" expanded="true" signature="0:256" ph="/* ============================================================================== ... */" />
+            <marker date="1522966661879" expanded="false" signature="264:341" ph="..." />
+            <marker date="1522966661879" expanded="true" signature="343:450" ph="///     A custom handler that implements the ITrackableEventHandler interface. ... " />
+            <marker date="1522966661879" expanded="true" signature="525:5177" ph="{...}" />
+            <marker date="1522966661879" expanded="true" signature="532:938" ph="PUBLIC_MEMBERS" />
+            <marker date="1522966661879" expanded="true" signature="745:817" ph="{...}" />
+            <marker date="1522966661879" expanded="true" signature="1172:1303" ph="PRIVATE_MEMBER_VARIABLES" />
+            <marker date="1522966661879" expanded="true" signature="1309:2428" ph="UNTIY_MONOBEHAVIOUR_METHODS" />
+            <marker date="1522966661879" expanded="true" signature="1380:2270" ph="{...}" />
+            <marker date="1522966661879" expanded="true" signature="2300:2381" ph="{...}" />
+            <marker date="1522966661879" expanded="true" signature="2434:3003" ph="PUBLIC_METHODS" />
+            <marker date="1522966661879" expanded="true" signature="2462:2621" ph="///     Implementation of the ITrackableEventHandler function called when the ... " />
+            <marker date="1522966661879" expanded="true" signature="2762:2969" ph="{...}" />
+            <marker date="1522966661879" expanded="true" signature="2828:2963" ph="{...}" />
+            <marker date="1522966661879" expanded="true" signature="3009:5175" ph="PRIVATE_METHODS" />
+            <marker date="1522966661879" expanded="true" signature="3103:3633" ph="{...}" />
+            <marker date="1522966661879" expanded="true" signature="3338:3627" ph="{...}" />
+            <marker date="1522966661879" expanded="true" signature="3679:4253" ph="{...}" />
+            <marker date="1522966661879" expanded="true" signature="3755:3872" ph="/* Spawn queue object as child of the queue positioner transform ... */" />
+            <marker date="1522966661879" expanded="true" signature="4394:5140" ph="{...}" />
           </folding>
         </state>
       </provider>

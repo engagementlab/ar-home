@@ -176,7 +176,6 @@ namespace HoloToolkit.Examples.InteractiveElements
         /// </summary>
         public virtual void OnFocusEnter()
         {
-            Debug.Log("OnFocusEnter");
             if (!IsEnabled)
             {
                 return;
@@ -193,8 +192,6 @@ namespace HoloToolkit.Examples.InteractiveElements
         /// </summary>
         public virtual void OnFocusExit()
         {
-            Debug.Log("OnFocusExit");
-
             HasGaze = false;
             EndHoldDetection();
             mRollOffTimer = 0;
@@ -224,6 +221,9 @@ namespace HoloToolkit.Examples.InteractiveElements
             }
             
             OnDownEvent.Invoke();
+            
+            // Invoke method for showing our headplaceholder
+            DisplayHeadPlacement();
         }
 
         /// <summary>
@@ -317,6 +317,11 @@ namespace HoloToolkit.Examples.InteractiveElements
         protected void OnDisable()
         {
             OnFocusExit();
+        }
+
+        private void DisplayHeadPlacement()
+        {
+            Instantiate(Resources.Load<GameObject>("HeadPlaceholder"), Vector3.zero, Quaternion.identity);
         }
     }
 }
