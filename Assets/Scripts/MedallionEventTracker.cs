@@ -5,6 +5,7 @@ by Johnny Richardson
 
 using HoloToolkit.Unity;
 using UnityEngine;
+using UnityEngine.Networking;
 using UnityEngine.Video;
 using Vuforia;
 
@@ -17,6 +18,7 @@ public class MedallionEventTracker : MonoBehaviour, ITrackableEventHandler
 
     public VideoClip clipToPlay;
     public GameObject queueObject;
+    public bool UseNetSpawn = true;
     public GameObject storyObject;
     public GameObject headPlacementPlaceholderObject;
     public enum TurnOffRendering{
@@ -122,10 +124,19 @@ public class MedallionEventTracker : MonoBehaviour, ITrackableEventHandler
     {
         if(tracked) return;
         tracked = true;
+
+        Vector3 playerPos = mainCamera.transform.position;
+        Vector3 playerDirection = mainCamera.transform.forward;
         
         // Spawn queue object as child of the queue positioner transform
-//        Debug.Log(queueObjectPositioner.position);
-        GameObject queueObjectInstance = Instantiate(queueObject, queueObjectPositioner.position, Quaternion.identity);
+        //        Debug.Log(queueObjectPositioner.position);
+        GameObject queueObjectInstance = Instantiate(queueObject, playerPos + (playerDirection * 1.5f), Quaternion.identity);
+
+        if (UseNetSpawn)
+        {
+            NetworkServer.Spawn(queueObjectInstance);
+        }
+
 //        Debug.Log(queueObjectInstance.transform.position);
         GetComponent<ImageTargetBehaviour>().enabled = false;
         
