@@ -2101,14 +2101,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: dcc95d8f8ad534e48ab8772a81e76da6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  videoPlayer: {fileID: 0}
-  videoPlayerTexture: {fileID: 1049818137603302}
-  playButton: {fileID: 1923409979943694}
-  restartButton: {fileID: 1194954117730652}
-  stopButton: {fileID: 1073223241583644}
   promptText: {fileID: 1500112351091672}
+  videoTexture: {fileID: 0}
   sampleModel: {fileID: 1222748445699468}
   videoPlayed: 0
+  timeToShowModel: 0
 --- !u!114 &114971383852132586
 MonoBehaviour:
   m_ObjectHideFlags: 1
