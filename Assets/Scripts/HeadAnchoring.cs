@@ -8,9 +8,15 @@ using UnityEngine.XR.WSA.Input;
 
 public class HeadAnchoring : MonoBehaviour
 {
+	public string EventName
+	{
+		get { return eventName; }
+		set { eventName = value; }
+	}
 
 	private Camera mainCamera;
 	private GestureRecognizer gestureRecognizer;
+	private string eventName;
 
 	// Use this for initialization
 	void Start () {
@@ -30,9 +36,8 @@ public class HeadAnchoring : MonoBehaviour
 			Vector3.Slerp(transform.position, playerPos + (playerDirection * 1.5f), 1.5f * Time.deltaTime);
 	}
 
-	private void OnEnable()
+	private void Awake()
 	{
-		
 		if (gestureRecognizer != null) return;
 	
 		gestureRecognizer = new GestureRecognizer();
@@ -48,16 +53,19 @@ public class HeadAnchoring : MonoBehaviour
 		
 	}
 
-	private void OnDestroy()
+	void OnDestroy()
 	{
-		
+	
 		if (gestureRecognizer == null) return;
 		gestureRecognizer.TappedEvent -= OnAirTap;
-
+		gestureRecognizer.StopCapturingGestures();
+		
 	}
 
 	private void OnAirTap(InteractionSourceKind src, int count, Ray headRay)
 	{
-		Events.instance.Raise(new GenericEvent("PlaceHead"));
+		
+		Events.instance.Raise(new GenericEvent(eventName));
+		
 	}
 }

@@ -1,0 +1,222 @@
+fileFormatVersion: 2
+guid: 90eb1c07d31d0cf458b1f80044d56878
+timeCreated: 1523040652
+licenseType: Free
+ModelImporter:
+  serializedVersion: 22
+  fileIDToRecycleName:
+    100000: Bott_sticker_low
+    100002: Box_int_2_low
+    100004: C_Clip_supp_low
+    100006: Center_clip_low
+    100008: Clip_axis_low
+    100010: Clips_supp_bck_low
+    100012: Cord_lever1_low
+    100014: Cover_main_low
+    100016: Cushin_low
+    100018: //RootNode
+    100020: Label_front_low
+    100022: Label_upper_low
+    100024: Lat_clips_low
+    100026: Legs_low
+    100028: Mirror_low
+    100030: Mirror_pann_low
+    100032: S1_low
+    100034: Screws_low
+    100036: Umesh_Main_box3_low
+    400000: Bott_sticker_low
+    400002: Box_int_2_low
+    400004: C_Clip_supp_low
+    400006: Center_clip_low
+    400008: Clip_axis_low
+    400010: Clips_supp_bck_low
+    400012: Cord_lever1_low
+    400014: Cover_main_low
+    400016: Cushin_low
+    400018: //RootNode
+    400020: Label_front_low
+    400022: Label_upper_low
+    400024: Lat_clips_low
+    400026: Legs_low
+    400028: Mirror_low
+    400030: Mirror_pann_low
+    400032: S1_low
+    400034: Screws_low
+    400036: Umesh_Main_box3_low
+    2100000: Label_upper_low
+    2100002: Cover_main_low
+    2100004: Mirror_pann_low
+    2100006: Mirror_low
+    2100008: Lat_clips_low
+    2100010: Clip_axis_low
+    2100012: C_Clip_supp_low
+    2100014: Center_clip_low
+    2100016: Clips_supp_bck_low
+    2100018: Cushin_low
+    2100020: Cord_lever1_low
+    2100022: S1_low
+    2100024: Box_int_2_low
+    2100026: Umesh_Main_box3_low
+    2100028: Bott_sticker_low
+    2100030: Screws_low
+    2100032: Label_front_low
+    2100034: Legs_low
+    2300000: Bott_sticker_low
+    2300002: Box_int_2_low
+    2300004: C_Clip_supp_low
+    2300006: Center_clip_low
+    2300008: Clip_axis_low
+    2300010: Clips_supp_bck_low
+    2300012: Cord_lever1_low
+    2300014: Cover_main_low
+    2300016: Cushin_low
+    2300018: Label_front_low
+    2300020: Label_upper_low
+    2300022: Lat_clips_low
+    2300024: Legs_low
+    2300026: Mirror_low
+    2300028: Mirror_pann_low
+    2300030: S1_low
+    2300032: Screws_low
+    2300034: Umesh_Main_box3_low
+    3300000: Bott_sticker_low
+    3300002: Box_int_2_low
+    3300004: C_Clip_supp_low
+    3300006: Center_clip_low
+    3300008: Clip_axis_low
+    3300010: Clips_supp_bck_low
+    3300012: Cord_lever1_low
+    3300014: Cover_main_low
+    3300016: Cushin_low
+    3300018: Label_front_low
+    3300020: Label_upper_low
+    3300022: Lat_clips_low
+    3300024: Legs_low
+    3300026: Mirror_low
+    3300028: Mirror_pann_low
+    3300030: S1_low
+    3300032: Screws_low
+    3300034: Umesh_Main_box3_low
+    4300000: Label_upper_low
+    4300002: Cover_main_low
+    4300004: Mirror_pann_low
+    4300006: Mirror_low
+    4300008: Lat_clips_low
+    4300010: Clip_axis_low
+    4300012: C_Clip_supp_low
+    4300014: Center_clip_low
+    4300016: Clips_supp_bck_low
+    4300018: Cushin_low
+    4300020: Cord_lever1_low
+    4300022: S1_low
+    4300024: Box_int_2_low
+    4300026: Umesh_Main_box3_low
+    4300028: Bott_sticker_low
+    4300030: Screws_low
+    4300032: Label_front_low
+    4300034: Legs_low
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Bott_sticker_low
+    second: {fileID: 2100000, guid: f6390ef1967f5fe4fa1a009fb7844027, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Box_int_2_low
+    second: {fileID: 2100000, guid: f6390ef1967f5fe4fa1a009fb7844027, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: C_Clip_supp_low
+    second: {fileID: 2100000, guid: f6390ef1967f5fe4fa1a009fb7844027, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Center_clip_low
+    second: {fileID: 2100000, guid: f6390ef1967f5fe4fa1a009fb7844027, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Clip_axis_low
+    second: {fileID: 2100000, guid: f6390ef1967f5fe4fa1a009fb7844027, type: 2}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

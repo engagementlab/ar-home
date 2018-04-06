@@ -543,6 +543,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   ParentObject: {fileID: 0}
   IsEnabled: 1
+  isForPositioning: 0
   DetectHold: 0
   HoldTime: 0.5
   RollOffTime: 0.02

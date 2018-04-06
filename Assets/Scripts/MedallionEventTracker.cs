@@ -3,6 +3,7 @@ Copyright (c) 2018 Engagement Lab @ Emerson College. All Rights Reserved.
 by Johnny Richardson
 ==============================================================================*/
 
+using HoloToolkit.Examples.InteractiveElements;
 using HoloToolkit.Unity;
 using UnityEngine;
 using UnityEngine.Video;
@@ -18,7 +19,6 @@ public class MedallionEventTracker : MonoBehaviour, ITrackableEventHandler
     public VideoClip clipToPlay;
     public GameObject queueObject;
     public GameObject storyObject;
-    public GameObject headPlacementPlaceholderObject;
     public enum TurnOffRendering{
         PlayModeAndDevice,
         PlayModeOnly,
@@ -32,6 +32,7 @@ public class MedallionEventTracker : MonoBehaviour, ITrackableEventHandler
     private bool tracked;
     private Camera mainCamera;
     private VideoPlayer videoSource;
+    private VideoLogic videoLogic;
     private Quaternion initalRotation;
     private Transform queueObjectPositioner;
     private Transform storyObjectPositioner;
@@ -47,14 +48,17 @@ public class MedallionEventTracker : MonoBehaviour, ITrackableEventHandler
     protected virtual void Start()
     {
         mTrackableBehaviour = GetComponent<TrackableBehaviour>();
+        videoLogic = GetComponent<VideoLogic>();
         if (mTrackableBehaviour)
             mTrackableBehaviour.RegisterTrackableEventHandler(this);
         
         // Add video player
         videoSource = gameObject.AddComponent<VideoPlayer>();
         videoSource.playOnAwake = false;
-        videoSource.renderMode = VideoRenderMode.RenderTexture;
-        videoSource.targetTexture = Resources.Load<RenderTexture>("VideoTex");
+        videoSource.renderMode = VideoRenderMode.MaterialOverride;
+        videoSource.targetMaterialRenderer =
+            transform.Find("Content/VideoTexture/Material").GetComponent<MeshRenderer>();
+//        videoSource.targetTexture = Resources.Load<RenderTexture>("VideoTex");
         videoSource.clip = clipToPlay;
 
         mainCamera = Camera.main;
@@ -84,7 +88,6 @@ public class MedallionEventTracker : MonoBehaviour, ITrackableEventHandler
     ///     tracking state changes.
     /// </summary>
     /// 
-    
     public void OnTrackableStateChanged(
         TrackableBehaviour.Status previousStatus,
         TrackableBehaviour.Status newStatus)
@@ -123,23 +126,22 @@ public class MedallionEventTracker : MonoBehaviour, ITrackableEventHandler
         if(tracked) return;
         tracked = true;
         
-        // Spawn queue object as child of the queue positioner transform
-//        Debug.Log(queueObjectPositioner.position);
-        GameObject queueObjectInstance = Instantiate(queueObject, queueObjectPositioner.position, Quaternion.identity);
-//        Debug.Log(queueObjectInstance.transform.position);
-        GetComponent<ImageTargetBehaviour>().enabled = false;
-        
         Debug.Log("Medallion found!");
 
-        // Move back to init rotation
+        // Move back to init rotation and spawn queue object, giving object button this transform's name
         transform.rotation = initalRotation;
+        InteractiveObject interactiveObject = Instantiate(queueObject, queueObjectPositioner.position, Quaternion.identity).GetComponent<InteractiveObject>();
+        interactiveObject.CallerName = gameObject.name;
+        
+        GetComponent<ImageTargetBehaviour>().enabled = false;
     }
 
     // Place medallion parent (this gameobject) where player places friend's head in world
     private void PlaceAtAnchor(GenericEvent evt)
     {
        
-        if (evt.EventName != "PlaceHead") return;
+        // Only consume events for this object
+        if (evt.EventName != gameObject.name || videoLogic.HasPlayed) return;
 
         GameObject placeholder = GameObject.FindGameObjectWithTag("HeadPlaceholder");
         transform.position = placeholder.transform.position;
@@ -149,11 +151,10 @@ public class MedallionEventTracker : MonoBehaviour, ITrackableEventHandler
         directionToTarget.z = gameObject.transform.position.z;
         transform.Rotate(new Vector3(0, Quaternion.LookRotation(directionToTarget).y, 0), Space.World);
         
-        GameObject storyObjectInstance = Instantiate(storyObject, storyObjectPositioner, false);
-        
         Destroy(placeholder);
         
-        GetComponent<VideoLogic>().StartVideo();
+        GameObject storyObjectInstance = Instantiate(storyObject, storyObjectPositioner.position, Quaternion.identity);
+        videoLogic.StartVideo(storyObjectInstance);
         
     }
 

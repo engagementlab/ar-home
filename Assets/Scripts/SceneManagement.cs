@@ -37,8 +37,12 @@ public class SceneManagement : MonoBehaviour
 				StartCoroutine(RestartScene());
 			});
 
-			// Place friend's head pos
-			keywords.Add("Place", () => { Events.instance.Raise(new GenericEvent("PlaceHead")); });
+			// Place friend's head pos (hacky as hell but works for now
+			keywords.Add("Place", () =>
+			{
+				string targetName = GameObject.FindGameObjectWithTag("HeadPlaceholder").GetComponent<HeadAnchoring>().EventName;
+				Events.instance.Raise(new GenericEvent(targetName));
+			});
 
 			// Hologram sharing tests
 			keywords.Add("Dog bottom", () =>

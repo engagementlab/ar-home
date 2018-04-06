@@ -21,13 +21,12 @@ namespace HoloToolkit.Examples.InteractiveElements
     /// </summary>
     public class InteractiveObject : MonoBehaviour, IInputClickHandler, IFocusable, IInputHandler
     {
-
-        public GameObject ParentObject;
-
+        
         /// <summary>
         /// Should the button listen to input?
         /// </summary>
         public bool IsEnabled = true;
+        public bool isForPositioning = true;
 
         /// <summary>
         /// Does the GameObject currently have focus?
@@ -80,6 +79,12 @@ namespace HoloToolkit.Examples.InteractiveElements
         /// We can update visual feedback based on state change, all the logic is already done, making InteractiveEffects behaviors less complex then comparing selected + Disabled.
         /// </summary>
         public enum ButtonStateEnum { Default, Focus, Press, Selected, FocusSelected, PressSelected, Disabled, DisabledSelected }
+
+        public string CallerName
+        {
+            set { callerName = value; }
+        }
+        
         protected ButtonStateEnum mState = ButtonStateEnum.Default;
 
         /// <summary>
@@ -107,13 +112,7 @@ namespace HoloToolkit.Examples.InteractiveElements
 
         protected List<InteractiveWidget> mInteractiveWidgets = new List<InteractiveWidget>();
 
-        protected virtual void Awake()
-        {
-            if (ParentObject == null)
-            {
-                ParentObject = this.gameObject;
-            }
-        }
+        private string callerName;
 
         /// <summary>
         /// Set default visual states on Start
@@ -223,7 +222,8 @@ namespace HoloToolkit.Examples.InteractiveElements
             OnDownEvent.Invoke();
             
             // Invoke method for showing our headplaceholder
-            DisplayHeadPlacement();
+            if(isForPositioning)
+                DisplayHeadPlacement();
         }
 
         /// <summary>
@@ -321,7 +321,10 @@ namespace HoloToolkit.Examples.InteractiveElements
 
         private void DisplayHeadPlacement()
         {
-            Instantiate(Resources.Load<GameObject>("HeadPlaceholder"), Vector3.zero, Quaternion.identity);
+          
+            HeadAnchoring headAnchor = Instantiate(Resources.Load<GameObject>("HeadPlaceholder"), Vector3.zero, Quaternion.identity).GetComponent<HeadAnchoring>();
+            headAnchor.EventName = callerName;
+            
         }
     }
 }

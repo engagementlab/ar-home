@@ -13,7 +13,10 @@ public class VideoLogic : MonoBehaviour
 	public GameObject promptText;
 	public GameObject videoTexture;
 
-	public GameObject sampleModel;
+	public bool HasPlayed
+	{
+		get { return videoPlayed; }
+	}
 
 	[HideInInspector]
 	public bool videoPlayed;
@@ -22,8 +25,8 @@ public class VideoLogic : MonoBehaviour
 	
 	private AudioSource audioSource;
 	private VideoPlayer videoSource;
-	private Camera mainCamera;
 	private Billboard videoTextureBillboard;
+	private GameObject storyObject;
 
 	private float videoCurrentTime;
 	private bool videoIsPlaying;
@@ -32,18 +35,9 @@ public class VideoLogic : MonoBehaviour
 	void Start ()
 	{
 		
-		mainCamera = Camera.main;
 		promptText.SetActive(false);	
-		
-		if(sampleModel != null)
-			sampleModel.SetActive(false);
-		
-		// Create video texture (testing)
-	/*	videoTexture = Instantiate(Resources.Load<GameObject>("VideoTexture"), Vector3.zero, Quaternion.identity);
-		videoTexture.transform.parent = transform;
-		
-		videoTexture.transform.localRotation = Quaternion.identity;*/
 		videoTexture.SetActive(false);
+		
 		audioSource = videoTexture.GetComponentInChildren<AudioSource>();
 
 	}
@@ -53,10 +47,10 @@ public class VideoLogic : MonoBehaviour
 		if(videoIsPlaying)
 			videoCurrentTime += Time.deltaTime;
 
-		if (sampleModel != null && !sampleModel.active)
+		if (storyObject != null && !storyObject.active)
 		{
 			if (videoCurrentTime > timeToShowModel)
-				sampleModel.SetActive(true);
+				storyObject.SetActive(true);
 		}
 	}
 
@@ -85,8 +79,8 @@ public class VideoLogic : MonoBehaviour
 
 	}
 
-	// Called via "Ok" command
-	public void StartVideo()
+	// Called via "Place" command
+	public void StartVideo(GameObject storyObjectInstance)
 	{
 		
 		videoSource = GetComponent<VideoPlayer>();
@@ -96,6 +90,11 @@ public class VideoLogic : MonoBehaviour
 		
 		videoSource.started += VideoStarted;
 		videoSource.loopPointReached += VideoEnded;
+
+		storyObject = storyObjectInstance;
+		// Hide story object for now
+		if(storyObject != null)
+			storyObject.SetActive(false);
 
 		// Play vid and show rendering
 		videoSource.Play();

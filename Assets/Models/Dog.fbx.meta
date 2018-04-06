@@ -1,0 +1,287 @@
+fileFormatVersion: 2
+guid: 6c360a22d1d51384c82abcb81d6e66e8
+timeCreated: 1523036349
+licenseType: Free
+ModelImporter:
+  serializedVersion: 22
+  fileIDToRecycleName:
+    100000: CartoonDog1:BottomTooth18
+    100002: CartoonDog1:DogBody
+    100004: CartoonDog1:LeftEye
+    100006: CartoonDog1:mandible
+    100008: CartoonDog1:maxilla
+    100010: CartoonDog1:RightEye
+    100012: CartoonDog1:strap01
+    100014: CartoonDog1:strap02
+    100016: CartoonDog1:strap03
+    100018: CartoonDog1:strap04
+    100020: CartoonDog1:tongue
+    100022: CartoonDog1:TopTooth03
+    100024: //RootNode
+    100026: dog01
+    100028: joint1
+    100030: joint12
+    100032: joint13
+    100034: joint14
+    100036: joint15
+    100038: joint16
+    100040: joint17
+    100042: joint18
+    100044: joint19
+    100046: joint2
+    100048: joint20
+    100050: joint21
+    100052: joint22
+    100054: joint23
+    100056: joint24
+    100058: joint25
+    100060: joint26
+    100062: joint27
+    100064: joint28
+    100066: joint29
+    100068: joint3
+    100070: joint30
+    100072: joint31
+    100074: joint32
+    100076: joint33
+    100078: joint34
+    100080: joint35
+    100082: joint36
+    100084: joint37
+    100086: joint38
+    100088: joint39
+    100090: joint4
+    100092: joint40
+    100094: joint41
+    100096: joint42
+    100098: joint43
+    100100: joint44
+    100102: joint45
+    100104: joint46
+    100106: joint47
+    100108: joint48
+    100110: joint49
+    100112: joint5
+    100114: joint50
+    100116: joint51
+    100118: joint52
+    100120: joint53
+    100122: joint54
+    100124: joint55
+    100126: joint56
+    100128: joint6
+    100130: joint7
+    100132: joint8
+    100134: joint9
+    100136: nurbsCircle30
+    100138: nurbsCircle7
+    400000: CartoonDog1:BottomTooth18
+    400002: CartoonDog1:DogBody
+    400004: CartoonDog1:LeftEye
+    400006: CartoonDog1:mandible
+    400008: CartoonDog1:maxilla
+    400010: CartoonDog1:RightEye
+    400012: CartoonDog1:strap01
+    400014: CartoonDog1:strap02
+    400016: CartoonDog1:strap03
+    400018: CartoonDog1:strap04
+    400020: CartoonDog1:tongue
+    400022: CartoonDog1:TopTooth03
+    400024: //RootNode
+    400026: dog01
+    400028: joint1
+    400030: joint12
+    400032: joint13
+    400034: joint14
+    400036: joint15
+    400038: joint16
+    400040: joint17
+    400042: joint18
+    400044: joint19
+    400046: joint2
+    400048: joint20
+    400050: joint21
+    400052: joint22
+    400054: joint23
+    400056: joint24
+    400058: joint25
+    400060: joint26
+    400062: joint27
+    400064: joint28
+    400066: joint29
+    400068: joint3
+    400070: joint30
+    400072: joint31
+    400074: joint32
+    400076: joint33
+    400078: joint34
+    400080: joint35
+    400082: joint36
+    400084: joint37
+    400086: joint38
+    400088: joint39
+    400090: joint4
+    400092: joint40
+    400094: joint41
+    400096: joint42
+    400098: joint43
+    400100: joint44
+    400102: joint45
+    400104: joint46
+    400106: joint47
+    400108: joint48
+    400110: joint49
+    400112: joint5
+    400114: joint50
+    400116: joint51
+    400118: joint52
+    400120: joint53
+    400122: joint54
+    400124: joint55
+    400126: joint56
+    400128: joint6
+    400130: joint7
+    400132: joint8
+    400134: joint9
+    400136: nurbsCircle30
+    400138: nurbsCircle7
+    2100000: lambert1
+    4300000: CartoonDog1:RightEye
+    4300002: CartoonDog1:LeftEye
+    4300004: CartoonDog1:tongue
+    4300006: CartoonDog1:DogBody
+    4300008: CartoonDog1:maxilla
+    4300010: CartoonDog1:mandible
+    4300012: CartoonDog1:strap01
+    4300014: CartoonDog1:strap04
+    4300016: CartoonDog1:strap02
+    4300018: CartoonDog1:strap03
+    4300020: CartoonDog1:TopTooth03
+    4300022: CartoonDog1:BottomTooth18
+    7400000: Take 001
+    9500000: //RootNode
+    13700000: CartoonDog1:BottomTooth18
+    13700002: CartoonDog1:DogBody
+    13700004: CartoonDog1:LeftEye
+    13700006: CartoonDog1:mandible
+    13700008: CartoonDog1:maxilla
+    13700010: CartoonDog1:RightEye
+    13700012: CartoonDog1:strap01
+    13700014: CartoonDog1:strap02
+    13700016: CartoonDog1:strap03
+    13700018: CartoonDog1:strap04
+    13700020: CartoonDog1:tongue
+    13700022: CartoonDog1:TopTooth03
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: lambert1
+    second: {fileID: 2100000, guid: d778de2b42170ad4bb5863a018d5ed61, type: 2}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 0
+    optimizeGameObjects: 0
+    motionNodeName: dog01
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    animationCompression: 0
+    animationRotationError: 4.8
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Take 001
+      takeName: Take 001
+      firstFrame: 1
+      lastFrame: 260
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 1
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
