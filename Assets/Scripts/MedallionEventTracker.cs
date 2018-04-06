@@ -134,6 +134,7 @@ public class MedallionEventTracker : MonoBehaviour, ITrackableEventHandler
 
         if (UseNetSpawn)
         {
+            Debug.Log("Net spawned");
             NetworkServer.Spawn(queueObjectInstance);
         }
 
