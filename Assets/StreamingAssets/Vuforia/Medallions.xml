@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QCARConfig xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="qcar_config.xsd">
+  <Tracking>
+    <ImageTarget name="watch" size="0.192548 0.145695" />
+    <ImageTarget name="teddy" size="0.192548 0.269063" />
+    <ImageTarget name="mother" size="0.192548 0.192548" />
+    <ImageTarget name="key" size="0.192548 0.266233" />
+    <ImageTarget name="dog" size="0.192548 0.192548" />
+    <ImageTarget name="couch2" size="0.192548 0.192548" />
+    <ImageTarget name="telescope" size="0.192548 0.144411" />
+  </Tracking>
+</QCARConfig>

@@ -2,96 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6394d176-6f62-4b67-b56c-fbd3f5eecf54" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/Assets/Scripts/DogFix.cs" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.ar-home/.idea/contentModel.xml" afterPath="$PROJECT_DIR$/.idea/.idea.ar-home/.idea/contentModel.xml" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.ar-home/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/.idea.ar-home/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/Assets/Editor/Vuforia/ImageTargetTextures/VuforiaMars_Images/Astronaut_scaled.jpg" afterPath="$PROJECT_DIR$/Assets/Editor/Vuforia/ImageTargetTextures/VuforiaMars_Images/Astronaut_scaled.jpg" />
-      <change beforePath="$PROJECT_DIR$/Assets/Editor/Vuforia/ImageTargetTextures/VuforiaMars_Images/Astronaut_scaled.jpg.meta" afterPath="$PROJECT_DIR$/Assets/Editor/Vuforia/ImageTargetTextures/VuforiaMars_Images/Astronaut_scaled.jpg.meta" />
-      <change beforePath="$PROJECT_DIR$/Assets/Editor/Vuforia/ImageTargetTextures/VuforiaMars_Images/Drone_scaled.jpg" afterPath="$PROJECT_DIR$/Assets/Editor/Vuforia/ImageTargetTextures/VuforiaMars_Images/Drone_scaled.jpg" />
-      <change beforePath="$PROJECT_DIR$/Assets/Editor/Vuforia/ImageTargetTextures/VuforiaMars_Images/Drone_scaled.jpg.meta" afterPath="$PROJECT_DIR$/Assets/Editor/Vuforia/ImageTargetTextures/VuforiaMars_Images/Drone_scaled.jpg.meta" />
-      <change beforePath="$PROJECT_DIR$/Assets/Editor/Vuforia/ImageTargetTextures/VuforiaMars_Images/Fissure_scaled.jpg" afterPath="$PROJECT_DIR$/Assets/Editor/Vuforia/ImageTargetTextures/VuforiaMars_Images/Fissure_scaled.jpg" />
-      <change beforePath="$PROJECT_DIR$/Assets/Editor/Vuforia/ImageTargetTextures/VuforiaMars_Images/Fissure_scaled.jpg.meta" afterPath="$PROJECT_DIR$/Assets/Editor/Vuforia/ImageTargetTextures/VuforiaMars_Images/Fissure_scaled.jpg.meta" />
-      <change beforePath="$PROJECT_DIR$/Assets/Editor/Vuforia/ImageTargetTextures/VuforiaMars_Images/MarsBox.Back_scaled.jpg" afterPath="$PROJECT_DIR$/Assets/Editor/Vuforia/ImageTargetTextures/VuforiaMars_Images/MarsBox.Back_scaled.jpg" />
-      <change beforePath="$PROJECT_DIR$/Assets/Editor/Vuforia/ImageTargetTextures/VuforiaMars_Images/MarsBox.Back_scaled.jpg.meta" afterPath="$PROJECT_DIR$/Assets/Editor/Vuforia/ImageTargetTextures/VuforiaMars_Images/MarsBox.Back_scaled.jpg.meta" />
-      <change beforePath="$PROJECT_DIR$/Assets/Editor/Vuforia/ImageTargetTextures/VuforiaMars_Images/MarsBox.Bottom_scaled.jpg" afterPath="$PROJECT_DIR$/Assets/Editor/Vuforia/ImageTargetTextures/VuforiaMars_Images/MarsBox.Bottom_scaled.jpg" />
-      <change beforePath="$PROJECT_DIR$/Assets/Editor/Vuforia/ImageTargetTextures/VuforiaMars_Images/MarsBox.Bottom_scaled.jpg.meta" afterPath="$PROJECT_DIR$/Assets/Editor/Vuforia/ImageTargetTextures/VuforiaMars_Images/MarsBox.Bottom_scaled.jpg.meta" />
-      <change beforePath="$PROJECT_DIR$/Assets/Editor/Vuforia/ImageTargetTextures/VuforiaMars_Images/MarsBox.Front_scaled.jpg" afterPath="$PROJECT_DIR$/Assets/Editor/Vuforia/ImageTargetTextures/VuforiaMars_Images/MarsBox.Front_scaled.jpg" />
-      <change beforePath="$PROJECT_DIR$/Assets/Editor/Vuforia/ImageTargetTextures/VuforiaMars_Images/MarsBox.Front_scaled.jpg.meta" afterPath="$PROJECT_DIR$/Assets/Editor/Vuforia/ImageTargetTextures/VuforiaMars_Images/MarsBox.Front_scaled.jpg.meta" />
-      <change beforePath="$PROJECT_DIR$/Assets/Editor/Vuforia/ImageTargetTextures/VuforiaMars_Images/MarsBox.Left_scaled.jpg" afterPath="$PROJECT_DIR$/Assets/Editor/Vuforia/ImageTargetTextures/VuforiaMars_Images/MarsBox.Left_scaled.jpg" />
-      <change beforePath="$PROJECT_DIR$/Assets/Editor/Vuforia/ImageTargetTextures/VuforiaMars_Images/MarsBox.Left_scaled.jpg.meta" afterPath="$PROJECT_DIR$/Assets/Editor/Vuforia/ImageTargetTextures/VuforiaMars_Images/MarsBox.Left_scaled.jpg.meta" />
-      <change beforePath="$PROJECT_DIR$/Assets/Editor/Vuforia/ImageTargetTextures/VuforiaMars_Images/MarsBox.Right_scaled.jpg" afterPath="$PROJECT_DIR$/Assets/Editor/Vuforia/ImageTargetTextures/VuforiaMars_Images/MarsBox.Right_scaled.jpg" />
-      <change beforePath="$PROJECT_DIR$/Assets/Editor/Vuforia/ImageTargetTextures/VuforiaMars_Images/MarsBox.Right_scaled.jpg.meta" afterPath="$PROJECT_DIR$/Assets/Editor/Vuforia/ImageTargetTextures/VuforiaMars_Images/MarsBox.Right_scaled.jpg.meta" />
-      <change beforePath="$PROJECT_DIR$/Assets/Editor/Vuforia/ImageTargetTextures/VuforiaMars_Images/MarsBox.Top_scaled.jpg" afterPath="$PROJECT_DIR$/Assets/Editor/Vuforia/ImageTargetTextures/VuforiaMars_Images/MarsBox.Top_scaled.jpg" />
-      <change beforePath="$PROJECT_DIR$/Assets/Editor/Vuforia/ImageTargetTextures/VuforiaMars_Images/MarsBox.Top_scaled.jpg.meta" afterPath="$PROJECT_DIR$/Assets/Editor/Vuforia/ImageTargetTextures/VuforiaMars_Images/MarsBox.Top_scaled.jpg.meta" />
-      <change beforePath="$PROJECT_DIR$/Assets/Editor/Vuforia/ImageTargetTextures/VuforiaMars_Images/Oxygen_scaled.jpg" afterPath="$PROJECT_DIR$/Assets/Editor/Vuforia/ImageTargetTextures/VuforiaMars_Images/Oxygen_scaled.jpg" />
-      <change beforePath="$PROJECT_DIR$/Assets/Editor/Vuforia/ImageTargetTextures/VuforiaMars_Images/Oxygen_scaled.jpg.meta" afterPath="$PROJECT_DIR$/Assets/Editor/Vuforia/ImageTargetTextures/VuforiaMars_Images/Oxygen_scaled.jpg.meta" />
-      <change beforePath="$PROJECT_DIR$/Assets/HoloToolkit-Examples/Prototyping/Shaders/UnlitTransparentTriplanar.shader" afterPath="$PROJECT_DIR$/Assets/HoloToolkit-Examples/Prototyping/Shaders/UnlitTransparentTriplanar.shader" />
-      <change beforePath="$PROJECT_DIR$/Assets/HoloToolkit-Examples/Prototyping/Shaders/UnlitTriplanar.shader" afterPath="$PROJECT_DIR$/Assets/HoloToolkit-Examples/Prototyping/Shaders/UnlitTriplanar.shader" />
-      <change beforePath="$PROJECT_DIR$/Assets/HoloToolkit-Examples/SpatialMapping/Meshes.meta" afterPath="$PROJECT_DIR$/Assets/HoloToolkit-Examples/SpatialMapping/Meshes.meta" />
-      <change beforePath="$PROJECT_DIR$/Assets/HoloToolkit-Examples/SpatialMapping/Meshes/SRMesh.obj.meta" afterPath="$PROJECT_DIR$/Assets/HoloToolkit-Examples/SpatialMapping/Meshes/SRMesh.obj.meta" />
-      <change beforePath="$PROJECT_DIR$/Assets/HoloToolkit-Examples/SpatialMapping/Scripts/PlaneFindingTest.cs" afterPath="$PROJECT_DIR$/Assets/HoloToolkit-Examples/SpatialMapping/Scripts/PlaneFindingTest.cs" />
-      <change beforePath="$PROJECT_DIR$/Assets/HoloToolkit/Sharing.meta" afterPath="$PROJECT_DIR$/Assets/HoloToolkit/Sharing.meta" />
-      <change beforePath="$PROJECT_DIR$/Assets/HoloToolkit/Sharing/Scripts.meta" afterPath="$PROJECT_DIR$/Assets/HoloToolkit/Sharing/Scripts.meta" />
-      <change beforePath="$PROJECT_DIR$/Assets/HoloToolkit/SpatialUnderstanding/Plugins/WSA/x64.meta" afterPath="$PROJECT_DIR$/Assets/HoloToolkit/SpatialUnderstanding/Plugins/WSA/x64.meta" />
-      <change beforePath="$PROJECT_DIR$/Assets/HoloToolkit/SpatialUnderstanding/Plugins/WSA/x64/SpatialUnderstanding.pdb.meta" afterPath="$PROJECT_DIR$/Assets/HoloToolkit/SpatialUnderstanding/Plugins/WSA/x64/SpatialUnderstanding.pdb.meta" />
-      <change beforePath="$PROJECT_DIR$/Assets/HoloToolkit/SpatialUnderstanding/Plugins/WSA/x86.meta" afterPath="$PROJECT_DIR$/Assets/HoloToolkit/SpatialUnderstanding/Plugins/WSA/x86.meta" />
-      <change beforePath="$PROJECT_DIR$/Assets/HoloToolkit/SpatialUnderstanding/Plugins/WSA/x86/SpatialUnderstanding.pdb.meta" afterPath="$PROJECT_DIR$/Assets/HoloToolkit/SpatialUnderstanding/Plugins/WSA/x86/SpatialUnderstanding.pdb.meta" />
-      <change beforePath="$PROJECT_DIR$/Assets/HoloToolkit/SpatialUnderstanding/Plugins/x64.meta" afterPath="$PROJECT_DIR$/Assets/HoloToolkit/SpatialUnderstanding/Plugins/x64.meta" />
-      <change beforePath="$PROJECT_DIR$/Assets/HoloToolkit/SpatialUnderstanding/Plugins/x64/SpatialUnderstanding.pdb.meta" afterPath="$PROJECT_DIR$/Assets/HoloToolkit/SpatialUnderstanding/Plugins/x64/SpatialUnderstanding.pdb.meta" />
-      <change beforePath="$PROJECT_DIR$/Assets/HoloToolkit/SpatialUnderstanding/Plugins/x86.meta" afterPath="$PROJECT_DIR$/Assets/HoloToolkit/SpatialUnderstanding/Plugins/x86.meta" />
-      <change beforePath="$PROJECT_DIR$/Assets/HoloToolkit/SpatialUnderstanding/Plugins/x86/SpatialUnderstanding.pdb.meta" afterPath="$PROJECT_DIR$/Assets/HoloToolkit/SpatialUnderstanding/Plugins/x86/SpatialUnderstanding.pdb.meta" />
-      <change beforePath="$PROJECT_DIR$/Assets/HoloToolkit/UX.meta" afterPath="$PROJECT_DIR$/Assets/HoloToolkit/UX.meta" />
-      <change beforePath="$PROJECT_DIR$/Assets/HoloToolkit/UX/Scripts.meta" afterPath="$PROJECT_DIR$/Assets/HoloToolkit/UX/Scripts.meta" />
-      <change beforePath="$PROJECT_DIR$/Assets/HoloToolkit/UX/Shaders/3DTextShader.shader" afterPath="$PROJECT_DIR$/Assets/HoloToolkit/UX/Shaders/3DTextShader.shader" />
-      <change beforePath="$PROJECT_DIR$/Assets/HoloToolkit/UX/Textures/KeyboardAtlas.spriteatlas" afterPath="$PROJECT_DIR$/Assets/HoloToolkit/UX/Textures/KeyboardAtlas.spriteatlas" />
-      <change beforePath="$PROJECT_DIR$/Assets/HoloToolkit/Utilities/Scripts/GpuTiming/Plugins/WSA/x64.meta" afterPath="$PROJECT_DIR$/Assets/HoloToolkit/Utilities/Scripts/GpuTiming/Plugins/WSA/x64.meta" />
-      <change beforePath="$PROJECT_DIR$/Assets/HoloToolkit/Utilities/Scripts/GpuTiming/Plugins/WSA/x64/GpuTiming.pdb.meta" afterPath="$PROJECT_DIR$/Assets/HoloToolkit/Utilities/Scripts/GpuTiming/Plugins/WSA/x64/GpuTiming.pdb.meta" />
-      <change beforePath="$PROJECT_DIR$/Assets/HoloToolkit/Utilities/Scripts/GpuTiming/Plugins/WSA/x86.meta" afterPath="$PROJECT_DIR$/Assets/HoloToolkit/Utilities/Scripts/GpuTiming/Plugins/WSA/x86.meta" />
-      <change beforePath="$PROJECT_DIR$/Assets/HoloToolkit/Utilities/Scripts/GpuTiming/Plugins/WSA/x86/GpuTiming.pdb.meta" afterPath="$PROJECT_DIR$/Assets/HoloToolkit/Utilities/Scripts/GpuTiming/Plugins/WSA/x86/GpuTiming.pdb.meta" />
-      <change beforePath="$PROJECT_DIR$/Assets/HoloToolkit/Utilities/Scripts/GpuTiming/Plugins/x64.meta" afterPath="$PROJECT_DIR$/Assets/HoloToolkit/Utilities/Scripts/GpuTiming/Plugins/x64.meta" />
-      <change beforePath="$PROJECT_DIR$/Assets/HoloToolkit/Utilities/Scripts/GpuTiming/Plugins/x64/GpuTiming.pdb.meta" afterPath="$PROJECT_DIR$/Assets/HoloToolkit/Utilities/Scripts/GpuTiming/Plugins/x64/GpuTiming.pdb.meta" />
-      <change beforePath="$PROJECT_DIR$/Assets/HoloToolkit/Utilities/Scripts/GpuTiming/Plugins/x86.meta" afterPath="$PROJECT_DIR$/Assets/HoloToolkit/Utilities/Scripts/GpuTiming/Plugins/x86.meta" />
-      <change beforePath="$PROJECT_DIR$/Assets/HoloToolkit/Utilities/Scripts/GpuTiming/Plugins/x86/GpuTiming.pdb.meta" afterPath="$PROJECT_DIR$/Assets/HoloToolkit/Utilities/Scripts/GpuTiming/Plugins/x86/GpuTiming.pdb.meta" />
-      <change beforePath="$PROJECT_DIR$/Assets/Models/VuforiaMars_ModelTarget/ddcf29fe83b64ee984697b36afc5e823/Materials/Material.asset.meta" afterPath="$PROJECT_DIR$/Assets/Models/VuforiaMars_ModelTarget/ddcf29fe83b64ee984697b36afc5e823/Materials/Material.asset.meta" />
-      <change beforePath="$PROJECT_DIR$/Assets/Models/VuforiaMars_ModelTarget/ddcf29fe83b64ee984697b36afc5e823/Meshes/mesh0.asset" afterPath="$PROJECT_DIR$/Assets/Models/VuforiaMars_ModelTarget/ddcf29fe83b64ee984697b36afc5e823/Meshes/mesh0.asset" />
-      <change beforePath="$PROJECT_DIR$/Assets/Models/VuforiaMars_ModelTarget/ddcf29fe83b64ee984697b36afc5e823/Meshes/mesh0.asset.meta" afterPath="$PROJECT_DIR$/Assets/Models/VuforiaMars_ModelTarget/ddcf29fe83b64ee984697b36afc5e823/Meshes/mesh0.asset.meta" />
-      <change beforePath="$PROJECT_DIR$/Assets/Models/VuforiaMars_ModelTarget/ddcf29fe83b64ee984697b36afc5e823/Meshes/mesh1.asset" afterPath="$PROJECT_DIR$/Assets/Models/VuforiaMars_ModelTarget/ddcf29fe83b64ee984697b36afc5e823/Meshes/mesh1.asset" />
-      <change beforePath="$PROJECT_DIR$/Assets/Models/VuforiaMars_ModelTarget/ddcf29fe83b64ee984697b36afc5e823/Meshes/mesh1.asset.meta" afterPath="$PROJECT_DIR$/Assets/Models/VuforiaMars_ModelTarget/ddcf29fe83b64ee984697b36afc5e823/Meshes/mesh1.asset.meta" />
-      <change beforePath="$PROJECT_DIR$/Assets/Models/VuforiaMars_ModelTarget/ddcf29fe83b64ee984697b36afc5e823/Model.prefab" afterPath="$PROJECT_DIR$/Assets/Models/VuforiaMars_ModelTarget/ddcf29fe83b64ee984697b36afc5e823/Model.prefab" />
-      <change beforePath="$PROJECT_DIR$/Assets/Models/VuforiaMars_ModelTarget/ddcf29fe83b64ee984697b36afc5e823/Model.prefab.meta" afterPath="$PROJECT_DIR$/Assets/Models/VuforiaMars_ModelTarget/ddcf29fe83b64ee984697b36afc5e823/Model.prefab.meta" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/ImageTarget.prefab" afterPath="$PROJECT_DIR$/Assets/Prefabs/ImageTarget.prefab" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/TextPrompts.prefab" afterPath="$PROJECT_DIR$/Assets/Prefabs/TextPrompts.prefab" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/VuforiaConfiguration.asset" afterPath="$PROJECT_DIR$/Assets/Resources/VuforiaConfiguration.asset" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/ARVideo_newvideos.unity" afterPath="$PROJECT_DIR$/Assets/Scenes/ARVideo_newvideos.unity" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/HeadAnchoring.cs" afterPath="$PROJECT_DIR$/Assets/Scripts/HeadAnchoring.cs" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/InteractiveObject.cs" afterPath="$PROJECT_DIR$/Assets/Scripts/InteractiveObject.cs" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/MedallionEventTracker.cs" afterPath="$PROJECT_DIR$/Assets/Scripts/MedallionEventTracker.cs" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/SceneManagement.cs" afterPath="$PROJECT_DIR$/Assets/Scripts/SceneManagement.cs" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/VideoLogic.cs" afterPath="$PROJECT_DIR$/Assets/Scripts/VideoLogic.cs" />
       <change beforePath="$PROJECT_DIR$/Assets/Toolkit.meta" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Video/ARAshanti.mp4.meta" afterPath="$PROJECT_DIR$/Assets/Video/ARAshanti.mp4.meta" />
-      <change beforePath="$PROJECT_DIR$/Assets/Video/ARCameron.mp4.meta" afterPath="$PROJECT_DIR$/Assets/Video/ARCameron.mp4.meta" />
-      <change beforePath="$PROJECT_DIR$/Assets/Video/ARKeela.mp4.meta" afterPath="$PROJECT_DIR$/Assets/Video/ARKeela.mp4.meta" />
-      <change beforePath="$PROJECT_DIR$/Assets/Video/ARMiriam.mp4.meta" afterPath="$PROJECT_DIR$/Assets/Video/ARMiriam.mp4.meta" />
-      <change beforePath="$PROJECT_DIR$/Assets/Video/ARNemja.mp4.meta" afterPath="$PROJECT_DIR$/Assets/Video/ARNemja.mp4.meta" />
-      <change beforePath="$PROJECT_DIR$/Assets/Video/ARRu.mp4.meta" afterPath="$PROJECT_DIR$/Assets/Video/ARRu.mp4.meta" />
-      <change beforePath="$PROJECT_DIR$/Assets/Video/ARYusuf.mp4.meta" afterPath="$PROJECT_DIR$/Assets/Video/ARYusuf.mp4.meta" />
-      <change beforePath="$PROJECT_DIR$/Assets/Video/story1.mp4.meta" afterPath="$PROJECT_DIR$/Assets/Video/story1.mp4.meta" />
-      <change beforePath="$PROJECT_DIR$/Assets/Vuforia/Editor/Scripts/OpenSourceInitializer.cs" afterPath="$PROJECT_DIR$/Assets/Vuforia/Editor/Scripts/OpenSourceInitializer.cs" />
-      <change beforePath="$PROJECT_DIR$/Assets/Vuforia/Materials/CloudRecoTarget.mat" afterPath="$PROJECT_DIR$/Assets/Vuforia/Materials/CloudRecoTarget.mat" />
-      <change beforePath="$PROJECT_DIR$/Assets/Vuforia/Materials/ColoredLines.mat" afterPath="$PROJECT_DIR$/Assets/Vuforia/Materials/ColoredLines.mat" />
-      <change beforePath="$PROJECT_DIR$/Assets/Vuforia/Materials/DefaultTarget.mat" afterPath="$PROJECT_DIR$/Assets/Vuforia/Materials/DefaultTarget.mat" />
-      <change beforePath="$PROJECT_DIR$/Assets/Vuforia/Materials/UserDefinedTarget.mat" afterPath="$PROJECT_DIR$/Assets/Vuforia/Materials/UserDefinedTarget.mat" />
-      <change beforePath="$PROJECT_DIR$/Assets/Vuforia/Scripts/DefaultInitializationErrorHandler.cs" afterPath="$PROJECT_DIR$/Assets/Vuforia/Scripts/DefaultInitializationErrorHandler.cs" />
-      <change beforePath="$PROJECT_DIR$/Assets/Vuforia/Scripts/DefaultSmartTerrainEventHandler.cs" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Vuforia/Scripts/DefaultSmartTerrainEventHandler.cs.meta" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Vuforia/Shaders/Text3D.shader" afterPath="$PROJECT_DIR$/Assets/Vuforia/Shaders/Text3D.shader" />
-      <change beforePath="$PROJECT_DIR$/Assets/Vuforia/version" afterPath="$PROJECT_DIR$/Assets/Vuforia/version" />
-      <change beforePath="$PROJECT_DIR$/Assets/Vuforia/version.meta" afterPath="$PROJECT_DIR$/Assets/Vuforia/version.meta" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" afterPath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" afterPath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/ProjectVersion.txt" afterPath="$PROJECT_DIR$/ProjectSettings/ProjectVersion.txt" />
-      <change beforePath="$PROJECT_DIR$/QCAR/somedata16" afterPath="$PROJECT_DIR$/QCAR/somedata16" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -136,7 +49,7 @@
               <caret line="59" column="89" lean-forward="false" selection-start-line="59" selection-start-column="89" selection-end-line="59" selection-end-column="89" />
               <folding>
                 <marker date="1523052067704" expanded="true" signature="0:256" ph="/* ============================================================================== ... */" />
-                <marker date="1523052067704" expanded="true" signature="264:389" ph="..." />
+                <marker date="1523052067704" expanded="false" signature="264:389" ph="..." />
                 <marker date="1523052067704" expanded="true" signature="391:498" ph="///     A custom handler that implements the ITrackableEventHandler interface. ... " />
                 <marker date="1523052067704" expanded="true" signature="573:5457" ph="{...}" />
                 <marker date="1523052067704" expanded="true" signature="580:932" ph="PUBLIC_MEMBERS" />
@@ -162,7 +75,7 @@
       <file leaf-file-name="VideoLogic.cs" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/Scripts/VideoLogic.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="799">
+            <state relative-caret-position="1088">
               <caret line="67" column="30" lean-forward="false" selection-start-line="67" selection-start-column="30" selection-end-line="67" selection-end-column="30" />
               <folding>
                 <marker date="1523049490207" expanded="true" signature="0:256" ph="/* ============================================================================== ... */" />
@@ -205,7 +118,7 @@
       <file leaf-file-name="InteractiveObject.cs" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/Scripts/InteractiveObject.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="498">
+            <state relative-caret-position="1326">
               <caret line="84" column="22" lean-forward="false" selection-start-line="84" selection-start-column="22" selection-end-line="84" selection-end-column="22" />
               <folding>
                 <marker date="1523045954546" expanded="true" signature="0:152" ph="/* Copyright (c) Microsoft Corporation. All rights reserved. ... */" />
@@ -468,11 +381,12 @@
       <workItem from="1522874637119" duration="5992000" />
       <workItem from="1522959575195" duration="2010000" />
       <workItem from="1522962968148" duration="18529000" />
+      <workItem from="1524153495962" duration="572000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="128250000" />
+    <option name="totallyTimeSpent" value="128822000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -485,7 +399,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Errors In Solution" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -702,12 +615,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
           <caret line="8" column="35" lean-forward="false" selection-start-line="8" selection-start-column="35" selection-end-line="8" selection-end-column="35" />
-          <folding>
-            <marker date="1523043395760" expanded="false" signature="6:78" ph="..." />
-            <marker date="1523043395760" expanded="true" signature="116:266" ph="{...}" />
-            <marker date="1523043395760" expanded="true" signature="166:202" ph="{...}" />
-            <marker date="1523043395760" expanded="true" signature="257:264" ph="{...}" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -732,7 +639,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/InteractiveObject.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="498">
+        <state relative-caret-position="1326">
           <caret line="84" column="22" lean-forward="false" selection-start-line="84" selection-start-column="22" selection-end-line="84" selection-end-column="22" />
           <folding>
             <marker date="1523045954546" expanded="true" signature="0:152" ph="/* Copyright (c) Microsoft Corporation. All rights reserved. ... */" />
@@ -819,7 +726,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/VideoLogic.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="799">
+        <state relative-caret-position="1088">
           <caret line="67" column="30" lean-forward="false" selection-start-line="67" selection-start-column="30" selection-end-line="67" selection-end-column="30" />
           <folding>
             <marker date="1523049490207" expanded="true" signature="0:256" ph="/* ============================================================================== ... */" />
@@ -843,7 +750,7 @@
           <caret line="59" column="89" lean-forward="false" selection-start-line="59" selection-start-column="89" selection-end-line="59" selection-end-column="89" />
           <folding>
             <marker date="1523052067704" expanded="true" signature="0:256" ph="/* ============================================================================== ... */" />
-            <marker date="1523052067704" expanded="true" signature="264:389" ph="..." />
+            <marker date="1523052067704" expanded="false" signature="264:389" ph="..." />
             <marker date="1523052067704" expanded="true" signature="391:498" ph="///     A custom handler that implements the ITrackableEventHandler interface. ... " />
             <marker date="1523052067704" expanded="true" signature="573:5457" ph="{...}" />
             <marker date="1523052067704" expanded="true" signature="580:932" ph="PUBLIC_MEMBERS" />

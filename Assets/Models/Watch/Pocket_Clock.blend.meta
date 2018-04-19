@@ -1,0 +1,147 @@
+fileFormatVersion: 2
+guid: b8a17e7722eb1b04385e80053e960d31
+timeCreated: 1524157404
+licenseType: Free
+ModelImporter:
+  serializedVersion: 22
+  fileIDToRecycleName:
+    100000: Chain_Curve
+    100002: Chain_Element
+    100004: H_Clock_Base
+    100006: H_Clock_Cover
+    100008: HC_Arrow_Hour
+    100010: HC_Arrow_Min
+    100012: HC_Arrow_Sec
+    100014: HC_hook_1
+    100016: HC_hook_2
+    100018: Plane_Back
+    100020: //RootNode
+    100022: Shadow_Cube
+    400000: Chain_Curve
+    400002: Chain_Element
+    400004: H_Clock_Base
+    400006: H_Clock_Cover
+    400008: HC_Arrow_Hour
+    400010: HC_Arrow_Min
+    400012: HC_Arrow_Sec
+    400014: HC_hook_1
+    400016: HC_hook_2
+    400018: Plane_Back
+    400020: //RootNode
+    400022: Shadow_Cube
+    2100000: Material
+    2100002: PBR_Material
+    2100004: PC_Metal
+    2100006: PC_Glass
+    2100008: PC_White
+    2100010: PC_Black
+    2100012: PC_Metal_wo_Textures
+    2300000: Chain_Curve
+    2300002: Chain_Element
+    2300004: H_Clock_Base
+    2300006: H_Clock_Cover
+    2300008: HC_Arrow_Hour
+    2300010: HC_Arrow_Min
+    2300012: HC_Arrow_Sec
+    2300014: Plane_Back
+    2300016: Shadow_Cube
+    3300000: Chain_Curve
+    3300002: Chain_Element
+    3300004: H_Clock_Base
+    3300006: H_Clock_Cover
+    3300008: HC_Arrow_Hour
+    3300010: HC_Arrow_Min
+    3300012: HC_Arrow_Sec
+    3300014: Plane_Back
+    3300016: Shadow_Cube
+    4300000: Shadow_Cube
+    4300002: Plane_Back
+    4300004: H_Clock_Base
+    4300006: H_Clock_Cover
+    4300008: HC_Arrow_Min
+    4300010: HC_Arrow_Sec
+    4300012: HC_Arrow_Hour
+    4300014: Chain_Curve
+    4300016: Chain_Element
+    7400000: Default Take
+    9500000: //RootNode
+  externalObjects: {}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

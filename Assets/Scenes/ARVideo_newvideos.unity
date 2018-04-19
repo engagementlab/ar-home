@@ -267,7 +267,7 @@ Material:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
-  m_Name: video4Material
+  m_Name: motherMaterial
   m_Shader: {fileID: 10752, guid: 0000000000000000f000000000000000, type: 0}
   m_ShaderKeywords: 
   m_LightmapFlags: 5
@@ -280,7 +280,7 @@ Material:
     serializedVersion: 3
     m_TexEnvs:
     - _MainTex:
-        m_Texture: {fileID: 2800000, guid: 31a29f686b304d9d9d2251b26386e0c1, type: 3}
+        m_Texture: {fileID: 2800000, guid: cff8e890476748468de4910feb2ca195, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     m_Floats: []
@@ -1140,34 +1140,34 @@ Prefab:
     - target: {fileID: 114542004136431190, guid: 1052f4ca4a60c594f85892b9a347866d,
         type: 2}
       propertyPath: mTrackableName
-      value: video5
+      value: dog
       objectReference: {fileID: 0}
     - target: {fileID: 114542004136431190, guid: 1052f4ca4a60c594f85892b9a347866d,
         type: 2}
       propertyPath: mAspectRatio
-      value: 1.3946667
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 114542004136431190, guid: 1052f4ca4a60c594f85892b9a347866d,
         type: 2}
       propertyPath: mWidth
-      value: 0.135
+      value: 0.192548
       objectReference: {fileID: 0}
     - target: {fileID: 114542004136431190, guid: 1052f4ca4a60c594f85892b9a347866d,
         type: 2}
       propertyPath: mHeight
-      value: 0.18828
+      value: 0.145695
       objectReference: {fileID: 0}
     - target: {fileID: 4350739843944620, guid: 1052f4ca4a60c594f85892b9a347866d, type: 2}
       propertyPath: m_LocalScale.x
-      value: 0.18828
+      value: 0.192548
       objectReference: {fileID: 0}
     - target: {fileID: 4350739843944620, guid: 1052f4ca4a60c594f85892b9a347866d, type: 2}
       propertyPath: m_LocalScale.y
-      value: 0.18828
+      value: 0.192548
       objectReference: {fileID: 0}
     - target: {fileID: 4350739843944620, guid: 1052f4ca4a60c594f85892b9a347866d, type: 2}
       propertyPath: m_LocalScale.z
-      value: 0.18828
+      value: 0.192548
       objectReference: {fileID: 0}
     - target: {fileID: 114754831989565088, guid: 1052f4ca4a60c594f85892b9a347866d,
         type: 2}
@@ -1226,6 +1226,11 @@ Prefab:
     - target: {fileID: 4981684320652666, guid: 1052f4ca4a60c594f85892b9a347866d, type: 2}
       propertyPath: m_LocalScale.z
       value: 0.78560793
+      objectReference: {fileID: 0}
+    - target: {fileID: 114542004136431190, guid: 1052f4ca4a60c594f85892b9a347866d,
+        type: 2}
+      propertyPath: mDataSetPath
+      value: Vuforia/Medallions.xml
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 1052f4ca4a60c594f85892b9a347866d, type: 2}
@@ -1409,34 +1414,34 @@ Prefab:
     - target: {fileID: 114542004136431190, guid: 1052f4ca4a60c594f85892b9a347866d,
         type: 2}
       propertyPath: mTrackableName
-      value: video3
+      value: couch2
       objectReference: {fileID: 0}
     - target: {fileID: 114542004136431190, guid: 1052f4ca4a60c594f85892b9a347866d,
         type: 2}
       propertyPath: mAspectRatio
-      value: 1.3946667
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 114542004136431190, guid: 1052f4ca4a60c594f85892b9a347866d,
         type: 2}
       propertyPath: mWidth
-      value: 0.135
+      value: 0.192548
       objectReference: {fileID: 0}
     - target: {fileID: 114542004136431190, guid: 1052f4ca4a60c594f85892b9a347866d,
         type: 2}
       propertyPath: mHeight
-      value: 0.18828
+      value: 0.145695
       objectReference: {fileID: 0}
     - target: {fileID: 4350739843944620, guid: 1052f4ca4a60c594f85892b9a347866d, type: 2}
       propertyPath: m_LocalScale.x
-      value: 0.18828
+      value: 0.192548
       objectReference: {fileID: 0}
     - target: {fileID: 4350739843944620, guid: 1052f4ca4a60c594f85892b9a347866d, type: 2}
       propertyPath: m_LocalScale.y
-      value: 0.18828
+      value: 0.192548
       objectReference: {fileID: 0}
     - target: {fileID: 4350739843944620, guid: 1052f4ca4a60c594f85892b9a347866d, type: 2}
       propertyPath: m_LocalScale.z
-      value: 0.18828
+      value: 0.192548
       objectReference: {fileID: 0}
     - target: {fileID: 114754831989565088, guid: 1052f4ca4a60c594f85892b9a347866d,
         type: 2}
@@ -1487,6 +1492,11 @@ Prefab:
     - target: {fileID: 4981684320652666, guid: 1052f4ca4a60c594f85892b9a347866d, type: 2}
       propertyPath: m_LocalScale.z
       value: 0.78560793
+      objectReference: {fileID: 0}
+    - target: {fileID: 114542004136431190, guid: 1052f4ca4a60c594f85892b9a347866d,
+        type: 2}
+      propertyPath: mDataSetPath
+      value: Vuforia/Medallions.xml
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 1052f4ca4a60c594f85892b9a347866d, type: 2}
@@ -1552,34 +1562,34 @@ Prefab:
     - target: {fileID: 114542004136431190, guid: 1052f4ca4a60c594f85892b9a347866d,
         type: 2}
       propertyPath: mTrackableName
-      value: video8
+      value: watch
       objectReference: {fileID: 0}
     - target: {fileID: 114542004136431190, guid: 1052f4ca4a60c594f85892b9a347866d,
         type: 2}
       propertyPath: mAspectRatio
-      value: 1
+      value: 0.75666845
       objectReference: {fileID: 0}
     - target: {fileID: 114542004136431190, guid: 1052f4ca4a60c594f85892b9a347866d,
         type: 2}
       propertyPath: mWidth
-      value: 0.135
+      value: 0.192548
       objectReference: {fileID: 0}
     - target: {fileID: 114542004136431190, guid: 1052f4ca4a60c594f85892b9a347866d,
         type: 2}
       propertyPath: mHeight
-      value: 0.135
+      value: 0.145695
       objectReference: {fileID: 0}
     - target: {fileID: 4350739843944620, guid: 1052f4ca4a60c594f85892b9a347866d, type: 2}
       propertyPath: m_LocalScale.x
-      value: 0.18828
+      value: 0.192548
       objectReference: {fileID: 0}
     - target: {fileID: 4350739843944620, guid: 1052f4ca4a60c594f85892b9a347866d, type: 2}
       propertyPath: m_LocalScale.y
-      value: 0.18828
+      value: 0.192548
       objectReference: {fileID: 0}
     - target: {fileID: 4350739843944620, guid: 1052f4ca4a60c594f85892b9a347866d, type: 2}
       propertyPath: m_LocalScale.z
-      value: 0.18828
+      value: 0.192548
       objectReference: {fileID: 0}
     - target: {fileID: 114754831989565088, guid: 1052f4ca4a60c594f85892b9a347866d,
         type: 2}
@@ -1642,6 +1652,11 @@ Prefab:
     - target: {fileID: 4981684320652666, guid: 1052f4ca4a60c594f85892b9a347866d, type: 2}
       propertyPath: m_LocalScale.z
       value: 0.78560793
+      objectReference: {fileID: 0}
+    - target: {fileID: 114542004136431190, guid: 1052f4ca4a60c594f85892b9a347866d,
+        type: 2}
+      propertyPath: mDataSetPath
+      value: Vuforia/Medallions.xml
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 1052f4ca4a60c594f85892b9a347866d, type: 2}
@@ -1707,34 +1722,34 @@ Prefab:
     - target: {fileID: 114542004136431190, guid: 1052f4ca4a60c594f85892b9a347866d,
         type: 2}
       propertyPath: mTrackableName
-      value: video7
+      value: mother
       objectReference: {fileID: 0}
     - target: {fileID: 114542004136431190, guid: 1052f4ca4a60c594f85892b9a347866d,
         type: 2}
       propertyPath: mAspectRatio
-      value: 1.3946667
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 114542004136431190, guid: 1052f4ca4a60c594f85892b9a347866d,
         type: 2}
       propertyPath: mWidth
-      value: 0.135
+      value: 0.192548
       objectReference: {fileID: 0}
     - target: {fileID: 114542004136431190, guid: 1052f4ca4a60c594f85892b9a347866d,
         type: 2}
       propertyPath: mHeight
-      value: 0.18828
+      value: 0.145695
       objectReference: {fileID: 0}
     - target: {fileID: 4350739843944620, guid: 1052f4ca4a60c594f85892b9a347866d, type: 2}
       propertyPath: m_LocalScale.x
-      value: 0.18828
+      value: 0.192548
       objectReference: {fileID: 0}
     - target: {fileID: 4350739843944620, guid: 1052f4ca4a60c594f85892b9a347866d, type: 2}
       propertyPath: m_LocalScale.y
-      value: 0.18828
+      value: 0.192548
       objectReference: {fileID: 0}
     - target: {fileID: 4350739843944620, guid: 1052f4ca4a60c594f85892b9a347866d, type: 2}
       propertyPath: m_LocalScale.z
-      value: 0.18828
+      value: 0.192548
       objectReference: {fileID: 0}
     - target: {fileID: 114754831989565088, guid: 1052f4ca4a60c594f85892b9a347866d,
         type: 2}
@@ -1746,7 +1761,7 @@ Prefab:
         type: 2}
       propertyPath: storyObject
       value: 
-      objectReference: {fileID: 1983553958187762, guid: 6e7652b3776a01c408194a361e0c5200,
+      objectReference: {fileID: 1258575326895954, guid: 55bd0b98240258d429f178fe27131cfb,
         type: 2}
     - target: {fileID: 114754831989565088, guid: 1052f4ca4a60c594f85892b9a347866d,
         type: 2}
@@ -1797,6 +1812,11 @@ Prefab:
     - target: {fileID: 4981684320652666, guid: 1052f4ca4a60c594f85892b9a347866d, type: 2}
       propertyPath: m_LocalScale.z
       value: 0.78560793
+      objectReference: {fileID: 0}
+    - target: {fileID: 114542004136431190, guid: 1052f4ca4a60c594f85892b9a347866d,
+        type: 2}
+      propertyPath: mDataSetPath
+      value: Vuforia/Medallions.xml
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 1052f4ca4a60c594f85892b9a347866d, type: 2}
@@ -1904,7 +1924,7 @@ Mesh:
     vertexCount: 4
     localAABB:
       m_Center: {x: 0, y: 0, z: 0}
-      m_Extent: {x: 0.5, y: 0, z: 0.5}
+      m_Extent: {x: 0.5, y: 0, z: 0.37833422}
   m_Shapes:
     vertices: []
     shapes: []
@@ -1957,7 +1977,7 @@ Mesh:
       format: 0
       dimension: 0
     m_DataSize: 128
-    _typelessdata: 000000bf00000000000000bf000000000000803f000000000000000000000000000000bf000000000000003f000000000000803f00000000000000000000803f0000003f00000000000000bf000000000000803f000000000000803f000000000000003f000000000000003f000000000000803f000000000000803f0000803f
+    _typelessdata: 000000bf0000000006b5c1be000000000000803f000000000000000000000000000000bf0000000006b5c13e000000000000803f00000000000000000000803f0000003f0000000006b5c1be000000000000803f000000000000803f000000000000003f0000000006b5c13e000000000000803f000000000000803f0000803f
   m_CompressedMesh:
     m_Vertices:
       m_NumItems: 0
@@ -2204,12 +2224,12 @@ Prefab:
     - target: {fileID: 114542004136431190, guid: 1052f4ca4a60c594f85892b9a347866d,
         type: 2}
       propertyPath: mTrackableName
-      value: video2
+      value: telescope
       objectReference: {fileID: 0}
     - target: {fileID: 114542004136431190, guid: 1052f4ca4a60c594f85892b9a347866d,
         type: 2}
       propertyPath: mAspectRatio
-      value: 1.4262815
+      value: 0.74999994
       objectReference: {fileID: 0}
     - target: {fileID: 114542004136431190, guid: 1052f4ca4a60c594f85892b9a347866d,
         type: 2}
@@ -2252,6 +2272,11 @@ Prefab:
     - target: {fileID: 4981684320652666, guid: 1052f4ca4a60c594f85892b9a347866d, type: 2}
       propertyPath: m_LocalScale.z
       value: 0.78560793
+      objectReference: {fileID: 0}
+    - target: {fileID: 114542004136431190, guid: 1052f4ca4a60c594f85892b9a347866d,
+        type: 2}
+      propertyPath: mDataSetPath
+      value: Vuforia/Medallions.xml
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 1052f4ca4a60c594f85892b9a347866d, type: 2}
@@ -2417,34 +2442,34 @@ Prefab:
     - target: {fileID: 114542004136431190, guid: 1052f4ca4a60c594f85892b9a347866d,
         type: 2}
       propertyPath: mTrackableName
-      value: video4
+      value: teddy
       objectReference: {fileID: 0}
     - target: {fileID: 114542004136431190, guid: 1052f4ca4a60c594f85892b9a347866d,
         type: 2}
       propertyPath: mAspectRatio
-      value: 1.3946667
+      value: 1.3973813
       objectReference: {fileID: 0}
     - target: {fileID: 114542004136431190, guid: 1052f4ca4a60c594f85892b9a347866d,
         type: 2}
       propertyPath: mWidth
-      value: 0.135
+      value: 0.19254802
       objectReference: {fileID: 0}
     - target: {fileID: 114542004136431190, guid: 1052f4ca4a60c594f85892b9a347866d,
         type: 2}
       propertyPath: mHeight
-      value: 0.18828
+      value: 0.269063
       objectReference: {fileID: 0}
     - target: {fileID: 4350739843944620, guid: 1052f4ca4a60c594f85892b9a347866d, type: 2}
       propertyPath: m_LocalScale.x
-      value: 0.18828
+      value: 0.192548
       objectReference: {fileID: 0}
     - target: {fileID: 4350739843944620, guid: 1052f4ca4a60c594f85892b9a347866d, type: 2}
       propertyPath: m_LocalScale.y
-      value: 0.18828
+      value: 0.192548
       objectReference: {fileID: 0}
     - target: {fileID: 4350739843944620, guid: 1052f4ca4a60c594f85892b9a347866d, type: 2}
       propertyPath: m_LocalScale.z
-      value: 0.18828
+      value: 0.192548
       objectReference: {fileID: 0}
     - target: {fileID: 114754831989565088, guid: 1052f4ca4a60c594f85892b9a347866d,
         type: 2}
@@ -2499,6 +2524,11 @@ Prefab:
     - target: {fileID: 4981684320652666, guid: 1052f4ca4a60c594f85892b9a347866d, type: 2}
       propertyPath: m_LocalScale.z
       value: 0.78560793
+      objectReference: {fileID: 0}
+    - target: {fileID: 114542004136431190, guid: 1052f4ca4a60c594f85892b9a347866d,
+        type: 2}
+      propertyPath: mDataSetPath
+      value: Vuforia/Medallions.xml
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 1052f4ca4a60c594f85892b9a347866d, type: 2}
@@ -2564,34 +2594,34 @@ Prefab:
     - target: {fileID: 114542004136431190, guid: 1052f4ca4a60c594f85892b9a347866d,
         type: 2}
       propertyPath: mTrackableName
-      value: video6
+      value: key
       objectReference: {fileID: 0}
     - target: {fileID: 114542004136431190, guid: 1052f4ca4a60c594f85892b9a347866d,
         type: 2}
       propertyPath: mAspectRatio
-      value: 1.3946667
+      value: 1.3826838
       objectReference: {fileID: 0}
     - target: {fileID: 114542004136431190, guid: 1052f4ca4a60c594f85892b9a347866d,
         type: 2}
       propertyPath: mWidth
-      value: 0.135
+      value: 0.192548
       objectReference: {fileID: 0}
     - target: {fileID: 114542004136431190, guid: 1052f4ca4a60c594f85892b9a347866d,
         type: 2}
       propertyPath: mHeight
-      value: 0.18828
+      value: 0.266233
       objectReference: {fileID: 0}
     - target: {fileID: 4350739843944620, guid: 1052f4ca4a60c594f85892b9a347866d, type: 2}
       propertyPath: m_LocalScale.x
-      value: 0.18828
+      value: 0.192548
       objectReference: {fileID: 0}
     - target: {fileID: 4350739843944620, guid: 1052f4ca4a60c594f85892b9a347866d, type: 2}
       propertyPath: m_LocalScale.y
-      value: 0.18828
+      value: 0.192548
       objectReference: {fileID: 0}
     - target: {fileID: 4350739843944620, guid: 1052f4ca4a60c594f85892b9a347866d, type: 2}
       propertyPath: m_LocalScale.z
-      value: 0.18828
+      value: 0.192548
       objectReference: {fileID: 0}
     - target: {fileID: 114754831989565088, guid: 1052f4ca4a60c594f85892b9a347866d,
         type: 2}
@@ -2654,6 +2684,11 @@ Prefab:
     - target: {fileID: 4981684320652666, guid: 1052f4ca4a60c594f85892b9a347866d, type: 2}
       propertyPath: m_LocalScale.z
       value: 0.78560793
+      objectReference: {fileID: 0}
+    - target: {fileID: 114542004136431190, guid: 1052f4ca4a60c594f85892b9a347866d,
+        type: 2}
+      propertyPath: mDataSetPath
+      value: Vuforia/Medallions.xml
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 1052f4ca4a60c594f85892b9a347866d, type: 2}
